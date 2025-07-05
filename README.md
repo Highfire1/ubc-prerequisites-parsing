@@ -1,5 +1,7 @@
 # UBC Course Prerequisites Parser
 
+![graph of all ubc courses](source/data/assets/graph.png)
+
 It parses course prerequisites at UBC from text into data.
 
 initialize with `bun run init`
