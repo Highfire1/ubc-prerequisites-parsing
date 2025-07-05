@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KORN 301",
+  "originalPrerequisite": "KORN 202. Or permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:43:58.715Z",
+  "parsedRequirements": {
+    "department": "KORN",
+    "code": "301",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "KORN 202"
+        },
+        {
+          "type": "permission",
+          "note": "permission of instructor"
+        }
+      ]
+    }
+  }
+}

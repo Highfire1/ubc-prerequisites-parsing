@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 315",
+  "originalPrerequisite": "Permission of the instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:32.010Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "315",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of the instructor"
+    }
+  }
+}

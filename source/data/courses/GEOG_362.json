@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 362",
+  "originalPrerequisite": "Either (a) GEOG 122 or (b) GEOG 260.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:37.930Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "362",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOG 122"
+        },
+        {
+          "type": "course",
+          "course": "GEOG 260"
+        }
+      ]
+    }
+  }
+}

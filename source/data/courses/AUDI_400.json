@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "AUDI 400",
+  "originalPrerequisite": "One of LING 100, PSYC 100.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:11.318Z",
+  "parsedRequirements": {
+    "department": "AUDI",
+    "code": "400",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LING 100"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 100"
+        }
+      ]
+    }
+  }
+}

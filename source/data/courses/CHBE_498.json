@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 498",
+  "originalPrerequisite": "Third-year Chemical and Biological Engineering.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:06.852Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "498",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

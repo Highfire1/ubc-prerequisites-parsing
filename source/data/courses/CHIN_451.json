@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 451",
+  "originalPrerequisite": "One of CHIN 303, CHIN 304, CHIN 403, CHIN 404, CHIN 435, CHIN 441, CHIN 443 and one of CHIN 307, CHIN 308, CHIN 407, CHIN 408, CHIN 437, CHIN 445, CHIN 447.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:39:13.917Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "451",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHIN 303"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 304"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 403"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 404"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 435"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 441"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 443"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHIN 307"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 308"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 407"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 408"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 437"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 445"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 447"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

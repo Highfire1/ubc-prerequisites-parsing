@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 344",
+  "originalPrerequisite": "One of FREN 215, FREN 225. 68% or better in FREN 215 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:27.796Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "344",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 215"
+        },
+        {
+          "type": "course",
+          "course": "FREN 225"
+        }
+      ],
+      "recommended": true
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "FREN 215",
+      "minGrade": 68
+    }
+  }
+}

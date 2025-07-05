@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 441",
+  "originalPrerequisite": "BUSI 330. BUSI 331 recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:36.418Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "441",
+    "prerequisites": {
+      "type": "course",
+      "course": "BUSI 330"
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "BUSI 331"
+    }
+  }
+}

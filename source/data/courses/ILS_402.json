@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ILS 402",
+  "originalPrerequisite": "All of ILS 100, ILS 200, ILS 300 or admission by permission of the instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:19.355Z",
+  "parsedRequirements": {
+    "department": "ILS",
+    "code": "402",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ILS 100"
+            },
+            {
+              "type": "course",
+              "course": "ILS 200"
+            },
+            {
+              "type": "course",
+              "course": "ILS 300"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "admission by permission of the instructor"
+        }
+      ]
+    }
+  }
+}

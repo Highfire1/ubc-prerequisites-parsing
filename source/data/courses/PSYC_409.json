@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 409",
+  "originalPrerequisite": "Either (a) one of PSYC 217, PSYC 277 and one of PSYC 218, PSYC 278; or (b) PSYC 366 and one of PSYC 309, PSYC 365.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:33.035Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "409",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PSYC 217"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 277"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PSYC 218"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 278"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 366"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PSYC 309"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 365"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

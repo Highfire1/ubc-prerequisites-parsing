@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 370",
+  "originalPrerequisite": "6 credits of 200-level VISA.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:45.191Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "370",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "department": "VISA",
+      "level": "200"
+    }
+  }
+}

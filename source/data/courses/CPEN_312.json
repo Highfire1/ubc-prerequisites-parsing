@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 312",
+  "originalPrerequisite": "One of ELEC 201, ELEC 204, ELEC 203, MECH 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:12.035Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "312",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 201"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 204"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 203"
+        },
+        {
+          "type": "course",
+          "course": "MECH 221"
+        }
+      ]
+    }
+  }
+}

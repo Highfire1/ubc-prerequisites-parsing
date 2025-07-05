@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 490",
+  "originalPrerequisite": "Third-year standing in Geographical Sciences.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:56.874Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "490",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

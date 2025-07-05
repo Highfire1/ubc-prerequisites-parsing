@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 350",
+  "originalPrerequisite": "One of MATH 200, MATH 253 and third-year standing or higher in Science or Applied Science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:07.552Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "350",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 200"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 253"
+                }
+              ]
+            },
+            {
+              "type": "standing",
+              "standing": "3rd"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 406",
+  "originalPrerequisite": "One of MUSC 311, MUSC 312. Permission of the instructor is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:58:07.590Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "406",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MUSC 311"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 312"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the instructor is required"
+        }
+      ]
+    }
+  }
+}

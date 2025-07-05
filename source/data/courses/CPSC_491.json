@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 491",
+  "originalPrerequisite": "All of CPSC 221, CPSC 310, CPSC 344 and Third-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:10.756Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "491",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 221"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 310"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 344"
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

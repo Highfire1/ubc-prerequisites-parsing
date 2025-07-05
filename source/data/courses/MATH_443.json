@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 443",
+  "originalPrerequisite": "A score of 68% or higher in one of MATH 220, MATH 223, MATH 226, CPSC 121. And 6 credits of MATH numbered 300 or above.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:06.877Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "443",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 220",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 223",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 226",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "CPSC 121",
+              "minGrade": 68
+            }
+          ]
+        },
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "department": "MATH",
+          "level": "300"
+        }
+      ]
+    }
+  }
+}

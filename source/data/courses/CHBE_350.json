@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 350",
+  "originalPrerequisite": "All of CHBE 251, CHBE 351, MATH 253.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:53.966Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "350",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 251"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 351"
+        },
+        {
+          "type": "course",
+          "course": "MATH 253"
+        }
+      ]
+    }
+  }
+}

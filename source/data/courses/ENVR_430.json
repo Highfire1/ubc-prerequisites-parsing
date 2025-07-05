@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVR 430",
+  "originalPrerequisite": "One of ENVR 300, BIOL 230. Or fourth year standing in the BSCN program or other demonstrated ecology background.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:05.705Z",
+  "parsedRequirements": {
+    "department": "ENVR",
+    "code": "430",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ENVR 300"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 230"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "4th"
+            },
+            {
+              "type": "program",
+              "program": "BSCN"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "demonstrated ecology background"
+        }
+      ]
+    }
+  }
+}

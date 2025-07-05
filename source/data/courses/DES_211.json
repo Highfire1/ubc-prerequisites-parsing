@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DES 211",
+  "originalPrerequisite": "One of DES 110, VISA 180.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:14.157Z",
+  "parsedRequirements": {
+    "department": "DES",
+    "code": "211",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "DES 110"
+        },
+        {
+          "type": "course",
+          "course": "VISA 180"
+        }
+      ]
+    }
+  }
+}

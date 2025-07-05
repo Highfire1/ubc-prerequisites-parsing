@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENST 314",
+  "originalPrerequisite": "Two of GEOG 211, GEOB 102, GEOB 103, GEOS 102, GEOS 103.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:42.552Z",
+  "parsedRequirements": {
+    "department": "ENST",
+    "code": "314",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOG 211"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 102"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOG 211"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 103"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOG 211"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 102"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOG 211"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 103"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 102"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 103"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 102"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 102"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 102"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 103"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 103"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 102"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 103"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 103"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOS 102"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 103"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

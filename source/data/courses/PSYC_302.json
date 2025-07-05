@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 302",
+  "originalPrerequisite": "Either (a) PSYC 100 or (b) two of PSYC 101, PSYC 102, PSYC 205, PSYC 207, PSYC 208, PSYC 216, PSYC 217, PSYC 277. Strongly recommended: PSYC 101, 102, and PSYC 216 or one of PSYC 217 or 277.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:21:10.309Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "302",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 100"
+        },
+        {
+          "type": "group",
+          "logic": "TWO_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 101"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 102"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 205"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 207"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 208"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 216"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 217"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 277"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 101"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 102"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 216"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 217"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 277"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

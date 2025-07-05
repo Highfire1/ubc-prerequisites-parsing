@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 230",
+  "originalPrerequisite": "APSC 160.",
+  "originalCorequisite": "MATH 256.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:39.515Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "230",
+    "prerequisites": {
+      "type": "course",
+      "course": "APSC 160"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MATH 256"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EPSE 390",
+  "originalPrerequisite": "One of EPSE 312, EPSE 317. Permission of the instructor is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:10.638Z",
+  "parsedRequirements": {
+    "department": "EPSE",
+    "code": "390",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "EPSE 312"
+            },
+            {
+              "type": "course",
+              "course": "EPSE 317"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the instructor is required"
+        }
+      ]
+    }
+  }
+}

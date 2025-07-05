@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 321",
+  "originalPrerequisite": "CPEN 322.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:13.154Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "321",
+    "prerequisites": {
+      "type": "course",
+      "course": "CPEN 322"
+    }
+  }
+}

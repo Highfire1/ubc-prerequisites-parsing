@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 311",
+  "originalPrerequisite": "CPSC 210.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:05.144Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "311",
+    "prerequisites": {
+      "type": "course",
+      "course": "CPSC 210"
+    }
+  }
+}

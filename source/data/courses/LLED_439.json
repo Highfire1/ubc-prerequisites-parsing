@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LLED 439",
+  "originalPrerequisite": "LLED 314. Recommended: at least 3 credit hours of Shakespeare study at the 300- or 400-level in the Faculty of Arts.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:04.065Z",
+  "parsedRequirements": {
+    "department": "LLED",
+    "code": "439",
+    "prerequisites": {
+      "type": "course",
+      "course": "LLED 314"
+    },
+    "recommendedPrerequisites": {
+      "type": "credit_count",
+      "credits": 3,
+      "department": "Arts",
+      "level": "300",
+      "note": "Shakespeare study"
+    }
+  }
+}

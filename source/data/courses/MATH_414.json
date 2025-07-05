@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 414",
+  "originalPrerequisite": "24 credits in MATH.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:42.813Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "414",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 24,
+      "department": "MATH"
+    }
+  }
+}

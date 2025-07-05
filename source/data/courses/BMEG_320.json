@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 320",
+  "originalPrerequisite": "Either (a) BMEG 220 or (b) all of ELEC 221, ELEC 201, ELEC 202.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:54.808Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "320",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BMEG 220"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ELEC 221"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 201"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 202"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 475",
+  "originalPrerequisite": "One of APSC 261, APSC 262, APSC 263, CIVL 250, CIVL 302. Third-year standing in BASc program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:07.013Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "475",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 261"
+            },
+            {
+              "type": "course",
+              "course": "APSC 262"
+            },
+            {
+              "type": "course",
+              "course": "APSC 263"
+            },
+            {
+              "type": "course",
+              "course": "CIVL 250"
+            },
+            {
+              "type": "course",
+              "course": "CIVL 302"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

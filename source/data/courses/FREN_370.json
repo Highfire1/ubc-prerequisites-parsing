@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 370",
+  "originalPrerequisite": "Either (a) FREN 223 or (b) all of FREN 352, FREN 401.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:36.122Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "370",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 223"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FREN 352"
+            },
+            {
+              "type": "course",
+              "course": "FREN 401"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

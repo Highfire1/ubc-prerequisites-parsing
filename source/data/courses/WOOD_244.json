@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 244",
+  "originalPrerequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:15.402Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "244",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 101"
+        },
+        {
+          "type": "course",
+          "course": "MATH 103"
+        },
+        {
+          "type": "course",
+          "course": "MATH 105"
+        },
+        {
+          "type": "course",
+          "course": "MATH 121"
+        }
+      ]
+    }
+  }
+}

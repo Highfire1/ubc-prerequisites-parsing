@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 492",
+  "originalPrerequisite": "One of FRST 232, WOOD 245.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:50.721Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "492",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FRST 232"
+        },
+        {
+          "type": "course",
+          "course": "WOOD 245"
+        }
+      ]
+    }
+  }
+}

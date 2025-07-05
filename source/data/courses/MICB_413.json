@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 413",
+  "originalPrerequisite": "Either (a) MICB 302 and one of MICB 308, MICB 325, BIOL 335; or (b) BIOT 380. And fourth-year standing in Science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:31.486Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "413",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MICB 302"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MICB 308"
+                },
+                {
+                  "type": "course",
+                  "course": "MICB 325"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 335"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "BIOT 380"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "standing",
+      "standing": "4th"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 101",
+  "originalPrerequisite": "JAPN 100.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:08.662Z",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "101",
+    "prerequisites": {
+      "type": "course",
+      "course": "JAPN 100"
+    }
+  }
+}

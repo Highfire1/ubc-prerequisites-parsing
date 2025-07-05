@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MEDG 410",
+  "originalPrerequisite": "MICB 302 and one of BIOL 334, BIOL 335. A standing of \"B\" or better is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:53:46.825Z",
+  "parsedRequirements": {
+    "department": "MEDG",
+    "code": "410",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 302"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 334"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 335"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "other",
+      "note": "A standing of \"B\" or better is recommended."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MRNE 435",
+  "originalPrerequisite": "All of BIOL 320, BIOL 205.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:33.990Z",
+  "parsedRequirements": {
+    "department": "MRNE",
+    "code": "435",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 320"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 205"
+        }
+      ]
+    }
+  }
+}

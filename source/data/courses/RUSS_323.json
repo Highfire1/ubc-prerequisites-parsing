@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "RUSS 323",
+  "originalPrerequisite": "Third year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:44.791Z",
+  "parsedRequirements": {
+    "department": "RUSS",
+    "code": "323",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

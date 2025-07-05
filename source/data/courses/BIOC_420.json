@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 420",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of BIOC 404, FSCT 480.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:47.975Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "420",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOC 404"
+        },
+        {
+          "type": "course",
+          "course": "FSCT 480"
+        }
+      ]
+    }
+  }
+}

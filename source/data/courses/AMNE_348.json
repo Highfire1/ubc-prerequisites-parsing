@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "AMNE 348",
+  "originalPrerequisite": "One of CLST 105, AMNE 151.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:18:19.319Z",
+  "parsedRequirements": {
+    "department": "AMNE",
+    "code": "348",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CLST 105"
+        },
+        {
+          "type": "course",
+          "course": "AMNE 151"
+        }
+      ]
+    }
+  }
+}

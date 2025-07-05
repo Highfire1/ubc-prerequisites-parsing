@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 434",
+  "originalPrerequisite": "BIOL 336 and either (a) BIOL 200 and one of BIOL 233, BIOL 234; or (b) FRST 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:21.667Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "434",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 336"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BIOL 200"
+                },
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "BIOL 233"
+                    },
+                    {
+                      "type": "course",
+                      "course": "BIOL 234"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "course": "FRST 302"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

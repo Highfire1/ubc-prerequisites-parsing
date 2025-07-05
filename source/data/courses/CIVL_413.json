@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 413",
+  "originalPrerequisite": "CIVL 311. Fourth-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:42.303Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "413",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CIVL 311"
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        }
+      ]
+    }
+  }
+}

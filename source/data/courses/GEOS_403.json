@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 403",
+  "originalPrerequisite": "One of GEOB 200, GEOS 200, GEOB 204, GEOS 204 and one of GEOB 305, GEOS 305, FRST 385 and one of STAT 200, FRST 231, BIOL 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:41.368Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "403",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 200"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 200"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 204"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 204"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 305"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 305"
+            },
+            {
+              "type": "course",
+              "course": "FRST 385"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "STAT 200"
+            },
+            {
+              "type": "course",
+              "course": "FRST 231"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 300"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

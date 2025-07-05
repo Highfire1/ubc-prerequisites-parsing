@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 427",
+  "originalPrerequisite": "POLI 220 and one of POLI 320–337.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:06:24.173Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "427",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "POLI 220"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 320"
+            },
+            {
+              "type": "course",
+              "course": "POLI 321"
+            },
+            {
+              "type": "course",
+              "course": "POLI 322"
+            },
+            {
+              "type": "course",
+              "course": "POLI 323"
+            },
+            {
+              "type": "course",
+              "course": "POLI 324"
+            },
+            {
+              "type": "course",
+              "course": "POLI 325"
+            },
+            {
+              "type": "course",
+              "course": "POLI 326"
+            },
+            {
+              "type": "course",
+              "course": "POLI 327"
+            },
+            {
+              "type": "course",
+              "course": "POLI 328"
+            },
+            {
+              "type": "course",
+              "course": "POLI 329"
+            },
+            {
+              "type": "course",
+              "course": "POLI 330"
+            },
+            {
+              "type": "course",
+              "course": "POLI 331"
+            },
+            {
+              "type": "course",
+              "course": "POLI 332"
+            },
+            {
+              "type": "course",
+              "course": "POLI 333"
+            },
+            {
+              "type": "course",
+              "course": "POLI 334"
+            },
+            {
+              "type": "course",
+              "course": "POLI 335"
+            },
+            {
+              "type": "course",
+              "course": "POLI 336"
+            },
+            {
+              "type": "course",
+              "course": "POLI 337"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

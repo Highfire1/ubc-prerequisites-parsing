@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APSC 178",
+  "originalPrerequisite": "APSC 172.",
+  "originalCorequisite": "APSC 173.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:22:04.304Z",
+  "parsedRequirements": {
+    "department": "APSC",
+    "code": "178",
+    "prerequisites": {
+      "type": "course",
+      "course": "APSC 172"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "APSC 173"
+    }
+  }
+}

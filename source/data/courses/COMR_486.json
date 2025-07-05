@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMR 486",
+  "originalPrerequisite": "One of COMM 280, COMR 280.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:27.236Z",
+  "parsedRequirements": {
+    "department": "COMR",
+    "code": "486",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 280"
+        },
+        {
+          "type": "course",
+          "course": "COMR 280"
+        }
+      ]
+    }
+  }
+}

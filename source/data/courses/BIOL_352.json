@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 352",
+  "originalPrerequisite": "Either (a) BIOL 200 and one of BIOL 233, BIOL 234; or (b) FRST 302. CHEM 233 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:24.597Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "352",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 200"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BIOL 233"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 234"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "FRST 302"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "CHEM 233"
+    }
+  }
+}

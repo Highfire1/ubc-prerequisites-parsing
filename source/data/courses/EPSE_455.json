@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EPSE 455",
+  "originalPrerequisite": "EPSE 425.",
+  "originalCorequisite": "EPSE 425.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:16.248Z",
+  "parsedRequirements": {
+    "department": "EPSE",
+    "code": "455",
+    "prerequisites": {
+      "type": "course",
+      "course": "EPSE 425"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "EPSE 425"
+    }
+  }
+}

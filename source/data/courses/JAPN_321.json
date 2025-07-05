@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 321",
+  "originalPrerequisite": "One of JAPN 210, JAPN 320.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:15.684Z",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "321",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "JAPN 210"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 320"
+        }
+      ]
+    }
+  }
+}

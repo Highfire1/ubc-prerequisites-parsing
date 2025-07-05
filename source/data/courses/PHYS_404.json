@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 404",
+  "originalPrerequisite": "Third year standing in Science or Applied Science is required. MATH 200 (or MATH 217 or MATH 226) is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:22.730Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "404",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "recommended": true,
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 200"
+            },
+            {
+              "type": "course",
+              "course": "MATH 217"
+            },
+            {
+              "type": "course",
+              "course": "MATH 226"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

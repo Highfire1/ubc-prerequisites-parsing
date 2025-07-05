@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 430",
+  "originalPrerequisite": "3 credits of Computer Science and at least third-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:56.128Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "430",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "credit_count",
+          "credits": 3,
+          "department": "CPSC",
+          "level": "300"
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 190",
+  "originalPrerequisite": "Principles of Mathematics 12 or Pre-calculus 12 and registration in the B.S.F. or B.Sc.N. programs.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:52.277Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "190",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "other",
+              "note": "Principles of Mathematics 12"
+            },
+            {
+              "type": "other",
+              "note": "Pre-calculus 12"
+            }
+          ]
+        },
+        {
+          "type": "program",
+          "program": "B.S.F. or B.Sc.N."
+        }
+      ]
+    }
+  }
+}

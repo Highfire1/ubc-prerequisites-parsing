@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 432",
+  "originalPrerequisite": "All of CIVL 331, CIVL 332.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:53.965Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "432",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CIVL 331"
+        },
+        {
+          "type": "course",
+          "course": "CIVL 332"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 420",
+  "originalPrerequisite": "All of MECH 360, MECH 463, MECH 366 and one of ELEC 343, EECE 376.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:21.797Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "420",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 360"
+        },
+        {
+          "type": "course",
+          "course": "MECH 463"
+        },
+        {
+          "type": "course",
+          "course": "MECH 366"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ELEC 343"
+            },
+            {
+              "type": "course",
+              "course": "EECE 376"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

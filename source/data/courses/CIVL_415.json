@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 415",
+  "originalPrerequisite": "All of CIVL 315, CIVL 316, STAT 251.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:43.785Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "415",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CIVL 315"
+        },
+        {
+          "type": "course",
+          "course": "CIVL 316"
+        },
+        {
+          "type": "course",
+          "course": "STAT 251"
+        }
+      ]
+    }
+  }
+}

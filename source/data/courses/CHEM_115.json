@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 115",
+  "originalPrerequisite": "One of CHEM 110, CHEM 120.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:12.901Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "115",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 110"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 120"
+        }
+      ]
+    }
+  }
+}

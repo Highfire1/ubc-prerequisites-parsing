@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNEL 242",
+  "originalPrerequisite": "FNEL 241 in the same language.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:04:45.862Z",
+  "parsedRequirements": {
+    "department": "FNEL",
+    "code": "242",
+    "prerequisites": {
+      "type": "course",
+      "course": "FNEL 241"
+    }
+  }
+}

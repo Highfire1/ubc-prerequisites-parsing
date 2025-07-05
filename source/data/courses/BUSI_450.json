@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 450",
+  "originalPrerequisite": "All of BUSI 293, BUSI 370.",
+  "originalCorequisite": "BUSI 353.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:46.043Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "450",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 293"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 370"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "BUSI 353"
+    }
+  }
+}

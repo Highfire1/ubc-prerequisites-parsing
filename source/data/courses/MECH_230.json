@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 230",
+  "originalPrerequisite": "All of APSC 160, MATH 101, MATH 152, PHYS 158, PHYS 170 and one of APSC 100, APSC 150, APSC 151 and one of BMEG 102, PHYS 159 and one of APSC 176, ENGL 112, WRDS 150.",
+  "originalCorequisite": "MECH 221.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:43.237Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "230",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APSC 160"
+        },
+        {
+          "type": "course",
+          "course": "MATH 101"
+        },
+        {
+          "type": "course",
+          "course": "MATH 152"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 158"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 170"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 100"
+            },
+            {
+              "type": "course",
+              "course": "APSC 150"
+            },
+            {
+              "type": "course",
+              "course": "APSC 151"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BMEG 102"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 159"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 176"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 112"
+            },
+            {
+              "type": "course",
+              "course": "WRDS 150"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MECH 221"
+    }
+  }
+}

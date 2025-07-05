@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASIA 476",
+  "originalPrerequisite": "Restricted to students with 2nd year standing or above.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:24:52.982Z",
+  "parsedRequirements": {
+    "department": "ASIA",
+    "code": "476",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "2nd"
+    }
+  }
+}

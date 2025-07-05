@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LLED 453",
+  "originalPrerequisite": "An introductory-level reading or language arts education course.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:06.980Z",
+  "parsedRequirements": {
+    "department": "LLED",
+    "code": "453",
+    "prerequisites": {
+      "type": "other",
+      "note": "An introductory-level reading or language arts education course"
+    }
+  }
+}

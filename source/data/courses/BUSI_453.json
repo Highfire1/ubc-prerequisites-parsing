@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 453",
+  "originalPrerequisite": "BUSI 450.",
+  "originalCorequisite": "BUSI 450.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:47.327Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "453",
+    "prerequisites": {
+      "type": "course",
+      "course": "BUSI 450"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "BUSI 450"
+    }
+  }
+}

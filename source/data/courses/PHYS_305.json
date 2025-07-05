@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 305",
+  "originalPrerequisite": "One of PHYS 102, PHYS 108, PHYS 118, PHYS 153, PHYS 158, SCIE 001 and either (a) PHYS 203 or (b) one of ENPH 257, CHEM 201, CHEM 205 and one of MATH 302, MATH 318, STAT 241, STAT 251, STAT 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:48.858Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "305",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 102"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 108"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 118"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 153"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 158"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 203"
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "ENPH 257"
+                    },
+                    {
+                      "type": "course",
+                      "course": "CHEM 201"
+                    },
+                    {
+                      "type": "course",
+                      "course": "CHEM 205"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "MATH 302"
+                    },
+                    {
+                      "type": "course",
+                      "course": "MATH 318"
+                    },
+                    {
+                      "type": "course",
+                      "course": "STAT 241"
+                    },
+                    {
+                      "type": "course",
+                      "course": "STAT 251"
+                    },
+                    {
+                      "type": "course",
+                      "course": "STAT 302"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

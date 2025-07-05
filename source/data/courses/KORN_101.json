@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KORN 101",
+  "originalPrerequisite": "KORN 100.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:43:53.040Z",
+  "parsedRequirements": {
+    "department": "KORN",
+    "code": "101",
+    "prerequisites": {
+      "type": "course",
+      "course": "KORN 100"
+    }
+  }
+}

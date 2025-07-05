@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LLED 428",
+  "originalPrerequisite": "Either (a) FREN 220 or (b) all of FREN 222, FREN 223.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:02.856Z",
+  "parsedRequirements": {
+    "department": "LLED",
+    "code": "428",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 220"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FREN 222"
+            },
+            {
+              "type": "course",
+              "course": "FREN 223"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

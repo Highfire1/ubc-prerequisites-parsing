@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 210",
+  "originalPrerequisite": "Either (a) all of BIOL 121, BIOL 140 or (b) all of SCIE 001, BIOL 140. Or (c) 7 credits of first-year biology.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:19:20.693Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "210",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 140"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 140"
+            }
+          ]
+        },
+        {
+          "type": "credit_count",
+          "credits": 7,
+          "department": "BIOL",
+          "level": "100"
+        }
+      ]
+    }
+  }
+}

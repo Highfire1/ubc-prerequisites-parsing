@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SOCI 435",
+  "originalPrerequisite": "SOCI 430. Or equivalent.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:01.393Z",
+  "parsedRequirements": {
+    "department": "SOCI",
+    "code": "435",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SOCI 430"
+        },
+        {
+          "type": "other",
+          "note": "Equivalent"
+        }
+      ]
+    }
+  }
+}

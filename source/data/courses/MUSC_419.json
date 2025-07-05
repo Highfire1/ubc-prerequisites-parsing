@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 419",
+  "originalPrerequisite": "MUSC 320.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:58:16.151Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "419",
+    "prerequisites": {
+      "type": "course",
+      "course": "MUSC 320"
+    }
+  }
+}

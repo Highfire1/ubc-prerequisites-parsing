@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 301",
+  "originalPrerequisite": "MUSC 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:57:01.905Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "301",
+    "prerequisites": {
+      "type": "course",
+      "course": "MUSC 300"
+    }
+  }
+}

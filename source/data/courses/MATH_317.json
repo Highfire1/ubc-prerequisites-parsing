@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 317",
+  "originalPrerequisite": "One of MATH 200, MATH 226, MATH 253. One of MATH 152, MATH 221, MATH 223 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:00.419Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "317",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 200"
+        },
+        {
+          "type": "course",
+          "course": "MATH 226"
+        },
+        {
+          "type": "course",
+          "course": "MATH 253"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "recommended": "true",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 152"
+        },
+        {
+          "type": "course",
+          "course": "MATH 221"
+        },
+        {
+          "type": "course",
+          "course": "MATH 223"
+        }
+      ]
+    }
+  }
+}

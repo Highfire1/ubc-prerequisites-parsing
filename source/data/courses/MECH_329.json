@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 329",
+  "originalPrerequisite": "Either (a) MECH 224 or (b) all of APSC 278, MECH 260.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:05.483Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "329",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 224"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 278"
+            },
+            {
+              "type": "course",
+              "course": "MECH 260"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 448",
+  "originalPrerequisite": "Either (a) MICB 323 or (b) all of MICB 322, MICB 399.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:39.195Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "448",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 323"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MICB 322"
+            },
+            {
+              "type": "course",
+              "course": "MICB 399"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

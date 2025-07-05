@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASIA 386",
+  "originalPrerequisite": "One of CHIN 207, CHIN 337, CHIN 208, CHIN 338, CHIN 217, CHIN 347, CHIN 218, CHIN 348 or a higher level of Chinese language proficiency.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:24:13.585Z",
+  "parsedRequirements": {
+    "department": "ASIA",
+    "code": "386",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHIN 207"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 337"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 208"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 338"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 217"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 347"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 218"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 348"
+        },
+        {
+          "type": "other",
+          "note": "a higher level of Chinese language proficiency"
+        }
+      ]
+    }
+  }
+}

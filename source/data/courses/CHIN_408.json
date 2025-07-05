@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 408",
+  "originalPrerequisite": "One of CHIN 207, CHIN 208, CHIN 337, CHIN 338.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:38:54.103Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "408",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHIN 207"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 208"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 337"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 338"
+        }
+      ]
+    }
+  }
+}

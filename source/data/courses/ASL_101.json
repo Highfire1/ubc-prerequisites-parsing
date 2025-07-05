@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASL 101",
+  "originalPrerequisite": "ASL 100 or by placement.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:08.129Z",
+  "parsedRequirements": {
+    "department": "ASL",
+    "code": "101",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ASL 100"
+        },
+        {
+          "type": "other",
+          "note": "by placement"
+        }
+      ]
+    }
+  }
+}

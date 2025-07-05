@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MTRL 398",
+  "originalPrerequisite": "One of APSC 201, MTRL 201.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:50.564Z",
+  "parsedRequirements": {
+    "department": "MTRL",
+    "code": "398",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APSC 201"
+        },
+        {
+          "type": "course",
+          "course": "MTRL 201"
+        }
+      ]
+    }
+  }
+}

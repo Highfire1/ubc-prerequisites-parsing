@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APSC 440",
+  "originalPrerequisite": "Fourth-year standing in Engineering.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:22:44.084Z",
+  "parsedRequirements": {
+    "department": "APSC",
+    "code": "440",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "4th"
+    }
+  }
+}

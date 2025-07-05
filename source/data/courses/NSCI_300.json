@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NSCI 300",
+  "originalPrerequisite": "Third-year status in the neuroscience specialization.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:59:14.794Z",
+  "parsedRequirements": {
+    "department": "NSCI",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "program",
+          "program": "neuroscience specialization"
+        }
+      ]
+    }
+  }
+}

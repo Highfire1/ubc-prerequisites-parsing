@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 488",
+  "originalPrerequisite": "Third-year standing in a Chemistry specialization and permission of the Department.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:38:05.244Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "488",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the Department"
+        }
+      ]
+    }
+  }
+}

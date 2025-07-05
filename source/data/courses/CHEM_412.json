@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 412",
+  "originalPrerequisite": "One of CHEM 312, PHYS 304 and one of MATH 152, MATH 221, MATH 223.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:47.239Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "412",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 312"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 304"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

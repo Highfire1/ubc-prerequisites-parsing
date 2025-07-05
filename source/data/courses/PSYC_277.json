@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 277",
+  "originalPrerequisite": "Second-year standing in a Behavioural Neuroscience or Neuroscience specialization.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:58.739Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "277",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "2nd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "Behavioural Neuroscience"
+            },
+            {
+              "type": "program",
+              "program": "Neuroscience"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

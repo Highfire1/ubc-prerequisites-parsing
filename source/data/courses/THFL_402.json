@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THFL 402",
+  "originalPrerequisite": "Pre or Corequisites: One of THTR 305, THTR 306, THTR 307, THTR 308, FIPR 333",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:04.723Z",
+  "parsedRequirements": {
+    "department": "THFL",
+    "code": "402",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "THTR 305"
+        },
+        {
+          "type": "course",
+          "course": "THTR 306"
+        },
+        {
+          "type": "course",
+          "course": "THTR 307"
+        },
+        {
+          "type": "course",
+          "course": "THTR 308"
+        },
+        {
+          "type": "course",
+          "course": "FIPR 333"
+        }
+      ]
+    }
+  }
+}

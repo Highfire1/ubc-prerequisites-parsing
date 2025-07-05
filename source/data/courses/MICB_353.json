@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 353",
+  "originalPrerequisite": "One of BIOL 112, MICB 211, MICB 201, SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:14.949Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "353",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 112"
+        },
+        {
+          "type": "course",
+          "course": "MICB 211"
+        },
+        {
+          "type": "course",
+          "course": "MICB 201"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    }
+  }
+}

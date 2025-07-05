@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 309",
+  "originalPrerequisite": "One of PHYS 209, PHYS 229, ENPH 259.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:52.446Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "309",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 209"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 229"
+        },
+        {
+          "type": "course",
+          "course": "ENPH 259"
+        }
+      ]
+    }
+  }
+}

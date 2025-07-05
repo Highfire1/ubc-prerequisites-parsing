@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 376",
+  "originalPrerequisite": "CHBE 241.",
+  "originalCorequisite": "All of CHBE 345, CHBE 355.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:10.228Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "376",
+    "prerequisites": {
+      "type": "course",
+      "course": "CHBE 241"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 345"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 355"
+        }
+      ]
+    }
+  }
+}

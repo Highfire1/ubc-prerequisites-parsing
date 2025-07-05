@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 408",
+  "originalPrerequisite": "All of CIVL 210, CIVL 315, CIVL 316.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:37.110Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "408",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CIVL 210"
+        },
+        {
+          "type": "course",
+          "course": "CIVL 315"
+        },
+        {
+          "type": "course",
+          "course": "CIVL 316"
+        }
+      ]
+    }
+  }
+}

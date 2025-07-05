@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 434",
+  "originalPrerequisite": "CHEM 311.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:56.288Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "434",
+    "prerequisites": {
+      "type": "course",
+      "course": "CHEM 311"
+    }
+  }
+}

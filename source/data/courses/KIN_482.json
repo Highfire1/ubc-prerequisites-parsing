@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KIN 482",
+  "originalPrerequisite": "Two of KIN 310, KIN 311, KIN 313, KIN 316, KIN 411, KIN 419. Restricted to students in the BKIN program with fourth-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:43:37.461Z",
+  "parsedRequirements": {
+    "department": "KIN",
+    "code": "482",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "KIN 310"
+            },
+            {
+              "type": "course",
+              "course": "KIN 311"
+            },
+            {
+              "type": "course",
+              "course": "KIN 313"
+            },
+            {
+              "type": "course",
+              "course": "KIN 316"
+            },
+            {
+              "type": "course",
+              "course": "KIN 411"
+            },
+            {
+              "type": "course",
+              "course": "KIN 419"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "program",
+          "program": "BKIN"
+        }
+      ]
+    }
+  }
+}

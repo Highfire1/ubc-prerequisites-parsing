@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 363",
+  "originalPrerequisite": "BIOL 204.",
+  "originalCorequisite": "One of BIOL 361, BIOL 370, BIOL 371.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:30.006Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "363",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOL 204"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 361"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 370"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 371"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 229",
+  "originalPrerequisite": "PHYS 219.",
+  "originalCorequisite": "MATH 215.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:36.909Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "229",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHYS 219"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MATH 215"
+    }
+  }
+}

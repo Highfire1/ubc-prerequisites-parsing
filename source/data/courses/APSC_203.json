@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APSC 203",
+  "originalPrerequisite": "APSC 202.",
+  "originalCorequisite": "ENPH 253.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:22:15.797Z",
+  "parsedRequirements": {
+    "department": "APSC",
+    "code": "203",
+    "prerequisites": {
+      "type": "course",
+      "course": "APSC 202"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "ENPH 253"
+    }
+  }
+}

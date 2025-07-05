@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MRNE 445",
+  "originalPrerequisite": "Introductory vertebrate zoology.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:37.293Z",
+  "parsedRequirements": {
+    "department": "MRNE",
+    "code": "445",
+    "prerequisites": {
+      "type": "other",
+      "note": "Introductory vertebrate zoology"
+    }
+  }
+}

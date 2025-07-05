@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 204",
+  "originalPrerequisite": "One of COMM 190, COMM 290 and one of COMM 191, COMM 291.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:42:10.519Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "204",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 190"
+            },
+            {
+              "type": "course",
+              "course": "COMM 290"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 191"
+            },
+            {
+              "type": "course",
+              "course": "COMM 291"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

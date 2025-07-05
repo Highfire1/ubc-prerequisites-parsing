@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 322",
+  "originalPrerequisite": "A completed concentration in physical education or permission of the head.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:07.855Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "322",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "A completed concentration in physical education"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the head"
+        }
+      ]
+    }
+  }
+}

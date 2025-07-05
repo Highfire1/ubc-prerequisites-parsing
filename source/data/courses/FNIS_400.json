@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNIS 400",
+  "originalPrerequisite": "Either (a) all of FNIS 310, FNIS 320 or (b) all of FNSP 310, FNSP 320. Students must pass FNIS 320 or FNSP 320 with a B- or higher or request program approval.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:48.666Z",
+  "parsedRequirements": {
+    "department": "FNIS",
+    "code": "400",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FNIS 310"
+            },
+            {
+              "type": "course",
+              "course": "FNIS 320",
+              "minGrade": 80
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FNSP 310"
+            },
+            {
+              "type": "course",
+              "course": "FNSP 320",
+              "minGrade": 80
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "other",
+      "note": "Request program approval if FNIS 320 or FNSP 320 is not passed with a B- or higher."
+    }
+  }
+}

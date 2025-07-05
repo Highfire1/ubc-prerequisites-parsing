@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GRSJ 307",
+  "originalPrerequisite": "Either (a) all of GRSJ 101, GRSJ 102 or (b) all of WMST 101, WMST 102 or third-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:12:34.568Z",
+  "parsedRequirements": {
+    "department": "GRSJ",
+    "code": "307",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GRSJ 101"
+            },
+            {
+              "type": "course",
+              "course": "GRSJ 102"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "WMST 101"
+            },
+            {
+              "type": "course",
+              "course": "WMST 102"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

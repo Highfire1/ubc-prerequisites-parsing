@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 488",
+  "originalPrerequisite": "One of MECH 380, CIVL 315 or permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:52:02.904Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "488",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 380"
+        },
+        {
+          "type": "course",
+          "course": "CIVL 315"
+        },
+        {
+          "type": "permission",
+          "note": "permission of instructor"
+        }
+      ]
+    }
+  }
+}

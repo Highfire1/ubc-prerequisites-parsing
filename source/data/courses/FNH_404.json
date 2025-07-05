@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 404",
+  "originalPrerequisite": "FNH 403.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:00.240Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "404",
+    "prerequisites": {
+      "type": "course",
+      "course": "FNH 403"
+    }
+  }
+}

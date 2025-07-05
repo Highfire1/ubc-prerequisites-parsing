@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASTU 310",
+  "originalPrerequisite": "6 credits first-year English or Arts I; 6 credits of science; 6 credits of literature; satisfaction of Faculty language requirement.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:38.984Z",
+  "parsedRequirements": {
+    "department": "ASTU",
+    "code": "310",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "department": "ENGL",
+          "level": "100"
+        },
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "department": "SCI"
+        },
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "department": "LIT"
+        },
+        {
+          "type": "other",
+          "note": "Satisfaction of Faculty language requirement"
+        }
+      ]
+    }
+  }
+}

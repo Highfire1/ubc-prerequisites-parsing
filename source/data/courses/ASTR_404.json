@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASTR 404",
+  "originalPrerequisite": "All of PHYS 210, PHYS 408 and one of PHYS 312, MATH 316.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:29.101Z",
+  "parsedRequirements": {
+    "department": "ASTR",
+    "code": "404",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 210"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 408"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 312"
+            },
+            {
+              "type": "course",
+              "course": "MATH 316"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

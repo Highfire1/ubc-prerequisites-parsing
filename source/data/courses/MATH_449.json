@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 449",
+  "originalPrerequisite": "Permission of the Department Head",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:11.797Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "449",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of the Department Head"
+    }
+  }
+}

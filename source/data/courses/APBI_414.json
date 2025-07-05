@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 414",
+  "originalPrerequisite": "One of APBI 314, APBI 315.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:20:37.646Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "414",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APBI 314"
+        },
+        {
+          "type": "course",
+          "course": "APBI 315"
+        }
+      ]
+    }
+  }
+}

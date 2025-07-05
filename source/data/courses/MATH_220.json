@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 220",
+  "originalPrerequisite": "Either (a) a score of 64% or higher in one of MATH 101, MATH 103, MATH 105, SCIE 001 or (b) one of MATH 121, MATH 200, MATH 217, MATH 226, MATH 253, MATH 254.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:06.717Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "220",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 101",
+              "minGrade": 64
+            },
+            {
+              "type": "course",
+              "course": "MATH 103",
+              "minGrade": 64
+            },
+            {
+              "type": "course",
+              "course": "MATH 105",
+              "minGrade": 64
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001",
+              "minGrade": 64
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 121"
+            },
+            {
+              "type": "course",
+              "course": "MATH 200"
+            },
+            {
+              "type": "course",
+              "course": "MATH 217"
+            },
+            {
+              "type": "course",
+              "course": "MATH 226"
+            },
+            {
+              "type": "course",
+              "course": "MATH 253"
+            },
+            {
+              "type": "course",
+              "course": "MATH 254"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

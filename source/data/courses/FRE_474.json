@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRE 474",
+  "originalPrerequisite": "One of LFS 252, STAT 200, BIOL 300, ECON 326, COMM 291, FRST 231 and one of ECON 101, ECON 310.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:13.959Z",
+  "parsedRequirements": {
+    "department": "FRE",
+    "code": "474",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "LFS 252"
+            },
+            {
+              "type": "course",
+              "course": "STAT 200"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 300"
+            },
+            {
+              "type": "course",
+              "course": "ECON 326"
+            },
+            {
+              "type": "course",
+              "course": "COMM 291"
+            },
+            {
+              "type": "course",
+              "course": "FRST 231"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 101"
+            },
+            {
+              "type": "course",
+              "course": "ECON 310"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

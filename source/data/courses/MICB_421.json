@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 421",
+  "originalPrerequisite": "One of MICB 323, BIOT 380.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:34.253Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "421",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 323"
+        },
+        {
+          "type": "course",
+          "course": "BIOT 380"
+        }
+      ]
+    }
+  }
+}

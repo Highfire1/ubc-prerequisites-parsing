@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 490",
+  "originalPrerequisite": "Fourth-year standing and at least 80% average in third-year courses.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:15.633Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "490",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "credit_count",
+          "credits": 1,
+          "minGrade": 80,
+          "level": "300"
+        }
+      ]
+    }
+  }
+}

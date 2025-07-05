@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 200",
+  "originalPrerequisite": "One of JAPN 101, JAPN 150, JAPN 160.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:10.111Z",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "200",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "JAPN 101"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 150"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 160"
+        }
+      ]
+    }
+  }
+}

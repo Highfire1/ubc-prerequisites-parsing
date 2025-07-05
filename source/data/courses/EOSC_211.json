@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 211",
+  "originalPrerequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:16.796Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "211",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 101"
+        },
+        {
+          "type": "course",
+          "course": "MATH 103"
+        },
+        {
+          "type": "course",
+          "course": "MATH 105"
+        },
+        {
+          "type": "course",
+          "course": "MATH 121"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    }
+  }
+}

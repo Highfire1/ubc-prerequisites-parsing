@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MANU 487",
+  "originalPrerequisite": "All of MANU 265, MATH 255, MECH 368.",
+  "originalCorequisite": "MANU 430.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:30.714Z",
+  "parsedRequirements": {
+    "department": "MANU",
+    "code": "487",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MANU 265"
+        },
+        {
+          "type": "course",
+          "course": "MATH 255"
+        },
+        {
+          "type": "course",
+          "course": "MECH 368"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MANU 430"
+    }
+  }
+}

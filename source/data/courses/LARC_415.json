@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LARC 415",
+  "originalPrerequisite": "UFOR 316.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:07.782Z",
+  "parsedRequirements": {
+    "department": "LARC",
+    "code": "415",
+    "prerequisites": {
+      "type": "course",
+      "course": "UFOR 316"
+    }
+  }
+}

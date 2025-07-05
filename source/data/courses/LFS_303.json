@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LFS 303",
+  "originalPrerequisite": "Third year standing and permission of instructor. 9 credits of upper level ECON, FRE or COMM courses are strongly recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:10.887Z",
+  "parsedRequirements": {
+    "department": "LFS",
+    "code": "303",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "permission",
+          "note": "permission of instructor"
+        },
+        {
+          "type": "credit_count",
+          "credits": 9,
+          "department": [
+            "ECON",
+            "FRE",
+            "COMM"
+          ],
+          "level": "300",
+          "recommended": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FOPR 362",
+  "originalPrerequisite": "ECON 101.",
+  "originalCorequisite": "FRST 318.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:04.341Z",
+  "parsedRequirements": {
+    "department": "FOPR",
+    "code": "362",
+    "prerequisites": {
+      "type": "course",
+      "course": "ECON 101"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "FRST 318"
+    }
+  }
+}

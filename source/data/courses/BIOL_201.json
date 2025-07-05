@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 201",
+  "originalPrerequisite": "BIOL 200 and one of CHEM 233, CHEM 260; or BIOL 200 and a corequisite of CHEM 213; or a corequisite of either CHEM 313 or CHEM 330.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:20.869Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "201",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 200"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 233"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 260"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 200"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 213",
+              "mustBeTakenConcurrently": true
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 313",
+              "mustBeTakenConcurrently": true
+            },
+            {
+              "type": "course",
+              "course": "CHEM 330",
+              "mustBeTakenConcurrently": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

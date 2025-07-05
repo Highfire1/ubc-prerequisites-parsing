@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 432",
+  "originalPrerequisite": "9 credits of PHIL at the 200-level or above; PHIL 230 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:51.197Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "432",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "credit_count",
+          "credits": 9,
+          "department": "PHIL",
+          "level": "200"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "PHIL 230"
+    }
+  }
+}

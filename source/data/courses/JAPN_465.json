@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 465",
+  "originalPrerequisite": "One of JAPN 450, JAPN 452, JAPN 453, JAPN 456 or placement with native or near-native Japanese proficiency.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:16:23.539Z",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "465",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "JAPN 450"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 452"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 453"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 456"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "placement with native or near-native Japanese proficiency"
+        }
+      ]
+    }
+  }
+}

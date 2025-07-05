@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 381",
+  "originalPrerequisite": "One of CHBE 221, BMEG 245 and one of MATH 101, MATH 103, MATH 105. Third or fourth year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:12.503Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "381",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHBE 221"
+            },
+            {
+              "type": "course",
+              "course": "BMEG 245"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 101"
+            },
+            {
+              "type": "course",
+              "course": "MATH 103"
+            },
+            {
+              "type": "course",
+              "course": "MATH 105"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

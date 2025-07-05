@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 227",
+  "originalPrerequisite": "MECH 220 and one of APSC 176, ENGL 112, WRDS 150.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:39.368Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "227",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 220"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 176"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 112"
+            },
+            {
+              "type": "course",
+              "course": "WRDS 150"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LING 327",
+  "originalPrerequisite": "LING 201.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:27.492Z",
+  "parsedRequirements": {
+    "department": "LING",
+    "code": "327",
+    "prerequisites": {
+      "type": "course",
+      "course": "LING 201"
+    }
+  }
+}

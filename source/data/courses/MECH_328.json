@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 328",
+  "originalPrerequisite": "MECH 223. (And third year standing in Mechanical Engineering)",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:03.881Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "328",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 223"
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

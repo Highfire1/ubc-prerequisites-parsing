@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 461",
+  "originalPrerequisite": "One of GEOG 361, GEOG 364.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:59.508Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "461",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOG 361"
+        },
+        {
+          "type": "course",
+          "course": "GEOG 364"
+        }
+      ]
+    }
+  }
+}

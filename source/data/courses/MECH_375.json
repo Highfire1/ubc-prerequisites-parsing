@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 375",
+  "originalPrerequisite": "Either (a) MECH 225 or (b) one of CHBE 241, ENPH 257, PHYS 203 and one of CHBE 251, CIVL 215, MECH 280.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:15.368Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "375",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 225"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHBE 241"
+                },
+                {
+                  "type": "course",
+                  "course": "ENPH 257"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 203"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHBE 251"
+                },
+                {
+                  "type": "course",
+                  "course": "CIVL 215"
+                },
+                {
+                  "type": "course",
+                  "course": "MECH 280"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 322",
+  "originalPrerequisite": "CPSC 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:16.055Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "322",
+    "prerequisites": {
+      "type": "course",
+      "course": "CPSC 221"
+    }
+  }
+}

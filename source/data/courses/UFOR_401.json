@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "UFOR 401",
+  "originalPrerequisite": "All of UFOR 300, UFOR 400. And fourth year standing in the B.U.F. program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:56.038Z",
+  "parsedRequirements": {
+    "department": "UFOR",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "UFOR 300"
+            },
+            {
+              "type": "course",
+              "course": "UFOR 400"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "program",
+          "program": "B.U.F."
+        }
+      ]
+    }
+  }
+}

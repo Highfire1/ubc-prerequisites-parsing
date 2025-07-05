@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 453",
+  "originalPrerequisite": "One of BIOL 204, BIOL 205, BIOL 327, APBI 327 and one of BIOL 361, BIOL 364, BIOL 370, BIOL 371, APBI 311.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:14.920Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "453",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 204"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 205"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 327"
+            },
+            {
+              "type": "course",
+              "course": "APBI 327"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 361"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 364"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 370"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 371"
+            },
+            {
+              "type": "course",
+              "course": "APBI 311"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COEC 371",
+  "originalPrerequisite": "Either (a) ECON 308 or (b) all of ECON 315, ECON 316.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:26.175Z",
+  "parsedRequirements": {
+    "department": "COEC",
+    "code": "371",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECON 308"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 315"
+            },
+            {
+              "type": "course",
+              "course": "ECON 316"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

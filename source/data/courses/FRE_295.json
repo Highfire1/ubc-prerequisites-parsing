@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRE 295",
+  "originalPrerequisite": "All of ECON 101, ECON 102 and MATH 105.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:08:55.693Z",
+  "parsedRequirements": {
+    "department": "FRE",
+    "code": "295",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECON 101"
+        },
+        {
+          "type": "course",
+          "course": "ECON 102"
+        },
+        {
+          "type": "course",
+          "course": "MATH 105"
+        }
+      ]
+    }
+  }
+}

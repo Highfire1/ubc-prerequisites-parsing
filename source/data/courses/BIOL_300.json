@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 300",
+  "originalPrerequisite": "Either (a) BIOL 121 and one of MATH 101, MATH 103, MATH 105, MATH 121; or (b) SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:45.535Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 101"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 103"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 105"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 121"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 449",
+  "originalPrerequisite": "COMM 204.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:43:21.025Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "449",
+    "prerequisites": {
+      "type": "course",
+      "course": "COMM 204"
+    }
+  }
+}

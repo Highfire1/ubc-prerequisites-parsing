@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 202",
+  "originalPrerequisite": "One of CHEM 203, CHEM 223, CHEM 233.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:29.542Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "202",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 203"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 223"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 233"
+        }
+      ]
+    }
+  }
+}

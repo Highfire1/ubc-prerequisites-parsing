@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 424",
+  "originalPrerequisite": "CPSC 320 and one of MATH 152, MATH 221, MATH 223 and one of MATH 200, MATH 217, MATH 226, MATH 253.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:49.025Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "424",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 320"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 200"
+            },
+            {
+              "type": "course",
+              "course": "MATH 217"
+            },
+            {
+              "type": "course",
+              "course": "MATH 226"
+            },
+            {
+              "type": "course",
+              "course": "MATH 253"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

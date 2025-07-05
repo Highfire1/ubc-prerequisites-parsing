@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "INLB 310",
+  "originalPrerequisite": "INLB 210.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:31.771Z",
+  "parsedRequirements": {
+    "department": "INLB",
+    "code": "310",
+    "prerequisites": {
+      "type": "course",
+      "course": "INLB 210"
+    }
+  }
+}

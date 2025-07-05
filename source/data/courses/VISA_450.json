@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 450",
+  "originalPrerequisite": "One of VISA 350, VISA 351, VISA 360, VISA 361. Plus an additional 3 credits of 300-level VISA.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:03.361Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "450",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "VISA 350"
+            },
+            {
+              "type": "course",
+              "course": "VISA 351"
+            },
+            {
+              "type": "course",
+              "course": "VISA 360"
+            },
+            {
+              "type": "course",
+              "course": "VISA 361"
+            }
+          ]
+        },
+        {
+          "type": "credit_count",
+          "credits": 3,
+          "department": "VISA",
+          "level": "300"
+        }
+      ]
+    }
+  }
+}

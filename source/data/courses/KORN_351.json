@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KORN 351",
+  "originalPrerequisite": "Permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:00.887Z",
+  "parsedRequirements": {
+    "department": "KORN",
+    "code": "351",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of instructor"
+    }
+  }
+}

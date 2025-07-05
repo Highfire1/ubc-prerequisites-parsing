@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WRDS 360",
+  "originalPrerequisite": "One of ASTU 100, ASTU 101, WRDS 150, WRDS 350.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:58.034Z",
+  "parsedRequirements": {
+    "department": "WRDS",
+    "code": "360",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ASTU 100"
+        },
+        {
+          "type": "course",
+          "course": "ASTU 101"
+        },
+        {
+          "type": "course",
+          "course": "WRDS 150"
+        },
+        {
+          "type": "course",
+          "course": "WRDS 350"
+        }
+      ]
+    }
+  }
+}

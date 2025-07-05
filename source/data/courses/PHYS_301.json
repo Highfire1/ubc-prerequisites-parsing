@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 301",
+  "originalPrerequisite": "One of PHYS 102, PHYS 108, PHYS 118, PHYS 153, PHYS 158, SCIE 001 and one of MATH 217, MATH 227, MATH 317 and one of MATH 215, MATH 255.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:43.038Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "301",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 102"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 108"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 118"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 153"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 158"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 217"
+            },
+            {
+              "type": "course",
+              "course": "MATH 227"
+            },
+            {
+              "type": "course",
+              "course": "MATH 317"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 215"
+            },
+            {
+              "type": "course",
+              "course": "MATH 255"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

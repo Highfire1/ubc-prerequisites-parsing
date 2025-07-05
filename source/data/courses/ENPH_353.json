@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENPH 353",
+  "originalPrerequisite": "All of ENPH 253, CPEN 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:28.716Z",
+  "parsedRequirements": {
+    "department": "ENPH",
+    "code": "353",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ENPH 253"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 221"
+        }
+      ]
+    }
+  }
+}

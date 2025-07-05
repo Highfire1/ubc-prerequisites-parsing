@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MRNE 411",
+  "originalPrerequisite": "course in invertebrates or embryology.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:29.361Z",
+  "parsedRequirements": {
+    "department": "MRNE",
+    "code": "411",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "course in invertebrates"
+        },
+        {
+          "type": "other",
+          "note": "course in embryology"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LATN 403",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of LATN 350, LATN 351. It is recommended that the corequisite course be completed prior to LATN 403.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:18.700Z",
+  "parsedRequirements": {
+    "department": "LATN",
+    "code": "403",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LATN 350"
+        },
+        {
+          "type": "course",
+          "course": "LATN 351"
+        }
+      ],
+      "recommended": true
+    }
+  }
+}

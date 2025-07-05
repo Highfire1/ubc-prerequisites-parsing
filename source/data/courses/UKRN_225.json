@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "UKRN 225",
+  "originalPrerequisite": "UKRN 125.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:02.455Z",
+  "parsedRequirements": {
+    "department": "UKRN",
+    "code": "225",
+    "prerequisites": {
+      "type": "course",
+      "course": "UKRN 125"
+    }
+  }
+}

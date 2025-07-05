@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 410",
+  "originalPrerequisite": "Either (a) CPSC 310 or (b) all of CPEN 321, CPEN 331.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:33.166Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "410",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 310"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPEN 321"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 331"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

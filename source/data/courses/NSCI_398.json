@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NSCI 398",
+  "originalPrerequisite": "Co-op workshops, and third-year standing in the neuroscience specialization.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:59:19.168Z",
+  "parsedRequirements": {
+    "department": "NSCI",
+    "code": "398",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "Co-op workshops"
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "program",
+          "program": "neuroscience specialization"
+        }
+      ]
+    }
+  }
+}

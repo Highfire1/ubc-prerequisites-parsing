@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MEDG 419",
+  "originalPrerequisite": "One of BIOL 233, BIOL 234 and one of BIOL 331, BIOL 335. A standing of 'B' or higher recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:53:48.991Z",
+  "parsedRequirements": {
+    "department": "MEDG",
+    "code": "419",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 233"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 234"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 331"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 335"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "other",
+      "note": "A standing of 'B' or higher recommended"
+    }
+  }
+}

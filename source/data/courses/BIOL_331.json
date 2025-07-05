@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 331",
+  "originalPrerequisite": "Either (a) BIOL 201 or (b) all of BIOL 200, BIOL 260 and one of BIOL 233, BIOL 234.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:06.077Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "331",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 201"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 200"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 260"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BIOL 233"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 234"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

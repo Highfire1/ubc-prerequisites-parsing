@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LATN 350",
+  "originalPrerequisite": "One of LATN 202, LATN 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:13.496Z",
+  "parsedRequirements": {
+    "department": "LATN",
+    "code": "350",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LATN 202"
+        },
+        {
+          "type": "course",
+          "course": "LATN 200"
+        }
+      ]
+    }
+  }
+}

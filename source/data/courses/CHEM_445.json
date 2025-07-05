@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 445",
+  "originalPrerequisite": "One of CHEM 345, CHEM 335. Students satisfying the prerequisite requirement using CHEM 335 must have fourth-year standing in a Chemistry Combined Major specialization.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:59.408Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "445",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 345"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 335"
+            },
+            {
+              "type": "standing",
+              "standing": "4th"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 461",
+  "originalPrerequisite": "One of CHEM 312, ELEC 315, PHYS 250, PHYS 304.",
+  "originalCorequisite": "One of APSC 201, MTRL 478.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:54:12.524Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "461",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 312"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 315"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 250"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 304"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APSC 201"
+        },
+        {
+          "type": "course",
+          "course": "MTRL 478"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVE 201",
+  "originalPrerequisite": "WRDS 150 or equivalent (ENGL 100, 110, 111 or 112)",
+  "originalCorequisite": "One of ENVE 200, ENVE 202, ENVE 203.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:46.218Z",
+  "parsedRequirements": {
+    "department": "ENVE",
+    "code": "201",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "WRDS 150"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ENGL 100"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 110"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 111"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 112"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ENVE 200"
+        },
+        {
+          "type": "course",
+          "course": "ENVE 202"
+        },
+        {
+          "type": "course",
+          "course": "ENVE 203"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 260",
+  "originalPrerequisite": "Completion of first-year Science program and permission of the department head is also required.",
+  "originalCorequisite": "Either (a) PSYC 100 or (b) all of PSYC 101, PSYC 102.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:44.988Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "260",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "Completion of first-year Science program"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the department head"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 100"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 101"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 102"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

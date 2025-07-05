@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PCTH 201",
+  "originalPrerequisite": "One of Biology 12, BIOL 111, BIOL 112, BIOL 153, BIOL 155, or SCIE 001. Second-year standing is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:36.896Z",
+  "parsedRequirements": {
+    "department": "PCTH",
+    "code": "201",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "Biology 12"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 111"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 112"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 153"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 155"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "2nd"
+        }
+      ]
+    }
+  }
+}

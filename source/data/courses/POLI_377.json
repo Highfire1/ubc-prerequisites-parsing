@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 377",
+  "originalPrerequisite": "Third-year standing in B.A. or B.Sc. progrm, or second-year standing in B.A.Sc. program",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:05:16.359Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "377",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "3rd"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "program",
+                  "program": "B.A."
+                },
+                {
+                  "type": "program",
+                  "program": "B.Sc."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "2nd"
+            },
+            {
+              "type": "program",
+              "program": "B.A.Sc."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

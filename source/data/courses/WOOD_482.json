@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 482",
+  "originalPrerequisite": "All of WOOD 290, WOOD 292.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:43.161Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "482",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "WOOD 290"
+        },
+        {
+          "type": "course",
+          "course": "WOOD 292"
+        }
+      ]
+    }
+  }
+}

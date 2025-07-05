@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 313",
+  "originalPrerequisite": "MATH 312.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:56.750Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "313",
+    "prerequisites": {
+      "type": "course",
+      "course": "MATH 312"
+    }
+  }
+}

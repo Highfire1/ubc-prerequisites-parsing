@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 328",
+  "originalPrerequisite": "All of EOSC 323, EOSC 330 and one of EOSC 321, EOSC 322.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:54.330Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "328",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EOSC 323"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 330"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "EOSC 321"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 322"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

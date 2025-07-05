@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 310",
+  "originalPrerequisite": "BMEG 245 and one of CPEN 221, CPEN 223.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:52.685Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "310",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BMEG 245"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPEN 221"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 223"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 491",
+  "originalPrerequisite": "Either (a) all of COMM 390, COMM 395 or (b) COMM 396. Fourth-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:43:55.526Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "491",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 390"
+            },
+            {
+              "type": "course",
+              "course": "COMM 395"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "COMM 396"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "standing",
+      "standing": "4th"
+    }
+  }
+}

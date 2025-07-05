@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMR 382",
+  "originalPrerequisite": "One of ECON 101, ECON 310.",
+  "originalCorequisite": "One of COMM 280, COMR 280.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:08.627Z",
+  "parsedRequirements": {
+    "department": "COMR",
+    "code": "382",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECON 101"
+        },
+        {
+          "type": "course",
+          "course": "ECON 310"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 280"
+        },
+        {
+          "type": "course",
+          "course": "COMR 280"
+        }
+      ]
+    }
+  }
+}

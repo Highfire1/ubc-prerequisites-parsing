@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 291",
+  "originalPrerequisite": "CPEN 211.",
+  "originalCorequisite": "ELEC 201.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:09.004Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "291",
+    "prerequisites": {
+      "type": "course",
+      "course": "CPEN 211"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "ELEC 201"
+    }
+  }
+}

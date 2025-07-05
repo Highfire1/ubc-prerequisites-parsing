@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 495",
+  "originalPrerequisite": "One of LAST 100, GEOG 395.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:04.264Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "495",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LAST 100"
+        },
+        {
+          "type": "course",
+          "course": "GEOG 395"
+        }
+      ]
+    }
+  }
+}

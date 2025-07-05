@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 212",
+  "originalPrerequisite": "CPEN 211 and one of CPEN 221, CPEN 223, CPSC 259.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:03.613Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "212",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPEN 211"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPEN 221"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 223"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 259"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

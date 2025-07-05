@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MES 450",
+  "originalPrerequisite": "MES 300 and permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:53:53.013Z",
+  "parsedRequirements": {
+    "department": "MES",
+    "code": "450",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MES 300"
+        },
+        {
+          "type": "permission",
+          "note": "permission of instructor"
+        }
+      ]
+    }
+  }
+}

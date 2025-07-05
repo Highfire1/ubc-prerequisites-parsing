@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MANU 399",
+  "originalPrerequisite": "Third-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:25.639Z",
+  "parsedRequirements": {
+    "department": "MANU",
+    "code": "399",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

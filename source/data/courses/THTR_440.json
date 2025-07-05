@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 440",
+  "originalPrerequisite": "6 credits of THTR at the 300-level or above.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:31.016Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "440",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "department": "THTR",
+      "level": "300"
+    }
+  }
+}

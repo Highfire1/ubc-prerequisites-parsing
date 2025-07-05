@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COHR 302",
+  "originalPrerequisite": "COMM 203 and one of COMM 191, COMM 291.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:39.898Z",
+  "parsedRequirements": {
+    "department": "COHR",
+    "code": "302",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 203"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 191"
+            },
+            {
+              "type": "course",
+              "course": "COMM 291"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

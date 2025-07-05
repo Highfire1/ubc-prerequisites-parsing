@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ACAM 447",
+  "originalPrerequisite": "Permission of the Chair of the ACAM program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:16:52.434Z",
+  "parsedRequirements": {
+    "department": "ACAM",
+    "code": "447",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of the Chair of the ACAM program"
+    }
+  }
+}

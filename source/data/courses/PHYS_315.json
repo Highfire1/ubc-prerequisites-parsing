@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 315",
+  "originalPrerequisite": "One of PHYS 203, ENPH 257, CHEM 201, CHEM 205, CHEM 304 and one of PHYS 200, PHYS 250, CHEM 312.",
+  "originalCorequisite": "MATH 215.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:56.807Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "315",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 203"
+            },
+            {
+              "type": "course",
+              "course": "ENPH 257"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 201"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 205"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 304"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 200"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 250"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 312"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MATH 215"
+    }
+  }
+}

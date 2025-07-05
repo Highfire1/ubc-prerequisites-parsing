@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HIST 406",
+  "originalPrerequisite": "Recommended: 3 credits of any HISTcourse.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:55.605Z",
+  "parsedRequirements": {
+    "department": "HIST",
+    "code": "406",
+    "recommendedPrerequisites": {
+      "type": "credit_count",
+      "credits": 3,
+      "department": "HIST"
+    }
+  }
+}

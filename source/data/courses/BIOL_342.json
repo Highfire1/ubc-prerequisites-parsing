@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 342",
+  "originalPrerequisite": "Third-year standing or higher in Combined Major in Science, and one of (a) BIOL 121 and BIOL 180 (or BIOL 140), or (b) SCIE 001, or (c) 8 transfer credits of first-year biology.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:19.871Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "342",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BIOL 121"
+                },
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "BIOL 180"
+                    },
+                    {
+                      "type": "course",
+                      "course": "BIOL 140"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            },
+            {
+              "type": "credit_count",
+              "credits": 8,
+              "department": "BIOL",
+              "level": "100"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

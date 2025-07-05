@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MINE 395",
+  "originalPrerequisite": "All of MINE 291, MINE 292.",
+  "originalCorequisite": "STAT 251.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:04.338Z",
+  "parsedRequirements": {
+    "department": "MINE",
+    "code": "395",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MINE 291"
+        },
+        {
+          "type": "course",
+          "course": "MINE 292"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "STAT 251"
+    }
+  }
+}

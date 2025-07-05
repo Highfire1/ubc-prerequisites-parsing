@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NSCI 448",
+  "originalPrerequisite": "At least a 70% average in the preceding 30 credits, permission of the supervisor, and permission of the director of the neuroscience specialization.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:59:22.410Z",
+  "parsedRequirements": {
+    "department": "NSCI",
+    "code": "448",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "credit_count",
+          "credits": 30,
+          "minGrade": 70
+        },
+        {
+          "type": "permission",
+          "note": "permission of the supervisor"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the director of the neuroscience specialization"
+        }
+      ]
+    }
+  }
+}

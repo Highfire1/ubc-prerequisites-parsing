@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 399",
+  "originalPrerequisite": "All of BUSI 290, BUSI 291 or equivalents.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:33.687Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "399",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BUSI 290"
+            },
+            {
+              "type": "course",
+              "course": "BUSI 291"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

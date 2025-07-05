@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 491",
+  "originalPrerequisite": "All of CHBE 362, CHBE 366.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:52.440Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "491",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 362"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 366"
+        }
+      ]
+    }
+  }
+}

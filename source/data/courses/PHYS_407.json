@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 407",
+  "originalPrerequisite": "One of MATH 217, MATH 227, MATH 317 and one of MATH 215, MATH 255. PHYS 301 and one of PHYS 206, PHYS 306 are recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:27.508Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "407",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 217"
+            },
+            {
+              "type": "course",
+              "course": "MATH 227"
+            },
+            {
+              "type": "course",
+              "course": "MATH 317"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 215"
+            },
+            {
+              "type": "course",
+              "course": "MATH 255"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "PHYS 301"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 206"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 306"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

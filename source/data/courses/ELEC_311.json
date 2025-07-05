@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 311",
+  "originalPrerequisite": "ELEC 211 and either (a) all of MATH 101, MATH 263, MATH 265, MATH 267 or (b) all of MATH 101, MATH 253, MATH 264, MATH 265, MATH 267 or (c) all of MATH 101, MATH 253, MATH 256, MATH 264.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:26.283Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "311",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 211"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 101"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 263"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 265"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 267"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 101"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 253"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 264"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 265"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 267"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 101"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 253"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 256"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 264"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

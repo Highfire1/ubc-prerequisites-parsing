@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "AMNE 300",
+  "originalPrerequisite": "Second-year standing or higher. AMNE 200 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:17:48.232Z",
+  "parsedRequirements": {
+    "department": "AMNE",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "2nd"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "AMNE 200"
+        }
+      ]
+    }
+  }
+}

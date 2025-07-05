@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HGSE 359",
+  "originalPrerequisite": "Third-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:27.460Z",
+  "parsedRequirements": {
+    "department": "HGSE",
+    "code": "359",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PORT 210",
+  "originalPrerequisite": "PORT 110. Heritage speakers who feel ready to enter PORT 210 directly should consult the undergraduate advisor in Portuguese.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:32.659Z",
+  "parsedRequirements": {
+    "department": "PORT",
+    "code": "210",
+    "prerequisites": {
+      "type": "course",
+      "course": "PORT 110"
+    }
+  }
+}

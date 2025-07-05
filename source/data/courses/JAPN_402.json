@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 402",
+  "originalPrerequisite": "One of JAPN 213, JAPN 251, JAPN 323, JAPN 361.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:25.741Z",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "402",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "JAPN 213"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 251"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 323"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 361"
+        }
+      ]
+    }
+  }
+}

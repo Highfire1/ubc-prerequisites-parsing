@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ARTC 100",
+  "originalPrerequisite": "Completion of Writing Component of Arts Writing and Research Requirement strongly recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:23:46.418Z",
+  "parsedRequirements": {
+    "department": "ARTC",
+    "code": "100",
+    "recommendedPrerequisites": {
+      "type": "other",
+      "note": "Completion of Writing Component of Arts Writing and Research Requirement"
+    }
+  }
+}

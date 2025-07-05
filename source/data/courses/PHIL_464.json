@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 464",
+  "originalPrerequisite": "Fourth-year standing in any degree program or 9 credits of philosophy.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:03.385Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "464",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "credit_count",
+          "credits": 9,
+          "department": "PHIL"
+        }
+      ]
+    }
+  }
+}

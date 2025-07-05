@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRE 385",
+  "originalPrerequisite": "One of ECON 101, ECON 310 and one of LFS 252, BIOL 300, FRST 231, STAT 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:05.426Z",
+  "parsedRequirements": {
+    "department": "FRE",
+    "code": "385",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 101"
+            },
+            {
+              "type": "course",
+              "course": "ECON 310"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "LFS 252"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 300"
+            },
+            {
+              "type": "course",
+              "course": "FRST 231"
+            },
+            {
+              "type": "course",
+              "course": "STAT 200"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

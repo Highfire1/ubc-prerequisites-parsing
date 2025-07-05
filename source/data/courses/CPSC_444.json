@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 444",
+  "originalPrerequisite": "CPSC 344 and one of STAT 200, STAT 201, STAT 203, STAT 241, STAT 251, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, GEOG 374, KIN 206, KIN 371, POLI 380, PSYC 218, PSYC 278, PSYC 366, SOCI 328.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:03.208Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "444",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 344"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "STAT 200"
+            },
+            {
+              "type": "course",
+              "course": "STAT 201"
+            },
+            {
+              "type": "course",
+              "course": "STAT 203"
+            },
+            {
+              "type": "course",
+              "course": "STAT 241"
+            },
+            {
+              "type": "course",
+              "course": "STAT 251"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 300"
+            },
+            {
+              "type": "course",
+              "course": "COMM 291"
+            },
+            {
+              "type": "course",
+              "course": "ECON 325"
+            },
+            {
+              "type": "course",
+              "course": "ECON 327"
+            },
+            {
+              "type": "course",
+              "course": "FRST 231"
+            },
+            {
+              "type": "course",
+              "course": "GEOG 374"
+            },
+            {
+              "type": "course",
+              "course": "KIN 206"
+            },
+            {
+              "type": "course",
+              "course": "KIN 371"
+            },
+            {
+              "type": "course",
+              "course": "POLI 380"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 218"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 278"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 366"
+            },
+            {
+              "type": "course",
+              "course": "SOCI 328"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

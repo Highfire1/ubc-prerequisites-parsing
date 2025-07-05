@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LLED 325",
+  "originalPrerequisite": "A completed concentration in French or permission of the Head.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:55.104Z",
+  "parsedRequirements": {
+    "department": "LLED",
+    "code": "325",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "A completed concentration in French"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the Head"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 203",
+  "originalPrerequisite": "One of COMM 192, COMM 292 and either (a) all of ECON 101, ECON 102 or (b) ECON 100.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:42:08.260Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "203",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 192"
+            },
+            {
+              "type": "course",
+              "course": "COMM 292"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "group",
+                  "logic": "ALL_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "ECON 101"
+                    },
+                    {
+                      "type": "course",
+                      "course": "ECON 102"
+                    }
+                  ]
+                },
+                {
+                  "type": "course",
+                  "course": "ECON 100"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

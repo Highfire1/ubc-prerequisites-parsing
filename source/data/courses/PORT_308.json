@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PORT 308",
+  "originalPrerequisite": "One of PORT 202, PORT 210.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:35.093Z",
+  "parsedRequirements": {
+    "department": "PORT",
+    "code": "308",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PORT 202"
+        },
+        {
+          "type": "course",
+          "course": "PORT 210"
+        }
+      ]
+    }
+  }
+}

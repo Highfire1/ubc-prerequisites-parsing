@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHAR 380",
+  "originalPrerequisite": "PHAR 280.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:14.132Z",
+  "parsedRequirements": {
+    "department": "PHAR",
+    "code": "380",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHAR 280"
+    }
+  }
+}

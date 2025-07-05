@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LLED 478",
+  "originalPrerequisite": "For B.Ed. TESL, LLED 315.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:12.328Z",
+  "parsedRequirements": {
+    "department": "LLED",
+    "code": "478",
+    "prerequisites": {
+      "type": "course",
+      "course": "LLED 315"
+    }
+  }
+}

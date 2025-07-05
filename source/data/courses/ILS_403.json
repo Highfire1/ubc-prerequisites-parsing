@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ILS 403",
+  "originalPrerequisite": "ILS 402.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:20.662Z",
+  "parsedRequirements": {
+    "department": "ILS",
+    "code": "403",
+    "prerequisites": {
+      "type": "course",
+      "course": "ILS 402"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 403",
+  "originalPrerequisite": "BIOC 402. A minimum standing of 65% is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:44.699Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "403",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOC 402",
+          "minGrade": 65
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "A minimum standing of 65% is recommended."
+        }
+      ]
+    }
+  }
+}

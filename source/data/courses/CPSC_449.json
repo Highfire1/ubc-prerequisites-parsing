@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 449",
+  "originalPrerequisite": "CPSC 349.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:07.546Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "449",
+    "prerequisites": {
+      "type": "course",
+      "course": "CPSC 349"
+    }
+  }
+}

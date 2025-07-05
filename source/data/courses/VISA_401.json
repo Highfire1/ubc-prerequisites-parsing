@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 401",
+  "originalPrerequisite": "Three of VISA 310, VISA 311, VISA 320, VISA 321, VISA 330, VISA 331, VISA 340, VISA 341, VISA 350, VISA 351, VISA 352, VISA 360, VISA 361, VISA 370, VISA 375, VISA 390.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:52.727Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "TWO_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "VISA 310"
+        },
+        {
+          "type": "course",
+          "course": "VISA 311"
+        },
+        {
+          "type": "course",
+          "course": "VISA 320"
+        },
+        {
+          "type": "course",
+          "course": "VISA 321"
+        },
+        {
+          "type": "course",
+          "course": "VISA 330"
+        },
+        {
+          "type": "course",
+          "course": "VISA 331"
+        },
+        {
+          "type": "course",
+          "course": "VISA 340"
+        },
+        {
+          "type": "course",
+          "course": "VISA 341"
+        },
+        {
+          "type": "course",
+          "course": "VISA 350"
+        },
+        {
+          "type": "course",
+          "course": "VISA 351"
+        },
+        {
+          "type": "course",
+          "course": "VISA 352"
+        },
+        {
+          "type": "course",
+          "course": "VISA 360"
+        },
+        {
+          "type": "course",
+          "course": "VISA 361"
+        },
+        {
+          "type": "course",
+          "course": "VISA 370"
+        },
+        {
+          "type": "course",
+          "course": "VISA 375"
+        },
+        {
+          "type": "course",
+          "course": "VISA 390"
+        }
+      ]
+    }
+  }
+}

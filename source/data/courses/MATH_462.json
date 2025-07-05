@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 462",
+  "originalPrerequisite": "One of MATH 361, MATH 345.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:14.005Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "462",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 361"
+        },
+        {
+          "type": "course",
+          "course": "MATH 345"
+        }
+      ]
+    }
+  }
+}

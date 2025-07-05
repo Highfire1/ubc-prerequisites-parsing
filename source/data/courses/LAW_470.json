@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LAW 470",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of LAW 471, LAW 476.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:06.800Z",
+  "parsedRequirements": {
+    "department": "LAW",
+    "code": "470",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LAW 471"
+        },
+        {
+          "type": "course",
+          "course": "LAW 476"
+        }
+      ]
+    }
+  }
+}

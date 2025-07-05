@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 213",
+  "originalPrerequisite": "Either (a) one of CHEM 203, CHEM 223 or (b) a score of 76% or higher in CHEM 233.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:35.482Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "213",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 203"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 223"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "CHEM 233",
+          "minGrade": 76
+        }
+      ]
+    }
+  }
+}

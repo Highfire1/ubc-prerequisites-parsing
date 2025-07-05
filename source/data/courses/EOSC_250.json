@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 250",
+  "originalPrerequisite": "One of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157.",
+  "originalCorequisite": "MATH 200. One of PHYS 108, 118, 158 is recommended.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:31.916Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "250",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 101"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 106"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 107"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 117"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 131"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 157"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MATH 200"
+    },
+    "recommendedCorequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 108"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 118"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 158"
+        }
+      ],
+      "recommended": true
+    }
+  }
+}

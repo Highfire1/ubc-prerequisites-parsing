@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 155",
+  "originalPrerequisite": "One of CHEM 12, CHEM 100, CHEM 110, CHEM 111 and one of BIOL 11, BIOL 12, BIOL 111.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:12.145Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "155",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 12"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 100"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 110"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 111"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 11"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 12"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 111"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

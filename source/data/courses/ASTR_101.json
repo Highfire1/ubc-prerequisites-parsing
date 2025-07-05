@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASTR 101",
+  "originalPrerequisite": "One of PHYS 11, PHYS 12, PHYS 100. plus Principles of Mathematics 12.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:09.948Z",
+  "parsedRequirements": {
+    "department": "ASTR",
+    "code": "101",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 11"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 12"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 100"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "Principles of Mathematics 12"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENDS 402",
+  "originalPrerequisite": "ENDS 401.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:54:22.160Z",
+  "parsedRequirements": {
+    "department": "ENDS",
+    "code": "402",
+    "prerequisites": {
+      "type": "course",
+      "course": "ENDS 401"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 419",
+  "originalPrerequisite": "EDCP 418.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:36.570Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "419",
+    "prerequisites": {
+      "type": "course",
+      "course": "EDCP 418"
+    }
+  }
+}

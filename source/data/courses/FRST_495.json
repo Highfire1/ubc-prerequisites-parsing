@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRST 495",
+  "originalPrerequisite": "All of FRST 201, FRST 395.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:14.250Z",
+  "parsedRequirements": {
+    "department": "FRST",
+    "code": "495",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FRST 201"
+        },
+        {
+          "type": "course",
+          "course": "FRST 395"
+        }
+      ]
+    }
+  }
+}

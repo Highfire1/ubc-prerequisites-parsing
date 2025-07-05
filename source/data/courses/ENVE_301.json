@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVE 301",
+  "originalPrerequisite": "All of ENVE 202, ENVE 203 and Third-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:50.505Z",
+  "parsedRequirements": {
+    "department": "ENVE",
+    "code": "301",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ENVE 202"
+        },
+        {
+          "type": "course",
+          "course": "ENVE 203"
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

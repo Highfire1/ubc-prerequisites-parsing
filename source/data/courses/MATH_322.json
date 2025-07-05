@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 322",
+  "originalPrerequisite": "Either (a) a score of 68% or higher in one of MATH 223, MATH 310 or (b) one of MATH 152, MATH 221, MATH 223 and a score of 80% or higher in MATH 220.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:10.985Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "322",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 223",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 310",
+              "minGrade": 68
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 152"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 221"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 223"
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "course": "MATH 220",
+              "minGrade": 80
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

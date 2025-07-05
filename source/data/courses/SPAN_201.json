@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPAN 201",
+  "originalPrerequisite": "One of SPAN 102, SPAN 103, SPAN 11.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:30.195Z",
+  "parsedRequirements": {
+    "department": "SPAN",
+    "code": "201",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SPAN 102"
+        },
+        {
+          "type": "course",
+          "course": "SPAN 103"
+        },
+        {
+          "type": "course",
+          "course": "SPAN 11"
+        }
+      ]
+    }
+  }
+}

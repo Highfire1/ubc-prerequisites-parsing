@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 401",
+  "originalPrerequisite": "One of ELEC 301, ELEC 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:45.660Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 301"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 302"
+        }
+      ]
+    }
+  }
+}

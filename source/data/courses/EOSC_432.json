@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 432",
+  "originalPrerequisite": null,
+  "originalCorequisite": "EOSC 320.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:41.989Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "432",
+    "corequisites": {
+      "type": "course",
+      "course": "EOSC 320"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 274",
+  "originalPrerequisite": "PSYC 273.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:55.709Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "274",
+    "prerequisites": {
+      "type": "course",
+      "course": "PSYC 273"
+    }
+  }
+}

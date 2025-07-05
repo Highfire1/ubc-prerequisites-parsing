@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 408",
+  "originalPrerequisite": "One of PHYS 101, PHYS 107, PHYS 153, SCIE 001 and one of GEOB 206, GEOS 206, GEOB 305, GEOS 305, GEOB 308, GEOS 308.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:48.667Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "408",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 101"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 107"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 153"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 206"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 206"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 305"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 305"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 308"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 308"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

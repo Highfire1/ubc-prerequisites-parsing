@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 413",
+  "originalPrerequisite": "One of PSYC 302, PSYC 315, PSYC 319, PSYC 322, PSYC 325.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:36.207Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "413",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 302"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 315"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 319"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 322"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 325"
+        }
+      ]
+    }
+  }
+}

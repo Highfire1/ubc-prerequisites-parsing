@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECED 490",
+  "originalPrerequisite": "All of ECED 400, ECED 438.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:52.301Z",
+  "parsedRequirements": {
+    "department": "ECED",
+    "code": "490",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECED 400"
+        },
+        {
+          "type": "course",
+          "course": "ECED 438"
+        }
+      ]
+    }
+  }
+}

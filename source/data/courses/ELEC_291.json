@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 291",
+  "originalPrerequisite": "All of ELEC 201, CPEN 211.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:17.356Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "291",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 201"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 211"
+        }
+      ]
+    }
+  }
+}

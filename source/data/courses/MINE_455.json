@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MINE 455",
+  "originalPrerequisite": "One of MINE 291, MINE 292.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:17.315Z",
+  "parsedRequirements": {
+    "department": "MINE",
+    "code": "455",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MINE 291"
+        },
+        {
+          "type": "course",
+          "course": "MINE 292"
+        }
+      ]
+    }
+  }
+}

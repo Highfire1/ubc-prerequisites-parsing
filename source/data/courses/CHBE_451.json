@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 451",
+  "originalPrerequisite": "One of CHBE 346, MTRL 350. Or equivalent.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:14.293Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "451",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHBE 346"
+            },
+            {
+              "type": "course",
+              "course": "MTRL 350"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "equivalent"
+        }
+      ]
+    }
+  }
+}

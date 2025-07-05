@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 372",
+  "originalPrerequisite": "Either (a) SCIE 001 or (b) one of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 154 and one of MATH 101, MATH 103, MATH 105, MATH 121 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 153, PHYS 157.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:21.309Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "372",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 110"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 111"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 120"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 121"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 154"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 101"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 103"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 105"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 121"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 101"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 106"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 107"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 117"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 131"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 153"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 157"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 432",
+  "originalPrerequisite": "BIOL 200 and one of BIOL 233, BIOL 234. And fourth-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:18.031Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "432",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 200"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 233"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 234"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        }
+      ]
+    }
+  }
+}

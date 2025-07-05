@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 401",
+  "originalPrerequisite": "BIOL 301 and one of MATH 101, MATH 103, MATH 105, MATH 121.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:39.756Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 301"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 101"
+            },
+            {
+              "type": "course",
+              "course": "MATH 103"
+            },
+            {
+              "type": "course",
+              "course": "MATH 105"
+            },
+            {
+              "type": "course",
+              "course": "MATH 121"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 425",
+  "originalPrerequisite": "One of ECON 325, ECON 327 and one of ECON 326, ECON 328.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:51:16.015Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "425",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 325"
+            },
+            {
+              "type": "course",
+              "course": "ECON 327"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 326"
+            },
+            {
+              "type": "course",
+              "course": "ECON 328"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

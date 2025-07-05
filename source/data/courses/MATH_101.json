@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 101",
+  "originalPrerequisite": "One of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:34.439Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "101",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 100"
+        },
+        {
+          "type": "course",
+          "course": "MATH 102"
+        },
+        {
+          "type": "course",
+          "course": "MATH 104"
+        },
+        {
+          "type": "course",
+          "course": "MATH 110"
+        },
+        {
+          "type": "course",
+          "course": "MATH 120"
+        },
+        {
+          "type": "course",
+          "course": "MATH 180"
+        },
+        {
+          "type": "course",
+          "course": "MATH 184"
+        }
+      ]
+    }
+  }
+}

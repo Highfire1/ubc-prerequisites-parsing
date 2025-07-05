@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASIA 400",
+  "originalPrerequisite": "ASIA 300 and one of CHIN 207, CHIN 208, CHIN 337, CHIN 338, CHIN 217, CHIN 218, CHIN 347, CHIN 348, JAPN 213, JAPN 251, JAPN 323, JAPN 361, KORN 300, KORN 301, KORN 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:24:18.221Z",
+  "parsedRequirements": {
+    "department": "ASIA",
+    "code": "400",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ASIA 300"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHIN 207"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 208"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 337"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 338"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 217"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 218"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 347"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 348"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 213"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 251"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 323"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 361"
+            },
+            {
+              "type": "course",
+              "course": "KORN 300"
+            },
+            {
+              "type": "course",
+              "course": "KORN 301"
+            },
+            {
+              "type": "course",
+              "course": "KORN 302"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

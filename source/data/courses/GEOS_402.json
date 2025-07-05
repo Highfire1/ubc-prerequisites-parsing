@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 402",
+  "originalPrerequisite": "One of GEOB 200, GEOS 200, GEOB 300, GEOS 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:38.562Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "402",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOB 200"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 200"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 300"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 300"
+        }
+      ]
+    }
+  }
+}

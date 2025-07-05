@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KORN 420",
+  "originalPrerequisite": "Non-heritage speakers should have completed KORN 410 or be taking it concurrently. Heritage and native speakers of Korean welcome.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:05.626Z",
+  "parsedRequirements": {
+    "department": "KORN",
+    "code": "420",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "KORN 410",
+          "canBeTakenConcurrently": true
+        },
+        {
+          "type": "other",
+          "note": "Heritage and native speakers of Korean"
+        }
+      ]
+    }
+  }
+}

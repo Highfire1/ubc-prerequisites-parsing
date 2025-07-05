@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 422",
+  "originalPrerequisite": "12 credits at CHIN 300 level or above is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:38:56.633Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "422",
+    "recommendedPrerequisites": {
+      "type": "credit_count",
+      "credits": 12,
+      "department": "CHIN",
+      "level": "300"
+    }
+  }
+}

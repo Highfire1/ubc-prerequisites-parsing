@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 411",
+  "originalPrerequisite": "One of BIOL 205, BIOL 327, APBI 327.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:53.077Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "411",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 205"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 327"
+        },
+        {
+          "type": "course",
+          "course": "APBI 327"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNEL 112",
+  "originalPrerequisite": "FNEL 111 in the same language.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:39.162Z",
+  "parsedRequirements": {
+    "department": "FNEL",
+    "code": "112",
+    "prerequisites": {
+      "type": "course",
+      "course": "FNEL 111"
+    }
+  }
+}

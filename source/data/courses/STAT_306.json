@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "STAT 306",
+  "originalPrerequisite": "One of MATH 152, MATH 221, MATH 223 and one of STAT 200, STAT 241, STAT 251, STAT 300, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, PSYC 218, PSYC 278, PSYC 366 and one of MATH 302, STAT 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:40.590Z",
+  "parsedRequirements": {
+    "department": "STAT",
+    "code": "306",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "STAT 200"
+            },
+            {
+              "type": "course",
+              "course": "STAT 241"
+            },
+            {
+              "type": "course",
+              "course": "STAT 251"
+            },
+            {
+              "type": "course",
+              "course": "STAT 300"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 300"
+            },
+            {
+              "type": "course",
+              "course": "COMM 291"
+            },
+            {
+              "type": "course",
+              "course": "ECON 325"
+            },
+            {
+              "type": "course",
+              "course": "ECON 327"
+            },
+            {
+              "type": "course",
+              "course": "FRST 231"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 218"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 278"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 366"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 302"
+            },
+            {
+              "type": "course",
+              "course": "STAT 302"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 440",
+  "originalPrerequisite": "CIVL 340.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:01.242Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "440",
+    "prerequisites": {
+      "type": "course",
+      "course": "CIVL 340"
+    }
+  }
+}

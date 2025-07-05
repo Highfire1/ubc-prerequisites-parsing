@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 330",
+  "originalPrerequisite": "Either (a) one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 180, MATH 184 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 153, PHYS 157; or (b) SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:02.921Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "330",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 100"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 102"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 104"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 110"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 180"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 184"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 101"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 106"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 107"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 117"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 131"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 153"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 157"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    }
+  }
+}

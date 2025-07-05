@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ATSC 212",
+  "originalPrerequisite": "One of CPSC 103, CPSC 110.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:49.094Z",
+  "parsedRequirements": {
+    "department": "ATSC",
+    "code": "212",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 103"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 110"
+        }
+      ]
+    }
+  }
+}

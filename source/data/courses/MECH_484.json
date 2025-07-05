@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 484",
+  "originalPrerequisite": null,
+  "originalCorequisite": "MECH 481.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:52:01.486Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "484",
+    "corequisites": {
+      "type": "course",
+      "course": "MECH 481"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "UFOR 400",
+  "originalPrerequisite": "UFOR 200. And third year standing in the B.U.F. program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:54.324Z",
+  "parsedRequirements": {
+    "department": "UFOR",
+    "code": "400",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "UFOR 200"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "3rd"
+            },
+            {
+              "type": "program",
+              "program": "B.U.F."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

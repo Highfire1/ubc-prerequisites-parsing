@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 102",
+  "originalPrerequisite": "One of PHYS 101, PHYS 107.",
+  "originalCorequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:40.330Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "102",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 101"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 107"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 101"
+        },
+        {
+          "type": "course",
+          "course": "MATH 103"
+        },
+        {
+          "type": "course",
+          "course": "MATH 105"
+        },
+        {
+          "type": "course",
+          "course": "MATH 121"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SOCI 364",
+  "originalPrerequisite": "One of SOCI 100, SOCI 101, SOCI 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:30:33.399Z",
+  "parsedRequirements": {
+    "department": "SOCI",
+    "code": "364",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SOCI 100"
+        },
+        {
+          "type": "course",
+          "course": "SOCI 101"
+        },
+        {
+          "type": "course",
+          "course": "SOCI 102"
+        }
+      ]
+    }
+  }
+}

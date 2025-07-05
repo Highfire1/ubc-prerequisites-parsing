@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CRWR 319",
+  "originalPrerequisite": "All of CRWR 200, CRWR 209.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:25.647Z",
+  "parsedRequirements": {
+    "department": "CRWR",
+    "code": "319",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CRWR 200"
+        },
+        {
+          "type": "course",
+          "course": "CRWR 209"
+        }
+      ]
+    }
+  }
+}

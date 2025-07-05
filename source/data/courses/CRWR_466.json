@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CRWR 466",
+  "originalPrerequisite": "Restricted to Majors in Creative Writing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:01.190Z",
+  "parsedRequirements": {
+    "department": "CRWR",
+    "code": "466",
+    "prerequisites": {
+      "type": "program",
+      "program": "Creative Writing"
+    }
+  }
+}

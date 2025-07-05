@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHAR 433",
+  "originalPrerequisite": "PHAR 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:22.700Z",
+  "parsedRequirements": {
+    "department": "PHAR",
+    "code": "433",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHAR 302"
+    }
+  }
+}

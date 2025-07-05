@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VANT 149",
+  "originalPrerequisite": "VANT 148.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:08.508Z",
+  "parsedRequirements": {
+    "department": "VANT",
+    "code": "149",
+    "prerequisites": {
+      "type": "course",
+      "course": "VANT 148"
+    }
+  }
+}

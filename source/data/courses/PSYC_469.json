@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 469",
+  "originalPrerequisite": "Either (a) one of PSYC 314, PSYC 360 or (b) MICB 302 and either (a) PSYC 100 or (b) all of PSYC 101, PSYC 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:08.670Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "469",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 314"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 360"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MICB 302"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PSYC 100"
+                },
+                {
+                  "type": "group",
+                  "logic": "ALL_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "PSYC 101"
+                    },
+                    {
+                      "type": "course",
+                      "course": "PSYC 102"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 477",
+  "originalPrerequisite": "All of CHBE 220, CHBE 241, CHBE 346.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:36.834Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "477",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 220"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 241"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 346"
+        }
+      ]
+    }
+  }
+}

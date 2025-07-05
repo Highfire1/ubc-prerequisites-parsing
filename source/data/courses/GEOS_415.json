@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 415",
+  "originalPrerequisite": "One of GEOB 206, GEOS 206, GEOB 305, GEOS 305, GEOB 405, GEOS 405, GEOB 406, GEOS 406, EOSC 329, EOSC 330.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:53.342Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "415",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOB 206"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 206"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 305"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 305"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 405"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 405"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 406"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 406"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 329"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 330"
+        }
+      ]
+    }
+  }
+}

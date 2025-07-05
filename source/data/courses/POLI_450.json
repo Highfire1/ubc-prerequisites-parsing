@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 450",
+  "originalPrerequisite": "Either (a) POLI 101 and one of POLI 302, POLI 306, POLI 350; or (b) all of POLI 350, POLI 352.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:06:43.695Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "450",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 101"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "POLI 302"
+                },
+                {
+                  "type": "course",
+                  "course": "POLI 306"
+                },
+                {
+                  "type": "course",
+                  "course": "POLI 350"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 350"
+            },
+            {
+              "type": "course",
+              "course": "POLI 352"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

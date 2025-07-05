@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 466",
+  "originalPrerequisite": "One of ECON 301, ECON 304, ECON 315.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:51:42.907Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "466",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECON 301"
+        },
+        {
+          "type": "course",
+          "course": "ECON 304"
+        },
+        {
+          "type": "course",
+          "course": "ECON 315"
+        }
+      ]
+    }
+  }
+}

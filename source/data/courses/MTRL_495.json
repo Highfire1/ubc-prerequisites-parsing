@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MTRL 495",
+  "originalPrerequisite": "APSC 278.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:59.712Z",
+  "parsedRequirements": {
+    "department": "MTRL",
+    "code": "495",
+    "prerequisites": {
+      "type": "course",
+      "course": "APSC 278"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 474",
+  "originalPrerequisite": "One of PHYS 450, PHYS 304.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:46.640Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "474",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 450"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 304"
+        }
+      ]
+    }
+  }
+}

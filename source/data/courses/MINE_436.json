@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MINE 436",
+  "originalPrerequisite": "MATH 255 and one of MECH 280, CIVL 215.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:15.158Z",
+  "parsedRequirements": {
+    "department": "MINE",
+    "code": "436",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 255"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MECH 280"
+            },
+            {
+              "type": "course",
+              "course": "CIVL 215"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

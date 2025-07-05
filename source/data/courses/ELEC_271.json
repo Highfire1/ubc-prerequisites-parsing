@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 271",
+  "originalPrerequisite": null,
+  "originalCorequisite": "ELEC 202.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:13.861Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "271",
+    "corequisites": {
+      "type": "course",
+      "course": "ELEC 202"
+    }
+  }
+}

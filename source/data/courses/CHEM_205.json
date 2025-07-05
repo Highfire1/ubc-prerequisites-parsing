@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 205",
+  "originalPrerequisite": "Either (a) SCIE 001 or (b) one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 and one of CHEM 130, CHEM 123, CHEM 154.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:28.350Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "205",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 100"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 102"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 104"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 110"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 120"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 180"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 184"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 130"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 123"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 154"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

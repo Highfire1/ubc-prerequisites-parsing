@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 430",
+  "originalPrerequisite": "All of WOOD 290, WOOD 330, WOOD 485.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:37.532Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "430",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "WOOD 290"
+        },
+        {
+          "type": "course",
+          "course": "WOOD 330"
+        },
+        {
+          "type": "course",
+          "course": "WOOD 485"
+        }
+      ]
+    }
+  }
+}

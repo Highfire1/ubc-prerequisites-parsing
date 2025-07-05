@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "STAT 406",
+  "originalPrerequisite": "One of STAT 306, CPSC 340.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:51.317Z",
+  "parsedRequirements": {
+    "department": "STAT",
+    "code": "406",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "STAT 306"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 340"
+        }
+      ]
+    }
+  }
+}

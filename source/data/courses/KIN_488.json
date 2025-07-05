@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KIN 488",
+  "originalPrerequisite": "Restricted to students in the BKIN program with fourth-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:43:48.429Z",
+  "parsedRequirements": {
+    "department": "KIN",
+    "code": "488",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "program",
+          "program": "BKIN"
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        }
+      ]
+    }
+  }
+}

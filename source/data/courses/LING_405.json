@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LING 405",
+  "originalPrerequisite": "All of LING 300, LING 311. Recommended: LING 327",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:34.108Z",
+  "parsedRequirements": {
+    "department": "LING",
+    "code": "405",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LING 300"
+        },
+        {
+          "type": "course",
+          "course": "LING 311"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "LING 327"
+    }
+  }
+}

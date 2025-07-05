@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "UFOR 403",
+  "originalPrerequisite": "One of FRST 201, BIOL 230. And third year standing",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:59.186Z",
+  "parsedRequirements": {
+    "department": "UFOR",
+    "code": "403",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FRST 201"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 230"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

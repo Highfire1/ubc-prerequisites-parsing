@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDUC 421",
+  "originalPrerequisite": "Normally all requirements set to precede this practicum.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:51.970Z",
+  "parsedRequirements": {
+    "department": "EDUC",
+    "code": "421",
+    "prerequisites": {
+      "type": "other",
+      "note": "Normally all requirements set to precede this practicum"
+    }
+  }
+}

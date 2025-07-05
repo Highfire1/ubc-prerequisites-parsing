@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 388",
+  "originalPrerequisite": "One of CHIN 107, CHIN 108, CHIN 233, CHIN 234, JAPN 103, JAPN 151, JAPN 201, JAPN 260, KORN 200. Or placement approval.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:38:43.304Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "388",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHIN 107"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 108"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 233"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 234"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 103"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 151"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 201"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 260"
+            },
+            {
+              "type": "course",
+              "course": "KORN 200"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "Placement approval"
+        }
+      ]
+    }
+  }
+}

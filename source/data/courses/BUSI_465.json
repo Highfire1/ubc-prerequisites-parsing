@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 465",
+  "originalPrerequisite": "All of BUSI 293, BUSI 295.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:53.441Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "465",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 293"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 295"
+        }
+      ]
+    }
+  }
+}

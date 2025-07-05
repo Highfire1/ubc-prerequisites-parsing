@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LING 425",
+  "originalPrerequisite": "LING 327 or PHIL 220. A basic introduction to syntax is recommended (e.g., LING 100, LING 201, or ENGL 331).",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:40.370Z",
+  "parsedRequirements": {
+    "department": "LING",
+    "code": "425",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LING 327"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 220"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LING 100"
+        },
+        {
+          "type": "course",
+          "course": "LING 201"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 331"
+        }
+      ],
+      "recommended": true
+    }
+  }
+}

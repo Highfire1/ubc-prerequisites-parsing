@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 480",
+  "originalPrerequisite": "COMM 381.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:43:52.669Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "480",
+    "prerequisites": {
+      "type": "course",
+      "course": "COMM 381"
+    }
+  }
+}

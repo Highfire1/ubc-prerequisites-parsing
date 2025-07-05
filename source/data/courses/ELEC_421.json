@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 421",
+  "originalPrerequisite": "ELEC 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:53.045Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "421",
+    "prerequisites": {
+      "type": "course",
+      "course": "ELEC 221"
+    }
+  }
+}

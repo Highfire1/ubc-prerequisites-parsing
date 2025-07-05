@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 451",
+  "originalPrerequisite": "All of FNH 350, BIOC 302 and one of BIOL 153, BIOL 155, CAPS 301.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:15.678Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "451",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNH 350"
+        },
+        {
+          "type": "course",
+          "course": "BIOC 302"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 153"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 155"
+            },
+            {
+              "type": "course",
+              "course": "CAPS 301"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

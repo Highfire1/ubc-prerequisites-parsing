@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GRSJ 480",
+  "originalPrerequisite": "All of GRSJ 101, GRSJ 102 and either (a) two of GRSJ 325, GRSJ 326, GRSJ 327, GRSJ 328 or (b) two of WMST 325, WMST 326, WMST 327, WMST 328. Consult the department.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:12:58.603Z",
+  "parsedRequirements": {
+    "department": "GRSJ",
+    "code": "480",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GRSJ 101"
+            },
+            {
+              "type": "course",
+              "course": "GRSJ 102"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course_count",
+              "count": 2,
+              "department": "GRSJ",
+              "level": "300"
+            },
+            {
+              "type": "course_count",
+              "count": 2,
+              "department": "WMST",
+              "level": "300"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

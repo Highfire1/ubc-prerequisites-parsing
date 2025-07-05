@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 295",
+  "originalPrerequisite": "Either (a) ECON 100 or (b) all of ECON 101, ECON 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:42:13.820Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "295",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECON 100"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 101"
+            },
+            {
+              "type": "course",
+              "course": "ECON 102"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

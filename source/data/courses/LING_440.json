@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LING 440",
+  "originalPrerequisite": "All of LING 200, LING 201.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:43.848Z",
+  "parsedRequirements": {
+    "department": "LING",
+    "code": "440",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LING 200"
+        },
+        {
+          "type": "course",
+          "course": "LING 201"
+        }
+      ]
+    }
+  }
+}

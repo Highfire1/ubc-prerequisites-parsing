@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 440",
+  "originalPrerequisite": "WOOD 330.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:38.453Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "440",
+    "prerequisites": {
+      "type": "course",
+      "course": "WOOD 330"
+    }
+  }
+}

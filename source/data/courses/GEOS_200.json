@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 200",
+  "originalPrerequisite": "One of GEOS 102, GEOB 102 or second-year standing in science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:06.653Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "200",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOS 102"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 102"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "2nd"
+        }
+      ]
+    }
+  }
+}

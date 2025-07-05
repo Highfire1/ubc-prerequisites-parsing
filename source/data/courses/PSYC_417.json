@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 417",
+  "originalPrerequisite": "Either (a) one of PSYC 217, PSYC 277 and one of PSYC 218, PSYC 278; or (b) PSYC 366.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:43.697Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "417",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PSYC 217"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 277"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PSYC 218"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 278"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "PSYC 366"
+        }
+      ]
+    }
+  }
+}

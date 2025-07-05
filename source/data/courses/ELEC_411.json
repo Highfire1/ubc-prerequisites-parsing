@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 411",
+  "originalPrerequisite": "One of ELEC 311, PHYS 301, PHYS 354.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:50.550Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "411",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 311"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 301"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 354"
+        }
+      ]
+    }
+  }
+}

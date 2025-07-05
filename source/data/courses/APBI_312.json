@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 312",
+  "originalPrerequisite": "One of BIOL 204, BIOL 260. 3rd year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:19:31.753Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "312",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 204"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 260"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

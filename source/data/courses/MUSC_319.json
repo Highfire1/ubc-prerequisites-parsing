@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 319",
+  "originalPrerequisite": "MUSC 119 and one of MUSC 100, MUSC 103, MUSC 110. Permission of instructor is also required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:57:09.818Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "319",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 119"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MUSC 100"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 103"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 110"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "Permission of instructor is also required"
+        }
+      ]
+    }
+  }
+}

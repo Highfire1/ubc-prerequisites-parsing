@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MTRL 365",
+  "originalPrerequisite": "All of APSC 278, MECH 260.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:46.875Z",
+  "parsedRequirements": {
+    "department": "MTRL",
+    "code": "365",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APSC 278"
+        },
+        {
+          "type": "course",
+          "course": "MECH 260"
+        }
+      ]
+    }
+  }
+}

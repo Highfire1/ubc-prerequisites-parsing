@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHAR 402",
+  "originalPrerequisite": "Fourth-year standing or permission of the instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:15.349Z",
+  "parsedRequirements": {
+    "department": "PHAR",
+    "code": "402",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the instructor"
+        }
+      ]
+    }
+  }
+}

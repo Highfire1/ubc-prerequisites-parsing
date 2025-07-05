@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 319",
+  "originalPrerequisite": "Either (a) a score of 68% or higher in MATH 220 or (b) a score of 55% or higher in one of MATH 223, MATH 226.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:05.366Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "319",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 220",
+          "minGrade": 68
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 223",
+              "minGrade": 55
+            },
+            {
+              "type": "course",
+              "course": "MATH 226",
+              "minGrade": 55
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

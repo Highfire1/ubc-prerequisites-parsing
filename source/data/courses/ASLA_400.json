@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASLA 400",
+  "originalPrerequisite": "ASLA 300. Permission of the instructor is also acceptable.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:06.536Z",
+  "parsedRequirements": {
+    "department": "ASLA",
+    "code": "400",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ASLA 300"
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the instructor"
+        }
+      ]
+    }
+  }
+}

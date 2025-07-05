@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "STAT 447",
+  "originalPrerequisite": "STAT 305. Permission of the instructor is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:57.168Z",
+  "parsedRequirements": {
+    "department": "STAT",
+    "code": "447",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "STAT 305"
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the instructor is required"
+        }
+      ]
+    }
+  }
+}

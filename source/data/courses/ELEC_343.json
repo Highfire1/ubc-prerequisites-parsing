@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 343",
+  "originalPrerequisite": "One of ELEC 202, ELEC 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:35.595Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "343",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 202"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 302"
+        }
+      ]
+    }
+  }
+}

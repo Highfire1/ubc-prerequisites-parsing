@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ARTC 310",
+  "originalPrerequisite": "ARTC 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:23:53.182Z",
+  "parsedRequirements": {
+    "department": "ARTC",
+    "code": "310",
+    "prerequisites": {
+      "type": "course",
+      "course": "ARTC 300"
+    }
+  }
+}

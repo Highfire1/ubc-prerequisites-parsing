@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DHYG 206",
+  "originalPrerequisite": "All of BIOL 153, DHYG 108.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:34.036Z",
+  "parsedRequirements": {
+    "department": "DHYG",
+    "code": "206",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 153"
+        },
+        {
+          "type": "course",
+          "course": "DHYG 108"
+        }
+      ]
+    }
+  }
+}

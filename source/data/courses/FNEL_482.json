@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNEL 482",
+  "originalPrerequisite": null,
+  "originalCorequisite": "All of FNEL 281, FNEL 282, FNEL 389. Corequisites can be taken either alongside or prior to FNEL 482.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:01.391Z",
+  "parsedRequirements": {
+    "department": "FNEL",
+    "code": "482",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNEL 281",
+          "canBeTakenConcurrently": true
+        },
+        {
+          "type": "course",
+          "course": "FNEL 282",
+          "canBeTakenConcurrently": true
+        },
+        {
+          "type": "course",
+          "course": "FNEL 389",
+          "canBeTakenConcurrently": true
+        }
+      ]
+    }
+  }
+}

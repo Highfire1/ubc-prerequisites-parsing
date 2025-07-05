@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 353",
+  "originalPrerequisite": "BUSI 293 or equivalent.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:27.695Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "353",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 293"
+        },
+        {
+          "type": "other",
+          "note": "equivalent"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 403",
+  "originalPrerequisite": "One of CHIN 301, CHIN 401.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:38:47.791Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "403",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHIN 301"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 401"
+        }
+      ]
+    }
+  }
+}

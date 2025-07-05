@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SOWK 201",
+  "originalPrerequisite": "SOWK 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:23.479Z",
+  "parsedRequirements": {
+    "department": "SOWK",
+    "code": "201",
+    "prerequisites": {
+      "type": "course",
+      "course": "SOWK 200"
+    }
+  }
+}

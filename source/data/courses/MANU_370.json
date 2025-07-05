@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MANU 370",
+  "originalPrerequisite": "MANU 270.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:19.897Z",
+  "parsedRequirements": {
+    "department": "MANU",
+    "code": "370",
+    "prerequisites": {
+      "type": "course",
+      "course": "MANU 270"
+    }
+  }
+}

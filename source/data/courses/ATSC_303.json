@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ATSC 303",
+  "originalPrerequisite": "EOSC 211 and one of ATSC 201, GEOB 200, GEOS 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:52.986Z",
+  "parsedRequirements": {
+    "department": "ATSC",
+    "code": "303",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EOSC 211"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ATSC 201"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 200"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 200"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PCTH 300",
+  "originalPrerequisite": "Either (a) all of BIOL 200, BIOL 201, CHEM 233, CHEM 235 or (b) all of BIOL 200, BIOL 201, CHEM 203, CHEM 204; and CHEM 211 and one of CHEM 205, CHEM 201. Permission of the undergraduate advisor is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:40.182Z",
+  "parsedRequirements": {
+    "department": "PCTH",
+    "code": "300",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of the undergraduate advisor is required"
+    }
+  }
+}

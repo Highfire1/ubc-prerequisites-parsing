@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MANU 380",
+  "originalPrerequisite": "All of APSC 278, APSC 279, MTRL 264, MECH 260 and one of MANU 261, MTRL 250 and one of MECH 280, MTRL 263.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:23.328Z",
+  "parsedRequirements": {
+    "department": "MANU",
+    "code": "380",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 278"
+            },
+            {
+              "type": "course",
+              "course": "APSC 279"
+            },
+            {
+              "type": "course",
+              "course": "MTRL 264"
+            },
+            {
+              "type": "course",
+              "course": "MECH 260"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MANU 261"
+            },
+            {
+              "type": "course",
+              "course": "MTRL 250"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MECH 280"
+            },
+            {
+              "type": "course",
+              "course": "MTRL 263"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

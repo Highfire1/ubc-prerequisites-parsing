@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FOPR 459",
+  "originalPrerequisite": "FRST 318. Fourth-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:07.025Z",
+  "parsedRequirements": {
+    "department": "FOPR",
+    "code": "459",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FRST 318"
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        }
+      ]
+    }
+  }
+}

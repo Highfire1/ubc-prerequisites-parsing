@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 469",
+  "originalPrerequisite": "Permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:58:26.987Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "469",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of instructor"
+    }
+  }
+}

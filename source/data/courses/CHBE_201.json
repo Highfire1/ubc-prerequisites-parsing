@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 201",
+  "originalPrerequisite": "One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150.",
+  "originalCorequisite": "CHBE 220.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:35.459Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "201",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APSC 176"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 110"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 111"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 112"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 120"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 121"
+        },
+        {
+          "type": "course",
+          "course": "WRDS 150"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "CHBE 220"
+    }
+  }
+}

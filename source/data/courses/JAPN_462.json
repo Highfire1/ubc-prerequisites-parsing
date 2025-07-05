@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 462",
+  "originalPrerequisite": "6 credits of 200- or 300-level courses in Asian religions; 3 credit writing-intensive course in Asian Studies; ability to read modern Japanese or 18 credits of Japanese language courses and permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:58:58.907Z",
+  "errorMessage": "Invalid prerequisites: Invalid child at index 0: minGrade must be a number between 0 and 100",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "462",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "level": "200",
+          "department": "Asian studies"
+        },
+        {
+          "type": "credit_count",
+          "credits": 3,
+          "department": "Asian Studies",
+          "other": "writing-intensive course"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "other",
+              "note": "ability to read modern Japanese"
+            },
+            {
+              "type": "credit_count",
+              "credits": 18,
+              "department": "Japanese"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "permission of instructor"
+        }
+      ]
+    }
+  }
+}

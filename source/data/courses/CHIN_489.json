@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 489",
+  "originalPrerequisite": "One of CHIN 437, CHIN 443, CHIN 444, CHIN 447, CHIN 448. Or placement approval.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:39:55.183Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "489",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHIN 437"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 443"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 444"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 447"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 448"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "placement approval"
+        }
+      ]
+    }
+  }
+}

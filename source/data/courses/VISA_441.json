@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 441",
+  "originalPrerequisite": "Two of VISA 340, VISA 341, VISA 440.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:01.543Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "441",
+    "prerequisites": {
+      "type": "group",
+      "logic": "TWO_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "VISA 340"
+        },
+        {
+          "type": "course",
+          "course": "VISA 341"
+        },
+        {
+          "type": "course",
+          "course": "VISA 440"
+        }
+      ]
+    }
+  }
+}

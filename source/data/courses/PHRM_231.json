@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHRM 231",
+  "originalPrerequisite": null,
+  "originalCorequisite": "All of PHRM 211, PHRM 212.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:09.320Z",
+  "parsedRequirements": {
+    "department": "PHRM",
+    "code": "231",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHRM 211"
+        },
+        {
+          "type": "course",
+          "course": "PHRM 212"
+        }
+      ]
+    }
+  }
+}

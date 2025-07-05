@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EPSE 482",
+  "originalPrerequisite": "Proficiency in modern high school algebra. Please consult the Faculty of Science Credit Exclusion Lists http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,215,410,414 before registering.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:20.338Z",
+  "parsedRequirements": {
+    "department": "EPSE",
+    "code": "482",
+    "prerequisites": {
+      "type": "other",
+      "note": "Proficiency in modern high school algebra. Please consult the Faculty of Science Credit Exclusion Lists http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,215,410,414 before registering."
+    }
+  }
+}

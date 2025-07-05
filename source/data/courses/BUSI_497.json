@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 497",
+  "originalPrerequisite": "All of BUSI 330, BUSI 331, BUSI 442, BUSI 452.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:58.685Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "497",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 330"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 331"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 442"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 452"
+        }
+      ]
+    }
+  }
+}

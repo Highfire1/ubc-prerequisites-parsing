@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CTLN 301",
+  "originalPrerequisite": "Familiarity with another Romance language.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:05.352Z",
+  "parsedRequirements": {
+    "department": "CTLN",
+    "code": "301",
+    "prerequisites": {
+      "type": "other",
+      "note": "Familiarity with another Romance language"
+    }
+  }
+}

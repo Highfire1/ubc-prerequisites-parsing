@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRST 423",
+  "originalPrerequisite": "FRST 422.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:59.178Z",
+  "parsedRequirements": {
+    "department": "FRST",
+    "code": "423",
+    "prerequisites": {
+      "type": "course",
+      "course": "FRST 422"
+    }
+  }
+}

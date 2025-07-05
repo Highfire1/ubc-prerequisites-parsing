@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 422",
+  "originalPrerequisite": "One of ELEC 302, EECE 363, ELEC 344, EECE 365 and all of MECH 360, MECH 463.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:24.621Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "422",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ELEC 302"
+            },
+            {
+              "type": "course",
+              "course": "EECE 363"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 344"
+            },
+            {
+              "type": "course",
+              "course": "EECE 365"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "MECH 360"
+        },
+        {
+          "type": "course",
+          "course": "MECH 463"
+        }
+      ]
+    }
+  }
+}

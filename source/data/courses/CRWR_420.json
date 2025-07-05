@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CRWR 420",
+  "originalPrerequisite": "Restricted to Majors in Creative Writing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:47.465Z",
+  "parsedRequirements": {
+    "department": "CRWR",
+    "code": "420",
+    "prerequisites": {
+      "type": "program",
+      "program": "Creative Writing"
+    }
+  }
+}

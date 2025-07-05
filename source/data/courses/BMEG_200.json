@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 200",
+  "originalPrerequisite": "All of APSC 101, PHYS 159.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:38.673Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "200",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APSC 101"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 159"
+        }
+      ]
+    }
+  }
+}

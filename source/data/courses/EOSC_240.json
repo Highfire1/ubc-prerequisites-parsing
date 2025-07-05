@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 240",
+  "originalPrerequisite": "EOSC 210.",
+  "originalCorequisite": "CIVL 210.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:29.019Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "240",
+    "prerequisites": {
+      "type": "course",
+      "course": "EOSC 210"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "CIVL 210"
+    }
+  }
+}

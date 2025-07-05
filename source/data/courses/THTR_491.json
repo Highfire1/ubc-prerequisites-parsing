@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 491",
+  "originalPrerequisite": "Three of THTR 371, THTR 372, THTR 373, THTR 374, THTR 391.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:43.006Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "491",
+    "prerequisites": {
+      "type": "group",
+      "logic": "TWO_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "THTR 371"
+        },
+        {
+          "type": "course",
+          "course": "THTR 372"
+        },
+        {
+          "type": "course",
+          "course": "THTR 373"
+        },
+        {
+          "type": "course",
+          "course": "THTR 374"
+        },
+        {
+          "type": "course",
+          "course": "THTR 391"
+        }
+      ]
+    }
+  }
+}

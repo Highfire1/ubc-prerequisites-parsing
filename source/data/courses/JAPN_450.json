@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 450",
+  "originalPrerequisite": "One of JAPN 300, JAPN 400 and one of JAPN 302, JAPN 402, JAPN 314, JAPN 424.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:32.969Z",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "450",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "JAPN 300"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 400"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "JAPN 302"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 402"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 314"
+            },
+            {
+              "type": "course",
+              "course": "JAPN 424"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

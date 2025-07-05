@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 403",
+  "originalPrerequisite": "One of PHYS 203, ENPH 257, PHYS 257, CHEM 201, CHEM 304 and one of PHYS 304, PHYS 450, CHEM 312. One of MATH 302, MATH 318, STAT 241, STAT 251, STAT 302 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:21.092Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "403",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 203"
+            },
+            {
+              "type": "course",
+              "course": "ENPH 257"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 257"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 201"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 304"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 304"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 450"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 312"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 302"
+        },
+        {
+          "type": "course",
+          "course": "MATH 318"
+        },
+        {
+          "type": "course",
+          "course": "STAT 241"
+        },
+        {
+          "type": "course",
+          "course": "STAT 251"
+        },
+        {
+          "type": "course",
+          "course": "STAT 302"
+        }
+      ],
+      "recommended": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 346",
+  "originalPrerequisite": "One of FREN 123, FREN 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:29.312Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "346",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 123"
+        },
+        {
+          "type": "course",
+          "course": "FREN 302"
+        }
+      ]
+    }
+  }
+}

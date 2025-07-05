@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 350",
+  "originalPrerequisite": "All of ECON 101, ECON 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:50:33.298Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "350",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECON 101"
+        },
+        {
+          "type": "course",
+          "course": "ECON 102"
+        }
+      ]
+    }
+  }
+}

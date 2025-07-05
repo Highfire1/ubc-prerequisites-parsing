@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRST 408",
+  "originalPrerequisite": "One of FRST 307, APBI 327, BIOL 327.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:51.326Z",
+  "parsedRequirements": {
+    "department": "FRST",
+    "code": "408",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FRST 307"
+        },
+        {
+          "type": "course",
+          "course": "APBI 327"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 327"
+        }
+      ]
+    }
+  }
+}

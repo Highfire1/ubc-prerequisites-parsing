@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 461",
+  "originalPrerequisite": "One of PSYC 304, PSYC 360, PSYC 371, PSYC 460.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:57.974Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "461",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 304"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 360"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 371"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 460"
+        }
+      ]
+    }
+  }
+}

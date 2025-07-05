@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DHYG 462",
+  "originalPrerequisite": "DHYG 461.",
+  "originalCorequisite": "DHYG 401.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:44.366Z",
+  "parsedRequirements": {
+    "department": "DHYG",
+    "code": "462",
+    "prerequisites": {
+      "type": "course",
+      "course": "DHYG 461"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "DHYG 401"
+    }
+  }
+}

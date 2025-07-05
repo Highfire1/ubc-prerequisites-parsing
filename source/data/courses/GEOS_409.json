@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 409",
+  "originalPrerequisite": "One of GEOB 309, GEOS 309. Third-year standing in Geographical Sciences, Environmental Sciences or Major in Geography (Environmental and Sustainability).",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:50.889Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "409",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 309"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 309"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "3rd"
+            },
+            {
+              "type": "program",
+              "program": "Geographical Sciences"
+            },
+            {
+              "type": "program",
+              "program": "Environmental Sciences"
+            },
+            {
+              "type": "program",
+              "program": "Major in Geography (Environmental and Sustainability)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

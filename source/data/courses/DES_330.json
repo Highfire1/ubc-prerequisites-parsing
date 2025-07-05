@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DES 330",
+  "originalPrerequisite": "All of DES 231, DES 232.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:22.184Z",
+  "parsedRequirements": {
+    "department": "DES",
+    "code": "330",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "DES 231"
+        },
+        {
+          "type": "course",
+          "course": "DES 232"
+        }
+      ]
+    }
+  }
+}

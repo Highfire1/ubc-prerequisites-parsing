@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 463",
+  "originalPrerequisite": "One of POLI 260, POLI 360, POLI 361, POLI 362, POLI 363, POLI 364, POLI 365, POLI 366, POLI 367, POLI 368, POLI 369, POLI 370, POLI 375. 6 credits of ECON are recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:27.084Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "463",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "POLI 260"
+        },
+        {
+          "type": "course",
+          "course": "POLI 360"
+        },
+        {
+          "type": "course",
+          "course": "POLI 361"
+        },
+        {
+          "type": "course",
+          "course": "POLI 362"
+        },
+        {
+          "type": "course",
+          "course": "POLI 363"
+        },
+        {
+          "type": "course",
+          "course": "POLI 364"
+        },
+        {
+          "type": "course",
+          "course": "POLI 365"
+        },
+        {
+          "type": "course",
+          "course": "POLI 366"
+        },
+        {
+          "type": "course",
+          "course": "POLI 367"
+        },
+        {
+          "type": "course",
+          "course": "POLI 368"
+        },
+        {
+          "type": "course",
+          "course": "POLI 369"
+        },
+        {
+          "type": "course",
+          "course": "POLI 370"
+        },
+        {
+          "type": "course",
+          "course": "POLI 375"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "department": "ECON"
+    }
+  }
+}

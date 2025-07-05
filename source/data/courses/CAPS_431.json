@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CAPS 431",
+  "originalPrerequisite": "CAPS 303.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:30.180Z",
+  "parsedRequirements": {
+    "department": "CAPS",
+    "code": "431",
+    "prerequisites": {
+      "type": "course",
+      "course": "CAPS 303"
+    }
+  }
+}

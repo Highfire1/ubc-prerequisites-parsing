@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 456",
+  "originalPrerequisite": "THTR 356.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:34.643Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "456",
+    "prerequisites": {
+      "type": "course",
+      "course": "THTR 356"
+    }
+  }
+}

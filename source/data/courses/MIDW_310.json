@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MIDW 310",
+  "originalPrerequisite": "Exemption from or completion of MIDW 115.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:47.906Z",
+  "parsedRequirements": {
+    "department": "MIDW",
+    "code": "310",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MIDW 115"
+        },
+        {
+          "type": "other",
+          "note": "Exemption from MIDW 115"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENGL 300",
+  "originalPrerequisite": "Third-year standing and successful completion of (a) ENGL 210 OR (b) 6 credits of 200-level English courses including 3 credits of ENGL 200. Prerequisites must be met by the first day of class or students will be withdrawn.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:55:21.280Z",
+  "parsedRequirements": {
+    "department": "ENGL",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ENGL 210"
+            },
+            {
+              "type": "credit_count",
+              "credits": 6,
+              "department": "ENGL",
+              "level": "200",
+              "children": [
+                {
+                  "type": "course_count",
+                  "count": 3,
+                  "course": "ENGL 200"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

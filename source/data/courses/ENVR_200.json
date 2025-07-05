@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVR 200",
+  "originalPrerequisite": "Open to all students with second-year, or higher, standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:52.966Z",
+  "parsedRequirements": {
+    "department": "ENVR",
+    "code": "200",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "2nd"
+    }
+  }
+}

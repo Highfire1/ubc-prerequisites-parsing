@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 370",
+  "originalPrerequisite": "All of CHBE 241, CHBE 244.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:06.859Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "370",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 241"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 244"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SCIE 320",
+  "originalPrerequisite": "Third-year standing and instructors permission",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:30:05.504Z",
+  "parsedRequirements": {
+    "department": "SCIE",
+    "code": "320",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "permission",
+          "note": "instructors permission"
+        }
+      ]
+    }
+  }
+}

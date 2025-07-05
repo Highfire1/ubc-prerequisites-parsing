@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "STAT 460",
+  "originalPrerequisite": "All of MATH 320, STAT 305 and one of MATH 152, MATH 221, MATH 223.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:59.963Z",
+  "parsedRequirements": {
+    "department": "STAT",
+    "code": "460",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 320"
+        },
+        {
+          "type": "course",
+          "course": "STAT 305"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 365",
+  "originalPrerequisite": "All of CHBE 201, CHBE 241, CHBE 264, CHBE 221.",
+  "originalCorequisite": "CHBE 381.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:03.369Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "365",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 201"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 241"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 264"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 221"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "CHBE 381"
+    }
+  }
+}

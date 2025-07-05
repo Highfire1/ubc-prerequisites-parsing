@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 340",
+  "originalPrerequisite": "CPSC 221 and one of MATH 152, MATH 221, MATH 223 and one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254 and one of STAT 241, STAT 251, ECON 325, ECON 327, MATH 302, STAT 302, MATH 318.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:22.894Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "340",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 221"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 200"
+            },
+            {
+              "type": "course",
+              "course": "MATH 217"
+            },
+            {
+              "type": "course",
+              "course": "MATH 226"
+            },
+            {
+              "type": "course",
+              "course": "MATH 253"
+            },
+            {
+              "type": "course",
+              "course": "MATH 254"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "STAT 241"
+            },
+            {
+              "type": "course",
+              "course": "STAT 251"
+            },
+            {
+              "type": "course",
+              "course": "ECON 325"
+            },
+            {
+              "type": "course",
+              "course": "ECON 327"
+            },
+            {
+              "type": "course",
+              "course": "MATH 302"
+            },
+            {
+              "type": "course",
+              "course": "STAT 302"
+            },
+            {
+              "type": "course",
+              "course": "MATH 318"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

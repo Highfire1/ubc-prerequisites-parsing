@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 200",
+  "originalPrerequisite": "At least second year standing required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:15.512Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "200",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "2nd"
+    }
+  }
+}

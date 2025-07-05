@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GERM 420",
+  "originalPrerequisite": "GERM 420.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:12:10.259Z",
+  "parsedRequirements": {
+    "department": "GERM",
+    "code": "420",
+    "prerequisites": {
+      "type": "course",
+      "course": "GERM 420"
+    }
+  }
+}

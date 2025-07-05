@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 402",
+  "originalPrerequisite": "POLI 101 and one of POLI 301, POLI 302, POLI 303, POLI 304, POLI 305, POLI 306, POLI 307, POLI 308.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:05:24.843Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "402",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "POLI 101"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 301"
+            },
+            {
+              "type": "course",
+              "course": "POLI 302"
+            },
+            {
+              "type": "course",
+              "course": "POLI 303"
+            },
+            {
+              "type": "course",
+              "course": "POLI 304"
+            },
+            {
+              "type": "course",
+              "course": "POLI 305"
+            },
+            {
+              "type": "course",
+              "course": "POLI 306"
+            },
+            {
+              "type": "course",
+              "course": "POLI 307"
+            },
+            {
+              "type": "course",
+              "course": "POLI 308"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

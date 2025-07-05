@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 451",
+  "originalPrerequisite": "One of ELEC 301, ELEC 344, ELEC 342.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:54:04.912Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "451",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 301"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 344"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 342"
+        }
+      ]
+    }
+  }
+}

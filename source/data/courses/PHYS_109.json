@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 109",
+  "originalPrerequisite": "PHYS 107.",
+  "originalCorequisite": "One of PHYS 108, PHYS 118.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:52.509Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "109",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHYS 107"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 108"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 118"
+        }
+      ]
+    }
+  }
+}

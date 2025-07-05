@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MEDG 421",
+  "originalPrerequisite": "BIOL 335 and one of BIOC 302, BIOC 303.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:53:51.838Z",
+  "parsedRequirements": {
+    "department": "MEDG",
+    "code": "421",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 335"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOC 302"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 303"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

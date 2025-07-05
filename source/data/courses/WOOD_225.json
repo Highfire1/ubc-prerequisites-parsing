@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 225",
+  "originalPrerequisite": "Three credits of first-year English.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:13.861Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "225",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 3,
+      "department": "ENGL",
+      "level": "100"
+    }
+  }
+}

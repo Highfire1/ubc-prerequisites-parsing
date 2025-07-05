@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 306",
+  "originalPrerequisite": "One of MICB 212, MICB 202, BIOT 380.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:06.608Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "306",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 212"
+        },
+        {
+          "type": "course",
+          "course": "MICB 202"
+        },
+        {
+          "type": "course",
+          "course": "BIOT 380"
+        }
+      ]
+    }
+  }
+}

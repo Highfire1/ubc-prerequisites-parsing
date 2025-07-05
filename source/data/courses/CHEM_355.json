@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 355",
+  "originalPrerequisite": "One of CHEM 203, CHEM 211, CHEM 235.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:23.095Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "355",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 203"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 211"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 235"
+        }
+      ]
+    }
+  }
+}

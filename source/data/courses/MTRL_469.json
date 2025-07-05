@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MTRL 469",
+  "originalPrerequisite": "All of APSC 278, MTRL 378.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:55.069Z",
+  "parsedRequirements": {
+    "department": "MTRL",
+    "code": "469",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APSC 278"
+        },
+        {
+          "type": "course",
+          "course": "MTRL 378"
+        }
+      ]
+    }
+  }
+}

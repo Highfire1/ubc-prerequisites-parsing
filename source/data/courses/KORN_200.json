@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KORN 200",
+  "originalPrerequisite": "One of KORN 101, KORN 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:43:54.248Z",
+  "parsedRequirements": {
+    "department": "KORN",
+    "code": "200",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "KORN 101"
+        },
+        {
+          "type": "course",
+          "course": "KORN 102"
+        }
+      ]
+    }
+  }
+}

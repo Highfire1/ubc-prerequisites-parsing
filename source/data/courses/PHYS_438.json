@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 438",
+  "originalPrerequisite": "One of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157, SCIE 001. BIOL 325 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:38.325Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "438",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 101"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 106"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 107"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 117"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 131"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 157"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "BIOL 325"
+    }
+  }
+}

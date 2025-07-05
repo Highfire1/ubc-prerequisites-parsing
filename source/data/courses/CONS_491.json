@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CONS 491",
+  "originalPrerequisite": "One of UFOR 200, CONS 481.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:57.028Z",
+  "parsedRequirements": {
+    "department": "CONS",
+    "code": "491",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "UFOR 200"
+        },
+        {
+          "type": "course",
+          "course": "CONS 481"
+        }
+      ]
+    }
+  }
+}

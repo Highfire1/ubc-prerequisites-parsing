@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LING 342",
+  "originalPrerequisite": "One of LING 201, ENGL 331 and one of STAT 200, STAT 203, STAT 251, STAT 302, MATH 302, PSYC 218.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:31.416Z",
+  "parsedRequirements": {
+    "department": "LING",
+    "code": "342",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "LING 201"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 331"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "STAT 200"
+            },
+            {
+              "type": "course",
+              "course": "STAT 203"
+            },
+            {
+              "type": "course",
+              "course": "STAT 251"
+            },
+            {
+              "type": "course",
+              "course": "STAT 302"
+            },
+            {
+              "type": "course",
+              "course": "MATH 302"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 218"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

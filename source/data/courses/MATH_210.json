@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 210",
+  "originalPrerequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.",
+  "originalCorequisite": "One of MATH 215, MATH 255, MATH 256, MATH 258 and one of MATH 152, MATH 221, MATH 223.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:56.896Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "210",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 101"
+        },
+        {
+          "type": "course",
+          "course": "MATH 103"
+        },
+        {
+          "type": "course",
+          "course": "MATH 105"
+        },
+        {
+          "type": "course",
+          "course": "MATH 121"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 215"
+            },
+            {
+              "type": "course",
+              "course": "MATH 255"
+            },
+            {
+              "type": "course",
+              "course": "MATH 256"
+            },
+            {
+              "type": "course",
+              "course": "MATH 258"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

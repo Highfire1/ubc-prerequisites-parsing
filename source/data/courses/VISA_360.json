@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 360",
+  "originalPrerequisite": "One of VISA 260, VISA 285, VISA 286, FINA 285, FINA 286.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:42.658Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "360",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "VISA 260"
+        },
+        {
+          "type": "course",
+          "course": "VISA 285"
+        },
+        {
+          "type": "course",
+          "course": "VISA 286"
+        },
+        {
+          "type": "course",
+          "course": "FINA 285"
+        },
+        {
+          "type": "course",
+          "course": "FINA 286"
+        }
+      ]
+    }
+  }
+}

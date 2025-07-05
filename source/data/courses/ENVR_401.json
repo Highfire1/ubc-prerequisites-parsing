@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVR 401",
+  "originalPrerequisite": "One of ENVR 301, ENVR 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:59.297Z",
+  "parsedRequirements": {
+    "department": "ENVR",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ENVR 301"
+        },
+        {
+          "type": "course",
+          "course": "ENVR 302"
+        }
+      ]
+    }
+  }
+}

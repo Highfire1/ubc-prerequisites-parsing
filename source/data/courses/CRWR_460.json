@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CRWR 460",
+  "originalPrerequisite": "CRWR 415.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:59.092Z",
+  "parsedRequirements": {
+    "department": "CRWR",
+    "code": "460",
+    "prerequisites": {
+      "type": "course",
+      "course": "CRWR 415"
+    }
+  }
+}

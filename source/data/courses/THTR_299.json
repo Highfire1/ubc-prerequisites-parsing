@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 299",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of THTR 205, THTR 250.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:08.974Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "299",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "THTR 205"
+        },
+        {
+          "type": "course",
+          "course": "THTR 250"
+        }
+      ]
+    }
+  }
+}

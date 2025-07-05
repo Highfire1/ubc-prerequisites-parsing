@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNIS 320",
+  "originalPrerequisite": "Either (a) FNIS 310 or (b) FNSP 310.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:43.839Z",
+  "parsedRequirements": {
+    "department": "FNIS",
+    "code": "320",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNIS 310"
+        },
+        {
+          "type": "course",
+          "course": "FNSP 310"
+        }
+      ]
+    }
+  }
+}

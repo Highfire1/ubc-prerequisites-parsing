@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 244",
+  "originalPrerequisite": "CHBE 241.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:41.984Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "244",
+    "prerequisites": {
+      "type": "course",
+      "course": "CHBE 241"
+    }
+  }
+}

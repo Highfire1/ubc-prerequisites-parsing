@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 325",
+  "originalPrerequisite": "One of MICB 211, MICB 201, BIOL 234.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:13.351Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "325",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 211"
+        },
+        {
+          "type": "course",
+          "course": "MICB 201"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 234"
+        }
+      ]
+    }
+  }
+}

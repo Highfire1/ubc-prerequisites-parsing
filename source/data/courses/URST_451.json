@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "URST 451",
+  "originalPrerequisite": "One of GEOG 250, URST 200 and all of PLAN 211, PLAN 231, GEOG 371.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:06.284Z",
+  "parsedRequirements": {
+    "department": "URST",
+    "code": "451",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOG 250"
+            },
+            {
+              "type": "course",
+              "course": "URST 200"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PLAN 211"
+            },
+            {
+              "type": "course",
+              "course": "PLAN 231"
+            },
+            {
+              "type": "course",
+              "course": "GEOG 371"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 316",
+  "originalPrerequisite": "One of GEOB 102, GEOS 102 and one of GEOB 103, GEOS 103.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:34.223Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "316",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 102"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 102"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 103"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 103"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

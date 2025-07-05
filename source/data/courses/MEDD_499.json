@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MEDD 499",
+  "originalPrerequisite": "Students must have a UBC MD degree and have fully completed applications to residency positions for the first iteration of the postgraduate match in their Year 4 (submission of a Rank Order List to the Canadian Residency Matching Service, CaRMS).",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:53:44.962Z",
+  "parsedRequirements": {
+    "department": "MEDD",
+    "code": "499",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "program",
+          "program": "UBC MD degree"
+        },
+        {
+          "type": "other",
+          "note": "Fully completed applications to residency positions for the first iteration of the postgraduate match in their Year 4 (submission of a Rank Order List to the Canadian Residency Matching Service, CaRMS)."
+        }
+      ]
+    }
+  }
+}

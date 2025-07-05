@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 140",
+  "originalPrerequisite": "One of BIOL 11, BIOL 12, BIOL 111.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:07.685Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "140",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 11"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 12"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 111"
+        }
+      ]
+    }
+  }
+}

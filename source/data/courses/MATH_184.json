@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 184",
+  "originalPrerequisite": "A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:50.658Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "184",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "Principles of Mathematics 12",
+          "minGrade": 80
+        },
+        {
+          "type": "course",
+          "course": "Pre-calculus 12",
+          "minGrade": 80
+        }
+      ]
+    }
+  }
+}

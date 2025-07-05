@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DHYG 406",
+  "originalPrerequisite": "All of DHYG 400, DHYG 401, DHYG 461. And Faculty approval.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:39.962Z",
+  "parsedRequirements": {
+    "department": "DHYG",
+    "code": "406",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "DHYG 400"
+            },
+            {
+              "type": "course",
+              "course": "DHYG 401"
+            },
+            {
+              "type": "course",
+              "course": "DHYG 461"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "Faculty approval"
+        }
+      ]
+    }
+  }
+}

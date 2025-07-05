@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KIN 205",
+  "originalPrerequisite": "Second-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:16:27.022Z",
+  "parsedRequirements": {
+    "department": "KIN",
+    "code": "205",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "2nd"
+    }
+  }
+}

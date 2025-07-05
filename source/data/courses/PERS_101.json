@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PERS 101",
+  "originalPrerequisite": "PERS 100.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:53.332Z",
+  "parsedRequirements": {
+    "department": "PERS",
+    "code": "101",
+    "prerequisites": {
+      "type": "course",
+      "course": "PERS 100"
+    }
+  }
+}

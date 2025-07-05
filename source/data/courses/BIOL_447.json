@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 447",
+  "originalPrerequisite": null,
+  "originalCorequisite": "BIOL 449.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:58:51.549Z",
+  "errorMessage": "Invalid prerequisites: Group must have at least one child",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "447",
+    "corequisites": {
+      "type": "course",
+      "course": "BIOL 449"
+    }
+  }
+}

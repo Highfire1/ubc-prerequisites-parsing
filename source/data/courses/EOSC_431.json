@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 431",
+  "originalPrerequisite": "EOSC 429.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:40.924Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "431",
+    "prerequisites": {
+      "type": "course",
+      "course": "EOSC 429"
+    }
+  }
+}

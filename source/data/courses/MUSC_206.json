@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 206",
+  "originalPrerequisite": "One of (a) a score of 68% or higher in MUSC 205, or (b) pass the MUSC 205 Challenge Test. Students may register for MUSC 206 prior to meeting the pre-requisite but will be required to withdraw if the pre-requisite is not met by the first day of class.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:56:14.191Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "206",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 205",
+          "minGrade": 68
+        },
+        {
+          "type": "other",
+          "note": "Pass the MUSC 205 Challenge Test"
+        }
+      ]
+    }
+  }
+}

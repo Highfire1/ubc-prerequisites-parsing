@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 473",
+  "originalPrerequisite": "CHEM 245 and one of CHEM 313, CHEM 318, CHEM 330.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:38:03.817Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "473",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 245"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 313"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 318"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 330"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

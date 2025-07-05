@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 213",
+  "originalPrerequisite": "One of MATH 200, MATH 253 and one of MATH 152, MATH 221, MATH 223 and one of APSC 160, CPSC 103, CPSC 110, EOSC 211.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:20.620Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "213",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 200"
+            },
+            {
+              "type": "course",
+              "course": "MATH 253"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 160"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 103"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 110"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 211"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

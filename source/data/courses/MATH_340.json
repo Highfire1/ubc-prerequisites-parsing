@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 340",
+  "originalPrerequisite": "One of MATH 152, MATH 221, MATH 223.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:13.388Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "340",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 152"
+        },
+        {
+          "type": "course",
+          "course": "MATH 221"
+        },
+        {
+          "type": "course",
+          "course": "MATH 223"
+        }
+      ]
+    }
+  }
+}

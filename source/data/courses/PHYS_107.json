@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 107",
+  "originalPrerequisite": "Either (a) a score of 85% or higher in all of PHYS 12, MATH 12 or (b) a score of 85% or higher in all of PHYS 12, PREC 12 or (c) a score of 85% or higher in all of PHYS 12, CALC 12 or (d) a score of 85% or higher in PHYS 100. MATH 12 = Principles of Mathematics 12; PREC 12 = Pre-Calculus 12; CALC 12 = Calculus 12; PHYS 12 = Physics 12.",
+  "originalCorequisite": "One of MATH 100, MATH 102, MATH 104, MATH 120, MATH 180, MATH 184.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:48.408Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "107",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 12",
+              "minGrade": 85
+            },
+            {
+              "type": "course",
+              "course": "MATH 12",
+              "minGrade": 85
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 12",
+              "minGrade": 85
+            },
+            {
+              "type": "course",
+              "course": "PREC 12",
+              "minGrade": 85
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 12",
+              "minGrade": 85
+            },
+            {
+              "type": "course",
+              "course": "CALC 12",
+              "minGrade": 85
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "PHYS 100",
+          "minGrade": 85
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 100"
+        },
+        {
+          "type": "course",
+          "course": "MATH 102"
+        },
+        {
+          "type": "course",
+          "course": "MATH 104"
+        },
+        {
+          "type": "course",
+          "course": "MATH 120"
+        },
+        {
+          "type": "course",
+          "course": "MATH 180"
+        },
+        {
+          "type": "course",
+          "course": "MATH 184"
+        }
+      ]
+    }
+  }
+}

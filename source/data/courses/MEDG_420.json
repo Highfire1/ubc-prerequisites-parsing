@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MEDG 420",
+  "originalPrerequisite": "One of BIOL 335, BIOL 338. A standing of 'B' or higher is recommended, however, higher grades take priority in the registration process.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:53:50.266Z",
+  "parsedRequirements": {
+    "department": "MEDG",
+    "code": "420",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 335"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 338"
+        }
+      ],
+      "recommended": true
+    }
+  }
+}

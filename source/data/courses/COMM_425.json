@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 425",
+  "originalPrerequisite": "COMM 327 and one of COMM 191, COMM 291 and one of COMM 192, COMM 292.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:43:02.786Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "425",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 327"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 191"
+            },
+            {
+              "type": "course",
+              "course": "COMM 291"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 192"
+            },
+            {
+              "type": "course",
+              "course": "COMM 292"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

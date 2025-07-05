@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LASO 350",
+  "originalPrerequisite": "LASO 204.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:09.536Z",
+  "parsedRequirements": {
+    "department": "LASO",
+    "code": "350",
+    "prerequisites": {
+      "type": "course",
+      "course": "LASO 204"
+    }
+  }
+}

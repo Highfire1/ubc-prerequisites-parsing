@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 424",
+  "originalPrerequisite": "Either (a) a score of 68% or higher in MATH 223 or (b) a score of 80% or higher in one of MATH 152, MATH 221; and either (a) a score of 68% or higher in MATH 227 or (b) a score of 80% or higher in one of MATH 217, MATH 254, MATH 264, MATH 317.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:52.500Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "424",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 223",
+              "minGrade": 68
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 152",
+                  "minGrade": 80
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 221",
+                  "minGrade": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 227",
+              "minGrade": 68
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 217",
+                  "minGrade": 80
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 254",
+                  "minGrade": 80
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 264",
+                  "minGrade": 80
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 317",
+                  "minGrade": 80
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

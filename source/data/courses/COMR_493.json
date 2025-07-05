@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMR 493",
+  "originalPrerequisite": "One of COMM 293, COMM 457, COMR 457 and either (a) all of ECON 101, ECON 102 or (b) all of ECON 310, ECON 311 or (c) ECON 100 or (d) all of ECON 101, ECON 311 or (e) all of ECON 102, ECON 310.",
+  "originalCorequisite": "One of COMM 329, COMR 329 and one of COMM 465, COMR 465 and one of COMM 473, COMR 473.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:32.666Z",
+  "parsedRequirements": {
+    "department": "COMR",
+    "code": "493",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 293"
+            },
+            {
+              "type": "course",
+              "course": "COMM 457"
+            },
+            {
+              "type": "course",
+              "course": "COMR 457"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ECON 101"
+                },
+                {
+                  "type": "course",
+                  "course": "ECON 102"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ECON 310"
+                },
+                {
+                  "type": "course",
+                  "course": "ECON 311"
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "course": "ECON 100"
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ECON 101"
+                },
+                {
+                  "type": "course",
+                  "course": "ECON 311"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ECON 102"
+                },
+                {
+                  "type": "course",
+                  "course": "ECON 310"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 329"
+            },
+            {
+              "type": "course",
+              "course": "COMR 329"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 465"
+            },
+            {
+              "type": "course",
+              "course": "COMR 465"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 473"
+            },
+            {
+              "type": "course",
+              "course": "COMR 473"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

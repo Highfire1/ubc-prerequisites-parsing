@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 412",
+  "originalPrerequisite": "Fourth year standing in a Bachelor of Science Program. Permission is required for registration.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:20:30.357Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "412",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "program",
+          "program": "Bachelor of Science Program"
+        },
+        {
+          "type": "permission",
+          "note": "Permission is required for registration"
+        }
+      ]
+    }
+  }
+}

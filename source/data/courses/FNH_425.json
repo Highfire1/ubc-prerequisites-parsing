@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 425",
+  "originalPrerequisite": "All of FNH 325, FNH 326.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:09.490Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "425",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNH 325"
+        },
+        {
+          "type": "course",
+          "course": "FNH 326"
+        }
+      ]
+    }
+  }
+}

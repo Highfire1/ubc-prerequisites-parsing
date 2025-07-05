@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 433",
+  "originalPrerequisite": "Either (a) MECH 225 or (b) one of MATH 255, MATH 256 and one of CHBE 251, CIVL 215, MECH 280.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:30.497Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "433",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 225"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 255"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 256"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHBE 251"
+                },
+                {
+                  "type": "course",
+                  "course": "CIVL 215"
+                },
+                {
+                  "type": "course",
+                  "course": "MECH 280"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 402",
+  "originalPrerequisite": "ENVR 401.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:40.882Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "402",
+    "prerequisites": {
+      "type": "course",
+      "course": "ENVR 401"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPAN 322",
+  "originalPrerequisite": "SPAN 202 or equivalent expertise in written and spoken Spanish.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:47.346Z",
+  "parsedRequirements": {
+    "department": "SPAN",
+    "code": "322",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SPAN 202"
+        },
+        {
+          "type": "other",
+          "note": "equivalent expertise in written and spoken Spanish"
+        }
+      ]
+    }
+  }
+}

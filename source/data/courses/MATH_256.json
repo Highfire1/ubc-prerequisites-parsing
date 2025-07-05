@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 256",
+  "originalPrerequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001 and one of MATH 152, MATH 221, MATH 223.",
+  "originalCorequisite": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 263.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:27.719Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "256",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 101"
+            },
+            {
+              "type": "course",
+              "course": "MATH 103"
+            },
+            {
+              "type": "course",
+              "course": "MATH 105"
+            },
+            {
+              "type": "course",
+              "course": "MATH 121"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 200"
+        },
+        {
+          "type": "course",
+          "course": "MATH 217"
+        },
+        {
+          "type": "course",
+          "course": "MATH 226"
+        },
+        {
+          "type": "course",
+          "course": "MATH 253"
+        },
+        {
+          "type": "course",
+          "course": "MATH 263"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 230",
+  "originalPrerequisite": "All of PHYS 170, MATH 101.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:13.866Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "230",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 170"
+        },
+        {
+          "type": "course",
+          "course": "MATH 101"
+        }
+      ]
+    }
+  }
+}

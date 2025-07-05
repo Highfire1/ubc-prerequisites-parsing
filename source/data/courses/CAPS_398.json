@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CAPS 398",
+  "originalPrerequisite": "Co-op Workshops, CAPS 301, CAPS 303 (or, PHYL 301, PHYL 303).",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:16.530Z",
+  "parsedRequirements": {
+    "department": "CAPS",
+    "code": "398",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CAPS 301"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CAPS 303"
+            },
+            {
+              "type": "course",
+              "course": "PHYL 301"
+            },
+            {
+              "type": "course",
+              "course": "PHYL 303"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

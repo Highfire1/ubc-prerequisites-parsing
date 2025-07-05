@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 211",
+  "originalPrerequisite": "Either (a) all of BIOL 112, CHEM 121 or (b) one of BIOL 200, BMEG 245, SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:00.005Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "211",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 112"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 121"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 200"
+            },
+            {
+              "type": "course",
+              "course": "BMEG 245"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

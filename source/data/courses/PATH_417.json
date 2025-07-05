@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PATH 417",
+  "originalPrerequisite": "MICB 202. Or equivalent.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:32.712Z",
+  "parsedRequirements": {
+    "department": "PATH",
+    "code": "417",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 202"
+        },
+        {
+          "type": "other",
+          "note": "Equivalent"
+        }
+      ]
+    }
+  }
+}

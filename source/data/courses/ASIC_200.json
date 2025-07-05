@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASIC 200",
+  "originalPrerequisite": "Second year standing in the Faculty of Arts or Faculty of Science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:04.167Z",
+  "parsedRequirements": {
+    "department": "ASIC",
+    "code": "200",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "2nd"
+    }
+  }
+}

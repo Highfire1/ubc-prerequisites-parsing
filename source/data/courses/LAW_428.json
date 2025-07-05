@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LAW 428",
+  "originalPrerequisite": null,
+  "originalCorequisite": "LAW 427.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:23.392Z",
+  "parsedRequirements": {
+    "department": "LAW",
+    "code": "428",
+    "corequisites": {
+      "type": "course",
+      "course": "LAW 427"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ILS 107",
+  "originalPrerequisite": "ILS 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:06.956Z",
+  "parsedRequirements": {
+    "department": "ILS",
+    "code": "107",
+    "prerequisites": {
+      "type": "course",
+      "course": "ILS 102"
+    }
+  }
+}

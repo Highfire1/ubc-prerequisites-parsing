@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 411",
+  "originalPrerequisite": "One of VISA 310, VISA 311. Plus an additional 3 credits of 300-level VISA.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:56.007Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "411",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "VISA 310"
+            },
+            {
+              "type": "course",
+              "course": "VISA 311"
+            }
+          ]
+        },
+        {
+          "type": "credit_count",
+          "credits": 3,
+          "department": "VISA",
+          "level": "300"
+        }
+      ]
+    }
+  }
+}

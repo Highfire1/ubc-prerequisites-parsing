@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HGSE 374",
+  "originalPrerequisite": null,
+  "originalCorequisite": "All of HGSE 370, HGSE 371, HGSE 372, HGSE 373.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:35.727Z",
+  "parsedRequirements": {
+    "department": "HGSE",
+    "code": "374",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "HGSE 370"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 371"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 372"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 373"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 362",
+  "originalPrerequisite": "BIOL 200 and one of APBI 312, APBI 351, BIOL 260, BIOL 351, BIOL 352, BIOL 361, FRST 311.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:28.233Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "362",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 200"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APBI 312"
+            },
+            {
+              "type": "course",
+              "course": "APBI 351"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 260"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 351"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 352"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 361"
+            },
+            {
+              "type": "course",
+              "course": "FRST 311"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

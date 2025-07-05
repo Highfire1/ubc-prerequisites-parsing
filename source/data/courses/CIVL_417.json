@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 417",
+  "originalPrerequisite": "CIVL 316 and one of EOSC 213, MATH 256.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:47.211Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "417",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CIVL 316"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "EOSC 213"
+            },
+            {
+              "type": "course",
+              "course": "MATH 256"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

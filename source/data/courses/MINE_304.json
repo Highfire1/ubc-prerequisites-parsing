@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MINE 304",
+  "originalPrerequisite": "MINE 291.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:56.041Z",
+  "parsedRequirements": {
+    "department": "MINE",
+    "code": "304",
+    "prerequisites": {
+      "type": "course",
+      "course": "MINE 291"
+    }
+  }
+}

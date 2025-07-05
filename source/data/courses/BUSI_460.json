@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 460",
+  "originalPrerequisite": "BUSI 121. BUSI 331 and BUSI 444 are also recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:51.988Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "460",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 121"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 331"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 444"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 331"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 444"
+        }
+      ],
+      "recommended": true
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 488",
+  "originalPrerequisite": "One of CHBE 244, MTRL 252 and one of CHBE 251, CIVL 215, MTRL 263.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:51.034Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "488",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHBE 244"
+            },
+            {
+              "type": "course",
+              "course": "MTRL 252"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHBE 251"
+            },
+            {
+              "type": "course",
+              "course": "CIVL 215"
+            },
+            {
+              "type": "course",
+              "course": "MTRL 263"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

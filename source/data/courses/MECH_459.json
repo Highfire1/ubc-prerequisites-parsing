@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 459",
+  "originalPrerequisite": "All of MECH 325, MECH 328, MECH 360 and fourth-year standing in the Biomedical Option.",
+  "originalCorequisite": "MECH 426.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:43.622Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "459",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 325"
+        },
+        {
+          "type": "course",
+          "course": "MECH 328"
+        },
+        {
+          "type": "course",
+          "course": "MECH 360"
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MECH 426"
+    }
+  }
+}

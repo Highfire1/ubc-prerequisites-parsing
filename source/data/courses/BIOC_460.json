@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 460",
+  "originalPrerequisite": "One of BIOC 303, BIOT 380 and all of BIOC 402, BIOC 410.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:56.931Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "460",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOC 303"
+            },
+            {
+              "type": "course",
+              "course": "BIOT 380"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOC 402"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 410"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

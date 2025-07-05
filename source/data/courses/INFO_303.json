@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "INFO 303",
+  "originalPrerequisite": "NFO 200 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:27.546Z",
+  "parsedRequirements": {
+    "department": "INFO",
+    "code": "303",
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "NFO 200"
+    }
+  }
+}

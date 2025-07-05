@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 315",
+  "originalPrerequisite": "At least third-year standing in any faculty.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:19:38.033Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "315",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

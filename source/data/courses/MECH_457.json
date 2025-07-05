@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 457",
+  "originalPrerequisite": "All of MECH 325, MECH 328, MECH 329, MECH 360 and fourth-year standing in Mechanical Engineering.",
+  "originalCorequisite": "All of MECH 327, MECH 426.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:40.359Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "457",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MECH 325"
+            },
+            {
+              "type": "course",
+              "course": "MECH 328"
+            },
+            {
+              "type": "course",
+              "course": "MECH 329"
+            },
+            {
+              "type": "course",
+              "course": "MECH 360"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 327"
+        },
+        {
+          "type": "course",
+          "course": "MECH 426"
+        }
+      ]
+    }
+  }
+}

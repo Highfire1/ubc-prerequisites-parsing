@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 331",
+  "originalPrerequisite": "FREN 311 and one of FREN 224, FREN 401.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:24.178Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "331",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 311"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FREN 224"
+            },
+            {
+              "type": "course",
+              "course": "FREN 401"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 354",
+  "originalPrerequisite": "All of BUSI 293, BUSI 294, BUSI 370.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:29.226Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "354",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 293"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 294"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 370"
+        }
+      ]
+    }
+  }
+}

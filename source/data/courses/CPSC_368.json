@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 368",
+  "originalPrerequisite": "One of CPSC 203, CPSC 210, CPEN 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:25.911Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "368",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 203"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 210"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 221"
+        }
+      ]
+    }
+  }
+}

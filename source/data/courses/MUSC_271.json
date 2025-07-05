@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 271",
+  "originalPrerequisite": "One of MUSC 171-195.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:56:27.043Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "271",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 171"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 172"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 173"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 174"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 175"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 176"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 177"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 178"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 179"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 180"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 181"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 182"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 183"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 184"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 185"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 186"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 187"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 188"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 189"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 190"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 191"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 192"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 193"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 194"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 195"
+        }
+      ]
+    }
+  }
+}

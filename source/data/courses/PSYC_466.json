@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 466",
+  "originalPrerequisite": "Either (a) all of PSYC 217, PSYC 218 or (b) PSYC 366 and one of PSYC 304, PSYC 360, PSYC 363, PSYC 365, PSYC 371; or (c) one of BIOL 355, BIOL 455 or (d) one of PHYL 301, PHYL 426 or (e) all of PSYC 277, PSYC 278.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:06.157Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "466",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 217"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 218"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 366"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PSYC 304"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 360"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 363"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 365"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 371"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 355"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 455"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYL 301"
+            },
+            {
+              "type": "course",
+              "course": "PHYL 426"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 277"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 278"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

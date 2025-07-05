@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CNTO 311",
+  "originalPrerequisite": "One of CHIN 243, CHIN 244. Or placement approval.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:13.182Z",
+  "parsedRequirements": {
+    "department": "CNTO",
+    "code": "311",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHIN 243"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 244"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "placement approval"
+        }
+      ]
+    }
+  }
+}

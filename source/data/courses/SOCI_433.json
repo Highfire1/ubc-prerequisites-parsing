@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SOCI 433",
+  "originalPrerequisite": "One of SOCI 100, SOCI 101, SOCI 102. And permission of the Department.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:00.133Z",
+  "parsedRequirements": {
+    "department": "SOCI",
+    "code": "433",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "SOCI 100"
+            },
+            {
+              "type": "course",
+              "course": "SOCI 101"
+            },
+            {
+              "type": "course",
+              "course": "SOCI 102"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "permission of the Department"
+        }
+      ]
+    }
+  }
+}

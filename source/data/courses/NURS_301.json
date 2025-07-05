@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NURS 301",
+  "originalPrerequisite": "Five of NURS 300, NURS 310, NURS 321, NURS 322, NURS 330, NURS 352, NURS 360.",
+  "originalCorequisite": "NURS 362 and one of NURS 323, NURS 401.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:59:32.806Z",
+  "parsedRequirements": {
+    "department": "NURS",
+    "code": "301",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "NURS 300"
+            },
+            {
+              "type": "course",
+              "course": "NURS 310"
+            },
+            {
+              "type": "course",
+              "course": "NURS 321"
+            },
+            {
+              "type": "course",
+              "course": "NURS 322"
+            },
+            {
+              "type": "course",
+              "course": "NURS 330"
+            },
+            {
+              "type": "course",
+              "course": "NURS 352"
+            },
+            {
+              "type": "course",
+              "course": "NURS 360"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "NURS 300"
+            },
+            {
+              "type": "course",
+              "course": "NURS 310"
+            },
+            {
+              "type": "course",
+              "course": "NURS 321"
+            },
+            {
+              "type": "course",
+              "course": "NURS 322"
+            },
+            {
+              "type": "course",
+              "course": "NURS 330"
+            },
+            {
+              "type": "course",
+              "course": "NURS 352"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "NURS 300"
+            },
+            {
+              "type": "course",
+              "course": "NURS 310"
+            },
+            {
+              "type": "course",
+              "course": "NURS 321"
+            },
+            {
+              "type": "course",
+              "course": "NURS 322"
+            },
+            {
+              "type": "course",
+              "course": "NURS 330"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "NURS 300"
+            },
+            {
+              "type": "course",
+              "course": "NURS 310"
+            },
+            {
+              "type": "course",
+              "course": "NURS 321"
+            },
+            {
+              "type": "course",
+              "course": "NURS 322"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "NURS 300"
+            },
+            {
+              "type": "course",
+              "course": "NURS 310"
+            },
+            {
+              "type": "course",
+              "course": "NURS 321"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "NURS 362"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "NURS 323"
+            },
+            {
+              "type": "course",
+              "course": "NURS 401"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

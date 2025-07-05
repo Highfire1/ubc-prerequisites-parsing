@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 121",
+  "originalPrerequisite": "MUSC 120. Or permission of the instructor",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:56:06.582Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "121",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 120"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the instructor"
+        }
+      ]
+    }
+  }
+}

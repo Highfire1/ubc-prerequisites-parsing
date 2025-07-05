@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 326",
+  "originalPrerequisite": "Biology 100-level and third-year standing in Science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:50.754Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "326",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "credit_count",
+          "credits": 3,
+          "department": "BIOL",
+          "level": "100"
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

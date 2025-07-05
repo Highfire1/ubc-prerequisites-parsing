@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENST 312",
+  "originalPrerequisite": "One of GEOS 102, GEOB 102, GEOS 200, GEOB 200, GEOS 204, GEOB 204, ATSC 201, EOSC 112 and 3rd year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:35.544Z",
+  "parsedRequirements": {
+    "department": "ENST",
+    "code": "312",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOS 102"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 102"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 200"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 200"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 204"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 204"
+            },
+            {
+              "type": "course",
+              "course": "ATSC 201"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 112"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

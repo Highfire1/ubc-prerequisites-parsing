@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 321",
+  "originalPrerequisite": "EOSC 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:44.182Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "321",
+    "prerequisites": {
+      "type": "course",
+      "course": "EOSC 221"
+    }
+  }
+}

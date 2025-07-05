@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 307",
+  "originalPrerequisite": "One of COMM 295, ECON 201, ECON 301 and one of COMM 297, COMM 298.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:42:22.871Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "307",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 295"
+            },
+            {
+              "type": "course",
+              "course": "ECON 201"
+            },
+            {
+              "type": "course",
+              "course": "ECON 301"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 297"
+            },
+            {
+              "type": "course",
+              "course": "COMM 298"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 202",
+  "originalPrerequisite": "One of BIOL 112, BIOL 200, BMEG 245, MICB 201, SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:53:56.773Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "202",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 112"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 200"
+        },
+        {
+          "type": "course",
+          "course": "BMEG 245"
+        },
+        {
+          "type": "course",
+          "course": "MICB 201"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    }
+  }
+}

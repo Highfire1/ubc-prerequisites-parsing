@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 356",
+  "originalPrerequisite": "MUSC 220.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:57:16.909Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "356",
+    "prerequisites": {
+      "type": "course",
+      "course": "MUSC 220"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 311",
+  "originalPrerequisite": "One of VISA 210, VISA 287, FINA 287.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:26.460Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "311",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "VISA 210"
+        },
+        {
+          "type": "course",
+          "course": "VISA 287"
+        },
+        {
+          "type": "course",
+          "course": "FINA 287"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 220",
+  "originalPrerequisite": "One of CHEM 110, CHEM 111, CHEM 120, CHEM 121, SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:22.375Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "220",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 110"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 111"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 120"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 121"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    }
+  }
+}

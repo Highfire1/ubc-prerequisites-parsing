@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WRDS 350",
+  "originalPrerequisite": "Restricted to students with at least 3rd-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:56.470Z",
+  "parsedRequirements": {
+    "department": "WRDS",
+    "code": "350",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

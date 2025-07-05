@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 227",
+  "originalPrerequisite": "A score of 68% or higher in MATH 226.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:16.527Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "227",
+    "prerequisites": {
+      "type": "course",
+      "course": "MATH 226",
+      "minGrade": 68
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 395",
+  "originalPrerequisite": "Restricted to Political Science and International Relations Majors and Minors.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:05:20.192Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "395",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "program",
+          "program": "Political Science"
+        },
+        {
+          "type": "program",
+          "program": "International Relations"
+        }
+      ]
+    }
+  }
+}

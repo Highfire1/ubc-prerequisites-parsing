@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASIA 427",
+  "originalPrerequisite": "One of ASIA 327, ASIA 347, ASIA 357, ASIA 447, ASIA 452, ASIA 457. Or placement approval. Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:24:28.959Z",
+  "parsedRequirements": {
+    "department": "ASIA",
+    "code": "427",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ASIA 327"
+                },
+                {
+                  "type": "course",
+                  "course": "ASIA 347"
+                },
+                {
+                  "type": "course",
+                  "course": "ASIA 357"
+                },
+                {
+                  "type": "course",
+                  "course": "ASIA 447"
+                },
+                {
+                  "type": "course",
+                  "course": "ASIA 452"
+                },
+                {
+                  "type": "course",
+                  "course": "ASIA 457"
+                }
+              ]
+            },
+            {
+              "type": "permission",
+              "note": "Placement approval"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "credit_count",
+      "credits": 9,
+      "department": "ASIA",
+      "level": "300"
+    }
+  }
+}

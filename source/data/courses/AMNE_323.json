@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "AMNE 323",
+  "originalPrerequisite": "Either (a) one of CLST 231, AMNE 215 or (b) one of CLST 232, AMNE 216 or (c) one of CLST 260, AMNE 225.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:18:06.850Z",
+  "parsedRequirements": {
+    "department": "AMNE",
+    "code": "323",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CLST 231"
+            },
+            {
+              "type": "course",
+              "course": "AMNE 215"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CLST 232"
+            },
+            {
+              "type": "course",
+              "course": "AMNE 216"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CLST 260"
+            },
+            {
+              "type": "course",
+              "course": "AMNE 225"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

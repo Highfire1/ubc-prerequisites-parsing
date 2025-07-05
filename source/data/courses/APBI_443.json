@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 443",
+  "originalPrerequisite": "One of BIOL 112, BIOL 121. And one 200-level BIOL course.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:21:17.189Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "443",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 112"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            }
+          ]
+        },
+        {
+          "type": "course_count",
+          "count": 1,
+          "department": "BIOL",
+          "level": "200"
+        }
+      ]
+    }
+  }
+}

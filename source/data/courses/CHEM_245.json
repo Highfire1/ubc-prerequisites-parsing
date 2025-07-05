@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 245",
+  "originalPrerequisite": "Either (a) CHEM 203 or (b) all of CHEM 223, CHEM 225 or (c) all of CHEM 233, CHEM 235.",
+  "originalCorequisite": "CHEM 213.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:47.270Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "245",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 203"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 223"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 225"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 233"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 235"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "CHEM 213"
+    }
+  }
+}

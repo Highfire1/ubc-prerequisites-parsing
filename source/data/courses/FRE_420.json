@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRE 420",
+  "originalPrerequisite": "One of ECON 101, ECON 301.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:09.931Z",
+  "parsedRequirements": {
+    "department": "FRE",
+    "code": "420",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECON 101"
+        },
+        {
+          "type": "course",
+          "course": "ECON 301"
+        }
+      ]
+    }
+  }
+}

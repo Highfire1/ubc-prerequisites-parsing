@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENPH 257",
+  "originalPrerequisite": "Either (a) SCIE 001 or (b) one of MATH 200, MATH 217, MATH 226, MATH 254, MATH 255; and either (a) all of PHYS 108, PHYS 109 or (b) one of PHYS 102, PHYS 153 or (c) all of PHYS 157, PHYS 158, PHYS 159 or (d) all of PHYS 118, PHYS 119 or (e) all of PHYS 108, PHYS 119.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:19.814Z",
+  "parsedRequirements": {
+    "department": "ENPH",
+    "code": "257",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 200"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 217"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 226"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 254"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 255"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 108"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 109"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 102"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 153"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 157"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 158"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 159"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 118"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 119"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 108"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 119"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

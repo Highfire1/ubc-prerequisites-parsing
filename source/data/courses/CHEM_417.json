@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 417",
+  "originalPrerequisite": "One of CHEM 123, CHEM 130 and Third year standing. CHEM 312 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:53.064Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "417",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 123"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 130"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "CHEM 312"
+    }
+  }
+}

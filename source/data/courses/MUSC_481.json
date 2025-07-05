@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 481",
+  "originalPrerequisite": "One of MUSC 371-395.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:58:42.246Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "481",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 371"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 372"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 373"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 374"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 375"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 376"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 377"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 378"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 379"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 380"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 381"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 382"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 383"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 384"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 385"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 386"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 387"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 388"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 389"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 390"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 391"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 392"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 393"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 394"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 395"
+        }
+      ]
+    }
+  }
+}

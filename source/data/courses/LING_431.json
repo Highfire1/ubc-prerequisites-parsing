@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LING 431",
+  "originalPrerequisite": "All of LING 300, LING 311.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:41.734Z",
+  "parsedRequirements": {
+    "department": "LING",
+    "code": "431",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LING 300"
+        },
+        {
+          "type": "course",
+          "course": "LING 311"
+        }
+      ]
+    }
+  }
+}

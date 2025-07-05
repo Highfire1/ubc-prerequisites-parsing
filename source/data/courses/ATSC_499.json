@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ATSC 499",
+  "originalPrerequisite": "ATSC 498.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:09.949Z",
+  "parsedRequirements": {
+    "department": "ATSC",
+    "code": "499",
+    "prerequisites": {
+      "type": "course",
+      "course": "ATSC 498"
+    }
+  }
+}

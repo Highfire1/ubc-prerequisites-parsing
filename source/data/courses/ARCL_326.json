@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ARCL 326",
+  "originalPrerequisite": "ARCL 140.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:23:24.654Z",
+  "parsedRequirements": {
+    "department": "ARCL",
+    "code": "326",
+    "prerequisites": {
+      "type": "course",
+      "course": "ARCL 140"
+    }
+  }
+}

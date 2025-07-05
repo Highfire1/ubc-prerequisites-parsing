@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SCIE 120",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of BIOL 111, BIOL 121 and one of CHEM 111, CHEM 121. Restricted to students with first-year standing in Science.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:30:02.573Z",
+  "parsedRequirements": {
+    "department": "SCIE",
+    "code": "120",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 111"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 111"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 121"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "1st"
+        }
+      ]
+    }
+  }
+}

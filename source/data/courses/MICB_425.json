@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 425",
+  "originalPrerequisite": "One of BIOL 335, MICB 325, BIOT 380.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:35.680Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "425",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 335"
+        },
+        {
+          "type": "course",
+          "course": "MICB 325"
+        },
+        {
+          "type": "course",
+          "course": "BIOT 380"
+        }
+      ]
+    }
+  }
+}

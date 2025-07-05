@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "UFOR 420",
+  "originalPrerequisite": "Fourth-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:00.073Z",
+  "parsedRequirements": {
+    "department": "UFOR",
+    "code": "420",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "4th"
+    }
+  }
+}

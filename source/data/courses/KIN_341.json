@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KIN 341",
+  "originalPrerequisite": "One of KIN 140, KIN 284 and Third-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:16:42.558Z",
+  "parsedRequirements": {
+    "department": "KIN",
+    "code": "341",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "KIN 140"
+        },
+        {
+          "type": "course",
+          "course": "KIN 284"
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

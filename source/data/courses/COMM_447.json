@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 447",
+  "originalPrerequisite": "One of COMM 295, ECON 301.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:43:18.958Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "447",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 295"
+        },
+        {
+          "type": "course",
+          "course": "ECON 301"
+        }
+      ]
+    }
+  }
+}

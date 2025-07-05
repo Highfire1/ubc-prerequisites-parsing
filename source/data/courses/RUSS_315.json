@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "RUSS 315",
+  "originalPrerequisite": "RUSS 215.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:42.554Z",
+  "parsedRequirements": {
+    "department": "RUSS",
+    "code": "315",
+    "prerequisites": {
+      "type": "course",
+      "course": "RUSS 215"
+    }
+  }
+}

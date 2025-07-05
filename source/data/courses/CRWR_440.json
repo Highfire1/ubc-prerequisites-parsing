@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CRWR 440",
+  "originalPrerequisite": "Permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:48.530Z",
+  "parsedRequirements": {
+    "department": "CRWR",
+    "code": "440",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of instructor"
+    }
+  }
+}

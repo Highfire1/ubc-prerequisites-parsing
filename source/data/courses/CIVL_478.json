@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 478",
+  "originalPrerequisite": "Fourth-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:08.053Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "478",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "4th"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ARTC 300",
+  "originalPrerequisite": "One of ARTC 210, ARTC 211.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:23:52.022Z",
+  "parsedRequirements": {
+    "department": "ARTC",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ARTC 210"
+        },
+        {
+          "type": "course",
+          "course": "ARTC 211"
+        }
+      ]
+    }
+  }
+}

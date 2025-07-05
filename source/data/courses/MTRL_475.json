@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MTRL 475",
+  "originalPrerequisite": "All of MTRL 365, MTRL 378.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:57.511Z",
+  "parsedRequirements": {
+    "department": "MTRL",
+    "code": "475",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MTRL 365"
+        },
+        {
+          "type": "course",
+          "course": "MTRL 378"
+        }
+      ]
+    }
+  }
+}

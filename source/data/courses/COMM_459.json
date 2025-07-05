@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 459",
+  "originalPrerequisite": "COMM 293 and one of COMM 297, COMM 298 and one of COMM 370, COMM 397.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:43:30.966Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "459",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 293"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 297"
+            },
+            {
+              "type": "course",
+              "course": "COMM 298"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 370"
+            },
+            {
+              "type": "course",
+              "course": "COMM 397"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

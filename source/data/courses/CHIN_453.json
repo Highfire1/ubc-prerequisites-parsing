@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 453",
+  "originalPrerequisite": "One of CHIN 411, CHIN 451.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:39:15.551Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "453",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHIN 411"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 451"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CAPS 399",
+  "originalPrerequisite": "One of CAPS 398, PHYL 398.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:17.945Z",
+  "parsedRequirements": {
+    "department": "CAPS",
+    "code": "399",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CAPS 398"
+        },
+        {
+          "type": "course",
+          "course": "PHYL 398"
+        }
+      ]
+    }
+  }
+}

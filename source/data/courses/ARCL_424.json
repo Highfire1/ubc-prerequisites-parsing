@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ARCL 424",
+  "originalPrerequisite": "ARCL 203.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:23:41.900Z",
+  "parsedRequirements": {
+    "department": "ARCL",
+    "code": "424",
+    "prerequisites": {
+      "type": "course",
+      "course": "ARCL 203"
+    }
+  }
+}

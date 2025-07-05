@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 426",
+  "originalPrerequisite": "One of BIOL 111, BIOL 112, BIOL 121, CHEM 110, CHEM 111, CHEM 120, CHEM 121, EOSC 110, EOSC 112. Third year standing in Science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:34.577Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "426",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 111"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 112"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 110"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 111"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 120"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 121"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 110"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 112"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 462",
+  "originalPrerequisite": "PHIL 340 or 12 credits of mathematics or science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:02.126Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "462",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHIL 340"
+        },
+        {
+          "type": "credit_count",
+          "credits": 12,
+          "department": [
+            "MATH",
+            "SCIENCE"
+          ]
+        }
+      ]
+    }
+  }
+}

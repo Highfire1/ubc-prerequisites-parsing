@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 379",
+  "originalPrerequisite": "Third year standing. Previous coursework on international relations or POLI 321 are recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:05:18.076Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "379",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ],
+      "recommended": true
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "Previous coursework on international relations"
+        },
+        {
+          "type": "course",
+          "course": "POLI 321"
+        }
+      ]
+    }
+  }
+}

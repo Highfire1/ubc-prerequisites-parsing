@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 309",
+  "originalPrerequisite": "One of MUSC 111, MUSC 200 and completion of the second-year piano requirement.",
+  "originalCorequisite": null,
+  "status": "blacklisted",
+  "lastUpdated": "2025-07-04T22:57:04.145Z",
+  "blacklistReason": "The phrase 'completion of the second-year piano requirement' is ambiguous and cannot be unambiguously represented using the provided type system.  It is unclear whether this refers to a specific course, a certain number of credits in piano courses, or some other unspecified requirement.  More information is needed to accurately represent this prerequisite."
+}

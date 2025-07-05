@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 337",
+  "originalPrerequisite": "BIOL 200.",
+  "originalCorequisite": "One of BIOL 233, BIOL 234.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:11.808Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "337",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOL 200"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 233"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 234"
+        }
+      ]
+    }
+  }
+}

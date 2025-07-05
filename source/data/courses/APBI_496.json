@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 496",
+  "originalPrerequisite": "Third-year standing or higher. APBI 314 and/or APBI 315 are recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:21:48.255Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "496",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APBI 314"
+            },
+            {
+              "type": "course",
+              "course": "APBI 315"
+            }
+          ],
+          "recommended": true
+        }
+      ]
+    }
+  }
+}

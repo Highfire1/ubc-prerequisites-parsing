@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHAR 470",
+  "originalPrerequisite": "PHAR 370.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:23.576Z",
+  "parsedRequirements": {
+    "department": "PHAR",
+    "code": "470",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHAR 370"
+    }
+  }
+}

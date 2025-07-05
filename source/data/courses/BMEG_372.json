@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 372",
+  "originalPrerequisite": "All of BMEG 250, CHEM 123.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:05.015Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "372",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BMEG 250"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 123"
+        }
+      ]
+    }
+  }
+}

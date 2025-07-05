@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 367",
+  "originalPrerequisite": "Either (a) PSYC 100 or (b) all of PSYC 101, PSYC 102 or (c) 6 credits of 200-level Psychology (but not 205 or 263).",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:10.089Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "367",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 100"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 101"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 102"
+            }
+          ]
+        },
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "department": "PSYC",
+          "level": "200",
+          "note": "excluding PSYC 205 and PSYC 263"
+        }
+      ]
+    }
+  }
+}

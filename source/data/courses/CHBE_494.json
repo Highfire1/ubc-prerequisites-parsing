@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 494",
+  "originalPrerequisite": "CHBE 493.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:55.955Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "494",
+    "prerequisites": {
+      "type": "course",
+      "course": "CHBE 493"
+    }
+  }
+}

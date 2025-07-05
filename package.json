@@ -1,0 +1,23 @@
+{
+  "name": "ubc-parse-prerequisites",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "init": "bun run source/initialize.ts",
+    "parse": "bun run source/parse.ts",
+    "stats": "bun run source/stats.ts",
+    "export": "bun run source/export.ts"
+
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "node-fetch": "^3.3.2"
+  }
+}

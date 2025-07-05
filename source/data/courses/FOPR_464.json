@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FOPR 464",
+  "originalPrerequisite": "FOPR 362.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:08.084Z",
+  "parsedRequirements": {
+    "department": "FOPR",
+    "code": "464",
+    "prerequisites": {
+      "type": "course",
+      "course": "FOPR 362"
+    }
+  }
+}

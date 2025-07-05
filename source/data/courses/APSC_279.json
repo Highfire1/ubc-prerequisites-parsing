@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APSC 279",
+  "originalPrerequisite": "APSC 278.",
+  "originalCorequisite": "APSC 278 may be taken.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:22:22.291Z",
+  "parsedRequirements": {
+    "department": "APSC",
+    "code": "279",
+    "prerequisites": {
+      "type": "course",
+      "course": "APSC 278"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "APSC 278",
+      "canBeTakenConcurrently": true
+    }
+  }
+}

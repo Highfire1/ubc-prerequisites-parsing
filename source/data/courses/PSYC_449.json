@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 449",
+  "originalPrerequisite": "PSYC 349. Fourth-year standing. Restricted to students in Honours. Intended for students in their graduating year.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:55.051Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "449",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 349"
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "program",
+          "program": "Honours"
+        }
+      ]
+    }
+  }
+}

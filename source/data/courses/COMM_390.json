@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 390",
+  "originalPrerequisite": "One of ENGL 112, ASTU 150, WRDS 150, ENGL 100, ENGL 120, ENGL 121. ENGL 1st, Arts One, a minimum of 18 cr. of Coordinated Arts Program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:42:50.319Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "390",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ENGL 112"
+            },
+            {
+              "type": "course",
+              "course": "ASTU 150"
+            },
+            {
+              "type": "course",
+              "course": "WRDS 150"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 100"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 120"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 121"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "1st"
+        },
+        {
+          "type": "credit_count",
+          "credits": 18,
+          "department": "Coordinated Arts Program"
+        }
+      ]
+    }
+  }
+}

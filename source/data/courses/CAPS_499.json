@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CAPS 499",
+  "originalPrerequisite": "One of CAPS 498, PHYL 498.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:33.201Z",
+  "parsedRequirements": {
+    "department": "CAPS",
+    "code": "499",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CAPS 498"
+        },
+        {
+          "type": "course",
+          "course": "PHYL 498"
+        }
+      ]
+    }
+  }
+}

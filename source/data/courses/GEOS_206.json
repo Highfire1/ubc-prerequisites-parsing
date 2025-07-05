@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 206",
+  "originalPrerequisite": "One of GEOB 103, GEOS 103, EOSC 110, PHYS 101, PHYS 107, PHYS 153, SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:08.680Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "206",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOB 103"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 103"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 110"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 101"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 107"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 153"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    }
+  }
+}

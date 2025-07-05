@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 201",
+  "originalPrerequisite": "One of BIOL 112, BIOL 200, SCIE 001. For students with BIOL 112, CHEM 121 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:53:55.270Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "201",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 112"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 200"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 112"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 121"
+        }
+      ],
+      "recommended": "true"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 441",
+  "originalPrerequisite": "One of BIOL 340, BIOL 341 and one of BIOL 361, BIOL 362.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:30.991Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "441",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 340"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 341"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 361"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 362"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PCTH 302",
+  "originalPrerequisite": null,
+  "originalCorequisite": "PCTH 300.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:41.068Z",
+  "parsedRequirements": {
+    "department": "PCTH",
+    "code": "302",
+    "corequisites": {
+      "type": "course",
+      "course": "PCTH 300"
+    }
+  }
+}

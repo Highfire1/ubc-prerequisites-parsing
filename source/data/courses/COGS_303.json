@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COGS 303",
+  "originalPrerequisite": "COGS 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:34.626Z",
+  "parsedRequirements": {
+    "department": "COGS",
+    "code": "303",
+    "prerequisites": {
+      "type": "course",
+      "course": "COGS 200"
+    }
+  }
+}

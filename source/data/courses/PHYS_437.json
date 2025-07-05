@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 437",
+  "originalPrerequisite": "One of PHYS 313, PHYS 403, PHYS 455, CHEM 304.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:36.498Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "437",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 313"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 403"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 455"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 304"
+        }
+      ]
+    }
+  }
+}

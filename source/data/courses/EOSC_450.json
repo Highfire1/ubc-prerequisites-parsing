@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 450",
+  "originalPrerequisite": "One of PHYS 312, MATH 316, MATH 257 and one of PHYS 102, PHYS 108, PHYS 118, PHYS 158, SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:52.353Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "450",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 312"
+            },
+            {
+              "type": "course",
+              "course": "MATH 316"
+            },
+            {
+              "type": "course",
+              "course": "MATH 257"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 102"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 108"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 118"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 158"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 342",
+  "originalPrerequisite": "A completed concentration in mathematics or permission of the Head.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:09.312Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "342",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "A completed concentration in mathematics"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the Head"
+        }
+      ]
+    }
+  }
+}

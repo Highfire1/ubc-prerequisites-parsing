@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ITAL 343",
+  "originalPrerequisite": "Proficiency in another Romance language or Latin. Not considered a third-year course for purposes of satisfying Italian program requirements.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:02.293Z",
+  "parsedRequirements": {
+    "department": "ITAL",
+    "code": "343",
+    "prerequisites": {
+      "type": "other",
+      "note": "Proficiency in another Romance language or Latin. Not considered a third-year course for purposes of satisfying Italian program requirements."
+    }
+  }
+}

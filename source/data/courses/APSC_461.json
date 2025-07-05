@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APSC 461",
+  "originalPrerequisite": "Completion of third year.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:22:47.145Z",
+  "parsedRequirements": {
+    "department": "APSC",
+    "code": "461",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

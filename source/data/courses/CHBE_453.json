@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 453",
+  "originalPrerequisite": "All of CHBE 241, CHBE 345, CHBE 356, CHBE 376, CHBE 381.",
+  "originalCorequisite": "All of CHBE 459, CHBE 481.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:19.233Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "453",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 241"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 345"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 356"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 376"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 381"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 459"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 481"
+        }
+      ]
+    }
+  }
+}

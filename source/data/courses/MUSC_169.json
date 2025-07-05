@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 169",
+  "originalPrerequisite": null,
+  "originalCorequisite": "Any small ensemble (MUSC 156-166) and permission of the instructor.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:56:09.251Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "169",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MUSC 156"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 157"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 158"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 159"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 160"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 161"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 162"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 163"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 164"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 165"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 166"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "permission of the instructor"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ARCL 345",
+  "originalPrerequisite": "One of ARCL 103, ARCL 203, FSCT 201.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:23:28.990Z",
+  "parsedRequirements": {
+    "department": "ARCL",
+    "code": "345",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ARCL 103"
+        },
+        {
+          "type": "course",
+          "course": "ARCL 203"
+        },
+        {
+          "type": "course",
+          "course": "FSCT 201"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 210",
+  "originalPrerequisite": "MUSC 111. Or MUSC 200 with permission of the instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:56:17.212Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "210",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 111"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MUSC 200"
+            },
+            {
+              "type": "permission",
+              "note": "permission of the instructor"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

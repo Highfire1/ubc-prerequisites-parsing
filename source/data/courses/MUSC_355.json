@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 355",
+  "originalPrerequisite": "MUSC 121.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:57:15.930Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "355",
+    "prerequisites": {
+      "type": "course",
+      "course": "MUSC 121"
+    }
+  }
+}

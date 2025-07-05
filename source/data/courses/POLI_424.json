@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 424",
+  "originalPrerequisite": "Third year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:06:10.093Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "424",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

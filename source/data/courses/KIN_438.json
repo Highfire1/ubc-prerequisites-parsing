@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KIN 438",
+  "originalPrerequisite": "KIN 335 and third-year standing. BIOL 112 or similar recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:16:58.325Z",
+  "parsedRequirements": {
+    "department": "KIN",
+    "code": "438",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "KIN 335"
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 112"
+        },
+        {
+          "type": "other",
+          "note": "similar course"
+        }
+      ],
+      "recommended": "true"
+    }
+  }
+}

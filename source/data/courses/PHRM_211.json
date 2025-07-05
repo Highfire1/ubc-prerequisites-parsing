@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHRM 211",
+  "originalPrerequisite": null,
+  "originalCorequisite": "PHRM 231.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:07.030Z",
+  "parsedRequirements": {
+    "department": "PHRM",
+    "code": "211",
+    "corequisites": {
+      "type": "course",
+      "course": "PHRM 231"
+    }
+  }
+}

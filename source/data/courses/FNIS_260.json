@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNIS 260",
+  "originalPrerequisite": "Permission of the Instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:37.459Z",
+  "parsedRequirements": {
+    "department": "FNIS",
+    "code": "260",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of the Instructor"
+    }
+  }
+}

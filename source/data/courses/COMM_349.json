@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 349",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of COMM 204, COMM 296.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:42:29.455Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "349",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 204"
+        },
+        {
+          "type": "course",
+          "course": "COMM 296"
+        }
+      ]
+    }
+  }
+}

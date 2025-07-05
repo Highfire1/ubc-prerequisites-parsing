@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DES 402",
+  "originalPrerequisite": "A score of 60% or higher in DES 401.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:25.638Z",
+  "parsedRequirements": {
+    "department": "DES",
+    "code": "402",
+    "prerequisites": {
+      "type": "course",
+      "course": "DES 401",
+      "minGrade": 60
+    }
+  }
+}

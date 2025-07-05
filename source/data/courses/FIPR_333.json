@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FIPR 333",
+  "originalPrerequisite": "FIPR 233.",
+  "originalCorequisite": "All of FIPR 337, FIPR 338.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:25.508Z",
+  "parsedRequirements": {
+    "department": "FIPR",
+    "code": "333",
+    "prerequisites": {
+      "type": "course",
+      "course": "FIPR 233"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FIPR 337"
+        },
+        {
+          "type": "course",
+          "course": "FIPR 338"
+        }
+      ]
+    }
+  }
+}

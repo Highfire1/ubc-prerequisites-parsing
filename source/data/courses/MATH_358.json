@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 358",
+  "originalPrerequisite": "All of MECH 224, MECH 225.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:22.189Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "358",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 224"
+        },
+        {
+          "type": "course",
+          "course": "MECH 225"
+        }
+      ]
+    }
+  }
+}

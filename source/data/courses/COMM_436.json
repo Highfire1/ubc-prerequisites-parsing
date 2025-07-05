@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 436",
+  "originalPrerequisite": "One of COMM 335, CPSC 310.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:43:08.878Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "436",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 335"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 310"
+        }
+      ]
+    }
+  }
+}

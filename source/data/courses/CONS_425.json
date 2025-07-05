@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CONS 425",
+  "originalPrerequisite": "Third- or fouth-year standing; 100-level MATH course.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:47.218Z",
+  "parsedRequirements": {
+    "department": "CONS",
+    "code": "425",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "course_count",
+          "count": 1,
+          "department": "MATH",
+          "level": "100"
+        }
+      ]
+    }
+  }
+}

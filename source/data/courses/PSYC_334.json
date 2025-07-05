@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 334",
+  "originalPrerequisite": "PSYC 333.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:22:12.049Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "334",
+    "prerequisites": {
+      "type": "course",
+      "course": "PSYC 333"
+    }
+  }
+}

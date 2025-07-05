@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ANTH 401",
+  "originalPrerequisite": "ANTH 329 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:18:41.202Z",
+  "parsedRequirements": {
+    "department": "ANTH",
+    "code": "401",
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "ANTH 329"
+    }
+  }
+}

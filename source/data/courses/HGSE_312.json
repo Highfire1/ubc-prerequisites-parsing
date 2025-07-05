@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HGSE 312",
+  "originalPrerequisite": null,
+  "originalCorequisite": "All of HGSE 310, HGSE 311, HGSE 313, HGSE 314.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:11.608Z",
+  "parsedRequirements": {
+    "department": "HGSE",
+    "code": "312",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "HGSE 310"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 311"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 313"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 314"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 315",
+  "originalPrerequisite": "All of CIVL 203, CIVL 215, MATH 256.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:23.556Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "315",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CIVL 203"
+        },
+        {
+          "type": "course",
+          "course": "CIVL 215"
+        },
+        {
+          "type": "course",
+          "course": "MATH 256"
+        }
+      ]
+    }
+  }
+}

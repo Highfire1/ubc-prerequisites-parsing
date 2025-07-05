@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CAPS 421",
+  "originalPrerequisite": "Either (a) all of ANAT 390, PHYL 301 or (b) all of CAPS 301, CAPS 390 and third-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:20.046Z",
+  "parsedRequirements": {
+    "department": "CAPS",
+    "code": "421",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ANAT 390"
+            },
+            {
+              "type": "course",
+              "course": "PHYL 301"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CAPS 301"
+            },
+            {
+              "type": "course",
+              "course": "CAPS 390"
+            },
+            {
+              "type": "standing",
+              "standing": "3rd"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

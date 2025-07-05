@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 121",
+  "originalPrerequisite": "Algebra 12 strongly recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:17.777Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "121",
+    "recommendedPrerequisites": {
+      "type": "other",
+      "note": "Algebra 12"
+    }
+  }
+}

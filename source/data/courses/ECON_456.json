@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 456",
+  "originalPrerequisite": "One of ECON 302, ECON 305, ECON 309.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:51:33.294Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "456",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECON 302"
+        },
+        {
+          "type": "course",
+          "course": "ECON 305"
+        },
+        {
+          "type": "course",
+          "course": "ECON 309"
+        }
+      ]
+    }
+  }
+}

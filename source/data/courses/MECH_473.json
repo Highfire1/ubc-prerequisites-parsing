@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 473",
+  "originalPrerequisite": "MECH 375.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:56.629Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "473",
+    "prerequisites": {
+      "type": "course",
+      "course": "MECH 375"
+    }
+  }
+}

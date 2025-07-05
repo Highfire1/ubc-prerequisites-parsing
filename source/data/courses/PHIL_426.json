@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 426",
+  "originalPrerequisite": "PHIL 326. And 6 credits of PHIL/LING at the 200-level or above.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:47.802Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "426",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHIL 326"
+        },
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "department": [
+            "PHIL",
+            "LING"
+          ],
+          "level": "200"
+        }
+      ]
+    }
+  }
+}

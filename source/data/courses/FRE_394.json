@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRE 394",
+  "originalPrerequisite": "One of COMM 295, ECON 301.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:06.919Z",
+  "parsedRequirements": {
+    "department": "FRE",
+    "code": "394",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 295"
+        },
+        {
+          "type": "course",
+          "course": "ECON 301"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 321",
+  "originalPrerequisite": "One of FREN 220, FREN 221, FREN 311.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:20.009Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "321",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 220"
+        },
+        {
+          "type": "course",
+          "course": "FREN 221"
+        },
+        {
+          "type": "course",
+          "course": "FREN 311"
+        }
+      ]
+    }
+  }
+}

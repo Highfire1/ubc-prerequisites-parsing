@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 430",
+  "originalPrerequisite": "Two of VISA 320, VISA 321, VISA 330, VISA 331.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:57.486Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "430",
+    "prerequisites": {
+      "type": "group",
+      "logic": "TWO_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "VISA 320"
+        },
+        {
+          "type": "course",
+          "course": "VISA 321"
+        },
+        {
+          "type": "course",
+          "course": "VISA 330"
+        },
+        {
+          "type": "course",
+          "course": "VISA 331"
+        }
+      ]
+    }
+  }
+}

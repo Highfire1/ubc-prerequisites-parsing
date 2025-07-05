@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 344",
+  "originalPrerequisite": "One of CPSC 210, CPEN 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:24.347Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "344",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 210"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 221"
+        }
+      ]
+    }
+  }
+}

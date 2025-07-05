@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 402",
+  "originalPrerequisite": "One of FREN 224, FREN 401 or assignment based on placement test.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:40.012Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "402",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 224"
+        },
+        {
+          "type": "course",
+          "course": "FREN 401"
+        },
+        {
+          "type": "other",
+          "note": "assignment based on placement test"
+        }
+      ]
+    }
+  }
+}

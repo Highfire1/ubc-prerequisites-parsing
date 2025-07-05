@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVR 410",
+  "originalPrerequisite": "Fourth-year standing in B.Sc., B.A.Sc. or related programs.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:01.764Z",
+  "parsedRequirements": {
+    "department": "ENVR",
+    "code": "410",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "program",
+          "program": "B.Sc. or related programs"
+        }
+      ]
+    }
+  }
+}

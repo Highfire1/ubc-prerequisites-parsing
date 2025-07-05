@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 245",
+  "originalPrerequisite": "One of CHEM 12, CHEM 100. BIOL 12 strongly recommended",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:47.179Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "245",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 12"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 100"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "BIOL 12"
+    }
+  }
+}

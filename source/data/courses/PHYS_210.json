@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 210",
+  "originalPrerequisite": "One of PHYS 102, PHYS 108, PHYS 118, PHYS 158, PHYS 153, SCIE 001.",
+  "originalCorequisite": "One of MATH 152, MATH 221, MATH 223.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:29.483Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "210",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 102"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 108"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 118"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 158"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 153"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 152"
+        },
+        {
+          "type": "course",
+          "course": "MATH 221"
+        },
+        {
+          "type": "course",
+          "course": "MATH 223"
+        }
+      ]
+    }
+  }
+}

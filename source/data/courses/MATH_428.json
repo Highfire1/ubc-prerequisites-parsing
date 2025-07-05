@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 428",
+  "originalPrerequisite": "One of MATH 215, MATH 255, MATH 256, MATH 258 and one of PHYS 216, PHYS 306, ENPH 270.",
+  "originalCorequisite": "MATH 320.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:59.593Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "428",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 215"
+            },
+            {
+              "type": "course",
+              "course": "MATH 255"
+            },
+            {
+              "type": "course",
+              "course": "MATH 256"
+            },
+            {
+              "type": "course",
+              "course": "MATH 258"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 216"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 306"
+            },
+            {
+              "type": "course",
+              "course": "ENPH 270"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MATH 320"
+    }
+  }
+}

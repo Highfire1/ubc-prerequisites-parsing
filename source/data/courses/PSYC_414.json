@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 414",
+  "originalPrerequisite": "Either (a) one of PSYC 217, PSYC 277 and one of PSYC 218, PSYC 277; or (b) PSYC 366 and one of PSYC 302, PSYC 315, PSYC 319, PSYC 322, PSYC 325.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:39.353Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "414",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PSYC 217"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 277"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PSYC 218"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 277"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 366"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PSYC 302"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 315"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 319"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 322"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 325"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

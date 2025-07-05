@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 420",
+  "originalPrerequisite": "One of BMEG 220, BMEG 250 and one of BMEG 321, ELEC 371.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:09.368Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "420",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BMEG 220"
+            },
+            {
+              "type": "course",
+              "course": "BMEG 250"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BMEG 321"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 371"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

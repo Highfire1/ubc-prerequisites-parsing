@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APSC 210",
+  "originalPrerequisite": "APSC 110.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:22:18.864Z",
+  "parsedRequirements": {
+    "department": "APSC",
+    "code": "210",
+    "prerequisites": {
+      "type": "course",
+      "course": "APSC 110"
+    }
+  }
+}

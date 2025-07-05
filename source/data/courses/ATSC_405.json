@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ATSC 405",
+  "originalPrerequisite": "MATH 215. Familiarity with a programming language is required.",
+  "originalCorequisite": "One of PHYS 203, CHEM 304.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:04.032Z",
+  "parsedRequirements": {
+    "department": "ATSC",
+    "code": "405",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 215"
+        },
+        {
+          "type": "other",
+          "note": "Familiarity with a programming language is required."
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 203"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 304"
+        }
+      ]
+    }
+  }
+}

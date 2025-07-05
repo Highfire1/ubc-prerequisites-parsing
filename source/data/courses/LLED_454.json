@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LLED 454",
+  "originalPrerequisite": "or corequisite: an introductory-level reading, language arts, or English education course.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:08.374Z",
+  "parsedRequirements": {
+    "department": "LLED",
+    "code": "454",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "an introductory-level reading course"
+        },
+        {
+          "type": "other",
+          "note": "an introductory-level language arts course"
+        },
+        {
+          "type": "other",
+          "note": "an introductory-level English education course"
+        }
+      ]
+    }
+  }
+}

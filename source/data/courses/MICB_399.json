@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 399",
+  "originalPrerequisite": "MICB 398.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:17.957Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "399",
+    "prerequisites": {
+      "type": "course",
+      "course": "MICB 398"
+    }
+  }
+}

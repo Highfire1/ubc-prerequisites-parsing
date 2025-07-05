@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 325",
+  "originalPrerequisite": "One of MECH 223, MECH 260.",
+  "originalCorequisite": "MECH 360.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:00.178Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "325",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 223"
+        },
+        {
+          "type": "course",
+          "course": "MECH 260"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MECH 360"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "STAT 398",
+  "originalPrerequisite": "Registration in Statistics Honours or Major Program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:48.002Z",
+  "parsedRequirements": {
+    "department": "STAT",
+    "code": "398",
+    "prerequisites": {
+      "type": "program",
+      "program": "Statistics Honours or Major Program"
+    }
+  }
+}

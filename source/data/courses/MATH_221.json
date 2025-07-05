@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 221",
+  "originalPrerequisite": "Either (a) a score of 64% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 or (b) one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001 or (c) advanced credit for MATH 100.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:10.499Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "221",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 100",
+              "minGrade": 64
+            },
+            {
+              "type": "course",
+              "course": "MATH 102",
+              "minGrade": 64
+            },
+            {
+              "type": "course",
+              "course": "MATH 104",
+              "minGrade": 64
+            },
+            {
+              "type": "course",
+              "course": "MATH 110",
+              "minGrade": 64
+            },
+            {
+              "type": "course",
+              "course": "MATH 120",
+              "minGrade": 64
+            },
+            {
+              "type": "course",
+              "course": "MATH 180",
+              "minGrade": 64
+            },
+            {
+              "type": "course",
+              "course": "MATH 184",
+              "minGrade": 64
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 101"
+            },
+            {
+              "type": "course",
+              "course": "MATH 103"
+            },
+            {
+              "type": "course",
+              "course": "MATH 105"
+            },
+            {
+              "type": "course",
+              "course": "MATH 121"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "MATH 100",
+          "minGrade": 64
+        }
+      ]
+    }
+  }
+}

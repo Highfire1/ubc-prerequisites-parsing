@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 321",
+  "originalPrerequisite": "One of PHIL 125, PHIL 220 or instructor permission.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:29.596Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "321",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHIL 125"
+            },
+            {
+              "type": "course",
+              "course": "PHIL 220"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "instructor permission"
+        }
+      ]
+    }
+  }
+}

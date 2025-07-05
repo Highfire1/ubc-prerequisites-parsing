@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LAW 466",
+  "originalPrerequisite": "All of LAW 407, LAW 459, LAW 463. And 6 credits of other courses from the Concentration.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:05.582Z",
+  "parsedRequirements": {
+    "department": "LAW",
+    "code": "466",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "LAW 407"
+            },
+            {
+              "type": "course",
+              "course": "LAW 459"
+            },
+            {
+              "type": "course",
+              "course": "LAW 463"
+            }
+          ]
+        },
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "department": "LAW"
+        }
+      ]
+    }
+  }
+}

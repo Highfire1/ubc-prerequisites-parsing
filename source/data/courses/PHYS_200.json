@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 200",
+  "originalPrerequisite": "Either (a) one of PHYS 102, PHYS 108, PHYS 118, PHYS 158, PHYS 153 and one of MATH 101, MATH 103, MATH 105, MATH 121; or (b) SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:19.733Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "200",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 102"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 108"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 118"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 158"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 153"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 101"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 103"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 105"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 121"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    }
+  }
+}

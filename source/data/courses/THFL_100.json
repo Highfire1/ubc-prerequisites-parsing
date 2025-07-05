@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THFL 100",
+  "originalPrerequisite": "Restricted to students in one of the following BFA programs: Major in Acting; Major in Film Production; Major in Theatre Design and Production",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:01.856Z",
+  "parsedRequirements": {
+    "department": "THFL",
+    "code": "100",
+    "prerequisites": {
+      "type": "program",
+      "program": "one of the following BFA programs: Major in Acting; Major in Film Production; Major in Theatre Design and Production"
+    }
+  }
+}

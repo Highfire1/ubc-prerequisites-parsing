@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ANTH 329",
+  "originalPrerequisite": "ANTH 220 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:18:34.968Z",
+  "parsedRequirements": {
+    "department": "ANTH",
+    "code": "329",
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "ANTH 220"
+    }
+  }
+}

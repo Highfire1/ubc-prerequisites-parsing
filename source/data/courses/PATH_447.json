@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PATH 447",
+  "originalPrerequisite": "All of PATH 427, PATH 467.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:33.917Z",
+  "parsedRequirements": {
+    "department": "PATH",
+    "code": "447",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PATH 427"
+        },
+        {
+          "type": "course",
+          "course": "PATH 467"
+        }
+      ]
+    }
+  }
+}

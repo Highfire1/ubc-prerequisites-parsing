@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 352",
+  "originalPrerequisite": "All of MUSC 120, MUSC 121.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:57:13.268Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "352",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 120"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 121"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 480",
+  "originalPrerequisite": "Third year Chemical and Biological Engineering.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:40.347Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "480",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

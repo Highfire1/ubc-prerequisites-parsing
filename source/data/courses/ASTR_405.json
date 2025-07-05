@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASTR 405",
+  "originalPrerequisite": "ASTR 404.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:30.068Z",
+  "parsedRequirements": {
+    "department": "ASTR",
+    "code": "405",
+    "prerequisites": {
+      "type": "course",
+      "course": "ASTR 404"
+    }
+  }
+}

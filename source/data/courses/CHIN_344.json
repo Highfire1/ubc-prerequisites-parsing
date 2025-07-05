@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 344",
+  "originalPrerequisite": "One of CHIN 117, CHIN 118, CHIN 243, CHIN 244.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:38:34.750Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "344",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHIN 117"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 118"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 243"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 244"
+        }
+      ]
+    }
+  }
+}

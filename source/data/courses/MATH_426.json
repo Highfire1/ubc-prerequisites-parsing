@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 426",
+  "originalPrerequisite": "A score of 68% or higher in all of MATH 321, MATH 322.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:56.402Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "426",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 321",
+          "minGrade": 68
+        },
+        {
+          "type": "course",
+          "course": "MATH 322",
+          "minGrade": 68
+        }
+      ]
+    }
+  }
+}

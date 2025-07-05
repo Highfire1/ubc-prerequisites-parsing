@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "STAT 300",
+  "originalPrerequisite": "One of STAT 200, STAT 203, STAT 241, STAT 251, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, KIN 206, LFS 252, POLI 380, PSYC 218, PSYC 278, PSYC 366.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:29.998Z",
+  "parsedRequirements": {
+    "department": "STAT",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "STAT 200"
+        },
+        {
+          "type": "course",
+          "course": "STAT 203"
+        },
+        {
+          "type": "course",
+          "course": "STAT 241"
+        },
+        {
+          "type": "course",
+          "course": "STAT 251"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 300"
+        },
+        {
+          "type": "course",
+          "course": "COMM 291"
+        },
+        {
+          "type": "course",
+          "course": "ECON 325"
+        },
+        {
+          "type": "course",
+          "course": "ECON 327"
+        },
+        {
+          "type": "course",
+          "course": "FRST 231"
+        },
+        {
+          "type": "course",
+          "course": "KIN 206"
+        },
+        {
+          "type": "course",
+          "course": "LFS 252"
+        },
+        {
+          "type": "course",
+          "course": "POLI 380"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 218"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 278"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 366"
+        }
+      ]
+    }
+  }
+}

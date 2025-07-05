@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "IGEN 452",
+  "originalPrerequisite": "IGEN 450.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:04.906Z",
+  "parsedRequirements": {
+    "department": "IGEN",
+    "code": "452",
+    "prerequisites": {
+      "type": "course",
+      "course": "IGEN 450"
+    }
+  }
+}

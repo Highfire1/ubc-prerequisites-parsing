@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 300",
+  "originalPrerequisite": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254.",
+  "originalCorequisite": "One of MATH 217, MATH 227, MATH 254, MATH 317.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:35.900Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 200"
+        },
+        {
+          "type": "course",
+          "course": "MATH 217"
+        },
+        {
+          "type": "course",
+          "course": "MATH 226"
+        },
+        {
+          "type": "course",
+          "course": "MATH 253"
+        },
+        {
+          "type": "course",
+          "course": "MATH 254"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 217"
+        },
+        {
+          "type": "course",
+          "course": "MATH 227"
+        },
+        {
+          "type": "course",
+          "course": "MATH 254"
+        },
+        {
+          "type": "course",
+          "course": "MATH 317"
+        }
+      ]
+    }
+  }
+}

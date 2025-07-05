@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 100",
+  "originalPrerequisite": "Not open to students with credit for Chemistry 12. Permission of the department head.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:08.368Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "100",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "Not open to students with credit for Chemistry 12"
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the department head"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 350",
+  "originalPrerequisite": "Either (a) VISA 250 or (b) one of VISA 290, VISA 283, VISA 284, FINA 290, FINA 283, FINA 284.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:36.140Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "350",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "VISA 250"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "VISA 290"
+            },
+            {
+              "type": "course",
+              "course": "VISA 283"
+            },
+            {
+              "type": "course",
+              "course": "VISA 284"
+            },
+            {
+              "type": "course",
+              "course": "FINA 290"
+            },
+            {
+              "type": "course",
+              "course": "FINA 283"
+            },
+            {
+              "type": "course",
+              "course": "FINA 284"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

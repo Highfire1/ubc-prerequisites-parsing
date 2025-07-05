@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 306",
+  "originalPrerequisite": "EDCP 305.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:05.318Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "306",
+    "prerequisites": {
+      "type": "course",
+      "course": "EDCP 305"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SOCI 383",
+  "originalPrerequisite": "One of SOCI 100, SOCI 101, SOCI 102 and SOCI 217.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:30:44.771Z",
+  "parsedRequirements": {
+    "department": "SOCI",
+    "code": "383",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SOCI 100"
+        },
+        {
+          "type": "course",
+          "course": "SOCI 101"
+        },
+        {
+          "type": "course",
+          "course": "SOCI 102"
+        },
+        {
+          "type": "course",
+          "course": "SOCI 217"
+        }
+      ]
+    }
+  }
+}

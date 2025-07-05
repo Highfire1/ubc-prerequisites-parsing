@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BEST 300",
+  "originalPrerequisite": "One of CHEM 203, CHEM 233.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:18.451Z",
+  "parsedRequirements": {
+    "department": "BEST",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 203"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 233"
+        }
+      ]
+    }
+  }
+}

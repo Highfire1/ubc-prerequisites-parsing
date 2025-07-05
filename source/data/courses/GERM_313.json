@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GERM 313",
+  "originalPrerequisite": "GERM 210 or equivalent.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:12:03.732Z",
+  "parsedRequirements": {
+    "department": "GERM",
+    "code": "313",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GERM 210"
+        },
+        {
+          "type": "other",
+          "note": "equivalent"
+        }
+      ]
+    }
+  }
+}

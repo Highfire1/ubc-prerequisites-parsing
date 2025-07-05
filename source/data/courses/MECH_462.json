@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 462",
+  "originalPrerequisite": "Either (a) all of MECH 360, MECH 375 or (b) all of MECH 360, MTRL 264.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:46.299Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "462",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MECH 360"
+            },
+            {
+              "type": "course",
+              "course": "MECH 375"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MECH 360"
+            },
+            {
+              "type": "course",
+              "course": "MTRL 264"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 405",
+  "originalPrerequisite": "One of MICB 301, MICB 325, BIOC 302, BIOC 303, BIOL 335, BIOT 380.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:24.716Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "405",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 301"
+        },
+        {
+          "type": "course",
+          "course": "MICB 325"
+        },
+        {
+          "type": "course",
+          "course": "BIOC 302"
+        },
+        {
+          "type": "course",
+          "course": "BIOC 303"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 335"
+        },
+        {
+          "type": "course",
+          "course": "BIOT 380"
+        }
+      ]
+    }
+  }
+}

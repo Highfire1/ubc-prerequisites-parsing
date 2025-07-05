@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 460",
+  "originalPrerequisite": "APBI 360 or equivalent.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:21:26.159Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "460",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APBI 360"
+        },
+        {
+          "type": "other",
+          "note": "equivalent"
+        }
+      ]
+    }
+  }
+}

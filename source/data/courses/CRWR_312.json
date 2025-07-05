@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CRWR 312",
+  "originalPrerequisite": "CRWR 213.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:23.213Z",
+  "parsedRequirements": {
+    "department": "CRWR",
+    "code": "312",
+    "prerequisites": {
+      "type": "course",
+      "course": "CRWR 213"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 361",
+  "originalPrerequisite": "One of BIOL 301, MATH 215, MATH 255, MATH 256, MATH 258.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:25.427Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "361",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 301"
+        },
+        {
+          "type": "course",
+          "course": "MATH 215"
+        },
+        {
+          "type": "course",
+          "course": "MATH 255"
+        },
+        {
+          "type": "course",
+          "course": "MATH 256"
+        },
+        {
+          "type": "course",
+          "course": "MATH 258"
+        }
+      ]
+    }
+  }
+}

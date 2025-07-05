@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ITAL 401",
+  "originalPrerequisite": "ITAL 302. Or successful completion of CEFR level B1.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:05.148Z",
+  "parsedRequirements": {
+    "department": "ITAL",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ITAL 302"
+        },
+        {
+          "type": "other",
+          "note": "Successful completion of CEFR level B1"
+        }
+      ]
+    }
+  }
+}

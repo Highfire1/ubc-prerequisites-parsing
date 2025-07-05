@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 273",
+  "originalPrerequisite": "At least one theatre course.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:07.609Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "273",
+    "prerequisites": {
+      "type": "course_count",
+      "count": 1,
+      "department": "THTR"
+    }
+  }
+}

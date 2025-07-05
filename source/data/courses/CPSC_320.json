@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 320",
+  "originalPrerequisite": "CPSC 221 and at least 3 credits from COMM 291, BIOL 300, MATH or STAT at 200 level or above.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:15.005Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "320",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 221"
+        },
+        {
+          "type": "credit_count",
+          "credits": 3,
+          "department": [
+            "COMM",
+            "BIOL",
+            "MATH",
+            "STAT"
+          ],
+          "level": [
+            "200",
+            "300",
+            "400"
+          ]
+        }
+      ]
+    }
+  }
+}

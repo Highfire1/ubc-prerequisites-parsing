@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HINU 305",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of HINU 300, HINU 400.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:51.623Z",
+  "parsedRequirements": {
+    "department": "HINU",
+    "code": "305",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "HINU 300"
+        },
+        {
+          "type": "course",
+          "course": "HINU 400"
+        }
+      ]
+    }
+  }
+}

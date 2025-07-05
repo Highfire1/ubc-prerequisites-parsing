@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDUC 342",
+  "originalPrerequisite": "One of LLED 489, LING 200, LING 400. LLED 486 and LING 433 are recommended as pre- or corequisites.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:46.044Z",
+  "parsedRequirements": {
+    "department": "EDUC",
+    "code": "342",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LLED 489"
+        },
+        {
+          "type": "course",
+          "course": "LING 200"
+        },
+        {
+          "type": "course",
+          "course": "LING 400"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LLED 486"
+        },
+        {
+          "type": "course",
+          "course": "LING 433"
+        }
+      ],
+      "recommended": "true"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 311",
+  "originalPrerequisite": "CIVL 210.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:21.913Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "311",
+    "prerequisites": {
+      "type": "course",
+      "course": "CIVL 210"
+    }
+  }
+}

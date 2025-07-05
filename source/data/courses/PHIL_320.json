@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 320",
+  "originalPrerequisite": "PHIL 220.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:28.064Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "320",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHIL 220"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GERM 426",
+  "originalPrerequisite": "Third Year Standing or permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:12:12.829Z",
+  "parsedRequirements": {
+    "department": "GERM",
+    "code": "426",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "permission",
+          "note": "permission of instructor"
+        }
+      ]
+    }
+  }
+}

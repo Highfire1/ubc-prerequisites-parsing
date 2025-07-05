@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 409",
+  "originalPrerequisite": "BIOL 230 and one of BIOL 300, STAT 200. BIOL 306 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:50.111Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "409",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 230"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 300"
+            },
+            {
+              "type": "course",
+              "course": "STAT 200"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "BIOL 306"
+    }
+  }
+}

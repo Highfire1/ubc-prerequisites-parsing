@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 418",
+  "originalPrerequisite": "BIOL 336 and BIOL 230.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:01.617Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "418",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 336"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 230"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENGL 388",
+  "originalPrerequisite": "(Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing; and 3 credits of 100- and/or 200-level English or one of (a) WRDS 150 or 350; (b) ASTU 100 or 101; (c) ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:59:45.191Z",
+  "parsedRequirements": {
+    "department": "ENGL",
+    "code": "388",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "credit_count",
+              "credits": 3,
+              "department": "ENGL",
+              "level": [
+                "100",
+                "200"
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "WRDS 150"
+                    },
+                    {
+                      "type": "course",
+                      "course": "WRDS 350"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "ASTU 100"
+                    },
+                    {
+                      "type": "course",
+                      "course": "ASTU 101"
+                    }
+                  ]
+                },
+                {
+                  "type": "course",
+                  "course": "ARTS 001"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "department": [
+        "ENGL"
+      ],
+      "level": [
+        "100",
+        "200"
+      ]
+    }
+  }
+}

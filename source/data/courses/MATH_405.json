@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 405",
+  "originalPrerequisite": "One of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:37.378Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "405",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 256"
+        },
+        {
+          "type": "course",
+          "course": "MATH 257"
+        },
+        {
+          "type": "course",
+          "course": "MATH 316"
+        },
+        {
+          "type": "course",
+          "course": "MATH 358"
+        },
+        {
+          "type": "course",
+          "course": "MECH 358"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 312"
+        }
+      ]
+    }
+  }
+}

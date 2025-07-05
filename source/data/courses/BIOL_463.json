@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 463",
+  "originalPrerequisite": "BIOL 335 and one of BIOL 201, BIOC 202, BIOC 203. BIOL 331 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:28.381Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "463",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 335"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 201"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 202"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 203"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "BIOL 331"
+    }
+  }
+}

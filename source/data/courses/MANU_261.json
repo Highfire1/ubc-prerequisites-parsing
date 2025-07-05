@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MANU 261",
+  "originalPrerequisite": "All of MATH 101, MATH 152, PHYS 158.",
+  "originalCorequisite": "MATH 255.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:16.587Z",
+  "parsedRequirements": {
+    "department": "MANU",
+    "code": "261",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 101"
+        },
+        {
+          "type": "course",
+          "course": "MATH 152"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 158"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MATH 255"
+    }
+  }
+}

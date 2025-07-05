@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EPSE 483",
+  "originalPrerequisite": "Please consult the Faculty of Science Credit Exclusion Lists http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,215,410,414 before registering.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:21.735Z",
+  "parsedRequirements": {
+    "department": "EPSE",
+    "code": "483",
+    "prerequisites": {
+      "type": "other",
+      "note": "Please consult the Faculty of Science Credit Exclusion Lists http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,215,410,414 before registering."
+    }
+  }
+}

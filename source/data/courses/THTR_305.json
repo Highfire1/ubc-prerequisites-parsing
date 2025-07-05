@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 305",
+  "originalPrerequisite": "THTR 205.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:09.912Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "305",
+    "prerequisites": {
+      "type": "course",
+      "course": "THTR 205"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVR 420",
+  "originalPrerequisite": "One of GEOB 305, GEOS 305, EOSC 325, EOSC 329.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:03.424Z",
+  "parsedRequirements": {
+    "department": "ENVR",
+    "code": "420",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOB 305"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 305"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 325"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 329"
+        }
+      ]
+    }
+  }
+}

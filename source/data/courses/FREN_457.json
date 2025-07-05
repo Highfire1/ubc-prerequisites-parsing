@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 457",
+  "originalPrerequisite": "FREN 357.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:08:29.513Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "457",
+    "prerequisites": {
+      "type": "course",
+      "course": "FREN 357"
+    }
+  }
+}

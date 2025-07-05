@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 442",
+  "originalPrerequisite": "3rd year standing and one of MATH 220, MATH 223, MATH 226 or CPSC 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:04.813Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "442",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 220"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            },
+            {
+              "type": "course",
+              "course": "MATH 226"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 221"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

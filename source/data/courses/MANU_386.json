@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MANU 386",
+  "originalPrerequisite": "All of MANU 265, MATH 255.",
+  "originalCorequisite": "MANU 330.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:24.798Z",
+  "parsedRequirements": {
+    "department": "MANU",
+    "code": "386",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MANU 265"
+        },
+        {
+          "type": "course",
+          "course": "MATH 255"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MANU 330"
+    }
+  }
+}

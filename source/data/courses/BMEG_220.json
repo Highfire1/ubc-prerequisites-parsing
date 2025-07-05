@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 220",
+  "originalPrerequisite": "All of PHYS 158, MATH 253, MATH 256.",
+  "originalCorequisite": "MATH 264.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:43.466Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "220",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 158"
+        },
+        {
+          "type": "course",
+          "course": "MATH 253"
+        },
+        {
+          "type": "course",
+          "course": "MATH 256"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MATH 264"
+    }
+  }
+}

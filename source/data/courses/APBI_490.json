@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 490",
+  "originalPrerequisite": "3rd year standing or higher.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:21:39.974Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "490",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 437",
+  "originalPrerequisite": "One of CIVL 332, MECH 360.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:58.753Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "437",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CIVL 332"
+        },
+        {
+          "type": "course",
+          "course": "MECH 360"
+        }
+      ]
+    }
+  }
+}

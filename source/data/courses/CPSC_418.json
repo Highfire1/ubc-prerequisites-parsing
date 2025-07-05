@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 418",
+  "originalPrerequisite": "CPSC 320 and one of CPSC 261, CPSC 313, CPEN 212, CPEN 411.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:42.655Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "418",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 320"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 261"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 313"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 212"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 411"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

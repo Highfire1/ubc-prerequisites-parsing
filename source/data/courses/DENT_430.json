@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DENT 430",
+  "originalPrerequisite": "DENT 420.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:08.898Z",
+  "parsedRequirements": {
+    "department": "DENT",
+    "code": "430",
+    "prerequisites": {
+      "type": "course",
+      "course": "DENT 420"
+    }
+  }
+}

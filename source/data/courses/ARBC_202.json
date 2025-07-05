@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ARBC 202",
+  "originalPrerequisite": "ARBC 201.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:23:00.322Z",
+  "parsedRequirements": {
+    "department": "ARBC",
+    "code": "202",
+    "prerequisites": {
+      "type": "course",
+      "course": "ARBC 201"
+    }
+  }
+}

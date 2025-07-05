@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ITAL 201",
+  "originalPrerequisite": "ITAL 102. Or successful completion of CEFR Level A1.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:53.910Z",
+  "parsedRequirements": {
+    "department": "ITAL",
+    "code": "201",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ITAL 102"
+        },
+        {
+          "type": "other",
+          "note": "Successful completion of CEFR Level A1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "AFST 351",
+  "originalPrerequisite": null,
+  "originalCorequisite": "AFST 250.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:58:50.094Z",
+  "errorMessage": "Invalid prerequisites: Group must have at least one child",
+  "parsedRequirements": {
+    "department": "AFST",
+    "code": "351",
+    "corequisites": {
+      "type": "course",
+      "course": "AFST 250"
+    }
+  }
+}

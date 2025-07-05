@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 317",
+  "originalPrerequisite": "One of THTR 130, THTR 230 and THTR 299.",
+  "originalCorequisite": "One of THTR 299, THTR 399.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:11.685Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "317",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "THTR 130"
+        },
+        {
+          "type": "course",
+          "course": "THTR 230"
+        },
+        {
+          "type": "course",
+          "course": "THTR 299"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "THTR 299"
+        },
+        {
+          "type": "course",
+          "course": "THTR 399"
+        }
+      ]
+    }
+  }
+}

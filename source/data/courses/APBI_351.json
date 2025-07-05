@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 351",
+  "originalPrerequisite": "BIOL 121 and either (a) CHEM 123 or (b) all of CHEM 111, CHEM 113. CHEM 233 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:19:56.327Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "351",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 121"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 123"
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 111"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 113"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "CHEM 233"
+    }
+  }
+}

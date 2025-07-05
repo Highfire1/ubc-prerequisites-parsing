@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 204",
+  "originalPrerequisite": "CHEM 154.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:08.136Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "204",
+    "prerequisites": {
+      "type": "course",
+      "course": "CHEM 154"
+    }
+  }
+}

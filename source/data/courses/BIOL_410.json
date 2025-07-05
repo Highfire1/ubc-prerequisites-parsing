@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 410",
+  "originalPrerequisite": "BIOL 310. Permission of the head of Zoology is also acceptable.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:51.512Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "410",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 310"
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the head of Zoology is also acceptable"
+        }
+      ]
+    }
+  }
+}

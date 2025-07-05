@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 330",
+  "originalPrerequisite": "Recommend BUSI 121.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:23.256Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "330",
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "BUSI 121"
+    }
+  }
+}

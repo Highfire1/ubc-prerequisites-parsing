@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ILS 303",
+  "originalPrerequisite": "All of ILS 200, ILS 204.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:13.389Z",
+  "parsedRequirements": {
+    "department": "ILS",
+    "code": "303",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ILS 200"
+        },
+        {
+          "type": "course",
+          "course": "ILS 204"
+        }
+      ]
+    }
+  }
+}

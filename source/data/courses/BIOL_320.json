@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 320",
+  "originalPrerequisite": "BIOL 121.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:52.375Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "320",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOL 121"
+    }
+  }
+}

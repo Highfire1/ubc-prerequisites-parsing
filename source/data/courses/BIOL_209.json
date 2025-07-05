@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 209",
+  "originalPrerequisite": "One of BIOL 121, SCIE 001. Or 8 transfer credits of first-year biology.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:31.677Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "209",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        },
+        {
+          "type": "credit_count",
+          "credits": 8,
+          "department": "BIOL",
+          "level": "100"
+        }
+      ]
+    }
+  }
+}

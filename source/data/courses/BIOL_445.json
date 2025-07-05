@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 445",
+  "originalPrerequisite": "Third-year standing in Science is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:33.244Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "445",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 320",
+  "originalPrerequisite": "Either (a) a score of 68% or higher in MATH 226 or (b) one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254 and a score of 80% or higher in MATH 220.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:07.664Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "320",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 226",
+          "minGrade": 68
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 200"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 217"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 226"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 253"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 254"
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "course": "MATH 220",
+              "minGrade": 80
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

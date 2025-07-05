@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 472",
+  "originalPrerequisite": "All of FREN 353, FREN 370.",
+  "originalCorequisite": "FREN 370 may be taken concurrently with the permission of the instructor.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:08:35.791Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "472",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 353"
+        },
+        {
+          "type": "course",
+          "course": "FREN 370"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 370",
+          "canBeTakenConcurrently": true
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the instructor"
+        }
+      ]
+    }
+  }
+}

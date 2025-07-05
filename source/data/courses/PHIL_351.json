@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 351",
+  "originalPrerequisite": "3 credits selected from any of PHIL 211, 212, 220, 230, 235, 240, 250, 260, or COGS 200",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:38.487Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "351",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHIL 211"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 212"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 220"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 230"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 235"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 240"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 250"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 260"
+        },
+        {
+          "type": "course",
+          "course": "COGS 200"
+        }
+      ]
+    }
+  }
+}

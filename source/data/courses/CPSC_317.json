@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 317",
+  "originalPrerequisite": "All of CPSC 213, CPSC 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:12.319Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "317",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 213"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 221"
+        }
+      ]
+    }
+  }
+}

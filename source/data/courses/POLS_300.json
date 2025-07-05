@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLS 300",
+  "originalPrerequisite": "POLS 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:27.942Z",
+  "parsedRequirements": {
+    "department": "POLS",
+    "code": "300",
+    "prerequisites": {
+      "type": "course",
+      "course": "POLS 200"
+    }
+  }
+}

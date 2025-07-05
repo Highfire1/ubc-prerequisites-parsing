@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 431",
+  "originalPrerequisite": "One of CPEN 331, CPSC 313 and one of CPEN 221, CPSC 210.",
+  "originalCorequisite": "One of ELEC 331, CPSC 317.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:31.918Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "431",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPEN 331"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 313"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPEN 221"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 210"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 331"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 317"
+        }
+      ]
+    }
+  }
+}

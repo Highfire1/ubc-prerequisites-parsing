@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 356",
+  "originalPrerequisite": "A completed concentration in earth and space science or permission of the Head.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:20.558Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "356",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "A completed concentration in earth and space science"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the Head"
+        }
+      ]
+    }
+  }
+}

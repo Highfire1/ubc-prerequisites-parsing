@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRST 452",
+  "originalPrerequisite": "Third or fourth year-standing in the B.S.F. program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:06.401Z",
+  "parsedRequirements": {
+    "department": "FRST",
+    "code": "452",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

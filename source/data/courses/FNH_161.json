@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 161",
+  "originalPrerequisite": "FNH 160. FNH 160 and 161 together are credit-excluded with BIOL 153 and 155.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:07.105Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "161",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNH 160"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "FNH 160"
+                },
+                {
+                  "type": "course",
+                  "course": "FNH 161"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BIOL 153"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 155"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

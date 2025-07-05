@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CRWR 307",
+  "originalPrerequisite": "One of CRWR 200, CRWR 202.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:17.436Z",
+  "parsedRequirements": {
+    "department": "CRWR",
+    "code": "307",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CRWR 200"
+        },
+        {
+          "type": "course",
+          "course": "CRWR 202"
+        }
+      ]
+    }
+  }
+}

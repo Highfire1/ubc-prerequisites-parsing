@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 403",
+  "originalPrerequisite": "One of LFS 252, STAT 200, FRST 231, BIOL 300 or equivalent background in statistics.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:59.189Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "403",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LFS 252"
+        },
+        {
+          "type": "course",
+          "course": "STAT 200"
+        },
+        {
+          "type": "course",
+          "course": "FRST 231"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 300"
+        },
+        {
+          "type": "other",
+          "note": "equivalent background in statistics"
+        }
+      ]
+    }
+  }
+}

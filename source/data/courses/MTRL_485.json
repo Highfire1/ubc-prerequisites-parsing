@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MTRL 485",
+  "originalPrerequisite": "All of MECH 260, MTRL 365.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:58.831Z",
+  "parsedRequirements": {
+    "department": "MTRL",
+    "code": "485",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 260"
+        },
+        {
+          "type": "course",
+          "course": "MTRL 365"
+        }
+      ]
+    }
+  }
+}

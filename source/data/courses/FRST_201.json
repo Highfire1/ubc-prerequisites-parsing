@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRST 201",
+  "originalPrerequisite": null,
+  "originalCorequisite": "FRST 200.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:20.550Z",
+  "parsedRequirements": {
+    "department": "FRST",
+    "code": "201",
+    "corequisites": {
+      "type": "course",
+      "course": "FRST 200"
+    }
+  }
+}

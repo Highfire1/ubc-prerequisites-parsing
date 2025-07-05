@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 102",
+  "originalPrerequisite": "High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:36.064Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "102",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "High-school calculus"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "Principles of Mathematics 12",
+              "minGrade": 80
+            },
+            {
+              "type": "course",
+              "course": "Pre-calculus 12",
+              "minGrade": 80
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

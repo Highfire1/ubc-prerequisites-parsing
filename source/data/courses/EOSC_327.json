@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 327",
+  "originalPrerequisite": "EOSC 220.",
+  "originalCorequisite": "CHEM 205.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:52.037Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "327",
+    "prerequisites": {
+      "type": "course",
+      "course": "EOSC 220"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "CHEM 205"
+    }
+  }
+}

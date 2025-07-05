@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 462",
+  "originalPrerequisite": "All of BIOL 200, BIOL 201. BIOL 209 or BIOL 210 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:26.324Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "462",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 200"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 201"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 209"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 210"
+        }
+      ],
+      "recommended": "true"
+    }
+  }
+}

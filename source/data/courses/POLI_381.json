@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 381",
+  "originalPrerequisite": "POLI 380.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:05:18.976Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "381",
+    "prerequisites": {
+      "type": "course",
+      "course": "POLI 380"
+    }
+  }
+}

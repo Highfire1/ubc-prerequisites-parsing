@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LATN 402",
+  "originalPrerequisite": null,
+  "originalCorequisite": "Either (a) LATN 350 or (b) LATN 351.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:17.433Z",
+  "parsedRequirements": {
+    "department": "LATN",
+    "code": "402",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LATN 350"
+        },
+        {
+          "type": "course",
+          "course": "LATN 351"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COGS 402",
+  "originalPrerequisite": "COGS 300. COGS 401 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:37.045Z",
+  "parsedRequirements": {
+    "department": "COGS",
+    "code": "402",
+    "prerequisites": {
+      "type": "course",
+      "course": "COGS 300"
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "COGS 401"
+    }
+  }
+}

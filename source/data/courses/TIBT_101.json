@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "TIBT 101",
+  "originalPrerequisite": "TIBT 100.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:46.260Z",
+  "parsedRequirements": {
+    "department": "TIBT",
+    "code": "101",
+    "prerequisites": {
+      "type": "course",
+      "course": "TIBT 100"
+    }
+  }
+}

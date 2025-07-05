@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 314",
+  "originalPrerequisite": "One of APBI 260, BIOL 230, FRST 201, GEOB 207, GEOS 207.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:51.394Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "314",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APBI 260"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 230"
+        },
+        {
+          "type": "course",
+          "course": "FRST 201"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 207"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 207"
+        }
+      ]
+    }
+  }
+}

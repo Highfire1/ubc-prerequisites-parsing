@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EPSE 481",
+  "originalPrerequisite": "EPSE 482. May also be taken as a corequisite.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:18.922Z",
+  "parsedRequirements": {
+    "department": "EPSE",
+    "code": "481",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EPSE 482"
+        },
+        {
+          "type": "course",
+          "course": "EPSE 482",
+          "canBeTakenConcurrently": true
+        }
+      ]
+    }
+  }
+}

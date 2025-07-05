@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASTR 406",
+  "originalPrerequisite": "All of PHYS 203, PHYS 301, MATH 215 and ASTR 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:31.623Z",
+  "parsedRequirements": {
+    "department": "ASTR",
+    "code": "406",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 203"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 301"
+        },
+        {
+          "type": "course",
+          "course": "MATH 215"
+        },
+        {
+          "type": "course",
+          "course": "ASTR 300"
+        }
+      ]
+    }
+  }
+}

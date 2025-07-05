@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 200",
+  "originalPrerequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:53.897Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "200",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 101"
+        },
+        {
+          "type": "course",
+          "course": "MATH 103"
+        },
+        {
+          "type": "course",
+          "course": "MATH 105"
+        },
+        {
+          "type": "course",
+          "course": "MATH 121"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    }
+  }
+}

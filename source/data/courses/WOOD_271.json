@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 271",
+  "originalPrerequisite": "WOOD 280 and one of CHEM 113, CHEM 123.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:17.898Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "271",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "WOOD 280"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 113"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 123"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

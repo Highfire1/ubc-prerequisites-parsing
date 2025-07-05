@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 336",
+  "originalPrerequisite": "One of BIOL 233, BIOL 234.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:10.265Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "336",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 233"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 234"
+        }
+      ]
+    }
+  }
+}

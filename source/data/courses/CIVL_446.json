@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 446",
+  "originalPrerequisite": "CIVL 445.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:05.051Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "446",
+    "prerequisites": {
+      "type": "course",
+      "course": "CIVL 445"
+    }
+  }
+}

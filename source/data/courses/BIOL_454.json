@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 454",
+  "originalPrerequisite": "One of BIOL 362, BIOL 364.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:16.365Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "454",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 362"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 364"
+        }
+      ]
+    }
+  }
+}

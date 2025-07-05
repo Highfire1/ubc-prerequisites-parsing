@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 207",
+  "originalPrerequisite": "One of GEOB 102, GEOS 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:09.950Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "207",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOB 102"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 102"
+        }
+      ]
+    }
+  }
+}

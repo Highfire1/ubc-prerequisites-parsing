@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 440",
+  "originalPrerequisite": "FNH 340.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:13.558Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "440",
+    "prerequisites": {
+      "type": "course",
+      "course": "FNH 340"
+    }
+  }
+}

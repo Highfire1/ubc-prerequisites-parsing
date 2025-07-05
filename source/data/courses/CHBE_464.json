@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 464",
+  "originalPrerequisite": "All of CHBE 345, CHBE 355, CHBE 356, CHBE 362 and one of CHBE 365, CHBE 366.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:27.691Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "464",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHBE 345"
+            },
+            {
+              "type": "course",
+              "course": "CHBE 355"
+            },
+            {
+              "type": "course",
+              "course": "CHBE 356"
+            },
+            {
+              "type": "course",
+              "course": "CHBE 362"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHBE 365"
+            },
+            {
+              "type": "course",
+              "course": "CHBE 366"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

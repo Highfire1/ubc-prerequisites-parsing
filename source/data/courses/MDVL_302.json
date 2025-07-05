@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MDVL 302",
+  "originalPrerequisite": "Third-year standing in the Faculty of Arts.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:22.946Z",
+  "parsedRequirements": {
+    "department": "MDVL",
+    "code": "302",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

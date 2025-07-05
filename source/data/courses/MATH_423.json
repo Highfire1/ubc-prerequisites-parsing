@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 423",
+  "originalPrerequisite": "MATH 323 and a score of 68% or higher in one of MATH 412, MATH 422.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:49.028Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "423",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 323"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 412",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 422",
+              "minGrade": 68
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

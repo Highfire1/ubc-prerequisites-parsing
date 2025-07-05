@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LLED 456",
+  "originalPrerequisite": "An introductory- level reading or language arts course; successful completion of an extended practicum or one year of teaching experience.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:10.500Z",
+  "parsedRequirements": {
+    "department": "LLED",
+    "code": "456",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "other",
+              "note": "An introductory-level reading course"
+            },
+            {
+              "type": "other",
+              "note": "An introductory-level language arts course"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "other",
+              "note": "Successful completion of an extended practicum"
+            },
+            {
+              "type": "other",
+              "note": "One year of teaching experience"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

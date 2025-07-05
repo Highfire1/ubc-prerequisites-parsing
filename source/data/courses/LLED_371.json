@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LLED 371",
+  "originalPrerequisite": "A completed concentration in French of permission of the Department Head.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:57.338Z",
+  "parsedRequirements": {
+    "department": "LLED",
+    "code": "371",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "A completed concentration in French"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the Department Head"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 461",
+  "originalPrerequisite": "One of JAPN 420, JAPN 460.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:45.775Z",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "461",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "JAPN 420"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 460"
+        }
+      ]
+    }
+  }
+}

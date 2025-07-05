@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 322",
+  "originalPrerequisite": "All of BIOL 200, BIOL 201, CHEM 233 and one of MICB 211, MICB 201 and one of MICB 212, MICB 202.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:11.254Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "322",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 200"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 201"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 233"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MICB 211"
+            },
+            {
+              "type": "course",
+              "course": "MICB 201"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MICB 212"
+            },
+            {
+              "type": "course",
+              "course": "MICB 202"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

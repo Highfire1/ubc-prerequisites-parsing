@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "UFOR 495",
+  "originalPrerequisite": "One of FRST 200, BIOL 230 or permission of the instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:01.538Z",
+  "parsedRequirements": {
+    "department": "UFOR",
+    "code": "495",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FRST 200"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 230"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the instructor"
+        }
+      ]
+    }
+  }
+}

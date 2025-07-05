@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 216",
+  "originalPrerequisite": "One of PHYS 106, PHYS 107, PHYS 117, PHYS 170, SCIE 001 and one of MATH 152, MATH 221, MATH 223.",
+  "originalCorequisite": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:32.501Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "216",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 106"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 107"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 117"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 170"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 200"
+        },
+        {
+          "type": "course",
+          "course": "MATH 217"
+        },
+        {
+          "type": "course",
+          "course": "MATH 226"
+        },
+        {
+          "type": "course",
+          "course": "MATH 253"
+        },
+        {
+          "type": "course",
+          "course": "MATH 254"
+        }
+      ]
+    }
+  }
+}

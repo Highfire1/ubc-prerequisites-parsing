@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 417",
+  "originalPrerequisite": "BIOL 200 and one of BIOL 233, BIOL 234. BIOL 336 is recommended",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:00.247Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "417",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 200"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 233"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 234"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "BIOL 336"
+    }
+  }
+}

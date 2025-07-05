@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MINE 303",
+  "originalPrerequisite": "CIVL 210 and one of MECH 260, CIVL 230.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:54.969Z",
+  "parsedRequirements": {
+    "department": "MINE",
+    "code": "303",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CIVL 210"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MECH 260"
+            },
+            {
+              "type": "course",
+              "course": "CIVL 230"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LLED 423",
+  "originalPrerequisite": "A completed concentration or major in French or permission of Department Head.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:01.176Z",
+  "parsedRequirements": {
+    "department": "LLED",
+    "code": "423",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "A completed concentration or major in French"
+        },
+        {
+          "type": "permission",
+          "note": "permission of Department Head"
+        }
+      ]
+    }
+  }
+}

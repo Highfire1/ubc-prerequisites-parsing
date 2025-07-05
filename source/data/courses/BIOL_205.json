@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 205",
+  "originalPrerequisite": "Either (a) BIOL 121 and one of BIOL 180, BIOL 140; or (b) SCIE 001 or (c) BIOL121 and 2nd-year standing in Combined Honours Biophysics, or (d) 8 transfer credits of first-year biology.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:29.862Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "205",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BIOL 180"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 140"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            },
+            {
+              "type": "standing",
+              "standing": "2nd"
+            },
+            {
+              "type": "program",
+              "program": "Combined Honours Biophysics"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "8 transfer credits of first-year biology"
+        }
+      ]
+    }
+  }
+}

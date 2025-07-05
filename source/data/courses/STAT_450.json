@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "STAT 450",
+  "originalPrerequisite": "STAT 306.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:58.023Z",
+  "parsedRequirements": {
+    "department": "STAT",
+    "code": "450",
+    "prerequisites": {
+      "type": "course",
+      "course": "STAT 306"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CAPS 301",
+  "originalPrerequisite": "Either (a) SCIE 001 or (b) all of BIOL 112, BIOL 121 and one of MATH 101, MATH 103, MATH 105, MATH 121 and one of PHYS 100, PHYS 101, PHYS 107, PHYS 117 and one of CHEM 203, CHEM 233, CHEM 260.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:11.158Z",
+  "parsedRequirements": {
+    "department": "CAPS",
+    "code": "301",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 112"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 101"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 103"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 105"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 121"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 100"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 101"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 107"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 117"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 203"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 233"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 260"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

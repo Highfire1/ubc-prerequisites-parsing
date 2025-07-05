@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 377",
+  "originalPrerequisite": "All of COMM 370, COMM 371.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:42:46.986Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "377",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 370"
+        },
+        {
+          "type": "course",
+          "course": "COMM 371"
+        }
+      ]
+    }
+  }
+}

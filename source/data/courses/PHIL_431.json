@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 431",
+  "originalPrerequisite": "9 credits of PHIL/POLI at the 200-level or above.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:49.868Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "431",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 9,
+      "department": [
+        "PHIL",
+        "POLI"
+      ],
+      "level": "200"
+    }
+  }
+}

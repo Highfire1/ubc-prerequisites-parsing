@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 353",
+  "originalPrerequisite": "One of FREN 223, FREN 352.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:32.457Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "353",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 223"
+        },
+        {
+          "type": "course",
+          "course": "FREN 352"
+        }
+      ]
+    }
+  }
+}

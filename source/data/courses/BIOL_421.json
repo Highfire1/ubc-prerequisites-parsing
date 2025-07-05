@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 421",
+  "originalPrerequisite": "BIOL 200 and one of BIOC 202, BIOC 203, BIOL 201, BIOL 233, BIOL 234, BIOL 260.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:05.034Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "421",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 200"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOC 202"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 203"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 201"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 233"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 234"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 260"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

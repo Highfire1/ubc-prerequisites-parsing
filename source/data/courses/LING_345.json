@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LING 345",
+  "originalPrerequisite": "One of LING 201, ENGL 331, PHIL 220.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:32.812Z",
+  "parsedRequirements": {
+    "department": "LING",
+    "code": "345",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LING 201"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 331"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 220"
+        }
+      ]
+    }
+  }
+}

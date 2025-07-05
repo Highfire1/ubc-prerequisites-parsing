@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 437",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of MATH 320, MATH 322.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:00.781Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "437",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 320"
+        },
+        {
+          "type": "course",
+          "course": "MATH 322"
+        }
+      ]
+    }
+  }
+}

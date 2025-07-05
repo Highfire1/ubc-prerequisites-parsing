@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BEST 203",
+  "originalPrerequisite": "BEST 201 and one of BIOL 111, BIOL 121.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:17.009Z",
+  "parsedRequirements": {
+    "department": "BEST",
+    "code": "203",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BEST 201"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 111"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

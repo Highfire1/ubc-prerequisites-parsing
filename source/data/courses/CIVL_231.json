@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 231",
+  "originalPrerequisite": "All of MATH 152, CIVL 203, CIVL 230.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:15.496Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "231",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 152"
+        },
+        {
+          "type": "course",
+          "course": "CIVL 203"
+        },
+        {
+          "type": "course",
+          "course": "CIVL 230"
+        }
+      ]
+    }
+  }
+}

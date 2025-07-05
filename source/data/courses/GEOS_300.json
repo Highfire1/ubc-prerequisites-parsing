@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 300",
+  "originalPrerequisite": "One of GEOB 200, GEOS 200, GEOB 204, GEOS 204, ATSC 201.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:11.531Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOB 200"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 200"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 204"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 204"
+        },
+        {
+          "type": "course",
+          "course": "ATSC 201"
+        }
+      ]
+    }
+  }
+}

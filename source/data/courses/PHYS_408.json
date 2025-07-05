@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 408",
+  "originalPrerequisite": "One of PHYS 301, PHYS 354 and one of MATH 215, MATH 255.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:29.471Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "408",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 301"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 354"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 215"
+            },
+            {
+              "type": "course",
+              "course": "MATH 255"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

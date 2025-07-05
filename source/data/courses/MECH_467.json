@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 467",
+  "originalPrerequisite": "One of MECH 366, MANU 386.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:53.313Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "467",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 366"
+        },
+        {
+          "type": "course",
+          "course": "MANU 386"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FIPR 439",
+  "originalPrerequisite": "One of FIPR 333, FILM 333.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:31.449Z",
+  "parsedRequirements": {
+    "department": "FIPR",
+    "code": "439",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FIPR 333"
+        },
+        {
+          "type": "course",
+          "course": "FILM 333"
+        }
+      ]
+    }
+  }
+}

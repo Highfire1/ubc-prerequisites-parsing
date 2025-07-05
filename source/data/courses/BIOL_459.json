@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 459",
+  "originalPrerequisite": "One of BIOL 372, CAPS 301, PSYC 304, PSYC 367, PSYC 370.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:22.344Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "459",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 372"
+        },
+        {
+          "type": "course",
+          "course": "CAPS 301"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 304"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 367"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 370"
+        }
+      ]
+    }
+  }
+}

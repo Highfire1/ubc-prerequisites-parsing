@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 453",
+  "originalPrerequisite": "One of JAPN 301, JAPN 401.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:36.906Z",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "453",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "JAPN 301"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 401"
+        }
+      ]
+    }
+  }
+}

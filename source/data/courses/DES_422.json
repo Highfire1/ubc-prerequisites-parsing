@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DES 422",
+  "originalPrerequisite": "Two of DES 321, DES 322, DES 323.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:29.200Z",
+  "parsedRequirements": {
+    "department": "DES",
+    "code": "422",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "DES 321"
+            },
+            {
+              "type": "course",
+              "course": "DES 322"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "DES 321"
+            },
+            {
+              "type": "course",
+              "course": "DES 323"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "DES 322"
+            },
+            {
+              "type": "course",
+              "course": "DES 323"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

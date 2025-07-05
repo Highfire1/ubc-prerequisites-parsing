@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LAW 394",
+  "originalPrerequisite": "LAW 392 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:21.570Z",
+  "parsedRequirements": {
+    "department": "LAW",
+    "code": "394",
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "LAW 392"
+    }
+  }
+}

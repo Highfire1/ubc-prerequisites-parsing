@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 305",
+  "originalPrerequisite": "A score of 68% or higher in one of ECON 101, ECON 310 and a score of 68% or higher in one of ECON 102, ECON 311 and a score of 68% or higher in one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 and a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 121. MATH 104, 110 or 184 recommended. MATH 105 recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:49:29.983Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "305",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 101",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "ECON 310",
+              "minGrade": 68
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 102",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "ECON 311",
+              "minGrade": 68
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 100",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 102",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 104",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 110",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 120",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 180",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 184",
+              "minGrade": 68
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 101",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 103",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 105",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 121",
+              "minGrade": 68
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 104"
+        },
+        {
+          "type": "course",
+          "course": "MATH 110"
+        },
+        {
+          "type": "course",
+          "course": "MATH 184"
+        },
+        {
+          "type": "course",
+          "course": "MATH 105"
+        }
+      ]
+    }
+  }
+}

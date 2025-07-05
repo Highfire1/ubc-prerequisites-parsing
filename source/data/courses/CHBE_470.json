@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 470",
+  "originalPrerequisite": "One of CHBE 221, BMEG 245.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:30.715Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "470",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 221"
+        },
+        {
+          "type": "course",
+          "course": "BMEG 245"
+        }
+      ]
+    }
+  }
+}

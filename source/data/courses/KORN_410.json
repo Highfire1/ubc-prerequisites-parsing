@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KORN 410",
+  "originalPrerequisite": "Either (a) KORN 300 or (b) all of KORN 301, KORN 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:02.552Z",
+  "parsedRequirements": {
+    "department": "KORN",
+    "code": "410",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "KORN 300"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "KORN 301"
+            },
+            {
+              "type": "course",
+              "course": "KORN 302"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

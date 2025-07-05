@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "STAT 344",
+  "originalPrerequisite": "One of STAT 200, STAT 241, STAT 251, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, PSYC 218, PSYC 278, PSYC 366.",
+  "originalCorequisite": "One of MATH 302, STAT 302.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:47.105Z",
+  "parsedRequirements": {
+    "department": "STAT",
+    "code": "344",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "STAT 200"
+        },
+        {
+          "type": "course",
+          "course": "STAT 241"
+        },
+        {
+          "type": "course",
+          "course": "STAT 251"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 300"
+        },
+        {
+          "type": "course",
+          "course": "COMM 291"
+        },
+        {
+          "type": "course",
+          "course": "ECON 325"
+        },
+        {
+          "type": "course",
+          "course": "ECON 327"
+        },
+        {
+          "type": "course",
+          "course": "FRST 231"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 218"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 278"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 366"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 302"
+        },
+        {
+          "type": "course",
+          "course": "STAT 302"
+        }
+      ]
+    }
+  }
+}

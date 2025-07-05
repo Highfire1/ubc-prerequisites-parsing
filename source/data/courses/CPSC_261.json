@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 261",
+  "originalPrerequisite": "One of EECE 259, CPEN 211 and one of EECE 210, CPEN 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:52.962Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "261",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "EECE 259"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 211"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "EECE 210"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 221"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

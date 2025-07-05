@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 461",
+  "originalPrerequisite": "9 credits at the 200-level or above from philosophy, anthropology, geography, economics, history, political science, psychology or sociology.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:00.815Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "461",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 9,
+      "department": [
+        "philosophy",
+        "anthropology",
+        "geography",
+        "economics",
+        "history",
+        "political science",
+        "psychology",
+        "sociology"
+      ],
+      "level": "200"
+    }
+  }
+}

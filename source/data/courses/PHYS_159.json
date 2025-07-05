@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 159",
+  "originalPrerequisite": "One of PHYS 12, PHYS 100.",
+  "originalCorequisite": "One of PHYS 157, PHYS 158.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:14.043Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "159",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 12"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 100"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 157"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 158"
+        }
+      ]
+    }
+  }
+}

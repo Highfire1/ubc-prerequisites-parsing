@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 404",
+  "originalPrerequisite": "CPSC 304 and one of CPSC 213, CPSC 261, CPEN 212.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:29.654Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "404",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 304"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 213"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 261"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 212"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

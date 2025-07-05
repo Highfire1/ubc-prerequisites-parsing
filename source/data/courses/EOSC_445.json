@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 445",
+  "originalPrerequisite": "Fourth-year standing in Geological Engineering.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:49.712Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "445",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "4th"
+    }
+  }
+}

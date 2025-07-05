@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PUNJ 457",
+  "originalPrerequisite": "PUNJ 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:22.263Z",
+  "parsedRequirements": {
+    "department": "PUNJ",
+    "code": "457",
+    "prerequisites": {
+      "type": "course",
+      "course": "PUNJ 300"
+    }
+  }
+}

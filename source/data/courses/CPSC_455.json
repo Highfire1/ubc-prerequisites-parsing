@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 455",
+  "originalPrerequisite": "One of CPSC 310, CPEN 321.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:08.986Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "455",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 310"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 321"
+        }
+      ]
+    }
+  }
+}

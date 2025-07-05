@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 490",
+  "originalPrerequisite": "All of ECON 325, ECON 326 and one of ECON 301, ECON 304 and one of ECON 302, ECON 305. For additional possible prerequisites see individual course descriptions on the School's website.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:51:58.091Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "490",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECON 325"
+        },
+        {
+          "type": "course",
+          "course": "ECON 326"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 301"
+            },
+            {
+              "type": "course",
+              "course": "ECON 304"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 302"
+            },
+            {
+              "type": "course",
+              "course": "ECON 305"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

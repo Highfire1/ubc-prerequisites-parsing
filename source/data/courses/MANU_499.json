@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MANU 499",
+  "originalPrerequisite": "Fourth-year standing",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:31.495Z",
+  "parsedRequirements": {
+    "department": "MANU",
+    "code": "499",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "4th"
+    }
+  }
+}

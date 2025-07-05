@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 302",
+  "originalPrerequisite": "One of CPSC 103, CPSC 110, CPEN 221, EOSC 211, PHYS 210 and one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001 and one of MATH 152, MATH 221, MATH 223.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:58.257Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "302",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 103"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 110"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 221"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 211"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 210"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 101"
+            },
+            {
+              "type": "course",
+              "course": "MATH 103"
+            },
+            {
+              "type": "course",
+              "course": "MATH 105"
+            },
+            {
+              "type": "course",
+              "course": "MATH 121"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

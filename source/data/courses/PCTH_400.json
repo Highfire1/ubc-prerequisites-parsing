@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PCTH 400",
+  "originalPrerequisite": "Either (a) a score of 75% or higher in PCTH 305 or (b) PCTH 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:47.607Z",
+  "parsedRequirements": {
+    "department": "PCTH",
+    "code": "400",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PCTH 305",
+          "minGrade": 75
+        },
+        {
+          "type": "course",
+          "course": "PCTH 300"
+        }
+      ]
+    }
+  }
+}

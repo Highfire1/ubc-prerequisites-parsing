@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 452",
+  "originalPrerequisite": "All of BIOL 112, CHBE 241, CHBE 254, CHBE 344, CHBE 346, CHBE 351, CHBE 356, CHBE 373.",
+  "originalCorequisite": "All of CHBE 457, CHBE 459, CHBE 485.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:17.074Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "452",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 112"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 241"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 254"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 344"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 346"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 351"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 356"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 373"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 457"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 459"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 485"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRE 326",
+  "originalPrerequisite": "One of LFS 252, STAT 200, BIOL 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:00.140Z",
+  "parsedRequirements": {
+    "department": "FRE",
+    "code": "326",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LFS 252"
+        },
+        {
+          "type": "course",
+          "course": "STAT 200"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 300"
+        }
+      ]
+    }
+  }
+}

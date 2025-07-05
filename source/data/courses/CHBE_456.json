@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 456",
+  "originalPrerequisite": "All of CHBE 230, CHBE 352, CHBE 355.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:23.808Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "456",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 230"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 352"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 355"
+        }
+      ]
+    }
+  }
+}

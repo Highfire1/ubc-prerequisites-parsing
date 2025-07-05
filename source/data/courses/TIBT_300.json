@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "TIBT 300",
+  "originalPrerequisite": "Completion of TIBT 100 or TIBT 390 with a minimum grade of 60%.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:47.639Z",
+  "parsedRequirements": {
+    "department": "TIBT",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "TIBT 100"
+        },
+        {
+          "type": "course",
+          "course": "TIBT 390",
+          "minGrade": 60
+        }
+      ]
+    }
+  }
+}

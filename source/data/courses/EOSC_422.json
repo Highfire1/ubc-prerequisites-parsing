@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 422",
+  "originalPrerequisite": "EOSC 323.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:29.907Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "422",
+    "prerequisites": {
+      "type": "course",
+      "course": "EOSC 323"
+    }
+  }
+}

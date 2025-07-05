@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 475",
+  "originalPrerequisite": "A minimum of 6 credits of third-year level life science courses.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:04.651Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "475",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "level": "300"
+    }
+  }
+}

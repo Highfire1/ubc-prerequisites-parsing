@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNEL 192",
+  "originalPrerequisite": "3 credits of FNEL 191 in the same language.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:58:56.279Z",
+  "errorMessage": "Invalid prerequisites: minGrade must be a number between 0 and 100",
+  "parsedRequirements": {
+    "department": "FNEL",
+    "code": "192",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 3,
+      "department": "FNEL",
+      "course": "FNEL 191"
+    }
+  }
+}

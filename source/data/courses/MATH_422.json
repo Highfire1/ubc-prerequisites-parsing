@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 422",
+  "originalPrerequisite": "MATH 323.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:47.291Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "422",
+    "prerequisites": {
+      "type": "course",
+      "course": "MATH 323"
+    }
+  }
+}

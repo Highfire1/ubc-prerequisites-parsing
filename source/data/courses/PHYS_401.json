@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 401",
+  "originalPrerequisite": "One of PHYS 301, PHYS 354.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:16.800Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 301"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 354"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 221",
+  "originalPrerequisite": "One of CPSC 210, CPEN 221 and one of CPSC 121, MATH 220.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:49.705Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "221",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 210"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 221"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 121"
+            },
+            {
+              "type": "course",
+              "course": "MATH 220"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

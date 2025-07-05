@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 482",
+  "originalPrerequisite": "All of CHBE 345, CHBE 355, CHBE 376.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:43.062Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "482",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 345"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 355"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 376"
+        }
+      ]
+    }
+  }
+}

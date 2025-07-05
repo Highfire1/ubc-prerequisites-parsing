@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 449",
+  "originalPrerequisite": null,
+  "originalCorequisite": "BIOL 447.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:07.827Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "449",
+    "corequisites": {
+      "type": "course",
+      "course": "BIOL 447"
+    }
+  }
+}

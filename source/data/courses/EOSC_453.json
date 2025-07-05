@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 453",
+  "originalPrerequisite": "One of PHYS 312, MATH 316, MATH 257.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:53.970Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "453",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 312"
+        },
+        {
+          "type": "course",
+          "course": "MATH 316"
+        },
+        {
+          "type": "course",
+          "course": "MATH 257"
+        }
+      ]
+    }
+  }
+}

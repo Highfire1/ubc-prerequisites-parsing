@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 349",
+  "originalPrerequisite": "Either (a) PSYC 100 or (b) all of PSYC 101, PSYC 102; and all of PSYC 217, 218. Restricted to students in Honours.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:27:50.499Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "349",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 100"
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PSYC 101"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 102"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 217"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 218"
+            }
+          ]
+        },
+        {
+          "type": "program",
+          "program": "Honours"
+        }
+      ]
+    }
+  }
+}

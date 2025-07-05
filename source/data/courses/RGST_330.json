@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "RGST 330",
+  "originalPrerequisite": "RGST 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:26.112Z",
+  "parsedRequirements": {
+    "department": "RGST",
+    "code": "330",
+    "prerequisites": {
+      "type": "course",
+      "course": "RGST 200"
+    }
+  }
+}

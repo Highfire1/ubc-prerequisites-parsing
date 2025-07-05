@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 490",
+  "originalPrerequisite": "Third-year standing.",
+  "originalCorequisite": "One of BIOC 300, BIOC 302, BIOC 303.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:00.164Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "490",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOC 300"
+        },
+        {
+          "type": "course",
+          "course": "BIOC 302"
+        },
+        {
+          "type": "course",
+          "course": "BIOC 303"
+        }
+      ]
+    }
+  }
+}

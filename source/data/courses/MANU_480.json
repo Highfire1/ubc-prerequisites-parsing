@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MANU 480",
+  "originalPrerequisite": "MANU 380.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:28.392Z",
+  "parsedRequirements": {
+    "department": "MANU",
+    "code": "480",
+    "prerequisites": {
+      "type": "course",
+      "course": "MANU 380"
+    }
+  }
+}

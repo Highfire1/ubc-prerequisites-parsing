@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHAR 427",
+  "originalPrerequisite": "All of CHEM 233, PHAR 202.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:20.106Z",
+  "parsedRequirements": {
+    "department": "PHAR",
+    "code": "427",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 233"
+        },
+        {
+          "type": "course",
+          "course": "PHAR 202"
+        }
+      ]
+    }
+  }
+}

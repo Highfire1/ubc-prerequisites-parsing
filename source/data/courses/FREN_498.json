@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 498",
+  "originalPrerequisite": "4th year standing",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:08:52.694Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "498",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "4th"
+    }
+  }
+}

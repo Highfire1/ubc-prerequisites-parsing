@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 425",
+  "originalPrerequisite": "All of CPSC 221, MATH 200, MATH 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:50.621Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "425",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 221"
+        },
+        {
+          "type": "course",
+          "course": "MATH 200"
+        },
+        {
+          "type": "course",
+          "course": "MATH 221"
+        }
+      ]
+    }
+  }
+}

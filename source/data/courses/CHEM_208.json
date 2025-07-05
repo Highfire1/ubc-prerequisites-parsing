@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 208",
+  "originalPrerequisite": "One of CHEM 130, CHEM 123, SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:30.157Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "208",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 130"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 123"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    }
+  }
+}

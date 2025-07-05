@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 413",
+  "originalPrerequisite": "One of CHEM 313, CHEM 330.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:48.656Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "413",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 313"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 330"
+        }
+      ]
+    }
+  }
+}

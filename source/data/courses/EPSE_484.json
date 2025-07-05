@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EPSE 484",
+  "originalPrerequisite": "EPSE 482.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:22.818Z",
+  "parsedRequirements": {
+    "department": "EPSE",
+    "code": "484",
+    "prerequisites": {
+      "type": "course",
+      "course": "EPSE 482"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 315",
+  "originalPrerequisite": "One of ELEC 211, ENPH 253.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:27.769Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "315",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 211"
+        },
+        {
+          "type": "course",
+          "course": "ENPH 253"
+        }
+      ]
+    }
+  }
+}

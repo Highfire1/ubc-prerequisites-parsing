@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASIA 403",
+  "originalPrerequisite": "Prerequisites: 4th year standing. 400-level standing (or equivalent) in Chinese, Japanese or Korean (can be concurrent).",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:24:22.087Z",
+  "parsedRequirements": {
+    "department": "ASIA",
+    "code": "403",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "credit_count",
+              "credits": 1,
+              "department": [
+                "CHINESE",
+                "JAPANESE",
+                "KOREAN"
+              ],
+              "level": "400",
+              "canBeTakenConcurrently": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

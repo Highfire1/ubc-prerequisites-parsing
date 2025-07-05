@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SCIE 420",
+  "originalPrerequisite": "One of ASIC 200, ASIC 220, APBI 260, APBI 265, ARCL 309, BIOL 230, CHEM 301, CHEM 302, CHEM 341, CIVL 200, CONS 330, ECON 210, ENDS 221, ENVR 200, ENVR 300, EOSC 270, EOSC 340, FRST 100, GEOG 211, GEOG 310, HIST 106, ISCI 360, ISCI 361, LAW 386, LFS 250, PHYS 333, POLI 351, PSYC 321, PSYC 421, SCIE 120, SCIE 320. Fourth-year standing or permission of the instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:30:10.689Z",
+  "parsedRequirements": {
+    "department": "SCIE",
+    "code": "420",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ASIC 200"
+            },
+            {
+              "type": "course",
+              "course": "ASIC 220"
+            },
+            {
+              "type": "course",
+              "course": "APBI 260"
+            },
+            {
+              "type": "course",
+              "course": "APBI 265"
+            },
+            {
+              "type": "course",
+              "course": "ARCL 309"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 230"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 301"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 302"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 341"
+            },
+            {
+              "type": "course",
+              "course": "CIVL 200"
+            },
+            {
+              "type": "course",
+              "course": "CONS 330"
+            },
+            {
+              "type": "course",
+              "course": "ECON 210"
+            },
+            {
+              "type": "course",
+              "course": "ENDS 221"
+            },
+            {
+              "type": "course",
+              "course": "ENVR 200"
+            },
+            {
+              "type": "course",
+              "course": "ENVR 300"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 270"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 340"
+            },
+            {
+              "type": "course",
+              "course": "FRST 100"
+            },
+            {
+              "type": "course",
+              "course": "GEOG 211"
+            },
+            {
+              "type": "course",
+              "course": "GEOG 310"
+            },
+            {
+              "type": "course",
+              "course": "HIST 106"
+            },
+            {
+              "type": "course",
+              "course": "ISCI 360"
+            },
+            {
+              "type": "course",
+              "course": "ISCI 361"
+            },
+            {
+              "type": "course",
+              "course": "LAW 386"
+            },
+            {
+              "type": "course",
+              "course": "LFS 250"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 333"
+            },
+            {
+              "type": "course",
+              "course": "POLI 351"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 321"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 421"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 120"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 320"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "4th"
+            },
+            {
+              "type": "permission",
+              "note": "permission of the instructor"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

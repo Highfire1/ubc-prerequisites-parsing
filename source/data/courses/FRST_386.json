@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRST 386",
+  "originalPrerequisite": "Third- or fourth-year standing in Forestry, Science or Applied Science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:43.881Z",
+  "parsedRequirements": {
+    "department": "FRST",
+    "code": "386",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "Forestry"
+            },
+            {
+              "type": "program",
+              "program": "Science"
+            },
+            {
+              "type": "program",
+              "program": "Applied Science"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

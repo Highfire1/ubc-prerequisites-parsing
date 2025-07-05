@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 410",
+  "originalPrerequisite": "EDCP 308. Or an introductory course in music education.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:25.991Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "410",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EDCP 308"
+        },
+        {
+          "type": "other",
+          "note": "An introductory course in music education"
+        }
+      ]
+    }
+  }
+}

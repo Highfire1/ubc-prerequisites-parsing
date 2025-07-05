@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 451",
+  "originalPrerequisite": "FREN 353 and one of FREN 225, FREN 402.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:08:26.319Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "451",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 353"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FREN 225"
+            },
+            {
+              "type": "course",
+              "course": "FREN 402"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

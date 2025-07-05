@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "STAT 305",
+  "originalPrerequisite": "Either (a) one of STAT 200, STAT 203, BIOL 300, STAT 241, STAT 251, COMM 291, ECON 325, FRST 231, PSYC 218, PSYC 366 and one of MATH 302, STAT 302; or (b) a score of 65% or higher in one of MATH 302, STAT 302. The Department recommends that students meet the prerequisite through option (a).",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:37.153Z",
+  "parsedRequirements": {
+    "department": "STAT",
+    "code": "305",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "STAT 200"
+                },
+                {
+                  "type": "course",
+                  "course": "STAT 203"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 300"
+                },
+                {
+                  "type": "course",
+                  "course": "STAT 241"
+                },
+                {
+                  "type": "course",
+                  "course": "STAT 251"
+                },
+                {
+                  "type": "course",
+                  "course": "COMM 291"
+                },
+                {
+                  "type": "course",
+                  "course": "ECON 325"
+                },
+                {
+                  "type": "course",
+                  "course": "FRST 231"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 218"
+                },
+                {
+                  "type": "course",
+                  "course": "PSYC 366"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 302"
+                },
+                {
+                  "type": "course",
+                  "course": "STAT 302"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 302",
+              "minGrade": 65
+            },
+            {
+              "type": "course",
+              "course": "STAT 302",
+              "minGrade": 65
+            }
+          ]
+        }
+      ],
+      "recommended": true
+    }
+  }
+}

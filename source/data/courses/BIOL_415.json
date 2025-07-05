@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 415",
+  "originalPrerequisite": "BIOL 336. BIOL 324 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:56.822Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "415",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 336"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 324"
+        }
+      ],
+      "recommended": true
+    }
+  }
+}

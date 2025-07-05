@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CONS 330",
+  "originalPrerequisite": "One of BIOL 121, GEOB 102, GEOB 103.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:41.540Z",
+  "parsedRequirements": {
+    "department": "CONS",
+    "code": "330",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 121"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 102"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 103"
+        }
+      ]
+    }
+  }
+}

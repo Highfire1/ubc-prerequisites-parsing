@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 352",
+  "originalPrerequisite": "A completed concentration in agricultural sciences, biological sciences, chemistry, earth and space science, or physics, or permission of the Head.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:14.731Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "352",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "other",
+              "note": "A completed concentration in agricultural sciences"
+            },
+            {
+              "type": "other",
+              "note": "A completed concentration in biological sciences"
+            },
+            {
+              "type": "other",
+              "note": "A completed concentration in chemistry"
+            },
+            {
+              "type": "other",
+              "note": "A completed concentration in earth and space science"
+            },
+            {
+              "type": "other",
+              "note": "A completed concentration in physics"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "permission of the Head"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PCTH 451",
+  "originalPrerequisite": "Departmental approval required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:50.599Z",
+  "parsedRequirements": {
+    "department": "PCTH",
+    "code": "451",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Departmental approval required"
+    }
+  }
+}

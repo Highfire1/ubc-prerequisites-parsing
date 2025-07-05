@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 420",
+  "originalPrerequisite": "MATH 200 and one of ECON 301, ECON 304, ECON 315 and one of ECON 303, ECON 306, ECON 316. Permission of the instructor is also acceptable.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:51:12.170Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "420",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 200"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 301"
+            },
+            {
+              "type": "course",
+              "course": "ECON 304"
+            },
+            {
+              "type": "course",
+              "course": "ECON 315"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 303"
+            },
+            {
+              "type": "course",
+              "course": "ECON 306"
+            },
+            {
+              "type": "course",
+              "course": "ECON 316"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the instructor"
+        }
+      ]
+    }
+  }
+}

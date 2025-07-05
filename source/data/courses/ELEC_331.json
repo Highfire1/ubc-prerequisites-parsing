@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 331",
+  "originalPrerequisite": "One of ELEC 221, CPEN 212, CPSC 261, CPEN 331.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:31.034Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "331",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 221"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 212"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 261"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 331"
+        }
+      ]
+    }
+  }
+}

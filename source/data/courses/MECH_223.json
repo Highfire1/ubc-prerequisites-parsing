@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 223",
+  "originalPrerequisite": "All of MECH 220, MECH 221.",
+  "originalCorequisite": "MECH 222.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:33.124Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "223",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 220"
+        },
+        {
+          "type": "course",
+          "course": "MECH 221"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MECH 222"
+    }
+  }
+}

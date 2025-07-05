@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 280",
+  "originalPrerequisite": "All of MATH 152, PHYS 170 and one of MATH 217, MATH 253; and either (a) PHYS 131 and one of PHYS 108, PHYS 118; or (b) PHYS 153 or (c) all of PHYS 157, PHYS 158, PHYS 159.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:56.031Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "280",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 170"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 217"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 253"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 131"
+                },
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "PHYS 108"
+                    },
+                    {
+                      "type": "course",
+                      "course": "PHYS 118"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "course": "PHYS 153"
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 157"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 158"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 159"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

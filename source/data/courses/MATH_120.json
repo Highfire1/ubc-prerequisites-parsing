@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 120",
+  "originalPrerequisite": "High-school calculus and one of (a) a score of 95% or higher in BC Principles of Mathematics 12 or Pre-calculus 12; or (b) permission from the Mathematics Department Head.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:44.401Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "120",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "other",
+              "note": "High-school calculus"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "other",
+                      "note": "95% or higher in BC Principles of Mathematics 12"
+                    },
+                    {
+                      "type": "other",
+                      "note": "95% or higher in Pre-calculus 12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "Permission from the Mathematics Department Head"
+        }
+      ]
+    }
+  }
+}

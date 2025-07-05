@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 425",
+  "originalPrerequisite": "One of MATH 221, MATH 223 and one of MATH 217, MATH 227, MATH 254, MATH 264, MATH 317 and one of MATH 319, MATH 320.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:55.150Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "425",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 217"
+            },
+            {
+              "type": "course",
+              "course": "MATH 227"
+            },
+            {
+              "type": "course",
+              "course": "MATH 254"
+            },
+            {
+              "type": "course",
+              "course": "MATH 264"
+            },
+            {
+              "type": "course",
+              "course": "MATH 317"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 319"
+            },
+            {
+              "type": "course",
+              "course": "MATH 320"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

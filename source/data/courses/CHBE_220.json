@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 220",
+  "originalPrerequisite": "All of CHEM 154, MATH 101.",
+  "originalCorequisite": "CHBE 201.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:37.038Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "220",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 154"
+        },
+        {
+          "type": "course",
+          "course": "MATH 101"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "CHBE 201"
+    }
+  }
+}

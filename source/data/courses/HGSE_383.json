@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HGSE 383",
+  "originalPrerequisite": null,
+  "originalCorequisite": "All of HGSE 380, HGSE 381, HGSE 381, HGSE 384.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:41.420Z",
+  "parsedRequirements": {
+    "department": "HGSE",
+    "code": "383",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "HGSE 380"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 381"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 384"
+        }
+      ]
+    }
+  }
+}

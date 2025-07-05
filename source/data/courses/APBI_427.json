@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 427",
+  "originalPrerequisite": "Either (a) BIOL 205 or (b) all of BIOL 327, APBI 327.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:21:02.517Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "427",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 205"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 327"
+            },
+            {
+              "type": "course",
+              "course": "APBI 327"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

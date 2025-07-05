@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 302",
+  "originalPrerequisite": "One of FREN 122, FREN 301 or assignment based on placement.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:16.499Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "302",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 122"
+        },
+        {
+          "type": "course",
+          "course": "FREN 301"
+        },
+        {
+          "type": "other",
+          "note": "assignment based on placement"
+        }
+      ]
+    }
+  }
+}

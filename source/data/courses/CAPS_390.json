@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CAPS 390",
+  "originalPrerequisite": "One of BIOL 121, SCIE 001. BIOL 200 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:12.770Z",
+  "parsedRequirements": {
+    "department": "CAPS",
+    "code": "390",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 121"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "BIOL 200"
+    }
+  }
+}

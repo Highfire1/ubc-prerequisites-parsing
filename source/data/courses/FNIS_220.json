@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNIS 220",
+  "originalPrerequisite": "FNIS 100 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:36.268Z",
+  "parsedRequirements": {
+    "department": "FNIS",
+    "code": "220",
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "FNIS 100"
+    }
+  }
+}

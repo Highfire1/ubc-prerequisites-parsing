@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 463",
+  "originalPrerequisite": "One of CHIN 313, CHIN 314, CHIN 317, CHIN 318, CHIN 323, CHIN 437, CHIN 443, CHIN 444, CHIN 447, CHIN 448.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:39:28.283Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "463",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHIN 313"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 314"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 317"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 318"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 323"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 437"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 443"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 444"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 447"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 448"
+        }
+      ]
+    }
+  }
+}

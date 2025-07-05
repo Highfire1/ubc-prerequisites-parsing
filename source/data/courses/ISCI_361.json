@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ISCI 361",
+  "originalPrerequisite": "ISCI 360 or permission of the Integrated Sciences Director.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:43.359Z",
+  "parsedRequirements": {
+    "department": "ISCI",
+    "code": "361",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ISCI 360"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the Integrated Sciences Director"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 398",
+  "originalPrerequisite": "Co-op Workshops, PSYC 360 or PSYC 371.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:15.907Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "398",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "Co-op Workshops"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 360"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 371"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDUC 395",
+  "originalPrerequisite": "12 credits of coursework approved by the Associate Dean (Teacher Education) as being appropriate to the particular study.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:48.654Z",
+  "parsedRequirements": {
+    "department": "EDUC",
+    "code": "395",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 12,
+      "note": "coursework approved by the Associate Dean (Teacher Education) as being appropriate to the particular study"
+    }
+  }
+}

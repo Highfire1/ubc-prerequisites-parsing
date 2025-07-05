@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 230",
+  "originalPrerequisite": "Either (a) all of BMEG 101, PHYS 170 or (b) all of APSC 101, BMEG 200, PHYS 170.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:45.615Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "230",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BMEG 101"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 170"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 101"
+            },
+            {
+              "type": "course",
+              "course": "BMEG 200"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 170"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

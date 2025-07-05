@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 473",
+  "originalPrerequisite": "One of EOSC 372, EOSC 373.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:03.461Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "473",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EOSC 372"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 373"
+        }
+      ]
+    }
+  }
+}

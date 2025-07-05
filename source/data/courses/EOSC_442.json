@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 442",
+  "originalPrerequisite": "EOSC 340 and one of CPSC 103, CPSC 110, CPSC 301, EOSC 211, MATH 210, PHYS 210 and one of STAT 200, STAT 201, STAT 251, BIOL 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:48.690Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "442",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EOSC 340"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 103"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 110"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 301"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 211"
+            },
+            {
+              "type": "course",
+              "course": "MATH 210"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 210"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "STAT 200"
+            },
+            {
+              "type": "course",
+              "course": "STAT 201"
+            },
+            {
+              "type": "course",
+              "course": "STAT 251"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 300"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

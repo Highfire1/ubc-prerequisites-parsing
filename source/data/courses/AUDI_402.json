@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "AUDI 402",
+  "originalPrerequisite": "As indicated on the website at www.audiospeech.ubc.ca or by permission of the instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:12.750Z",
+  "parsedRequirements": {
+    "department": "AUDI",
+    "code": "402",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "As indicated on the website at www.audiospeech.ubc.ca"
+        },
+        {
+          "type": "permission",
+          "note": "by permission of the instructor"
+        }
+      ]
+    }
+  }
+}

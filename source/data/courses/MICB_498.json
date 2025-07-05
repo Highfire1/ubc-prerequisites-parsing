@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 498",
+  "originalPrerequisite": "Either (a) MICB 399 or (b) BIOT 380 and completion of two co-op work terms.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:44.991Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "498",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 399"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOT 380"
+            },
+            {
+              "type": "other",
+              "note": "completion of two co-op work terms"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

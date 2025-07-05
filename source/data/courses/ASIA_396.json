@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASIA 396",
+  "originalPrerequisite": "ASIA 386 or higher level of Chinese language proficiency.",
+  "originalCorequisite": null,
+  "status": "blacklisted",
+  "lastUpdated": "2025-07-04T12:24:14.900Z",
+  "blacklistReason": "The prerequisite \"ASIA 386 or higher level of Chinese language proficiency\" is ambiguous.  The type system can represent 'ASIA 386' as a course requirement, but \"higher level of Chinese language proficiency\" cannot be unambiguously represented using the provided types.  It requires additional information, such as specific course codes or credit/course count requirements to represent the 'higher level of Chinese language proficiency' portion of the prerequisite. More information about acceptable 'levels' of proficiency needs to be provided."
+}

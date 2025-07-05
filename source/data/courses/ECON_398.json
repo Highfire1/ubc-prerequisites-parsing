@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 398",
+  "originalPrerequisite": "Either (a) one of ECON 101, ECON 310 and one of ECON 102, ECON 311 and one of STAT 200, STAT 241, STAT 251, COMM 291, FRST 231; or (b) one of ECON 226, ECON 325, ECON 326, ECON 327. Not recommended for students who have completed any of ECON 390, ECON 490, ECON 494, ECON 499.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:51:02.997Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "398",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ECON 101"
+                },
+                {
+                  "type": "course",
+                  "course": "ECON 310"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ECON 102"
+                },
+                {
+                  "type": "course",
+                  "course": "ECON 311"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "STAT 200"
+                },
+                {
+                  "type": "course",
+                  "course": "STAT 241"
+                },
+                {
+                  "type": "course",
+                  "course": "STAT 251"
+                },
+                {
+                  "type": "course",
+                  "course": "COMM 291"
+                },
+                {
+                  "type": "course",
+                  "course": "FRST 231"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 226"
+            },
+            {
+              "type": "course",
+              "course": "ECON 325"
+            },
+            {
+              "type": "course",
+              "course": "ECON 326"
+            },
+            {
+              "type": "course",
+              "course": "ECON 327"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 390"
+            },
+            {
+              "type": "course",
+              "course": "ECON 490"
+            },
+            {
+              "type": "course",
+              "course": "ECON 494"
+            },
+            {
+              "type": "course",
+              "course": "ECON 499"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "Not recommended for students who have completed any of the listed courses."
+        }
+      ]
+    }
+  }
+}

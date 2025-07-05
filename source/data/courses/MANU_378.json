@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MANU 378",
+  "originalPrerequisite": "APSC 278.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:20.767Z",
+  "parsedRequirements": {
+    "department": "MANU",
+    "code": "378",
+    "prerequisites": {
+      "type": "course",
+      "course": "APSC 278"
+    }
+  }
+}

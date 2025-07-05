@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 431",
+  "originalPrerequisite": "ELEC 221 and one of ELEC 321, MATH 302, MATH 318, STAT 251, STAT 302, STAT 357.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:58.882Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "431",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 221"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ELEC 321"
+            },
+            {
+              "type": "course",
+              "course": "MATH 302"
+            },
+            {
+              "type": "course",
+              "course": "MATH 318"
+            },
+            {
+              "type": "course",
+              "course": "STAT 251"
+            },
+            {
+              "type": "course",
+              "course": "STAT 302"
+            },
+            {
+              "type": "course",
+              "course": "STAT 357"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

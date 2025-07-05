@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 318",
+  "originalPrerequisite": "One of MATH 152, MATH 221, MATH 223 and one of MATH 215, MATH 255, MATH 256, MATH 258.",
+  "originalCorequisite": "One of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:03.509Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "318",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 215"
+            },
+            {
+              "type": "course",
+              "course": "MATH 255"
+            },
+            {
+              "type": "course",
+              "course": "MATH 256"
+            },
+            {
+              "type": "course",
+              "course": "MATH 258"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 256"
+        },
+        {
+          "type": "course",
+          "course": "MATH 257"
+        },
+        {
+          "type": "course",
+          "course": "MATH 316"
+        },
+        {
+          "type": "course",
+          "course": "MATH 358"
+        },
+        {
+          "type": "course",
+          "course": "MECH 358"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 312"
+        }
+      ]
+    }
+  }
+}

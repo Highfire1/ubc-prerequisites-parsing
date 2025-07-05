@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 422",
+  "originalPrerequisite": "All of ELEC 371, ELEC 341, ELEC 221 and one of CPSC 260, CPSC 259 and one of STAT 251, MATH 318, MATH 302, STAT 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:56.256Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "422",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 371"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 341"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 221"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 260"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 259"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "STAT 251"
+            },
+            {
+              "type": "course",
+              "course": "MATH 318"
+            },
+            {
+              "type": "course",
+              "course": "MATH 302"
+            },
+            {
+              "type": "course",
+              "course": "STAT 302"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

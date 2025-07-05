@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 220",
+  "originalPrerequisite": "MUSC 121 and one of MUSC 100, MUSC 110.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:56:18.899Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "220",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 121"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MUSC 100"
+            },
+            {
+              "type": "course",
+              "course": "MUSC 110"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

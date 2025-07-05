@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LAW 379",
+  "originalPrerequisite": "LAW 476 and either (a) one of LAW 359, LAW 400 or (b) one of LAW 469, LAW 387, LAW 392, LAW 459 or other studies that provide adequate preparation for the program.",
+  "originalCorequisite": "LAW 380.",
+  "status": "blacklisted",
+  "lastUpdated": "2025-07-04T22:44:19.699Z",
+  "blacklistReason": "The phrase 'other studies that provide adequate preparation for the program' is too vague to represent unambiguously using the provided type system.  There's no way to objectively define 'adequate preparation' within the structure.  This requires a subjective assessment that cannot be encoded in the given JSON schema."
+}

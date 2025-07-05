@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 335",
+  "originalPrerequisite": "One of THTR 130, THTR 230.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:14.462Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "335",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "THTR 130"
+        },
+        {
+          "type": "course",
+          "course": "THTR 230"
+        }
+      ]
+    }
+  }
+}

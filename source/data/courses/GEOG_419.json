@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 419",
+  "originalPrerequisite": "Major or Honours in Geography with at least 75 credits, or permission of the instructor. GEOG 313 and 314 recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:44.765Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "419",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "Major or Honours in Geography"
+            },
+            {
+              "type": "credit_count",
+              "credits": 75
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "permission of the instructor"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOG 313"
+        },
+        {
+          "type": "course",
+          "course": "GEOG 314"
+        }
+      ]
+    }
+  }
+}

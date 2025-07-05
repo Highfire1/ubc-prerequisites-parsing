@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NURS 321",
+  "originalPrerequisite": null,
+  "originalCorequisite": "All of NURS 300, NURS 310, NURS 330, NURS 352, NURS 360.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:59:36.865Z",
+  "parsedRequirements": {
+    "department": "NURS",
+    "code": "321",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "NURS 300"
+        },
+        {
+          "type": "course",
+          "course": "NURS 310"
+        },
+        {
+          "type": "course",
+          "course": "NURS 330"
+        },
+        {
+          "type": "course",
+          "course": "NURS 352"
+        },
+        {
+          "type": "course",
+          "course": "NURS 360"
+        }
+      ]
+    }
+  }
+}

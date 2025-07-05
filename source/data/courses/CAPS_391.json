@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CAPS 391",
+  "originalPrerequisite": "One of BIOL 121, SCIE 001, KIN 190, KIN 191.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:14.521Z",
+  "parsedRequirements": {
+    "department": "CAPS",
+    "code": "391",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 121"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        },
+        {
+          "type": "course",
+          "course": "KIN 190"
+        },
+        {
+          "type": "course",
+          "course": "KIN 191"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 469",
+  "originalPrerequisite": "Permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:06.098Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "469",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of instructor"
+    }
+  }
+}

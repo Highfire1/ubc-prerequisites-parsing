@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 436",
+  "originalPrerequisite": "Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:58.192Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "436",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "Computer Science"
+            },
+            {
+              "type": "program",
+              "program": "Computer Engineering"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "permission of the department"
+        }
+      ]
+    }
+  }
+}

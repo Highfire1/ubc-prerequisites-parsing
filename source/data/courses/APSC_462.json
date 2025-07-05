@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APSC 462",
+  "originalPrerequisite": "APSC 461 and registration with the Go Global ISL program and successful completion of Go Global program requirements.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:22:50.967Z",
+  "parsedRequirements": {
+    "department": "APSC",
+    "code": "462",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APSC 461"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "other",
+              "note": "registration with the Go Global ISL program"
+            },
+            {
+              "type": "other",
+              "note": "successful completion of Go Global program requirements"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

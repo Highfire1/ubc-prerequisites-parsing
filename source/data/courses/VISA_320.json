@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 320",
+  "originalPrerequisite": "One of VISA 220, VISA 281, FINA 281.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:27.706Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "320",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "VISA 220"
+        },
+        {
+          "type": "course",
+          "course": "VISA 281"
+        },
+        {
+          "type": "course",
+          "course": "FINA 281"
+        }
+      ]
+    }
+  }
+}

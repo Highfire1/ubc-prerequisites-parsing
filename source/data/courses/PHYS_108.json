@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 108",
+  "originalPrerequisite": "Either (a) one of PHYS 106, PHYS 107 or (b) a score of 85% or higher in one of PHYS 101, PHYS 117, PHYS 131.",
+  "originalCorequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:51.126Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "108",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 106"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 107"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 101",
+              "minGrade": 85
+            },
+            {
+              "type": "course",
+              "course": "PHYS 117",
+              "minGrade": 85
+            },
+            {
+              "type": "course",
+              "course": "PHYS 131",
+              "minGrade": 85
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 101"
+        },
+        {
+          "type": "course",
+          "course": "MATH 103"
+        },
+        {
+          "type": "course",
+          "course": "MATH 105"
+        },
+        {
+          "type": "course",
+          "course": "MATH 121"
+        }
+      ]
+    }
+  }
+}

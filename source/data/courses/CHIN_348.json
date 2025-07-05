@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 348",
+  "originalPrerequisite": "One of CHIN 213, CHIN 214, CHIN 343, CHIN 344.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:38:39.391Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "348",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHIN 213"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 214"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 343"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 344"
+        }
+      ]
+    }
+  }
+}

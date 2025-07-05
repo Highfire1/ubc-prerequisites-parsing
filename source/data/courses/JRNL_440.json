@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JRNL 440",
+  "originalPrerequisite": "Restricted to fourth-year BMS students. Credit cannot be granted for both JRNL 440 and JRNL 540.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:16:26.206Z",
+  "parsedRequirements": {
+    "department": "JRNL",
+    "code": "440",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "program",
+          "program": "BMS"
+        }
+      ]
+    }
+  }
+}

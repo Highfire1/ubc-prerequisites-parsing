@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 249",
+  "originalPrerequisite": "MUSC 149.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:56:21.639Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "249",
+    "prerequisites": {
+      "type": "course",
+      "course": "MUSC 149"
+    }
+  }
+}

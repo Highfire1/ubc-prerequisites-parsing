@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 469",
+  "originalPrerequisite": "Permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:35.553Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "469",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of instructor"
+    }
+  }
+}

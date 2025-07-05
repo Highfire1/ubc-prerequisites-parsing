@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 348",
+  "originalPrerequisite": "Third-year standing in a physics honours program or fourth-year standing in a physics or astronomy major program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:09.455Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "348",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "3rd"
+            },
+            {
+              "type": "program",
+              "program": "physics honours program"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "4th"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "program",
+                  "program": "physics major program"
+                },
+                {
+                  "type": "program",
+                  "program": "astronomy major program"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

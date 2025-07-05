@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 430",
+  "originalPrerequisite": "One of CHEM 123, CHEM 130, CHEM 154, SCIE 001.",
+  "originalCorequisite": "One of EOSC 325, EOSC 329.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:39.841Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "430",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 123"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 130"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 154"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EOSC 325"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 329"
+        }
+      ]
+    }
+  }
+}

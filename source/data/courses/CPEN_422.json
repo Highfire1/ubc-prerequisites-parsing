@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 422",
+  "originalPrerequisite": "One of CPEN 221, CPEN 321, CPSC 210, CPSC 310.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:27.009Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "422",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPEN 221"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 321"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 210"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 310"
+        }
+      ]
+    }
+  }
+}

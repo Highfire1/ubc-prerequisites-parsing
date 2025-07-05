@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ATSC 301",
+  "originalPrerequisite": "One of PHYS 102, PHYS 108, PHYS 118, PHYS 158 and familiarity with a programming language.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:51.009Z",
+  "parsedRequirements": {
+    "department": "ATSC",
+    "code": "301",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 102"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 108"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 118"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 158"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "familiarity with a programming language"
+        }
+      ]
+    }
+  }
+}

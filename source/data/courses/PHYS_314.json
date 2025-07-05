@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 314",
+  "originalPrerequisite": "MATH 215.",
+  "originalCorequisite": "PHYS 203.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:54.404Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "314",
+    "prerequisites": {
+      "type": "course",
+      "course": "MATH 215"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "PHYS 203"
+    }
+  }
+}

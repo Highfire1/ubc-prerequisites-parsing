@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 491",
+  "originalPrerequisite": "All of WOOD 225, WOOD 464.",
+  "originalCorequisite": "WOOD 499.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:49.437Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "491",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "WOOD 225"
+        },
+        {
+          "type": "course",
+          "course": "WOOD 464"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "WOOD 499"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 326",
+  "originalPrerequisite": "At least one of LING 201/PHIL 220, plus 6 additional credits of PHIL/LING at the 200-level or above.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:33.868Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "326",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "LING 201"
+            },
+            {
+              "type": "course",
+              "course": "PHIL 220"
+            }
+          ]
+        },
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "department": [
+            "PHIL",
+            "LING"
+          ],
+          "level": "200"
+        }
+      ]
+    }
+  }
+}

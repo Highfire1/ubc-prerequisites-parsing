@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PCTH 399",
+  "originalPrerequisite": "PCTH 398.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:46.157Z",
+  "parsedRequirements": {
+    "department": "PCTH",
+    "code": "399",
+    "prerequisites": {
+      "type": "course",
+      "course": "PCTH 398"
+    }
+  }
+}

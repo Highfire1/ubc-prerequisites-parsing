@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 273",
+  "originalPrerequisite": "Either (a) SCIE 001 or (b) BIOL 121 and one of CHEM 110, CHEM 111, CHEM 120, CHEM 121, CHEM 130. And second-year standing in a Behavioural Neuroscience specialization.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:54.789Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "273",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BIOL 121"
+                },
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "CHEM 110"
+                    },
+                    {
+                      "type": "course",
+                      "course": "CHEM 111"
+                    },
+                    {
+                      "type": "course",
+                      "course": "CHEM 120"
+                    },
+                    {
+                      "type": "course",
+                      "course": "CHEM 121"
+                    },
+                    {
+                      "type": "course",
+                      "course": "CHEM 130"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "2nd"
+            },
+            {
+              "type": "program",
+              "program": "Behavioural Neuroscience specialization"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

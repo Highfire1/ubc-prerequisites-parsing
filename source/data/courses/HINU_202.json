@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HINU 202",
+  "originalPrerequisite": "HINU 201.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:47.480Z",
+  "parsedRequirements": {
+    "department": "HINU",
+    "code": "202",
+    "prerequisites": {
+      "type": "course",
+      "course": "HINU 201"
+    }
+  }
+}

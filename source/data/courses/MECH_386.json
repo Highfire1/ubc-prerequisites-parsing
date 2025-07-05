@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 386",
+  "originalPrerequisite": "MECH 380.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:19.060Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "386",
+    "prerequisites": {
+      "type": "course",
+      "course": "MECH 380"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 152",
+  "originalPrerequisite": null,
+  "originalCorequisite": "MATH 101.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:47.899Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "152",
+    "corequisites": {
+      "type": "course",
+      "course": "MATH 101"
+    }
+  }
+}

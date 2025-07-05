@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 311",
+  "originalPrerequisite": "One of MUSC 111, MUSC 200 and completion of the second-year piano requirement.",
+  "originalCorequisite": null,
+  "status": "blacklisted",
+  "lastUpdated": "2025-07-04T22:57:06.214Z",
+  "blacklistReason": "The requirement \"completion of the second-year piano requirement\" cannot be unambiguously represented using the provided type system.  There is no clear way to represent this requirement using the available types ('course', 'credit_count', 'course_count', 'standing', 'program', 'permission', 'other').  More information is needed to define this requirement in a structured way (e.g., specific course codes, credit hour count, program enrollment, etc.)."
+}

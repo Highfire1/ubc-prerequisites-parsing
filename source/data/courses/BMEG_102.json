@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 102",
+  "originalPrerequisite": "One of PHYS 12, PHYS 100",
+  "originalCorequisite": "BMEG 101.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:37.223Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "102",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 12"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 100"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "BMEG 101"
+    }
+  }
+}

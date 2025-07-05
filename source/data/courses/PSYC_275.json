@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 275",
+  "originalPrerequisite": "One of PSYC 217, PSYC 273, PSYC 277.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:57.123Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "275",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 217"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 273"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 277"
+        }
+      ]
+    }
+  }
+}

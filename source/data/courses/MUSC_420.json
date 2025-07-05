@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 420",
+  "originalPrerequisite": "MUSC 419. And permission of the Instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:58:17.455Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "420",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 419"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the Instructor"
+        }
+      ]
+    }
+  }
+}

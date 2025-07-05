@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ATSC 313",
+  "originalPrerequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121 and one of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157 and one of APSC 160, CPSC 103, CPSC 110, DSCI 100, EOSC 211.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:56.410Z",
+  "parsedRequirements": {
+    "department": "ATSC",
+    "code": "313",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 101"
+            },
+            {
+              "type": "course",
+              "course": "MATH 103"
+            },
+            {
+              "type": "course",
+              "course": "MATH 105"
+            },
+            {
+              "type": "course",
+              "course": "MATH 121"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 101"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 106"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 107"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 117"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 131"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 157"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 160"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 103"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 110"
+            },
+            {
+              "type": "course",
+              "course": "DSCI 100"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 211"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

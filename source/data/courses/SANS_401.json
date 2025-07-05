@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SANS 401",
+  "originalPrerequisite": "One of SANS 300, SANS 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:52.323Z",
+  "parsedRequirements": {
+    "department": "SANS",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SANS 300"
+        },
+        {
+          "type": "course",
+          "course": "SANS 302"
+        }
+      ]
+    }
+  }
+}

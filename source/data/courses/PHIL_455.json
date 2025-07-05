@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 455",
+  "originalPrerequisite": "PHIL 441 (Philosophy of Perception), or PHIL 451 (Philosophy of Mind), or 6 credits of Philosophy at the 200-level or above (excluding PHIL 220 and PHIL 320).",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:59.605Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "455",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHIL 441"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 451"
+        },
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "level": "200",
+          "department": "PHIL",
+          "excludedCourses": [
+            "PHIL 220",
+            "PHIL 320"
+          ]
+        }
+      ]
+    }
+  }
+}

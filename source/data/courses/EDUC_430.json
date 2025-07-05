@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDUC 430",
+  "originalPrerequisite": "One of EDUC 418, EDUC 419, EDUC 421.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:53.631Z",
+  "parsedRequirements": {
+    "department": "EDUC",
+    "code": "430",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EDUC 418"
+        },
+        {
+          "type": "course",
+          "course": "EDUC 419"
+        },
+        {
+          "type": "course",
+          "course": "EDUC 421"
+        }
+      ]
+    }
+  }
+}

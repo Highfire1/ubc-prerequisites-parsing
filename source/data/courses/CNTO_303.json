@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CNTO 303",
+  "originalPrerequisite": "CNTO 301. Or placement approval.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:11.348Z",
+  "parsedRequirements": {
+    "department": "CNTO",
+    "code": "303",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CNTO 301"
+        },
+        {
+          "type": "permission",
+          "note": "placement approval"
+        }
+      ]
+    }
+  }
+}

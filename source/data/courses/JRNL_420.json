@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JRNL 420",
+  "originalPrerequisite": "Restricted to fourth-year students. Prior to registration, a minimum of 12-credits of 300-level courses related to media, technology and/or communications recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:16:24.990Z",
+  "parsedRequirements": {
+    "department": "JRNL",
+    "code": "420",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "credit_count",
+          "credits": 12,
+          "level": "300",
+          "department": [
+            "media",
+            "technology",
+            "communications"
+          ],
+          "recommended": true
+        }
+      ]
+    }
+  }
+}

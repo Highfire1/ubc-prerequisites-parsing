@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CRWR 419",
+  "originalPrerequisite": "Recommended CRWR 200 and at least one 300-level creative writing class.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:46.386Z",
+  "parsedRequirements": {
+    "department": "CRWR",
+    "code": "419",
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CRWR 200"
+        },
+        {
+          "type": "course_count",
+          "count": 1,
+          "level": "300"
+        }
+      ]
+    }
+  }
+}

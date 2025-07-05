@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 430",
+  "originalPrerequisite": "One of BIOL 335, BIOL 336, BIOL 338.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:14.824Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "430",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 335"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 336"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 338"
+        }
+      ]
+    }
+  }
+}

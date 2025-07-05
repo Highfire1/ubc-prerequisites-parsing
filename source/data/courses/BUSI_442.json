@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 442",
+  "originalPrerequisite": "All of BUSI 121, BUSI 330, BUSI 331.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:37.851Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "442",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 121"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 330"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 331"
+        }
+      ]
+    }
+  }
+}

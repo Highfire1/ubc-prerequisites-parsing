@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BEST 304",
+  "originalPrerequisite": "BEST 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:22.633Z",
+  "parsedRequirements": {
+    "department": "BEST",
+    "code": "304",
+    "prerequisites": {
+      "type": "course",
+      "course": "BEST 302"
+    }
+  }
+}

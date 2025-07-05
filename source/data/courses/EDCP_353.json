@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 353",
+  "originalPrerequisite": "A completed concentration in Agricultural Sciences or permission of the Head.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:16.207Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "353",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "A completed concentration in Agricultural Sciences"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the Head"
+        }
+      ]
+    }
+  }
+}

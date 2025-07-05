@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ITAL 322",
+  "originalPrerequisite": "Proficiency in another Romance language or Latin, or successful completion of ITAL 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:59.413Z",
+  "parsedRequirements": {
+    "department": "ITAL",
+    "code": "322",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "Proficiency in another Romance language or Latin"
+        },
+        {
+          "type": "course",
+          "course": "ITAL 102"
+        }
+      ]
+    }
+  }
+}

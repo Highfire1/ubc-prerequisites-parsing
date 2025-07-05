@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 321",
+  "originalPrerequisite": "Either (a) MATH 256 or (b) all of MATH 265, MATH 267; and either (a) BMEG 220 or (b) one of ELEC 211, PHYS 301 and one of ELEC 201, ELEC 204.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:57.979Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "321",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 256"
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 265"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 267"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BMEG 220"
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ELEC 211"
+                },
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "PHYS 301"
+                    },
+                    {
+                      "type": "course",
+                      "course": "ELEC 201"
+                    },
+                    {
+                      "type": "course",
+                      "course": "ELEC 204"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 235",
+  "originalPrerequisite": "All of BIOL 112, BIOL 121, BIOL 140.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:19:24.109Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "235",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 112"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 121"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 140"
+        }
+      ]
+    }
+  }
+}

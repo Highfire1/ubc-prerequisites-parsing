@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 373",
+  "originalPrerequisite": "One of CHEM 113, CHEM 123.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:31.719Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "373",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 113"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 123"
+        }
+      ]
+    }
+  }
+}

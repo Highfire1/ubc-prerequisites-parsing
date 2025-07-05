@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MINE 491",
+  "originalPrerequisite": "All of MINE 302, MINE 303, MINE 304, MINE 310, MINE 331, MINE 333, MINE 350, MINE 396. Fourth-year standing in Mining Engineering is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:26.872Z",
+  "parsedRequirements": {
+    "department": "MINE",
+    "code": "491",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MINE 302"
+            },
+            {
+              "type": "course",
+              "course": "MINE 303"
+            },
+            {
+              "type": "course",
+              "course": "MINE 304"
+            },
+            {
+              "type": "course",
+              "course": "MINE 310"
+            },
+            {
+              "type": "course",
+              "course": "MINE 331"
+            },
+            {
+              "type": "course",
+              "course": "MINE 333"
+            },
+            {
+              "type": "course",
+              "course": "MINE 350"
+            },
+            {
+              "type": "course",
+              "course": "MINE 396"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "program",
+          "program": "Mining Engineering"
+        }
+      ]
+    }
+  }
+}

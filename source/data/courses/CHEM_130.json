@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 130",
+  "originalPrerequisite": "One of CHEM 110, CHEM 111, CHEM 120, CHEM 121.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:19.095Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "130",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 110"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 111"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 120"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 121"
+        }
+      ]
+    }
+  }
+}

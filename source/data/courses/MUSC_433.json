@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 433",
+  "originalPrerequisite": "MUSC 333.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:58:20.883Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "433",
+    "prerequisites": {
+      "type": "course",
+      "course": "MUSC 333"
+    }
+  }
+}

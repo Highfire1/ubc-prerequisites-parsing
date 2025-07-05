@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PERS 200",
+  "originalPrerequisite": "One of PERS 101, PERS 104.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:54.599Z",
+  "parsedRequirements": {
+    "department": "PERS",
+    "code": "200",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PERS 101"
+        },
+        {
+          "type": "course",
+          "course": "PERS 104"
+        }
+      ]
+    }
+  }
+}

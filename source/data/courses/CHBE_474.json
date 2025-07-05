@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 474",
+  "originalPrerequisite": "All of CHBE 356, CHBE 376.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:33.903Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "474",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 356"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 376"
+        }
+      ]
+    }
+  }
+}

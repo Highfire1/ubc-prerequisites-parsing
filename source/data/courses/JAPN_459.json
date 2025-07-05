@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 459",
+  "originalPrerequisite": "One of JAPN 301, JAPN 401 and permission from instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:42.446Z",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "459",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "JAPN 301"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 401"
+        },
+        {
+          "type": "permission",
+          "note": "permission from instructor"
+        }
+      ]
+    }
+  }
+}

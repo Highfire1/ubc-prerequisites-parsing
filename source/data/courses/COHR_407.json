@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COHR 407",
+  "originalPrerequisite": "All of COMM 203, COHR 307.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:55.566Z",
+  "parsedRequirements": {
+    "department": "COHR",
+    "code": "407",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 203"
+        },
+        {
+          "type": "course",
+          "course": "COHR 307"
+        }
+      ]
+    }
+  }
+}

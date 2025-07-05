@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GREK 402",
+  "originalPrerequisite": null,
+  "originalCorequisite": "Either (a) GREK 351 or (b) GREK 352.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:12:21.129Z",
+  "parsedRequirements": {
+    "department": "GREK",
+    "code": "402",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GREK 351"
+        },
+        {
+          "type": "course",
+          "course": "GREK 352"
+        }
+      ]
+    }
+  }
+}

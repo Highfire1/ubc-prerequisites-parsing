@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 416",
+  "originalPrerequisite": "One of CPSC 313, CPEN 331 and one of CPSC 317, ELEC 331.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:38.192Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "416",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 313"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 331"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 317"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 331"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDUC 211",
+  "originalPrerequisite": "One of ASTU 210, EDUC 210.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:41.821Z",
+  "parsedRequirements": {
+    "department": "EDUC",
+    "code": "211",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ASTU 210"
+        },
+        {
+          "type": "course",
+          "course": "EDUC 210"
+        }
+      ]
+    }
+  }
+}

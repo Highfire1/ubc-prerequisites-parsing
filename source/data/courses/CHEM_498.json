@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 498",
+  "originalPrerequisite": "CHEM 399.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:38:06.281Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "498",
+    "prerequisites": {
+      "type": "course",
+      "course": "CHEM 399"
+    }
+  }
+}

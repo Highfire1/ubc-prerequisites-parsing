@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 410",
+  "originalPrerequisite": "BIOL 201 and one of APBI 311, CAPS 301.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:20:23.436Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "410",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 201"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APBI 311"
+            },
+            {
+              "type": "course",
+              "course": "CAPS 301"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

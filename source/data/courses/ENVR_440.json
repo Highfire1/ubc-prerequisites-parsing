@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVR 440",
+  "originalPrerequisite": "One of ENVR 200, ASIC 220, SCIE 220, GEOG 211. Third-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:07.546Z",
+  "parsedRequirements": {
+    "department": "ENVR",
+    "code": "440",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ENVR 200"
+            },
+            {
+              "type": "course",
+              "course": "ASIC 220"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 220"
+            },
+            {
+              "type": "course",
+              "course": "GEOG 211"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

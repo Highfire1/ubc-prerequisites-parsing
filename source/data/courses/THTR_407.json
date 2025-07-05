@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 407",
+  "originalPrerequisite": "THTR 307.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:27.654Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "407",
+    "prerequisites": {
+      "type": "course",
+      "course": "THTR 307"
+    }
+  }
+}

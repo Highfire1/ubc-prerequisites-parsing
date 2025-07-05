@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 436",
+  "originalPrerequisite": "CIVL 332.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:57.311Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "436",
+    "prerequisites": {
+      "type": "course",
+      "course": "CIVL 332"
+    }
+  }
+}

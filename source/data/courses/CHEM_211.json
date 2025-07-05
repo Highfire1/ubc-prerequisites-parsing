@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 211",
+  "originalPrerequisite": "Either (a) CHEM 123 or (b) all of CHEM 130, CHEM 135 or (c) SCIE 001.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:33.645Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "211",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 123"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 130"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 135"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    }
+  }
+}

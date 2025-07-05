@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 364",
+  "originalPrerequisite": "All of ECON 101, ECON 102. Restricted to BA students with at least 3rd year standing and BIE students with at least 2nd year standing. Students are expected to have completed at least 9 ECON credits prior to registration.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:50:44.509Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "364",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 101"
+            },
+            {
+              "type": "course",
+              "course": "ECON 102"
+            }
+          ]
+        },
+        {
+          "type": "credit_count",
+          "credits": 9,
+          "department": "ECON"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "program",
+                  "program": "BA"
+                },
+                {
+                  "type": "standing",
+                  "standing": "3rd"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "program",
+                  "program": "BIE"
+                },
+                {
+                  "type": "standing",
+                  "standing": "2nd"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

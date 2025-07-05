@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HINU 200",
+  "originalPrerequisite": "One of HINU 101, HINU 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:45.770Z",
+  "parsedRequirements": {
+    "department": "HINU",
+    "code": "200",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "HINU 101"
+        },
+        {
+          "type": "course",
+          "course": "HINU 102"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "STAT 321",
+  "originalPrerequisite": "One of EECE 269, ELEC 221, STAT 305. STAT 305 may be taken concurrently, with registration assistance from Statistics Student Services.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:43.053Z",
+  "parsedRequirements": {
+    "department": "STAT",
+    "code": "321",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EECE 269"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 221"
+        },
+        {
+          "type": "course",
+          "course": "STAT 305",
+          "canBeTakenConcurrently": true
+        }
+      ]
+    }
+  }
+}

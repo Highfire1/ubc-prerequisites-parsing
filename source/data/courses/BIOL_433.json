@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 433",
+  "originalPrerequisite": "BIOL 335.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:19.123Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "433",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOL 335"
+    }
+  }
+}

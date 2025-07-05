@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 477",
+  "originalPrerequisite": "FREN 353 and one of FREN 353, FREN 225.",
+  "originalCorequisite": null,
+  "status": "blacklisted",
+  "lastUpdated": "2025-07-04T13:08:41.484Z",
+  "blacklistReason": "The prerequisite 'FREN 353 and one of FREN 353, FREN 225' is ambiguous.  It's unclear if FREN 353 is required in addition to one of FREN 353 or FREN 225, or if taking FREN 353 fulfills the 'one of' requirement.  The provided type system doesn't allow for such nuanced conditional logic.  A clearer statement of prerequisites is needed for unambiguous representation."
+}

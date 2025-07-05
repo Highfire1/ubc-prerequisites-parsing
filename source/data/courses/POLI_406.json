@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 406",
+  "originalPrerequisite": "POLI 101 and at least 3 credits from POLI 301–308.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:05:33.596Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "406",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "POLI 101"
+        },
+        {
+          "type": "credit_count",
+          "credits": 3,
+          "department": "POLI",
+          "level": "300"
+        }
+      ]
+    }
+  }
+}

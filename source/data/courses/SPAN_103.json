@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPAN 103",
+  "originalPrerequisite": "Placement test for students with Grade 12 Spanish or for native or near-native speakers of other Romance Languages.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:28.899Z",
+  "parsedRequirements": {
+    "department": "SPAN",
+    "code": "103",
+    "prerequisites": {
+      "type": "other",
+      "note": "Placement test for students with Grade 12 Spanish or for native or near-native speakers of other Romance Languages."
+    }
+  }
+}

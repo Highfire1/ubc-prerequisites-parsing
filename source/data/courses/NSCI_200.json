@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NSCI 200",
+  "originalPrerequisite": "Second-year standing in the Neuroscience specialization.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:59:12.754Z",
+  "parsedRequirements": {
+    "department": "NSCI",
+    "code": "200",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "2nd"
+        },
+        {
+          "type": "program",
+          "program": "Neuroscience specialization"
+        }
+      ]
+    }
+  }
+}

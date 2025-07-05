@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENGL 347",
+  "originalPrerequisite": "Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:57:04.112Z",
+  "parsedRequirements": {
+    "department": "ENGL",
+    "code": "347",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "credit_count",
+              "credits": 3,
+              "department": "ENGL",
+              "level": "100"
+            },
+            {
+              "type": "credit_count",
+              "credits": 3,
+              "department": "ENGL",
+              "level": "200"
+            },
+            {
+              "type": "course",
+              "course": "ARTS 001"
+            },
+            {
+              "type": "course",
+              "course": "ASTU 100"
+            },
+            {
+              "type": "course",
+              "course": "ASTU 101"
+            },
+            {
+              "type": "course",
+              "course": "WRDS 150"
+            },
+            {
+              "type": "course",
+              "course": "WRDS 350"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "department": "ENGL",
+      "level": [
+        "100",
+        "200"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 412",
+  "originalPrerequisite": "CPEN 311 and one of CPEN 211, CPEN 312.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:23.515Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "412",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPEN 311"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPEN 211"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 312"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

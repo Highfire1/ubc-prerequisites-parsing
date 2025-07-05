@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 294",
+  "originalPrerequisite": "BUSI 293 or equivalent.",
+  "originalCorequisite": "BUSI 293 or equivalent.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:20.742Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "294",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 293"
+        },
+        {
+          "type": "other",
+          "note": "equivalent"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 293"
+        },
+        {
+          "type": "other",
+          "note": "equivalent"
+        }
+      ]
+    }
+  }
+}

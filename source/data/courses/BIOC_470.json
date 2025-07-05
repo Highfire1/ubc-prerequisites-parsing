@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 470",
+  "originalPrerequisite": "One of BIOC 302, BIOC 303.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:58.394Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "470",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOC 302"
+        },
+        {
+          "type": "course",
+          "course": "BIOC 303"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 350",
+  "originalPrerequisite": "FNH 250 and one of BIOL 201, BIOC 202.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:44.209Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "350",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNH 250"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 201"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 202"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

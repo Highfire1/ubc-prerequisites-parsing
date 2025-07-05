@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ARTC 451",
+  "originalPrerequisite": "One of ARTC 410, ARTC 411.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:24:02.420Z",
+  "parsedRequirements": {
+    "department": "ARTC",
+    "code": "451",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ARTC 410"
+        },
+        {
+          "type": "course",
+          "course": "ARTC 411"
+        }
+      ]
+    }
+  }
+}

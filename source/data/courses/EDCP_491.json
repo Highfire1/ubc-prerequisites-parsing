@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 491",
+  "originalPrerequisite": "EDCP 391.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:40.232Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "491",
+    "prerequisites": {
+      "type": "course",
+      "course": "EDCP 391"
+    }
+  }
+}

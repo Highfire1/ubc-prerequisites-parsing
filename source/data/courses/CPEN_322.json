@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 322",
+  "originalPrerequisite": "CPEN 221 and CPSC 221",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:14.620Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "322",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPEN 221"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 221"
+        }
+      ]
+    }
+  }
+}

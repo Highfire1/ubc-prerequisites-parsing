@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 325",
+  "originalPrerequisite": "One of CHEM 211, CHEM 215 and all of CHEM 208, CHEM 213, CHEM 245.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:13.623Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "325",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 211"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 215"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 208"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 213"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 245"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

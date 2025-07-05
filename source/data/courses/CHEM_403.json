@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 403",
+  "originalPrerequisite": "CHEM 304 and one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 263.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:29.815Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "403",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 304"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 200"
+            },
+            {
+              "type": "course",
+              "course": "MATH 217"
+            },
+            {
+              "type": "course",
+              "course": "MATH 226"
+            },
+            {
+              "type": "course",
+              "course": "MATH 253"
+            },
+            {
+              "type": "course",
+              "course": "MATH 263"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

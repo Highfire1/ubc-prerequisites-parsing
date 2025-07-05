@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 465",
+  "originalPrerequisite": "CHBE 221 or equivalent and third-year standing required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:29.325Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "465",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHBE 221"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

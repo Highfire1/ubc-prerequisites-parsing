@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDUC 451",
+  "originalPrerequisite": "EDUC 450.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:54.794Z",
+  "parsedRequirements": {
+    "department": "EDUC",
+    "code": "451",
+    "prerequisites": {
+      "type": "course",
+      "course": "EDUC 450"
+    }
+  }
+}

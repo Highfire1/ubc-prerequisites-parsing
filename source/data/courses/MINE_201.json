@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MINE 201",
+  "originalPrerequisite": "MINE 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:50.833Z",
+  "parsedRequirements": {
+    "department": "MINE",
+    "code": "201",
+    "prerequisites": {
+      "type": "course",
+      "course": "MINE 200"
+    }
+  }
+}

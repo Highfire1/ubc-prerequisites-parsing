@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 490",
+  "originalPrerequisite": "6 credits of 300-level VISA and 3 credits of 400-level VISA.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:11.421Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "490",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "department": "VISA",
+          "level": "300"
+        },
+        {
+          "type": "credit_count",
+          "credits": 3,
+          "department": "VISA",
+          "level": "400"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 303",
+  "originalPrerequisite": "One of MATH 302, STAT 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:41.743Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "303",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 302"
+        },
+        {
+          "type": "course",
+          "course": "STAT 302"
+        }
+      ]
+    }
+  }
+}

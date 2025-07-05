@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 235",
+  "originalPrerequisite": "One of CHEM 123, CHEM 135, SCIE 001.",
+  "originalCorequisite": "CHEM 233.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:44.726Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "235",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 123"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 135"
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "CHEM 233"
+    }
+  }
+}

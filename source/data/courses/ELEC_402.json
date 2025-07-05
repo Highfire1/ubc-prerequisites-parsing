@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 402",
+  "originalPrerequisite": "CPEN 311.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:46.733Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "402",
+    "prerequisites": {
+      "type": "course",
+      "course": "CPEN 311"
+    }
+  }
+}

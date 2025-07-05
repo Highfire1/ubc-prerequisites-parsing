@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PLAN 221",
+  "originalPrerequisite": "Second-year standing or above in any program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:49.412Z",
+  "parsedRequirements": {
+    "department": "PLAN",
+    "code": "221",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "2nd"
+        }
+      ]
+    }
+  }
+}

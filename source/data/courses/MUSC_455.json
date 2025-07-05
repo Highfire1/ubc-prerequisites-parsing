@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 455",
+  "originalPrerequisite": "All of MUSC 220, MUSC 221.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:58:25.224Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "455",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 220"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 221"
+        }
+      ]
+    }
+  }
+}

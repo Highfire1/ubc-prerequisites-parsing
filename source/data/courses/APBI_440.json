@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 440",
+  "originalPrerequisite": null,
+  "originalCorequisite": "BIOL 335.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:21:08.841Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "440",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 335"
+        }
+      ]
+    }
+  }
+}

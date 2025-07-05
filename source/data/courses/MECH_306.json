@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 306",
+  "originalPrerequisite": "All of MECH 220, MECH 223, MECH 224, MECH 225.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:58.772Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "306",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 220"
+        },
+        {
+          "type": "course",
+          "course": "MECH 223"
+        },
+        {
+          "type": "course",
+          "course": "MECH 224"
+        },
+        {
+          "type": "course",
+          "course": "MECH 225"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 450",
+  "originalPrerequisite": "9 credits in PHIL at the 200-level or above. PHIL 340 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:55.201Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "450",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 9,
+      "department": "PHIL",
+      "level": "200"
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "PHIL 340"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 260",
+  "originalPrerequisite": "Either (a) all of MATH 101, PHYS 170 or (b) all of APSC 172, APSC 173, APSC 180.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:52.526Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "260",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 101"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 170"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 172"
+            },
+            {
+              "type": "course",
+              "course": "APSC 173"
+            },
+            {
+              "type": "course",
+              "course": "APSC 180"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

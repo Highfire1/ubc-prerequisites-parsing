@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EPSE 342",
+  "originalPrerequisite": "Permission of the department is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:08.251Z",
+  "parsedRequirements": {
+    "department": "EPSE",
+    "code": "342",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of the department is required"
+    }
+  }
+}

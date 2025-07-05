@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DES 301",
+  "originalPrerequisite": "A score of 60% or higher in DES 202.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:16.427Z",
+  "parsedRequirements": {
+    "department": "DES",
+    "code": "301",
+    "prerequisites": {
+      "type": "course",
+      "course": "DES 202",
+      "minGrade": 60
+    }
+  }
+}

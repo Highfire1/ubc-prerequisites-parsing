@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 420",
+  "originalPrerequisite": "A score of 68% or higher in MATH 321.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:45.542Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "420",
+    "prerequisites": {
+      "type": "course",
+      "course": "MATH 321",
+      "minGrade": 68
+    }
+  }
+}

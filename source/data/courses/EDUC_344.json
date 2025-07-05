@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDUC 344",
+  "originalPrerequisite": "All of EDUC 143, EDUC 244.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:47.428Z",
+  "parsedRequirements": {
+    "department": "EDUC",
+    "code": "344",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EDUC 143"
+        },
+        {
+          "type": "course",
+          "course": "EDUC 244"
+        }
+      ]
+    }
+  }
+}

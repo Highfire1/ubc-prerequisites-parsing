@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 410",
+  "originalPrerequisite": "Either (a) all of BIOC 303, BIOL 335 or (b) BIOT 380. A minimum standing of 65% is recommended in these courses.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:46.553Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "410",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOC 303",
+              "minGrade": 65
+            },
+            {
+              "type": "course",
+              "course": "BIOL 335",
+              "minGrade": 65
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "BIOT 380",
+          "minGrade": 65
+        }
+      ]
+    }
+  }
+}

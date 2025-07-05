@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENDS 302",
+  "originalPrerequisite": "ENDS 301.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:54:19.986Z",
+  "parsedRequirements": {
+    "department": "ENDS",
+    "code": "302",
+    "prerequisites": {
+      "type": "course",
+      "course": "ENDS 301"
+    }
+  }
+}

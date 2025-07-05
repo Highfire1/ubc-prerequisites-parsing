@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 486",
+  "originalPrerequisite": "All of CHBE 241, CHBE 244, CHBE 370.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:47.144Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "486",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 241"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 244"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 370"
+        }
+      ]
+    }
+  }
+}

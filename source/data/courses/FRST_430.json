@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRST 430",
+  "originalPrerequisite": "One of FRST 231, BIOL 300, STAT 200. And FRST 399 or equivalent. Restricted to students with 4th year standing or by permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:02.773Z",
+  "parsedRequirements": {
+    "department": "FRST",
+    "code": "430",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FRST 231"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 300"
+            },
+            {
+              "type": "course",
+              "course": "STAT 200"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FRST 399"
+            },
+            {
+              "type": "other",
+              "note": "equivalent"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "permission",
+          "note": "permission of instructor"
+        }
+      ]
+    }
+  }
+}

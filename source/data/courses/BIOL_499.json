@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 499",
+  "originalPrerequisite": "One of BIOL 399, BIOL 498.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:34.280Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "499",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 399"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 498"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECED 495",
+  "originalPrerequisite": "All of ECED 400, ECED 401, ECED 406, ECED 407, ECED 438, ECED 490, ECED 491, EPSE 406.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:56.048Z",
+  "parsedRequirements": {
+    "department": "ECED",
+    "code": "495",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECED 400"
+        },
+        {
+          "type": "course",
+          "course": "ECED 401"
+        },
+        {
+          "type": "course",
+          "course": "ECED 406"
+        },
+        {
+          "type": "course",
+          "course": "ECED 407"
+        },
+        {
+          "type": "course",
+          "course": "ECED 438"
+        },
+        {
+          "type": "course",
+          "course": "ECED 490"
+        },
+        {
+          "type": "course",
+          "course": "ECED 491"
+        },
+        {
+          "type": "course",
+          "course": "EPSE 406"
+        }
+      ]
+    }
+  }
+}

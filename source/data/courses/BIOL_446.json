@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 446",
+  "originalPrerequisite": "Fourth-year standing in any degree program is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:34.177Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "446",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "4th"
+    }
+  }
+}

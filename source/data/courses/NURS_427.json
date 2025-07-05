@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NURS 427",
+  "originalPrerequisite": "All of NURS 344, NURS 402, NURS 430.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:22.594Z",
+  "parsedRequirements": {
+    "department": "NURS",
+    "code": "427",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "NURS 344"
+        },
+        {
+          "type": "course",
+          "course": "NURS 402"
+        },
+        {
+          "type": "course",
+          "course": "NURS 430"
+        }
+      ]
+    }
+  }
+}

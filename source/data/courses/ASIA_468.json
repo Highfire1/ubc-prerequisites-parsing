@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASIA 468",
+  "originalPrerequisite": "One of ASIA 376, ASIA 381, ASIA 382, ASIA 383, ASIA 387. Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:24:51.956Z",
+  "parsedRequirements": {
+    "department": "ASIA",
+    "code": "468",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ASIA 376"
+            },
+            {
+              "type": "course",
+              "course": "ASIA 381"
+            },
+            {
+              "type": "course",
+              "course": "ASIA 382"
+            },
+            {
+              "type": "course",
+              "course": "ASIA 383"
+            },
+            {
+              "type": "course",
+              "course": "ASIA 387"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "credit_count",
+          "credits": 9,
+          "department": "ASIA",
+          "level": "300",
+          "recommended": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPAN 403",
+  "originalPrerequisite": "SPAN 302 or equivalent expertise in written and spoken Spanish.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:58.324Z",
+  "parsedRequirements": {
+    "department": "SPAN",
+    "code": "403",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SPAN 302"
+        },
+        {
+          "type": "other",
+          "note": "equivalent expertise in written and spoken Spanish"
+        }
+      ]
+    }
+  }
+}

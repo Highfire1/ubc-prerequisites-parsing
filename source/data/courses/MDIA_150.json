@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MDIA 150",
+  "originalPrerequisite": "Restricted to BMS students with 1st year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:17.043Z",
+  "parsedRequirements": {
+    "department": "MDIA",
+    "code": "150",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "program",
+          "program": "BMS"
+        },
+        {
+          "type": "standing",
+          "standing": "1st"
+        }
+      ]
+    }
+  }
+}

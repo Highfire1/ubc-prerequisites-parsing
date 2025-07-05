@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 202",
+  "originalPrerequisite": "One of FREN 111, FREN 201 or assignment based on placement test.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:12.668Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "202",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 111"
+        },
+        {
+          "type": "course",
+          "course": "FREN 201"
+        },
+        {
+          "type": "other",
+          "note": "assignment based on placement test"
+        }
+      ]
+    }
+  }
+}

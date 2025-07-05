@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 114",
+  "originalPrerequisite": null,
+  "originalCorequisite": "EOSC 111 is recommended.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:13.861Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "114",
+    "recommendedCorequisites": {
+      "type": "course",
+      "course": "EOSC 111"
+    }
+  }
+}

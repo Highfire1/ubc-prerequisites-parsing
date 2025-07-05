@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 330",
+  "originalPrerequisite": "Either (a) one of CPSC 203, CPSC 210, CPEN 221 or (b) MATH 210 and one of CPSC 107, CPSC 110.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:18.445Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "330",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 203"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 210"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 221"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 210"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CPSC 107"
+                },
+                {
+                  "type": "course",
+                  "course": "CPSC 110"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

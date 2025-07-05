@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CNTO 301",
+  "originalPrerequisite": "One of CHIN 107, CHIN 233, CHIN 108, CHIN 234. Or placement approval.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:09.956Z",
+  "parsedRequirements": {
+    "department": "CNTO",
+    "code": "301",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHIN 107"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 233"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 108"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 234"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "placement approval"
+        }
+      ]
+    }
+  }
+}

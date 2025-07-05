@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 457",
+  "originalPrerequisite": "One of CHIN 303, CHIN 304, CHIN 403, CHIN 404 and one of CHIN 307, CHIN 308, CHIN 407, CHIN 408.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:39:20.677Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "457",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHIN 303"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 304"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 403"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 404"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHIN 307"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 308"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 407"
+            },
+            {
+              "type": "course",
+              "course": "CHIN 408"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

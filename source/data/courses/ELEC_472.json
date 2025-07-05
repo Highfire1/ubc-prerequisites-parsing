@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 472",
+  "originalPrerequisite": "All of ELEC 201, ELEC 202, CPEN 211, ELEC 341.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:54:15.747Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "472",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 201"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 202"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 211"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 341"
+        }
+      ]
+    }
+  }
+}

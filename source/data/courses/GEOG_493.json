@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 493",
+  "originalPrerequisite": "GEOG 391 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:02.994Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "493",
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "GEOG 391"
+    }
+  }
+}

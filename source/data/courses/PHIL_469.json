@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 469",
+  "originalPrerequisite": "PHIL 369.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:04.257Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "469",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHIL 369"
+    }
+  }
+}

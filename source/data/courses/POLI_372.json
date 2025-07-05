@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 372",
+  "originalPrerequisite": "Third year standing. Previous completion of an introductory course in international relations (e.g. POLI 260 or its equivalent) is very strongly recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:05:14.124Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "372",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "other",
+              "note": "equivalent of POLI 260"
+            }
+          ],
+          "recommended": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 399",
+  "originalPrerequisite": "BIOC 398.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:41.424Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "399",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOC 398"
+    }
+  }
+}

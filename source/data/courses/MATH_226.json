@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 226",
+  "originalPrerequisite": "Either (a) a score of 68% or higher in MATH 121 or (b) a score of 80% or higher in one of MATH 101, MATH 103, MATH 105, SCIE 001.",
+  "originalCorequisite": "One of MATH 152, MATH 221, MATH 223.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:15.557Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "226",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 121",
+          "minGrade": 68
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 101",
+              "minGrade": 80
+            },
+            {
+              "type": "course",
+              "course": "MATH 103",
+              "minGrade": 80
+            },
+            {
+              "type": "course",
+              "course": "MATH 105",
+              "minGrade": 80
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001",
+              "minGrade": 80
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 152"
+        },
+        {
+          "type": "course",
+          "course": "MATH 221"
+        },
+        {
+          "type": "course",
+          "course": "MATH 223"
+        }
+      ]
+    }
+  }
+}

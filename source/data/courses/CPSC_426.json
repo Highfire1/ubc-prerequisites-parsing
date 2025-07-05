@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 426",
+  "originalPrerequisite": "CPSC 314.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:51.690Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "426",
+    "prerequisites": {
+      "type": "course",
+      "course": "CPSC 314"
+    }
+  }
+}

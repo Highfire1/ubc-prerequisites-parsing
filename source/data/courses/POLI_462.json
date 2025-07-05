@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 462",
+  "originalPrerequisite": "Two of POLI 260, POLI 360, POLI 361, POLI 362, POLI 363, POLI 364, POLI 365, POLI 366, POLI 367, POLI 368, POLI 369, POLI 370.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:07:42.554Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "462",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "course",
+              "course": "POLI 360"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "course",
+              "course": "POLI 361"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "course",
+              "course": "POLI 362"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "course",
+              "course": "POLI 363"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "course",
+              "course": "POLI 364"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "course",
+              "course": "POLI 365"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "course",
+              "course": "POLI 366"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "course",
+              "course": "POLI 367"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "course",
+              "course": "POLI 368"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "course",
+              "course": "POLI 369"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "POLI 260"
+            },
+            {
+              "type": "course",
+              "course": "POLI 370"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

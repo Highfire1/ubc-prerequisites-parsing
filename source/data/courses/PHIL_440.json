@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 440",
+  "originalPrerequisite": "PHIL 240.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:51.996Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "440",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHIL 240"
+    }
+  }
+}

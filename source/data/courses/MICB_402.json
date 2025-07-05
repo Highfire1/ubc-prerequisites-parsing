@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 402",
+  "originalPrerequisite": "One of MICB 302, BIOT 380. If MICB 302 is used as the prerequisite for MICB 402, students are required to take one of the following as a corequisite: BIOL 234, BIOL 335, MICB 325.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:21.405Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "402",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 302"
+        },
+        {
+          "type": "course",
+          "course": "BIOT 380"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 234"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 335"
+        },
+        {
+          "type": "course",
+          "course": "MICB 325"
+        }
+      ],
+      "recommended": true
+    }
+  }
+}

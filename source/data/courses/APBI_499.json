@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 499",
+  "originalPrerequisite": "Approval of a program advisor; consult before the end of classes in third year.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:21:54.804Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "499",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "permission",
+          "note": "Approval of a program advisor"
+        },
+        {
+          "type": "other",
+          "note": "consult before the end of classes in third year"
+        }
+      ]
+    }
+  }
+}

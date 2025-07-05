@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FIPR 330",
+  "originalPrerequisite": "FIPR 230.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:23.849Z",
+  "parsedRequirements": {
+    "department": "FIPR",
+    "code": "330",
+    "prerequisites": {
+      "type": "course",
+      "course": "FIPR 230"
+    }
+  }
+}

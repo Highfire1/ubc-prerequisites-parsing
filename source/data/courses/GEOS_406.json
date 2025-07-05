@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 406",
+  "originalPrerequisite": "One of GEOB 206, GEOS 206, EOSC 330.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:44.640Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "406",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOB 206"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 206"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 330"
+        }
+      ]
+    }
+  }
+}

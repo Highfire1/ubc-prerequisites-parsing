@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASIA 447",
+  "originalPrerequisite": "One of ASIA 347, ASIA 357. Permission of instructor is also acceptable. Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:24:38.677Z",
+  "parsedRequirements": {
+    "department": "ASIA",
+    "code": "447",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ASIA 347"
+                },
+                {
+                  "type": "course",
+                  "course": "ASIA 357"
+                }
+              ]
+            },
+            {
+              "type": "standing",
+              "standing": "4th"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "Permission of instructor"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "credit_count",
+      "credits": 9,
+      "department": "ASIA",
+      "level": "300"
+    }
+  }
+}

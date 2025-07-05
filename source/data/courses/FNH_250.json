@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 250",
+  "originalPrerequisite": "Either (a) one of BIOL 111, BIOL 112, BIOL 153, BIOL 155 or (b) all of KIN 131, KIN 132. At least second-year standing required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:17.893Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "250",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 111"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 112"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 153"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 155"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "KIN 131"
+            },
+            {
+              "type": "course",
+              "course": "KIN 132"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "standing",
+      "standing": "2nd"
+    }
+  }
+}

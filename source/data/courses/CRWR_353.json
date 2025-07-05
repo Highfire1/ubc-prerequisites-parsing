@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CRWR 353",
+  "originalPrerequisite": "CRWR 303.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:27.819Z",
+  "parsedRequirements": {
+    "department": "CRWR",
+    "code": "353",
+    "prerequisites": {
+      "type": "course",
+      "course": "CRWR 303"
+    }
+  }
+}

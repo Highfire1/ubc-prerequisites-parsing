@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 210",
+  "originalPrerequisite": "A cumulative average of at least 72% in two of VISA 110, VISA 180, VISA 183; or BMS student and VISA 110.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:11.250Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "210",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "TWO_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "VISA 110"
+            },
+            {
+              "type": "course",
+              "course": "VISA 180"
+            },
+            {
+              "type": "course",
+              "course": "VISA 183"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "BMS"
+            },
+            {
+              "type": "course",
+              "course": "VISA 110"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

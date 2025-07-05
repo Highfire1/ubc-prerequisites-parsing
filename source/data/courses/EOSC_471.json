@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 471",
+  "originalPrerequisite": "EOSC 211 and one of ATSC 201, EOSC 372, GEOB 200 and one of SCIE 001, PHYS 101, PHYS 107, PHYS 117, PHYS 153, PHYS 157.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:00.891Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "471",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EOSC 211"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ATSC 201"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 372"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 200"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 101"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 107"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 117"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 153"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 157"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ATSC 201",
+  "originalPrerequisite": "Completion of first-year science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:47.548Z",
+  "parsedRequirements": {
+    "department": "ATSC",
+    "code": "201",
+    "prerequisites": {
+      "type": "other",
+      "note": "Completion of first-year science"
+    }
+  }
+}

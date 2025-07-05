@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 364",
+  "originalPrerequisite": null,
+  "originalCorequisite": "CHBE 373.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:01.525Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "364",
+    "corequisites": {
+      "type": "course",
+      "course": "CHBE 373"
+    }
+  }
+}

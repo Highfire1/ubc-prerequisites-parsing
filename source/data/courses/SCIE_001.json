@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SCIE 001",
+  "originalPrerequisite": "Either (a) BIOL 11 or (b) BIOL 12; and all of CHEM 12, CALC 12, PHYS 12, ENGL 12 and Principles of Mathematics 12 or Pre-calculus 12.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:57.470Z",
+  "parsedRequirements": {
+    "department": "SCIE",
+    "code": "001",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 11"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 12"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 12"
+            },
+            {
+              "type": "course",
+              "course": "CALC 12"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 12"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 12"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "Principles of Mathematics 12"
+                },
+                {
+                  "type": "course",
+                  "course": "Pre-calculus 12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 427",
+  "originalPrerequisite": "Philosophy or mathematics courses totaling 9 credits at the 200-level or above.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:48.776Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "427",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 9,
+      "department": [
+        "PHIL",
+        "MATH"
+      ],
+      "level": "200"
+    }
+  }
+}

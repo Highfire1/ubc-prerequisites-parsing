@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 477",
+  "originalPrerequisite": "All of MECH 327, MECH 375, MECH 380.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:57.872Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "477",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 327"
+        },
+        {
+          "type": "course",
+          "course": "MECH 375"
+        },
+        {
+          "type": "course",
+          "course": "MECH 380"
+        }
+      ]
+    }
+  }
+}

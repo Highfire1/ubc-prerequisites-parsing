@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HGSE 352",
+  "originalPrerequisite": null,
+  "originalCorequisite": "All of HGSE 350, HGSE 351, HGSE 353, HGSE 354.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:17.270Z",
+  "parsedRequirements": {
+    "department": "HGSE",
+    "code": "352",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "HGSE 350"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 351"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 353"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 354"
+        }
+      ]
+    }
+  }
+}

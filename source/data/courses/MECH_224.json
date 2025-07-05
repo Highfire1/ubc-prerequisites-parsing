@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 224",
+  "originalPrerequisite": null,
+  "originalCorequisite": "MECH 221.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:34.103Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "224",
+    "corequisites": {
+      "type": "course",
+      "course": "MECH 221"
+    }
+  }
+}

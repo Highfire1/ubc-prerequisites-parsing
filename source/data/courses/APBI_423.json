@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 423",
+  "originalPrerequisite": "APBI 200 and one of FRST 201, APBI 260, BIOL 230.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:20:54.339Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "423",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APBI 200"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FRST 201"
+            },
+            {
+              "type": "course",
+              "course": "APBI 260"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 230"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASTR 403",
+  "originalPrerequisite": "One of PHYS 200, PHYS 250. ASTR 300 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:27.172Z",
+  "parsedRequirements": {
+    "department": "ASTR",
+    "code": "403",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 200"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 250"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "ASTR 300"
+    }
+  }
+}

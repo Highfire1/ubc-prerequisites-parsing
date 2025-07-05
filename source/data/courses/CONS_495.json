@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CONS 495",
+  "originalPrerequisite": "Third-year standing or higher. BIOL 230 or FRST 395 and APBI 315 or APBI 416 recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:59.549Z",
+  "parsedRequirements": {
+    "department": "CONS",
+    "code": "495",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 230"
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "FRST 395"
+                },
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "APBI 315"
+                    },
+                    {
+                      "type": "course",
+                      "course": "APBI 416"
+                    }
+                  ]
+                }
+              ],
+              "recommended": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

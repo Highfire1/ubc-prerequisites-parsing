@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CAPS 424",
+  "originalPrerequisite": "A cumulative average of 75% over at least 90 credits attempted in the first three years of a student's program and a minimum mark of 75% in CAPS 301 or PHYL 301. Permission of the course director is also required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:26.695Z",
+  "parsedRequirements": {
+    "department": "CAPS",
+    "code": "424",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "credit_count",
+          "credits": 90,
+          "minGrade": 75
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CAPS 301",
+              "minGrade": 75
+            },
+            {
+              "type": "course",
+              "course": "PHYL 301",
+              "minGrade": 75
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the course director is also required"
+        }
+      ]
+    }
+  }
+}

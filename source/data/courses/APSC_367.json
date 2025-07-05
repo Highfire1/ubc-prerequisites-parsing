@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APSC 367",
+  "originalPrerequisite": "Restricted to students with a Major, Combined Major, Honours, Honours with, or Minor specialization in Political Science or International Relations, or at least 3rd year standing in any BASc program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:22:33.503Z",
+  "parsedRequirements": {
+    "department": "APSC",
+    "code": "367",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "Political Science"
+            },
+            {
+              "type": "other",
+              "note": "Major, Combined Major, Honours, Honours with, or Minor specialization"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "International Relations"
+            },
+            {
+              "type": "other",
+              "note": "Major, Combined Major, Honours, Honours with, or Minor specialization"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "other",
+              "note": "at least 3rd year standing"
+            },
+            {
+              "type": "other",
+              "note": "in any BASc program"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

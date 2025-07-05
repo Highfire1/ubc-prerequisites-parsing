@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 340",
+  "originalPrerequisite": "BIOL 200 and at least 3rd-year standing in Science and one of (a) BIOL 180 (or BIOL 140), or (b) SCIE 001, or (c) 3rd-year standing in Combined Honours Biophysics.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:15.954Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "340",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 200"
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BIOL 180"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 140"
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            },
+            {
+              "type": "other",
+              "note": "3rd-year standing in Combined Honours Biophysics"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 282",
+  "originalPrerequisite": "WOOD 280.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:21.398Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "282",
+    "prerequisites": {
+      "type": "course",
+      "course": "WOOD 280"
+    }
+  }
+}

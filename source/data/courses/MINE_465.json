@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MINE 465",
+  "originalPrerequisite": "One of MINE 302, MINE 310.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:19.603Z",
+  "parsedRequirements": {
+    "department": "MINE",
+    "code": "465",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MINE 302"
+        },
+        {
+          "type": "course",
+          "course": "MINE 310"
+        }
+      ]
+    }
+  }
+}

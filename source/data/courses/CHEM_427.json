@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 427",
+  "originalPrerequisite": "CHEM 327.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:55.241Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "427",
+    "prerequisites": {
+      "type": "course",
+      "course": "CHEM 327"
+    }
+  }
+}

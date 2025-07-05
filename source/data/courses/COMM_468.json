@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 468",
+  "originalPrerequisite": "All of COMM 362, COMM 363, COMM 365.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:43:38.506Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "468",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 362"
+        },
+        {
+          "type": "course",
+          "course": "COMM 363"
+        },
+        {
+          "type": "course",
+          "course": "COMM 365"
+        }
+      ]
+    }
+  }
+}

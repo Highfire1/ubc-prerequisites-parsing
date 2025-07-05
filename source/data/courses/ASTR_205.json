@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASTR 205",
+  "originalPrerequisite": "ASTR 200 and one of PHYS 210, EOSC 211, CPSC 302, CPSC 303.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:16.923Z",
+  "parsedRequirements": {
+    "department": "ASTR",
+    "code": "205",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ASTR 200"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 210"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 211"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 302"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 303"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CONS 440",
+  "originalPrerequisite": "CONS 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:48.237Z",
+  "parsedRequirements": {
+    "department": "CONS",
+    "code": "440",
+    "prerequisites": {
+      "type": "course",
+      "course": "CONS 200"
+    }
+  }
+}

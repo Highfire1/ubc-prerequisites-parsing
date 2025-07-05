@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 472",
+  "originalPrerequisite": "One of GEOB 270, GEOS 270, GEOB 372, GEOS 372.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:54.761Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "472",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOB 270"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 270"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 372"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 372"
+        }
+      ]
+    }
+  }
+}

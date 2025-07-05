@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 230",
+  "originalPrerequisite": "A score of 72% or higher in two of VISA 110, VISA 180, VISA 183.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:14.417Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "230",
+    "prerequisites": {
+      "type": "group",
+      "logic": "TWO_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "VISA 110",
+          "minGrade": 72
+        },
+        {
+          "type": "course",
+          "course": "VISA 180",
+          "minGrade": 72
+        },
+        {
+          "type": "course",
+          "course": "VISA 183",
+          "minGrade": 72
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "RUSS 302",
+  "originalPrerequisite": "RUSS 301.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:40.353Z",
+  "parsedRequirements": {
+    "department": "RUSS",
+    "code": "302",
+    "prerequisites": {
+      "type": "course",
+      "course": "RUSS 301"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 303",
+  "originalPrerequisite": "One of LFS 252, BIOL 300, EPSE 482, FRST 231, STAT 200. FNH 301 recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:26.496Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "303",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LFS 252"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 300"
+        },
+        {
+          "type": "course",
+          "course": "EPSE 482"
+        },
+        {
+          "type": "course",
+          "course": "FRST 231"
+        },
+        {
+          "type": "course",
+          "course": "STAT 200"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "FNH 301"
+    }
+  }
+}

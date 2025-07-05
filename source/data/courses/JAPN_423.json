@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 423",
+  "originalPrerequisite": "One of JAPN 311, JAPN 422.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:28.247Z",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "423",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "JAPN 311"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 422"
+        }
+      ]
+    }
+  }
+}

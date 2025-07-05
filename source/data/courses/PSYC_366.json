@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 366",
+  "originalPrerequisite": "PSYC 260 or in Honours program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:07.996Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "366",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 260"
+        },
+        {
+          "type": "program",
+          "program": "Honours program"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 471",
+  "originalPrerequisite": "300-level VISA",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:08.091Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "471",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "level": "300",
+      "department": "VISA"
+    }
+  }
+}

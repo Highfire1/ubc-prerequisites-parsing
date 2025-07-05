@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRE 499",
+  "originalPrerequisite": "Approval of a program advisor; consult before the end of classes in third year.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:17.893Z",
+  "parsedRequirements": {
+    "department": "FRE",
+    "code": "499",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "permission",
+          "note": "Approval of a program advisor"
+        },
+        {
+          "type": "other",
+          "note": "consult before the end of classes in third year"
+        }
+      ]
+    }
+  }
+}

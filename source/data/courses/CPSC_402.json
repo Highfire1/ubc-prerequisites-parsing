@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 402",
+  "originalPrerequisite": "One of CPSC 302, CPSC 303, MATH 307.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:27.622Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "402",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 302"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 303"
+        },
+        {
+          "type": "course",
+          "course": "MATH 307"
+        }
+      ]
+    }
+  }
+}

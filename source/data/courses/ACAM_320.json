@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ACAM 320",
+  "originalPrerequisite": "Restricted to students with at least Second year standing; a previous course in Asian Canadian and Asian Migration Studies is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:16:45.562Z",
+  "parsedRequirements": {
+    "department": "ACAM",
+    "code": "320",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "2nd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "other",
+              "note": "Previous course in Asian Canadian and Asian Migration Studies"
+            }
+          ],
+          "recommended": true
+        }
+      ]
+    }
+  }
+}

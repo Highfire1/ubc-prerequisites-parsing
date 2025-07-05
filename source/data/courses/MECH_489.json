@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 489",
+  "originalPrerequisite": "All of MECH 375, MECH 380.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:52:04.137Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "489",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 375"
+        },
+        {
+          "type": "course",
+          "course": "MECH 380"
+        }
+      ]
+    }
+  }
+}

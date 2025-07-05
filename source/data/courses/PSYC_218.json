@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 218",
+  "originalPrerequisite": "One of PSYC 217, PSYC 277. And a major in Psychology, Cognitive Systems, or Speech Sciences.",
+  "originalCorequisite": "Either (a) PSYC 100 or (b) all of PSYC 101, PSYC 102.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:41.337Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "218",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 217"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 277"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "Psychology"
+            },
+            {
+              "type": "program",
+              "program": "Cognitive Systems"
+            },
+            {
+              "type": "program",
+              "program": "Speech Sciences"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 100"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 101"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 102"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

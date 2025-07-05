@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRST 395",
+  "originalPrerequisite": "One of FRST 201, BIOL 230, BIOL 306.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:45.737Z",
+  "parsedRequirements": {
+    "department": "FRST",
+    "code": "395",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FRST 201"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 230"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 306"
+        }
+      ]
+    }
+  }
+}

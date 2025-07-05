@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 444",
+  "originalPrerequisite": "Recommend all of BUSI 121, BUSI 330, BUSI 443.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:40.524Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "444",
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "recommended": true,
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 121"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 330"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 443"
+        }
+      ]
+    }
+  }
+}

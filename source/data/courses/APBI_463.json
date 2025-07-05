@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 463",
+  "originalPrerequisite": "One of APBI 327, BIOL 327 and one of BIOL 300, GEOG 374, FRST 231, LFS 252, STAT 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:21:34.670Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "463",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APBI 327"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 327"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 300"
+            },
+            {
+              "type": "course",
+              "course": "GEOG 374"
+            },
+            {
+              "type": "course",
+              "course": "FRST 231"
+            },
+            {
+              "type": "course",
+              "course": "LFS 252"
+            },
+            {
+              "type": "course",
+              "course": "STAT 200"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 326",
+  "originalPrerequisite": "FNH 325.",
+  "originalCorequisite": "All of FNH 302, FNH 303, FNH 309.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:33.983Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "326",
+    "prerequisites": {
+      "type": "course",
+      "course": "FNH 325"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNH 302"
+        },
+        {
+          "type": "course",
+          "course": "FNH 303"
+        },
+        {
+          "type": "course",
+          "course": "FNH 309"
+        }
+      ]
+    }
+  }
+}

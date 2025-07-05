@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 391",
+  "originalPrerequisite": "One of CPEN 291, ELEC 291, ELEC 292 and two of ELEC 301, ELEC 341, ELEC 311, ELEC 342.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:44.239Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "391",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPEN 291"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 291"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 292"
+            }
+          ]
+        },
+        {
+          "type": "course_count",
+          "count": 2,
+          "children": [
+            {
+              "type": "course",
+              "course": "ELEC 301"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 341"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 311"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 342"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

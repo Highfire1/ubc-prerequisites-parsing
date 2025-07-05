@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPAN 203",
+  "originalPrerequisite": "One of SPAN 103, SPAN 102 or placement test for native or near-native speakers of other Romance Languages.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:32.596Z",
+  "parsedRequirements": {
+    "department": "SPAN",
+    "code": "203",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SPAN 103"
+        },
+        {
+          "type": "course",
+          "course": "SPAN 102"
+        },
+        {
+          "type": "other",
+          "note": "placement test for native or near-native speakers of other Romance Languages"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GRSJ 325",
+  "originalPrerequisite": "All of GRSJ 101, GRSJ 102 or third-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:12:43.818Z",
+  "parsedRequirements": {
+    "department": "GRSJ",
+    "code": "325",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GRSJ 101"
+            },
+            {
+              "type": "course",
+              "course": "GRSJ 102"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

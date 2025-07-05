@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 233",
+  "originalPrerequisite": "Either (a) all of BIOL 112, BIOL 121 or (b) SCIE 001; or (c) a corequisite of one of CHEM 203 or CHEM 223 and one of BIOL 112 or BIOL 121.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:38.223Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "233",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 112"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 203",
+                  "mustBeTakenConcurrently": true
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 223",
+                  "mustBeTakenConcurrently": true
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BIOL 112",
+                  "mustBeTakenConcurrently": true
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 121",
+                  "mustBeTakenConcurrently": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

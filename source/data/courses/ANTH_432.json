@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ANTH 432",
+  "originalPrerequisite": "ANTH 341. Permission of the department is also acceptable.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:19:01.084Z",
+  "parsedRequirements": {
+    "department": "ANTH",
+    "code": "432",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ANTH 341"
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the department"
+        }
+      ]
+    }
+  }
+}

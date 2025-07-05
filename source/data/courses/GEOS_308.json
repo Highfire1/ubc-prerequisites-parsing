@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 308",
+  "originalPrerequisite": "One of EOSC 320, EOSC 330, GEOB 206, GEOS 206.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:22.366Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "308",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EOSC 320"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 330"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 206"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 206"
+        }
+      ]
+    }
+  }
+}

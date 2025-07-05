@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 419",
+  "originalPrerequisite": "FNH 300 or equivalent.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:07.943Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "419",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNH 300"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 446",
+  "originalPrerequisite": "21 credits of MATH.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:09.632Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "446",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 21,
+      "department": "MATH"
+    }
+  }
+}

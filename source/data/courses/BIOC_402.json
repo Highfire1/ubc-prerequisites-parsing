@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 402",
+  "originalPrerequisite": "One of BIOC 302, BIOC 303, BIOT 380. A minimum standing of 65% is recommended in these courses.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:42.977Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "402",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOC 302",
+          "minGrade": 65
+        },
+        {
+          "type": "course",
+          "course": "BIOC 303",
+          "minGrade": 65
+        },
+        {
+          "type": "course",
+          "course": "BIOT 380",
+          "minGrade": 65
+        }
+      ]
+    }
+  }
+}

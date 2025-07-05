@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 483",
+  "originalPrerequisite": "Third-year Chemical and Biological Engineering.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:44.110Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "483",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 421",
+  "originalPrerequisite": "MECH 366.",
+  "originalCorequisite": "MECH 420.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:22.820Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "421",
+    "prerequisites": {
+      "type": "course",
+      "course": "MECH 366"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MECH 420"
+    }
+  }
+}

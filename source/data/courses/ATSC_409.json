@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ATSC 409",
+  "originalPrerequisite": "One of MATH 215, MATH 255, MATH 256, MATH 265. Familiarity with a programming language is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:06.957Z",
+  "parsedRequirements": {
+    "department": "ATSC",
+    "code": "409",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 215"
+            },
+            {
+              "type": "course",
+              "course": "MATH 255"
+            },
+            {
+              "type": "course",
+              "course": "MATH 256"
+            },
+            {
+              "type": "course",
+              "course": "MATH 265"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "Familiarity with a programming language"
+        }
+      ]
+    }
+  }
+}

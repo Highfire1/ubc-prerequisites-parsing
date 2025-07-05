@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LAW 488",
+  "originalPrerequisite": "LAW 476.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:07.650Z",
+  "parsedRequirements": {
+    "department": "LAW",
+    "code": "488",
+    "prerequisites": {
+      "type": "course",
+      "course": "LAW 476"
+    }
+  }
+}

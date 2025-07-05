@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COGS 200",
+  "originalPrerequisite": "second-year standing in the Faculty of Arts or Science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:31.047Z",
+  "parsedRequirements": {
+    "department": "COGS",
+    "code": "200",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "2nd"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 455",
+  "originalPrerequisite": "One of BIOL 361, BIOL 362, BIOL 364, CAPS 301, PSYC 360.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:18.118Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "455",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 361"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 362"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 364"
+        },
+        {
+          "type": "course",
+          "course": "CAPS 301"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 360"
+        }
+      ]
+    }
+  }
+}

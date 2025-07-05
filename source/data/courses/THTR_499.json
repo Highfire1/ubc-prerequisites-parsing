@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 499",
+  "originalPrerequisite": "THTR 399.",
+  "originalCorequisite": "One of THTR 405, THTR 406, THTR 407, THTR 408, THTR 450, THTR 452, THTR 454, THTR 456, THTR 470.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:45.227Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "499",
+    "prerequisites": {
+      "type": "course",
+      "course": "THTR 399"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "THTR 405"
+        },
+        {
+          "type": "course",
+          "course": "THTR 406"
+        },
+        {
+          "type": "course",
+          "course": "THTR 407"
+        },
+        {
+          "type": "course",
+          "course": "THTR 408"
+        },
+        {
+          "type": "course",
+          "course": "THTR 450"
+        },
+        {
+          "type": "course",
+          "course": "THTR 452"
+        },
+        {
+          "type": "course",
+          "course": "THTR 454"
+        },
+        {
+          "type": "course",
+          "course": "THTR 456"
+        },
+        {
+          "type": "course",
+          "course": "THTR 470"
+        }
+      ]
+    }
+  }
+}

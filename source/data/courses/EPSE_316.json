@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EPSE 316",
+  "originalPrerequisite": "One of EPSE 312, EPSE 317.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:07.176Z",
+  "parsedRequirements": {
+    "department": "EPSE",
+    "code": "316",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EPSE 312"
+        },
+        {
+          "type": "course",
+          "course": "EPSE 317"
+        }
+      ]
+    }
+  }
+}

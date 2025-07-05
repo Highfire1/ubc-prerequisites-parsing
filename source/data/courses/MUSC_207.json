@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 207",
+  "originalPrerequisite": "MUSC 107 and permission of Composition Division based on submission of scores.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:56:15.474Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "207",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 107"
+        },
+        {
+          "type": "permission",
+          "note": "Permission of Composition Division based on submission of scores"
+        }
+      ]
+    }
+  }
+}

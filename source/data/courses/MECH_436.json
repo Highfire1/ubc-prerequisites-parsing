@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 436",
+  "originalPrerequisite": "MECH 360 and one of MECH 224, BMEG 330.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:33.678Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "436",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 360"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MECH 224"
+            },
+            {
+              "type": "course",
+              "course": "BMEG 330"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

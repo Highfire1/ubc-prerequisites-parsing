@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 215",
+  "originalPrerequisite": "CHEM 210 and one of CHEM 123, CHEM 135.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:37.298Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "215",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 210"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 123"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 135"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

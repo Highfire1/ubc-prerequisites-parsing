@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 119",
+  "originalPrerequisite": "One of PHYS 12, PHYS 100.",
+  "originalCorequisite": "One of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:01.223Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "119",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 12"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 100"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 100"
+        },
+        {
+          "type": "course",
+          "course": "MATH 102"
+        },
+        {
+          "type": "course",
+          "course": "MATH 104"
+        },
+        {
+          "type": "course",
+          "course": "MATH 110"
+        },
+        {
+          "type": "course",
+          "course": "MATH 120"
+        },
+        {
+          "type": "course",
+          "course": "MATH 180"
+        },
+        {
+          "type": "course",
+          "course": "MATH 184"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 404",
+  "originalPrerequisite": "MATH 300 and a score of 68% or higher in MATH 321.",
+  "originalCorequisite": "MATH 420.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:35.683Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "404",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 300"
+        },
+        {
+          "type": "course",
+          "course": "MATH 321",
+          "minGrade": 68
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MATH 420"
+    }
+  }
+}

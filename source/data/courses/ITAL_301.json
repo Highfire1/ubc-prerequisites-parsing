@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ITAL 301",
+  "originalPrerequisite": "One of ITAL 202, ITAL 203, ITAL 206. Or successful completion of CEFR level A2.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:57.334Z",
+  "parsedRequirements": {
+    "department": "ITAL",
+    "code": "301",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ITAL 202"
+            },
+            {
+              "type": "course",
+              "course": "ITAL 203"
+            },
+            {
+              "type": "course",
+              "course": "ITAL 206"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "Successful completion of CEFR level A2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KIN 487",
+  "originalPrerequisite": "Two of KIN 360, KIN 363, KIN 364, KIN 368, KIN 460, KIN 464, KIN 465, KIN 466, KIN 467. Restricted to students in the BKIN program with fourth-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:43:47.151Z",
+  "parsedRequirements": {
+    "department": "KIN",
+    "code": "487",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course_count",
+              "count": 2,
+              "children": [
+                {
+                  "type": "course",
+                  "course": "KIN 360"
+                },
+                {
+                  "type": "course",
+                  "course": "KIN 363"
+                },
+                {
+                  "type": "course",
+                  "course": "KIN 364"
+                },
+                {
+                  "type": "course",
+                  "course": "KIN 368"
+                },
+                {
+                  "type": "course",
+                  "course": "KIN 460"
+                },
+                {
+                  "type": "course",
+                  "course": "KIN 464"
+                },
+                {
+                  "type": "course",
+                  "course": "KIN 465"
+                },
+                {
+                  "type": "course",
+                  "course": "KIN 466"
+                },
+                {
+                  "type": "course",
+                  "course": "KIN 467"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "4th"
+            },
+            {
+              "type": "program",
+              "program": "BKIN"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

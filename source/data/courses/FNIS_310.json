@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNIS 310",
+  "originalPrerequisite": "Either (a) FNSP 200 or (b) all of FNIS 210, FNIS 220 or (c) all of FNSP 210, FNSP 220.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:42.303Z",
+  "parsedRequirements": {
+    "department": "FNIS",
+    "code": "310",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNSP 200"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FNIS 210"
+            },
+            {
+              "type": "course",
+              "course": "FNIS 220"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FNSP 210"
+            },
+            {
+              "type": "course",
+              "course": "FNSP 220"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

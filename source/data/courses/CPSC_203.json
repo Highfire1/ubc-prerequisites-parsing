@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 203",
+  "originalPrerequisite": "One of CPSC 103, CPSC 110, EOSC 211, MATH 210, PHYS 210, COMM 337.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:44.668Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "203",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 103"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 110"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 211"
+        },
+        {
+          "type": "course",
+          "course": "MATH 210"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 210"
+        },
+        {
+          "type": "course",
+          "course": "COMM 337"
+        }
+      ]
+    }
+  }
+}

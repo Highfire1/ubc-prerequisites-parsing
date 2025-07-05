@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 433",
+  "originalPrerequisite": "All of EOSC 329, CIVL 210, MINE 303.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:43.616Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "433",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EOSC 329"
+        },
+        {
+          "type": "course",
+          "course": "CIVL 210"
+        },
+        {
+          "type": "course",
+          "course": "MINE 303"
+        }
+      ]
+    }
+  }
+}

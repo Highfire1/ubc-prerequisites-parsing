@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "RUSS 400",
+  "originalPrerequisite": "One of RUSS 300, RUSS 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:45.944Z",
+  "parsedRequirements": {
+    "department": "RUSS",
+    "code": "400",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "RUSS 300"
+        },
+        {
+          "type": "course",
+          "course": "RUSS 302"
+        }
+      ]
+    }
+  }
+}

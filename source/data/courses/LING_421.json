@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LING 421",
+  "originalPrerequisite": "LING 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:38.315Z",
+  "parsedRequirements": {
+    "department": "LING",
+    "code": "421",
+    "prerequisites": {
+      "type": "course",
+      "course": "LING 300"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 417",
+  "originalPrerequisite": "All of CPSC 313, CPSC 317 and one of STAT 200, STAT 201, STAT 241, STAT 251.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:40.475Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "417",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 313"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 317"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "STAT 200"
+            },
+            {
+              "type": "course",
+              "course": "STAT 201"
+            },
+            {
+              "type": "course",
+              "course": "STAT 241"
+            },
+            {
+              "type": "course",
+              "course": "STAT 251"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

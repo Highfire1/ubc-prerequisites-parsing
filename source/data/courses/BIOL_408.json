@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 408",
+  "originalPrerequisite": "BIOL 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:48.259Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "408",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOL 300"
+    }
+  }
+}

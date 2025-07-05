@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 423",
+  "originalPrerequisite": "BIOL 351. BIOL 406 or 407 are recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:06.607Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "423",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOL 351"
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 406"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 407"
+        }
+      ]
+    }
+  }
+}

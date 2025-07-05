@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 494",
+  "originalPrerequisite": "ECON 493.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:00.209Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "494",
+    "prerequisites": {
+      "type": "course",
+      "course": "ECON 493"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 327",
+  "originalPrerequisite": "One of CHEM 208, CHEM 250 and one of CHEM 203, CHEM 223, CHEM 233, CHEM 260.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:16.168Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "327",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 208"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 250"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 203"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 223"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 233"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 260"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 301",
+  "originalPrerequisite": "One of FREN 12, FREN 112, FREN 202 or assignment bsed on placement test.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:14.870Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "301",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FREN 12"
+            },
+            {
+              "type": "course",
+              "course": "FREN 112"
+            },
+            {
+              "type": "course",
+              "course": "FREN 202"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "assignment based on placement test"
+        }
+      ]
+    }
+  }
+}

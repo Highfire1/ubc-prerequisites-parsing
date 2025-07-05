@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 468",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of MECH 366, MECH 466.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:54.487Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "468",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 366"
+        },
+        {
+          "type": "course",
+          "course": "MECH 466"
+        }
+      ]
+    }
+  }
+}

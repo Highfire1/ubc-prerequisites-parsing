@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PCTH 325",
+  "originalPrerequisite": "One of BIOL 201, BIOC 202, BIOC 203, BIOC 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:44.329Z",
+  "parsedRequirements": {
+    "department": "PCTH",
+    "code": "325",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 201"
+        },
+        {
+          "type": "course",
+          "course": "BIOC 202"
+        },
+        {
+          "type": "course",
+          "course": "BIOC 203"
+        },
+        {
+          "type": "course",
+          "course": "BIOC 300"
+        }
+      ]
+    }
+  }
+}

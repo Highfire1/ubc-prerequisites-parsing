@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 310",
+  "originalPrerequisite": "Third-year, fourth-year, or graduate standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:49:43.121Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "310",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

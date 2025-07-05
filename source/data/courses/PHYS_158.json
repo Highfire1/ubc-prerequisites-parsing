@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 158",
+  "originalPrerequisite": "PHYS 157.",
+  "originalCorequisite": "One of MATH 101, MATH 103, MATH 105, MATH 121.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:12.140Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "158",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHYS 157"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 101"
+        },
+        {
+          "type": "course",
+          "course": "MATH 103"
+        },
+        {
+          "type": "course",
+          "course": "MATH 105"
+        },
+        {
+          "type": "course",
+          "course": "MATH 121"
+        }
+      ]
+    }
+  }
+}

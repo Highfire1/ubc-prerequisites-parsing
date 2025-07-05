@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 219",
+  "originalPrerequisite": "Either (a) one of PHYS 108, PHYS 118 and one of PHYS 109, PHYS 119; or (b) PHYS 102 or (c) all of PHYS 158, PHYS 159 or (d) SCIE 001.",
+  "originalCorequisite": "One of MATH 200, MATH 217, MATH 226, MATH 253.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:35.773Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "219",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 108"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 118"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 109"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 119"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "PHYS 102"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 158"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 159"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 200"
+        },
+        {
+          "type": "course",
+          "course": "MATH 217"
+        },
+        {
+          "type": "course",
+          "course": "MATH 226"
+        },
+        {
+          "type": "course",
+          "course": "MATH 253"
+        }
+      ]
+    }
+  }
+}

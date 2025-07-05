@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 481",
+  "originalPrerequisite": "VISA 480.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:09.961Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "481",
+    "prerequisites": {
+      "type": "course",
+      "course": "VISA 480"
+    }
+  }
+}

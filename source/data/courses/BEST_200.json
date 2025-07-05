@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BEST 200",
+  "originalPrerequisite": "CHEM 121.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:13.770Z",
+  "parsedRequirements": {
+    "department": "BEST",
+    "code": "200",
+    "prerequisites": {
+      "type": "course",
+      "course": "CHEM 121"
+    }
+  }
+}

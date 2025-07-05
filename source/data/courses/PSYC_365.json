@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 365",
+  "originalPrerequisite": "One of NSCI 201, PSYC 260, PSYC 270, COGS 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:06.633Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "365",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "NSCI 201"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 260"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 270"
+        },
+        {
+          "type": "course",
+          "course": "COGS 200"
+        }
+      ]
+    }
+  }
+}

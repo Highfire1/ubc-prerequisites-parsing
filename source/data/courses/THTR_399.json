@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 399",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of THTR 305, THTR 306, THTR 307, THTR 308, THTR 350, THTR 352, THTR 354, THTR 356.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:24.869Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "399",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "THTR 305"
+        },
+        {
+          "type": "course",
+          "course": "THTR 306"
+        },
+        {
+          "type": "course",
+          "course": "THTR 307"
+        },
+        {
+          "type": "course",
+          "course": "THTR 308"
+        },
+        {
+          "type": "course",
+          "course": "THTR 350"
+        },
+        {
+          "type": "course",
+          "course": "THTR 352"
+        },
+        {
+          "type": "course",
+          "course": "THTR 354"
+        },
+        {
+          "type": "course",
+          "course": "THTR 356"
+        }
+      ]
+    }
+  }
+}

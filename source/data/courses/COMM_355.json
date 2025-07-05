@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 355",
+  "originalPrerequisite": "One of COMM 293, COMM 457.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:42:35.585Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "355",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 293"
+        },
+        {
+          "type": "course",
+          "course": "COMM 457"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 417",
+  "originalPrerequisite": "One of EDCP 309, EDCP 416, EDCP 411, EDCP 414.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:34.457Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "417",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EDCP 309"
+        },
+        {
+          "type": "course",
+          "course": "EDCP 416"
+        },
+        {
+          "type": "course",
+          "course": "EDCP 411"
+        },
+        {
+          "type": "course",
+          "course": "EDCP 414"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FMST 314",
+  "originalPrerequisite": "One of SOCI 200, PSYC 100, PSYC 101, PSYC 102, SOCI 240.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:34.643Z",
+  "parsedRequirements": {
+    "department": "FMST",
+    "code": "314",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SOCI 200"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 100"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 101"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 102"
+        },
+        {
+          "type": "course",
+          "course": "SOCI 240"
+        }
+      ]
+    }
+  }
+}

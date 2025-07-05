@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 375",
+  "originalPrerequisite": "Restricted to 3rd and 4th year students majoring in Visual Arts or Art History.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:47.796Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "375",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "Visual Arts"
+            },
+            {
+              "type": "program",
+              "program": "Art History"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

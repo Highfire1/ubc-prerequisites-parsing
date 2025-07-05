@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 346",
+  "originalPrerequisite": "All of CHBE 220, CHBE 241, CHBE 244.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:52.413Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "346",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 220"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 241"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 244"
+        }
+      ]
+    }
+  }
+}

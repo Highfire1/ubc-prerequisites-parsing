@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "STAT 302",
+  "originalPrerequisite": "One of MATH 200, MATH 226, MATH 217, MATH 253, MATH 254.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:33.635Z",
+  "parsedRequirements": {
+    "department": "STAT",
+    "code": "302",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 200"
+        },
+        {
+          "type": "course",
+          "course": "MATH 226"
+        },
+        {
+          "type": "course",
+          "course": "MATH 217"
+        },
+        {
+          "type": "course",
+          "course": "MATH 253"
+        },
+        {
+          "type": "course",
+          "course": "MATH 254"
+        }
+      ]
+    }
+  }
+}

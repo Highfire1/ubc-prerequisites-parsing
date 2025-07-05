@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 401",
+  "originalPrerequisite": "MICB 322 and MICB 301.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:19.338Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 322"
+        },
+        {
+          "type": "course",
+          "course": "MICB 301"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 412",
+  "originalPrerequisite": "MICB 302 and one of MICB 402, MEDG 410.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:29.220Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "412",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 302"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MICB 402"
+            },
+            {
+              "type": "course",
+              "course": "MEDG 410"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

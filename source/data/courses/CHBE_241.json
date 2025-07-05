@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 241",
+  "originalPrerequisite": "All of CHEM 154, MATH 152.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:40.927Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "241",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 154"
+        },
+        {
+          "type": "course",
+          "course": "MATH 152"
+        }
+      ]
+    }
+  }
+}

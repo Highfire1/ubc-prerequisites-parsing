@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 217",
+  "originalPrerequisite": "A score of 68% or higher in one of PHYS 102, PHYS 108, PHYS 118, PHYS 153, PHYS 158, SCIE 001 and a score of 68% or higher in one of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.",
+  "originalCorequisite": "One of MATH 152, MATH 221, MATH 223.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:03.656Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "217",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 102",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "PHYS 108",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "PHYS 118",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "PHYS 153",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "PHYS 158",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001",
+              "minGrade": 68
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 101",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 103",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 105",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "MATH 121",
+              "minGrade": 68
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001",
+              "minGrade": 68
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 152"
+        },
+        {
+          "type": "course",
+          "course": "MATH 221"
+        },
+        {
+          "type": "course",
+          "course": "MATH 223"
+        }
+      ]
+    }
+  }
+}

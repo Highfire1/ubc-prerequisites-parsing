@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ATSC 404",
+  "originalPrerequisite": "One of EOSC 352, MATH 316, PHYS 312 and one of EOSC 250, MATH 217, MATH 317.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:01.965Z",
+  "parsedRequirements": {
+    "department": "ATSC",
+    "code": "404",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "EOSC 352"
+            },
+            {
+              "type": "course",
+              "course": "MATH 316"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 312"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "EOSC 250"
+            },
+            {
+              "type": "course",
+              "course": "MATH 217"
+            },
+            {
+              "type": "course",
+              "course": "MATH 317"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

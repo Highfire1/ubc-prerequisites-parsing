@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MINE 485",
+  "originalPrerequisite": "Two of MINE 302, MINE 303, EOSC 323.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:23.677Z",
+  "parsedRequirements": {
+    "department": "MINE",
+    "code": "485",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MINE 302"
+            },
+            {
+              "type": "course",
+              "course": "MINE 303"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MINE 302"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 323"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MINE 303"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 323"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

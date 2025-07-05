@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 484",
+  "originalPrerequisite": "GEOG 380 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:01.318Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "484",
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "GEOG 380"
+    }
+  }
+}

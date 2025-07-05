@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MUSC 394",
+  "originalPrerequisite": "One of MUSC 271-295.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:58:05.382Z",
+  "parsedRequirements": {
+    "department": "MUSC",
+    "code": "394",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MUSC 271"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 272"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 273"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 274"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 275"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 276"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 277"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 278"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 279"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 280"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 281"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 282"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 283"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 284"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 285"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 286"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 287"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 288"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 289"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 290"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 291"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 292"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 293"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 294"
+        },
+        {
+          "type": "course",
+          "course": "MUSC 295"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NSCI 311",
+  "originalPrerequisite": "NSCI 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:59:17.794Z",
+  "parsedRequirements": {
+    "department": "NSCI",
+    "code": "311",
+    "prerequisites": {
+      "type": "course",
+      "course": "NSCI 200"
+    }
+  }
+}

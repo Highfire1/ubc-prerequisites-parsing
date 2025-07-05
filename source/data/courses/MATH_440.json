@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 440",
+  "originalPrerequisite": "MATH 300 and a score of 68% or higher in MATH 320.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:02.204Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "440",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 300"
+        },
+        {
+          "type": "course",
+          "course": "MATH 320",
+          "minGrade": 68
+        }
+      ]
+    }
+  }
+}

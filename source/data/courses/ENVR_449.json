@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVR 449",
+  "originalPrerequisite": "ENVR 300 and fourth-year standing in the B.Sc. Environmental Sciences honours program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:10.588Z",
+  "parsedRequirements": {
+    "department": "ENVR",
+    "code": "449",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ENVR 300"
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "program",
+          "program": "B.Sc. Environmental Sciences honours program"
+        }
+      ]
+    }
+  }
+}

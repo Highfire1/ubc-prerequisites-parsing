@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 390",
+  "originalPrerequisite": "6 credits of 200-level VISA with an average of at least 72%.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:50.008Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "390",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "department": "VISA",
+      "level": "200",
+      "minGrade": 72
+    }
+  }
+}

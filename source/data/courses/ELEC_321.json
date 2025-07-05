@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 321",
+  "originalPrerequisite": "One of ELEC 221, STAT 305. STAT 305 may be taken concurrently, with registration assistance from Electrical and Computer Engineering Student Services.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:29.236Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "321",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 221"
+        },
+        {
+          "type": "course",
+          "course": "STAT 305",
+          "canBeTakenConcurrently": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ITST 377",
+  "originalPrerequisite": "Second-year standing or higher.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:06.937Z",
+  "parsedRequirements": {
+    "department": "ITST",
+    "code": "377",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "2nd"
+    }
+  }
+}

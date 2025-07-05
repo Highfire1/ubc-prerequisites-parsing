@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 371",
+  "originalPrerequisite": "One of MATH 253, MATH 217 and either (a) MATH 256 or (b) all of MATH 255, MATH 257.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:03.574Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "371",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 253"
+            },
+            {
+              "type": "course",
+              "course": "MATH 217"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 255"
+            },
+            {
+              "type": "course",
+              "course": "MATH 257"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "MATH 256"
+        }
+      ]
+    }
+  }
+}

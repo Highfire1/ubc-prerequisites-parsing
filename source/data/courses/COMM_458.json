@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 458",
+  "originalPrerequisite": "One of COMM 293, COMM 457, COMR 457.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:43:28.598Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "458",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 293"
+        },
+        {
+          "type": "course",
+          "course": "COMM 457"
+        },
+        {
+          "type": "course",
+          "course": "COMR 457"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 470",
+  "originalPrerequisite": "6 credits of 300-level VISA",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:07.096Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "470",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "department": "VISA",
+      "level": "300"
+    }
+  }
+}

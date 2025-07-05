@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 398",
+  "originalPrerequisite": "Completion of academic third year in Biochemistry major or honours program is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:40.334Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "398",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

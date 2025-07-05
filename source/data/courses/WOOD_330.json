@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 330",
+  "originalPrerequisite": "All of ECON 101, FRST 231.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:28.300Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "330",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECON 101"
+        },
+        {
+          "type": "course",
+          "course": "FRST 231"
+        }
+      ]
+    }
+  }
+}

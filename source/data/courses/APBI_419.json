@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 419",
+  "originalPrerequisite": "Third year standing or higher. One of APBI 311, BIOL 204 or BIOL 260. APBI 312 and APBI 418 strongly recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:20:50.677Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "419",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APBI 311"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 204"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 260"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APBI 312"
+        },
+        {
+          "type": "course",
+          "course": "APBI 418"
+        }
+      ],
+      "recommended": "true"
+    }
+  }
+}

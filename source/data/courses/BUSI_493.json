@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 493",
+  "originalPrerequisite": "All of BUSI 291, BUSI 293, BUSI 294, BUSI 295, BUSI 335, BUSI 353, BUSI 370, BUSI 393, BUSI 450.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:57.062Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "493",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 291"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 293"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 294"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 295"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 335"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 353"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 370"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 393"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 450"
+        }
+      ]
+    }
+  }
+}

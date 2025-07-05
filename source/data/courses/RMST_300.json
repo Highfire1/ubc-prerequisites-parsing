@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "RMST 300",
+  "originalPrerequisite": "A beginners' knowledge (A1) in at least of one of the Romance languages is highly recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:28.041Z",
+  "parsedRequirements": {
+    "department": "RMST",
+    "code": "300",
+    "recommendedPrerequisites": {
+      "type": "other",
+      "note": "A beginners' knowledge (A1) in at least one of the Romance languages is highly recommended."
+    }
+  }
+}

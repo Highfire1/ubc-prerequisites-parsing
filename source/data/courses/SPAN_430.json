@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPAN 430",
+  "originalPrerequisite": "SPAN 221; and SPAN 301 or equivalent expertise in written and spoken Spanish.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:11.447Z",
+  "parsedRequirements": {
+    "department": "SPAN",
+    "code": "430",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SPAN 221"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "SPAN 301"
+            },
+            {
+              "type": "other",
+              "note": "equivalent expertise in written and spoken Spanish"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

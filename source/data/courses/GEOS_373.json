@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 373",
+  "originalPrerequisite": "One of GEOB 270, GEOS 270. Or third-year standing in ENSC or GEOS (or GEOB) specializations.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:32.168Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "373",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 270"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 270"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "3rd"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "program",
+                  "program": "ENSC"
+                },
+                {
+                  "type": "program",
+                  "program": "GEOS"
+                },
+                {
+                  "type": "program",
+                  "program": "GEOB"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

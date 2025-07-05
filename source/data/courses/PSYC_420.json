@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 420",
+  "originalPrerequisite": "Either (a) PSYC 300 or (b) PSYC 308 or (c) PSYC 314 or (d) PSYC 319.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:47.755Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "420",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 300"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 308"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 314"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 319"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ANTH 417",
+  "originalPrerequisite": "One of ANTH 100, LING 200. May be taken as co-requisites.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:18:51.292Z",
+  "parsedRequirements": {
+    "department": "ANTH",
+    "code": "417",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ANTH 100",
+          "canBeTakenConcurrently": true
+        },
+        {
+          "type": "course",
+          "course": "LING 200",
+          "canBeTakenConcurrently": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 203",
+  "originalPrerequisite": "One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150.",
+  "originalCorequisite": "CIVL 201.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:40:07.091Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "203",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "APSC 176"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 110"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 111"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 112"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 120"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 121"
+        },
+        {
+          "type": "course",
+          "course": "WRDS 150"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "CIVL 201"
+    }
+  }
+}

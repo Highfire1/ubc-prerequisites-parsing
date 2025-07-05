@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 330",
+  "originalPrerequisite": "One of GEOB 103, EOSC 110, EOSC 210.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:57.793Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "330",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOB 103"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 110"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 210"
+        }
+      ]
+    }
+  }
+}

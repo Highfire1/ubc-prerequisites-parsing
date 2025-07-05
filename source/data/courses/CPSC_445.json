@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 445",
+  "originalPrerequisite": "CPSC 320 and either BMEG 250 or six credits of BIOL beyond BIOL 111.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:47:05.137Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "445",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 320"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BMEG 250"
+            },
+            {
+              "type": "credit_count",
+              "credits": 6,
+              "department": "BIOL",
+              "level": "200"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

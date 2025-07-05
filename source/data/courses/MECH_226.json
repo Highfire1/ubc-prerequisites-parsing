@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 226",
+  "originalPrerequisite": "A score of 65% or higher in one of ENGL 112, WRDS 150, APSC 176.",
+  "originalCorequisite": "All of MECH 220, MECH 221, MECH 222, MECH 223, MECH 224, MECH 225.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:37.606Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "226",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ENGL 112",
+          "minGrade": 65
+        },
+        {
+          "type": "course",
+          "course": "WRDS 150",
+          "minGrade": 65
+        },
+        {
+          "type": "course",
+          "course": "APSC 176",
+          "minGrade": 65
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 220"
+        },
+        {
+          "type": "course",
+          "course": "MECH 221"
+        },
+        {
+          "type": "course",
+          "course": "MECH 222"
+        },
+        {
+          "type": "course",
+          "course": "MECH 223"
+        },
+        {
+          "type": "course",
+          "course": "MECH 224"
+        },
+        {
+          "type": "course",
+          "course": "MECH 225"
+        }
+      ]
+    }
+  }
+}

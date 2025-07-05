@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPAN 207",
+  "originalPrerequisite": "SPAN 206.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:34.673Z",
+  "parsedRequirements": {
+    "department": "SPAN",
+    "code": "207",
+    "prerequisites": {
+      "type": "course",
+      "course": "SPAN 206"
+    }
+  }
+}

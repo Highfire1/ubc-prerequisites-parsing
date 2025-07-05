@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 455",
+  "originalPrerequisite": "One of PHYS 257, PHYS 203, PHYS 313 and one of PHYS 304, PHYS 450.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:42.903Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "455",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 257"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 203"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 313"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 304"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 450"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

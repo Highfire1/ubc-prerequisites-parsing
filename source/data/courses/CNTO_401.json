@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CNTO 401",
+  "originalPrerequisite": "One of CNTO 303, CNTO 311. Or placement approval.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:14.884Z",
+  "parsedRequirements": {
+    "department": "CNTO",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CNTO 303"
+            },
+            {
+              "type": "course",
+              "course": "CNTO 311"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "placement approval"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 412",
+  "originalPrerequisite": "Prior experience in teaching music.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:28.497Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "412",
+    "prerequisites": {
+      "type": "other",
+      "note": "Prior experience in teaching music"
+    }
+  }
+}

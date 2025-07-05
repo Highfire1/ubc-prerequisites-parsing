@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 260",
+  "originalPrerequisite": "Either (a) all of BIOL 112, BIOL 121 or (b) SCIE 001 or (c) 8 transfer credits of 1st year BIOL and 6 credits of 1st year chemistry.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:43.224Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "260",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 112"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "credit_count",
+              "credits": 8,
+              "department": "BIOL",
+              "level": "100"
+            },
+            {
+              "type": "credit_count",
+              "credits": 6,
+              "department": "CHEM",
+              "level": "100"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

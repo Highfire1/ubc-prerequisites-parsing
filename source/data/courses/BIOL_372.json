@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 372",
+  "originalPrerequisite": "BIOL 371.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:36.665Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "372",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOL 371"
+    }
+  }
+}

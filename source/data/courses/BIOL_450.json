@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 450",
+  "originalPrerequisite": "One of BIOL 361, BIOL 362, BIOL 364, BIOL 370, BIOL 371 and one of BIOL 201, BIOC 202, BIOC 203. BIOL 457 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:10.412Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "450",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 361"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 362"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 364"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 370"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 371"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 201"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 202"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 203"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "BIOL 457"
+    }
+  }
+}

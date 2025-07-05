@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KIN 235",
+  "originalPrerequisite": "All of KIN 131, KIN 132 and Second-year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:16:32.445Z",
+  "parsedRequirements": {
+    "department": "KIN",
+    "code": "235",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "KIN 131"
+        },
+        {
+          "type": "course",
+          "course": "KIN 132"
+        },
+        {
+          "type": "standing",
+          "standing": "2nd"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ANTH 200",
+  "originalPrerequisite": "ANTH 100.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:18:25.506Z",
+  "parsedRequirements": {
+    "department": "ANTH",
+    "code": "200",
+    "prerequisites": {
+      "type": "course",
+      "course": "ANTH 100"
+    }
+  }
+}

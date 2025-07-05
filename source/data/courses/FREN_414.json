@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 414",
+  "originalPrerequisite": "One of FREN 321, FREN 328, FREN 329 and one of FREN 402, FREN 225.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:53.079Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "414",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FREN 321"
+            },
+            {
+              "type": "course",
+              "course": "FREN 328"
+            },
+            {
+              "type": "course",
+              "course": "FREN 329"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FREN 402"
+            },
+            {
+              "type": "course",
+              "course": "FREN 225"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

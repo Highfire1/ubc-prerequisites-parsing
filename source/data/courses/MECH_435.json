@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 435",
+  "originalPrerequisite": "Either (a) MECH 221 or (b) all of APSC 278, MECH 260.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:32.100Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "435",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 221"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 278"
+            },
+            {
+              "type": "course",
+              "course": "MECH 260"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

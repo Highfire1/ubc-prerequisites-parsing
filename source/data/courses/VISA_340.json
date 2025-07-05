@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 340",
+  "originalPrerequisite": "One of VISA 240, VISA 241.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:32.970Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "340",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "VISA 240"
+        },
+        {
+          "type": "course",
+          "course": "VISA 241"
+        }
+      ]
+    }
+  }
+}

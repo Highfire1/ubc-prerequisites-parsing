@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 362",
+  "originalPrerequisite": "All of CHBE 201, CHBE 241, CHBE 251, CHBE 264.",
+  "originalCorequisite": "All of CHBE 370, CHBE 352.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:00.488Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "362",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 201"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 241"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 251"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 264"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 370"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 352"
+        }
+      ]
+    }
+  }
+}

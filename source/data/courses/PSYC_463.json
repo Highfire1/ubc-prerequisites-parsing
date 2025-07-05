@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 463",
+  "originalPrerequisite": "Either (a) all of PSYC 217, PSYC 218 or (b) one of PSYC 260, PSYC 270 or (c) all of PSYC 277, PSYC 278.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:02.334Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "463",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 217"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 218"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 260"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 270"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 277"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 278"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

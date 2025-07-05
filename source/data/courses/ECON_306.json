@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 306",
+  "originalPrerequisite": "A score of 68% or higher in ECON 304. Permission of the School is also acceptable.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:49:31.482Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "306",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ECON 304",
+          "minGrade": 68
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the School"
+        }
+      ]
+    }
+  }
+}

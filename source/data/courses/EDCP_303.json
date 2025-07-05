@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 303",
+  "originalPrerequisite": "6 credits of introductory art studio or art history courses.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:03.028Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "303",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "department": [
+        "ART",
+        "HIST"
+      ],
+      "level": [
+        "100",
+        "200"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ANTH 451",
+  "originalPrerequisite": "Permission of instructor required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:19:07.180Z",
+  "parsedRequirements": {
+    "department": "ANTH",
+    "code": "451",
+    "prerequisites": {
+      "type": "permission",
+      "note": "Permission of instructor required"
+    }
+  }
+}

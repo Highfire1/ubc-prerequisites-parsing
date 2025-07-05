@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 309",
+  "originalPrerequisite": "Either (a) one of MATH 152, MATH 221 and one of MATH 220, MATH 226, CPSC 121; or (b) MATH 223.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:52.081Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "309",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 152"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 221"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 220"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 226"
+                },
+                {
+                  "type": "course",
+                  "course": "CPSC 121"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "MATH 223"
+        }
+      ]
+    }
+  }
+}

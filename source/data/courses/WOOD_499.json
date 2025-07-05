@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 499",
+  "originalPrerequisite": "All of WOOD 365, WOOD 440 and fourth-year standing in Wood Products Processing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:54.204Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "499",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "WOOD 365"
+        },
+        {
+          "type": "course",
+          "course": "WOOD 440"
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "program",
+          "program": "Wood Products Processing"
+        }
+      ]
+    }
+  }
+}

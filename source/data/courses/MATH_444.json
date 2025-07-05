@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 444",
+  "originalPrerequisite": "One of MATH 220, MATH 226 and 6 credits of MATH courses numbered 300 or higher.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:08.744Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "444",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 220"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 226"
+                }
+              ]
+            },
+            {
+              "type": "credit_count",
+              "credits": 6,
+              "department": "MATH",
+              "level": "300"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FSCT 399",
+  "originalPrerequisite": "FSCT 398.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:17.936Z",
+  "parsedRequirements": {
+    "department": "FSCT",
+    "code": "399",
+    "prerequisites": {
+      "type": "course",
+      "course": "FSCT 398"
+    }
+  }
+}

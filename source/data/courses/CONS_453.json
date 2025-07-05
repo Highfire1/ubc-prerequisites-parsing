@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CONS 453",
+  "originalPrerequisite": "One of FRST 231, BIOL 300 and all of FRST 210, FRST 211. Or 6 credits of ecology based courses (e.g. BIOL 230, BIOL 306, APBI 260, APBI 360). Third-year standing and permission of the instructor are required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:53.390Z",
+  "parsedRequirements": {
+    "department": "CONS",
+    "code": "453",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "FRST 231"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 300"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "FRST 210"
+                },
+                {
+                  "type": "course",
+                  "course": "FRST 211"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "credit_count",
+          "credits": 6,
+          "department": [
+            "BIOL",
+            "APBI"
+          ],
+          "level": [
+            "200",
+            "300"
+          ],
+          "note": "ecology based courses"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the instructor"
+        }
+      ]
+    }
+  }
+}

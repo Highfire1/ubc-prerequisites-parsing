@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 464",
+  "originalPrerequisite": "BIOL 463.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:29.479Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "464",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOL 463"
+    }
+  }
+}

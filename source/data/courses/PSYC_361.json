@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 361",
+  "originalPrerequisite": "One of NSCI 201, PSYC 260, PSYC 270, PSYC 304, PSYC 360, PSYC 370.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:02.163Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "361",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "NSCI 201"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 260"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 270"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 304"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 360"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 370"
+        }
+      ]
+    }
+  }
+}

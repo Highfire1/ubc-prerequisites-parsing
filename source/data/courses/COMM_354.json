@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 354",
+  "originalPrerequisite": "All of COMM 293, COMM 294 and one of COMM 190, COMM 290 and one of COMM 191, COMM 291.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:42:34.129Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "354",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 293"
+        },
+        {
+          "type": "course",
+          "course": "COMM 294"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 190"
+            },
+            {
+              "type": "course",
+              "course": "COMM 290"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 191"
+            },
+            {
+              "type": "course",
+              "course": "COMM 291"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

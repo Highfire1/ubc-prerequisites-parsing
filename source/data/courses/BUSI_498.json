@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 498",
+  "originalPrerequisite": "BUSI 293 and either (a) all of ECON 101, ECON 102 or (b) ECON 309.",
+  "originalCorequisite": "Two of BUSI 294, BUSI 329, BUSI 370, BUSI 465.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:03.972Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "498",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 293"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ECON 101"
+                },
+                {
+                  "type": "course",
+                  "course": "ECON 102"
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "course": "ECON 309"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BUSI 294"
+            },
+            {
+              "type": "course",
+              "course": "BUSI 329"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BUSI 294"
+            },
+            {
+              "type": "course",
+              "course": "BUSI 370"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BUSI 294"
+            },
+            {
+              "type": "course",
+              "course": "BUSI 465"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BUSI 329"
+            },
+            {
+              "type": "course",
+              "course": "BUSI 370"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BUSI 329"
+            },
+            {
+              "type": "course",
+              "course": "BUSI 465"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BUSI 370"
+            },
+            {
+              "type": "course",
+              "course": "BUSI 465"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COEC 394",
+  "originalPrerequisite": "ECON 204.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:28.245Z",
+  "parsedRequirements": {
+    "department": "COEC",
+    "code": "394",
+    "prerequisites": {
+      "type": "course",
+      "course": "ECON 204"
+    }
+  }
+}

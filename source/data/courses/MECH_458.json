@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 458",
+  "originalPrerequisite": "All of MECH 325, MECH 328, MECH 360 and fourth-year standing in the Mechatronics Option.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:41.894Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "458",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 325"
+        },
+        {
+          "type": "course",
+          "course": "MECH 328"
+        },
+        {
+          "type": "course",
+          "course": "MECH 360"
+        },
+        {
+          "type": "standing",
+          "standing": "4th"
+        }
+      ]
+    }
+  }
+}

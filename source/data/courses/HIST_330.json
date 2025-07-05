@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HIST 330",
+  "originalPrerequisite": "Second-year standing or above.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:54.644Z",
+  "parsedRequirements": {
+    "department": "HIST",
+    "code": "330",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "2nd"
+    }
+  }
+}

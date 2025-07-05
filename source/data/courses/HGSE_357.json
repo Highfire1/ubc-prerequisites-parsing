@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HGSE 357",
+  "originalPrerequisite": "Third-year standing.",
+  "originalCorequisite": "All of HGSE 355, HGSE 356, HGSE 358, HGSE 359.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:25.002Z",
+  "parsedRequirements": {
+    "department": "HGSE",
+    "code": "357",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "HGSE 355"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 356"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 358"
+        },
+        {
+          "type": "course",
+          "course": "HGSE 359"
+        }
+      ]
+    }
+  }
+}

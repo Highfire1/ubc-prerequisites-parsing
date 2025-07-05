@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 421",
+  "originalPrerequisite": "All of BIOC 301, BIOC 410.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:49.439Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "421",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOC 301"
+        },
+        {
+          "type": "course",
+          "course": "BIOC 410"
+        }
+      ]
+    }
+  }
+}

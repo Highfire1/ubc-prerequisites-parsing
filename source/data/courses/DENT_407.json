@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DENT 407",
+  "originalPrerequisite": "All of DHYG 405, DHYG 435. Prerequisites may be waived for non-program dental hygienists and others.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:06.815Z",
+  "parsedRequirements": {
+    "department": "DENT",
+    "code": "407",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "DHYG 405"
+        },
+        {
+          "type": "course",
+          "course": "DHYG 435"
+        }
+      ],
+      "recommended": true
+    }
+  }
+}

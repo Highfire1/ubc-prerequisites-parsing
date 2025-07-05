@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LING 415",
+  "originalPrerequisite": "One of LING 319, LING 445, ENGL 318, ENGL 319, ENGL 324 and two of LING 300, LING 311, LING 313, LING 327.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:37.464Z",
+  "parsedRequirements": {
+    "department": "LING",
+    "code": "415",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "LING 319"
+            },
+            {
+              "type": "course",
+              "course": "LING 445"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 318"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 319"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 324"
+            }
+          ]
+        },
+        {
+          "type": "course_count",
+          "count": 2,
+          "children": [
+            {
+              "type": "course",
+              "course": "LING 300"
+            },
+            {
+              "type": "course",
+              "course": "LING 311"
+            },
+            {
+              "type": "course",
+              "course": "LING 313"
+            },
+            {
+              "type": "course",
+              "course": "LING 327"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

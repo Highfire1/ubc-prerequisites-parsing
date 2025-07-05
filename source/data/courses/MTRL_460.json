@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MTRL 460",
+  "originalPrerequisite": "All of STAT 251, APSC 278.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:53.852Z",
+  "parsedRequirements": {
+    "department": "MTRL",
+    "code": "460",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "STAT 251"
+        },
+        {
+          "type": "course",
+          "course": "APSC 278"
+        }
+      ]
+    }
+  }
+}

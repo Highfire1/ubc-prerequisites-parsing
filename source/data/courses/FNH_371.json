@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 371",
+  "originalPrerequisite": "FNH 250.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:48.293Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "371",
+    "prerequisites": {
+      "type": "course",
+      "course": "FNH 250"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 257",
+  "originalPrerequisite": "Either (a) all of BMEG 101, BMEG 102 or (b) all of APSC 101, BMEG 200, PHYS 159.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:50.788Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "257",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BMEG 101"
+            },
+            {
+              "type": "course",
+              "course": "BMEG 102"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 101"
+            },
+            {
+              "type": "course",
+              "course": "BMEG 200"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 159"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

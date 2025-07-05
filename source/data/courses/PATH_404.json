@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PATH 404",
+  "originalPrerequisite": "Certification.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:31.537Z",
+  "parsedRequirements": {
+    "department": "PATH",
+    "code": "404",
+    "prerequisites": {
+      "type": "other",
+      "note": "Certification"
+    }
+  }
+}

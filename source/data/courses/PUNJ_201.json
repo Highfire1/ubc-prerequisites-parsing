@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PUNJ 201",
+  "originalPrerequisite": "PUNJ 101.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:15.102Z",
+  "parsedRequirements": {
+    "department": "PUNJ",
+    "code": "201",
+    "prerequisites": {
+      "type": "course",
+      "course": "PUNJ 101"
+    }
+  }
+}

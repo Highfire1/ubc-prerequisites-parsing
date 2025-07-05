@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 455",
+  "originalPrerequisite": "All of ELEC 453, ELEC 342.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:54:10.061Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "455",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ELEC 453"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 342"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 231",
+  "originalPrerequisite": "One of CHIN 103, CHIN 104, CHIN 133, CHIN 134.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:38:12.213Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "231",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHIN 103"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 104"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 133"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 134"
+        }
+      ]
+    }
+  }
+}

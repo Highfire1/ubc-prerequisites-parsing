@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ISCI 433",
+  "originalPrerequisite": "Third-year standing in any faculty.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:46.641Z",
+  "parsedRequirements": {
+    "department": "ISCI",
+    "code": "433",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

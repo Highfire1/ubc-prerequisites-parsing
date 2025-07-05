@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENPH 481",
+  "originalPrerequisite": "ENPH 459.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:33.095Z",
+  "parsedRequirements": {
+    "department": "ENPH",
+    "code": "481",
+    "prerequisites": {
+      "type": "course",
+      "course": "ENPH 459"
+    }
+  }
+}

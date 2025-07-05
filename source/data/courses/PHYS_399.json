@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 399",
+  "originalPrerequisite": "PHYS 299.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:14.247Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "399",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHYS 299"
+    }
+  }
+}

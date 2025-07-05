@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 451",
+  "originalPrerequisite": "Either (a) PHIL 240 or (b) COGS 200. If COGS 200, accompanied by 3 credits of PHIL at the 200-level or above.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:57.056Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "451",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHIL 240"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COGS 200"
+            },
+            {
+              "type": "credit_count",
+              "credits": 3,
+              "department": "PHIL",
+              "level": "200"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

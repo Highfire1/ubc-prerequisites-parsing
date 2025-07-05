@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 121",
+  "originalPrerequisite": "Either (a) a score of 68% or higher in MATH 120 or (b) a score of 80% or higher in one of MATH 100, MATH 102, MATH 104, MATH 180, MATH 184 or (c) a score of 5 in AP Calculus AB.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:47:47.044Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "121",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 120",
+          "minGrade": 68
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 100",
+              "minGrade": 80
+            },
+            {
+              "type": "course",
+              "course": "MATH 102",
+              "minGrade": 80
+            },
+            {
+              "type": "course",
+              "course": "MATH 104",
+              "minGrade": 80
+            },
+            {
+              "type": "course",
+              "course": "MATH 180",
+              "minGrade": 80
+            },
+            {
+              "type": "course",
+              "course": "MATH 184",
+              "minGrade": 80
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "A score of 5 in AP Calculus AB"
+        }
+      ]
+    }
+  }
+}

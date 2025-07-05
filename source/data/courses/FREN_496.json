@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 496",
+  "originalPrerequisite": "FREN 353 and FREN 370.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:08:51.621Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "496",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FREN 353"
+        },
+        {
+          "type": "course",
+          "course": "FREN 370"
+        }
+      ]
+    }
+  }
+}

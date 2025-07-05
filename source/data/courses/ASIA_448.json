@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASIA 448",
+  "originalPrerequisite": "ASIA 369.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:24:39.707Z",
+  "parsedRequirements": {
+    "department": "ASIA",
+    "code": "448",
+    "prerequisites": {
+      "type": "course",
+      "course": "ASIA 369"
+    }
+  }
+}

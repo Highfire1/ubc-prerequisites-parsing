@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 306",
+  "originalPrerequisite": "BIOL 230.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:48.103Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "306",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOL 230"
+    }
+  }
+}

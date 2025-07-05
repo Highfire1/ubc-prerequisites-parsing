@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 454",
+  "originalPrerequisite": "ELEC 453.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:54:08.637Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "454",
+    "prerequisites": {
+      "type": "course",
+      "course": "ELEC 453"
+    }
+  }
+}

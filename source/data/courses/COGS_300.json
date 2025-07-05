@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COGS 300",
+  "originalPrerequisite": "COGS 200. And 3 credits of CPSC.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:32.511Z",
+  "parsedRequirements": {
+    "department": "COGS",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COGS 200"
+        },
+        {
+          "type": "credit_count",
+          "credits": 3,
+          "department": "CPSC"
+        }
+      ]
+    }
+  }
+}

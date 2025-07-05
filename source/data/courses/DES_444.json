@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DES 444",
+  "originalPrerequisite": "DES 443.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:32.600Z",
+  "parsedRequirements": {
+    "department": "DES",
+    "code": "444",
+    "prerequisites": {
+      "type": "course",
+      "course": "DES 443"
+    }
+  }
+}

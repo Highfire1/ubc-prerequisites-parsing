@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 331",
+  "originalPrerequisite": "One of VISA 230, VISA 282, FINA 282.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:31.660Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "331",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "VISA 230"
+        },
+        {
+          "type": "course",
+          "course": "VISA 282"
+        },
+        {
+          "type": "course",
+          "course": "FINA 282"
+        }
+      ]
+    }
+  }
+}

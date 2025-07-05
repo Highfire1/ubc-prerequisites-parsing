@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 371",
+  "originalPrerequisite": "Either (a) all of MATH 265, MATH 267 or (b) MATH 256; and either (a) all of ELEC 202, ELEC 292 or (b) all of BMEG 220, BMEG 257.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:41.845Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "371",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 265"
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 267"
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "course": "MATH 256"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ELEC 202"
+                },
+                {
+                  "type": "course",
+                  "course": "ELEC 292"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BMEG 220"
+                },
+                {
+                  "type": "course",
+                  "course": "BMEG 257"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 100",
+  "originalPrerequisite": "Not open to students with credit for PHYS 12. Principles of Mathematics 12 or Pre-calculus 12 is required; Physics 11 is required for first-year students, strongly recommended for others.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:35.604Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "100",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 12"
+            },
+            {
+              "type": "course",
+              "course": "Pre-calculus 12"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "Physics 11"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "Physics 11"
+    }
+  }
+}

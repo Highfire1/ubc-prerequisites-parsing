@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 447",
+  "originalPrerequisite": "All of BUSI 294, BUSI 295, BUSI 393.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:44.429Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "447",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 294"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 295"
+        },
+        {
+          "type": "course",
+          "course": "BUSI 393"
+        }
+      ]
+    }
+  }
+}

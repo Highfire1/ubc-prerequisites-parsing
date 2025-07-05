@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CIVL 439",
+  "originalPrerequisite": "One of CIVL 331, WOOD 386.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:00.138Z",
+  "parsedRequirements": {
+    "department": "CIVL",
+    "code": "439",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CIVL 331"
+        },
+        {
+          "type": "course",
+          "course": "WOOD 386"
+        }
+      ]
+    }
+  }
+}

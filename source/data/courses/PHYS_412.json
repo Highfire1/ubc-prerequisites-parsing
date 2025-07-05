@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 412",
+  "originalPrerequisite": "MATH 215 and one of CHEM 312, PHYS 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:35.011Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "412",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 215"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 312"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 200"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

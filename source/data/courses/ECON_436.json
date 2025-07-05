@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ECON 436",
+  "originalPrerequisite": "One of ECON 304, ECON 301, ECON 315 and one of ECON 302, ECON 305, ECON 309.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:51:19.285Z",
+  "parsedRequirements": {
+    "department": "ECON",
+    "code": "436",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 304"
+            },
+            {
+              "type": "course",
+              "course": "ECON 301"
+            },
+            {
+              "type": "course",
+              "course": "ECON 315"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 302"
+            },
+            {
+              "type": "course",
+              "course": "ECON 305"
+            },
+            {
+              "type": "course",
+              "course": "ECON 309"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

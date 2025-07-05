@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NURS 365",
+  "originalPrerequisite": "All of NURS 300, NURS 310, NURS 321, NURS 322, NURS 330, NURS 352, NURS 360.",
+  "originalCorequisite": "NURS 345 and one of NURS 323, NURS 401.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:12.399Z",
+  "parsedRequirements": {
+    "department": "NURS",
+    "code": "365",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "NURS 300"
+        },
+        {
+          "type": "course",
+          "course": "NURS 310"
+        },
+        {
+          "type": "course",
+          "course": "NURS 321"
+        },
+        {
+          "type": "course",
+          "course": "NURS 322"
+        },
+        {
+          "type": "course",
+          "course": "NURS 330"
+        },
+        {
+          "type": "course",
+          "course": "NURS 352"
+        },
+        {
+          "type": "course",
+          "course": "NURS 360"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "NURS 345"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "NURS 323"
+            },
+            {
+              "type": "course",
+              "course": "NURS 401"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

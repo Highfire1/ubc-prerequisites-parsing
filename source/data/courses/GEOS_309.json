@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 309",
+  "originalPrerequisite": "One of BIOL 230, GEOB 207, GEOS 207 and one of GEOB 200, GEOS 200, GEOB 204, GEOS 204.",
+  "originalCorequisite": "One of GEOB 206, GEOS 206, EOSC 330.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:25.273Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "309",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 230"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 207"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 207"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 200"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 200"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 204"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 204"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOB 206"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 206"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 330"
+        }
+      ]
+    }
+  }
+}

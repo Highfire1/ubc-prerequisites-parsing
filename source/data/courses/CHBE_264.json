@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 264",
+  "originalPrerequisite": "CHBE 263.",
+  "originalCorequisite": "All of CHBE 244, CHBE 251.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:48.174Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "264",
+    "prerequisites": {
+      "type": "course",
+      "course": "CHBE 263"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 244"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 251"
+        }
+      ]
+    }
+  }
+}

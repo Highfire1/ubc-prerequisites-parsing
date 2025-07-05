@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 391",
+  "originalPrerequisite": "All of CPEN 212, CPSC 221, CPEN 291 and one of CPEN 311, CPEN 322.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:19.886Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "391",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPEN 212"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 221"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 291"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPEN 311"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 322"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

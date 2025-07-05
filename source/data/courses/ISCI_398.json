@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ISCI 398",
+  "originalPrerequisite": "One term in ISP.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:44.175Z",
+  "parsedRequirements": {
+    "department": "ISCI",
+    "code": "398",
+    "prerequisites": {
+      "type": "other",
+      "note": "One term in ISP"
+    }
+  }
+}

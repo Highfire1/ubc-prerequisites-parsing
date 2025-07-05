@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ILS 307",
+  "originalPrerequisite": null,
+  "originalCorequisite": "All of ILS 305, ILS 306.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:16.654Z",
+  "parsedRequirements": {
+    "department": "ILS",
+    "code": "307",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ILS 305"
+        },
+        {
+          "type": "course",
+          "course": "ILS 306"
+        }
+      ]
+    }
+  }
+}

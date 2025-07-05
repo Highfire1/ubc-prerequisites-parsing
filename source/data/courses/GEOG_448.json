@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 448",
+  "originalPrerequisite": "Open to upper-level students enrolled in the Geography Majors or Honours programs. Permission of the Undergraduate Advisor and supervising faculty member is required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:53.441Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "448",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "program",
+          "program": "Geography Majors"
+        },
+        {
+          "type": "program",
+          "program": "Geography Honours"
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the Undergraduate Advisor and supervising faculty member is required"
+        }
+      ]
+    }
+  }
+}

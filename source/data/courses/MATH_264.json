@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 264",
+  "originalPrerequisite": "One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 254.",
+  "originalCorequisite": "One of BMEG 220, ELEC 211.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:33.633Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "264",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 200"
+        },
+        {
+          "type": "course",
+          "course": "MATH 217"
+        },
+        {
+          "type": "course",
+          "course": "MATH 226"
+        },
+        {
+          "type": "course",
+          "course": "MATH 253"
+        },
+        {
+          "type": "course",
+          "course": "MATH 254"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BMEG 220"
+        },
+        {
+          "type": "course",
+          "course": "ELEC 211"
+        }
+      ]
+    }
+  }
+}

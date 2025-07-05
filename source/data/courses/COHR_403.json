@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COHR 403",
+  "originalPrerequisite": "COMM 203.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:50.625Z",
+  "parsedRequirements": {
+    "department": "COHR",
+    "code": "403",
+    "prerequisites": {
+      "type": "course",
+      "course": "COMM 203"
+    }
+  }
+}

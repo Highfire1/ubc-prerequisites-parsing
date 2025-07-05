@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "VISA 381",
+  "originalPrerequisite": "VISA 380.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:34:48.762Z",
+  "parsedRequirements": {
+    "department": "VISA",
+    "code": "381",
+    "prerequisites": {
+      "type": "course",
+      "course": "VISA 380"
+    }
+  }
+}

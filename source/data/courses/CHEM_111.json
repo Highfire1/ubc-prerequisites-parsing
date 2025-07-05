@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 111",
+  "originalPrerequisite": "Not open to students with credit for CHEM 12. A satisfactory score on the UBC Chemistry Basic Skills Test.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:11.406Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "111",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 12",
+          "minGrade": 0,
+          "canBeTakenConcurrently": false
+        },
+        {
+          "type": "other",
+          "note": "A satisfactory score on the UBC Chemistry Basic Skills Test"
+        }
+      ]
+    }
+  }
+}

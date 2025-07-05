@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KIN 478",
+  "originalPrerequisite": "KIN 342. Third-year standing. Restricted to students in the BKIN program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:17:09.321Z",
+  "parsedRequirements": {
+    "department": "KIN",
+    "code": "478",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "KIN 342"
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "program",
+          "program": "BKIN"
+        }
+      ]
+    }
+  }
+}

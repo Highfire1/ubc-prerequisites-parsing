@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MTRL 458",
+  "originalPrerequisite": "One of MMAT 358, MTRL 358.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:52.660Z",
+  "parsedRequirements": {
+    "department": "MTRL",
+    "code": "458",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MMAT 358"
+        },
+        {
+          "type": "course",
+          "course": "MTRL 358"
+        }
+      ]
+    }
+  }
+}

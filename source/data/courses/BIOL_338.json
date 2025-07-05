@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 338",
+  "originalPrerequisite": "One of BIOL 234, BIOL 233, FRST 302.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:13.403Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "338",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 234"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 233"
+        },
+        {
+          "type": "course",
+          "course": "FRST 302"
+        }
+      ]
+    }
+  }
+}

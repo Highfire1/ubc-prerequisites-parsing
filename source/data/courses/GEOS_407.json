@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 407",
+  "originalPrerequisite": "One of BIOL 230, GEOB 207, GEOS 207, FRST 201.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:46.187Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "407",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 230"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 207"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 207"
+        },
+        {
+          "type": "course",
+          "course": "FRST 201"
+        }
+      ]
+    }
+  }
+}

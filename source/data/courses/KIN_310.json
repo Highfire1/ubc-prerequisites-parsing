@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KIN 310",
+  "originalPrerequisite": "Third-year standing. Restricted to students in the BHK and BKIN programs.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:16:35.414Z",
+  "parsedRequirements": {
+    "department": "KIN",
+    "code": "310",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "program",
+          "program": "BHK"
+        },
+        {
+          "type": "program",
+          "program": "BKIN"
+        }
+      ]
+    }
+  }
+}

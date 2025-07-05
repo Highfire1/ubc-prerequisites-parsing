@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVR 448",
+  "originalPrerequisite": "Third year standing in the Faculty of Science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:08.586Z",
+  "parsedRequirements": {
+    "department": "ENVR",
+    "code": "448",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

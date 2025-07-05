@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ILS 304",
+  "originalPrerequisite": "ILS 201.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:14.204Z",
+  "parsedRequirements": {
+    "department": "ILS",
+    "code": "304",
+    "prerequisites": {
+      "type": "course",
+      "course": "ILS 201"
+    }
+  }
+}

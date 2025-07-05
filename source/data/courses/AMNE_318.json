@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "AMNE 318",
+  "originalPrerequisite": "One of CLST 232, AMNE 216.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:17:58.672Z",
+  "parsedRequirements": {
+    "department": "AMNE",
+    "code": "318",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CLST 232"
+        },
+        {
+          "type": "course",
+          "course": "AMNE 216"
+        }
+      ]
+    }
+  }
+}

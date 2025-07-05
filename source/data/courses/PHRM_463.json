@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHRM 463",
+  "originalPrerequisite": "PHRM 461.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:16.302Z",
+  "parsedRequirements": {
+    "department": "PHRM",
+    "code": "463",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHRM 461"
+    }
+  }
+}

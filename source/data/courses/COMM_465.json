@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 465",
+  "originalPrerequisite": null,
+  "originalCorequisite": "Either (a) all of ECON 101, ECON 102 or (b) ECON 100 or (c) all of ECON 310, ECON 311 or (d) all of ECON 101, ECON 311 or (e) all of ECON 102, ECON 310.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:43:36.007Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "465",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 101"
+            },
+            {
+              "type": "course",
+              "course": "ECON 102"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "ECON 100"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 310"
+            },
+            {
+              "type": "course",
+              "course": "ECON 311"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 101"
+            },
+            {
+              "type": "course",
+              "course": "ECON 311"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ECON 102"
+            },
+            {
+              "type": "course",
+              "course": "ECON 310"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

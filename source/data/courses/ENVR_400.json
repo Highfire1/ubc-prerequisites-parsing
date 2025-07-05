@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVR 400",
+  "originalPrerequisite": "ENVR 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:57.791Z",
+  "parsedRequirements": {
+    "department": "ENVR",
+    "code": "400",
+    "prerequisites": {
+      "type": "course",
+      "course": "ENVR 300"
+    }
+  }
+}

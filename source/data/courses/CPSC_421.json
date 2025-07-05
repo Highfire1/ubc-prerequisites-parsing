@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 421",
+  "originalPrerequisite": "CPSC 221. CPSC 320 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:46:45.000Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "421",
+    "prerequisites": {
+      "type": "course",
+      "course": "CPSC 221"
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "CPSC 320"
+    }
+  }
+}

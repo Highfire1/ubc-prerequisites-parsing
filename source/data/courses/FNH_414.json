@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 414",
+  "originalPrerequisite": "One of FNH 309, FNH 313.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:05.589Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "414",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNH 309"
+        },
+        {
+          "type": "course",
+          "course": "FNH 313"
+        }
+      ]
+    }
+  }
+}

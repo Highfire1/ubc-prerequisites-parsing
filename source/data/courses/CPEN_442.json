@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 442",
+  "originalPrerequisite": "One of CPEN 333, CPEN 331, CPSC 313.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:37.452Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "442",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPEN 333"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 331"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 313"
+        }
+      ]
+    }
+  }
+}

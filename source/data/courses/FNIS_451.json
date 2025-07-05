@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNIS 451",
+  "originalPrerequisite": "One of FNIS 100, FNSP 200, FNIS 210, FNSP 210, FNIS 220, FNSP 220.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:52.451Z",
+  "parsedRequirements": {
+    "department": "FNIS",
+    "code": "451",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNIS 100"
+        },
+        {
+          "type": "course",
+          "course": "FNSP 200"
+        },
+        {
+          "type": "course",
+          "course": "FNIS 210"
+        },
+        {
+          "type": "course",
+          "course": "FNSP 210"
+        },
+        {
+          "type": "course",
+          "course": "FNIS 220"
+        },
+        {
+          "type": "course",
+          "course": "FNSP 220"
+        }
+      ]
+    }
+  }
+}

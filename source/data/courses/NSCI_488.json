@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NSCI 488",
+  "originalPrerequisite": "Third year standing in a Neuroscience specialization, and permission of an Advisor for the Undergraduate Program in Neuroscience.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:59:23.929Z",
+  "parsedRequirements": {
+    "department": "NSCI",
+    "code": "488",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "program",
+          "program": "Neuroscience specialization"
+        },
+        {
+          "type": "permission",
+          "note": "permission of an Advisor for the Undergraduate Program in Neuroscience"
+        }
+      ]
+    }
+  }
+}

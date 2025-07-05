@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 301",
+  "originalPrerequisite": "Either (a) one of ELEC 201, ELEC 203 and ELEC 202; or (b) ELEC 204.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:20.612Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "301",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ELEC 201"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 203"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 202"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "ELEC 204"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPAN 302",
+  "originalPrerequisite": "SPAN 301.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:39.471Z",
+  "parsedRequirements": {
+    "department": "SPAN",
+    "code": "302",
+    "prerequisites": {
+      "type": "course",
+      "course": "SPAN 301"
+    }
+  }
+}

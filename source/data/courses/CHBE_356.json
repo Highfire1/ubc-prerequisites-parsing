@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 356",
+  "originalPrerequisite": "One of MATH 255, MATH 256.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:58.455Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "356",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 255"
+        },
+        {
+          "type": "course",
+          "course": "MATH 256"
+        }
+      ]
+    }
+  }
+}

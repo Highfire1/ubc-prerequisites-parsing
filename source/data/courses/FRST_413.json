@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRST 413",
+  "originalPrerequisite": "Either (a) all of BIOL 200, BIOL 201 and one of BIOL 209, BIOL 210; or (b) all of FRST 200, FRST 210.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:56.006Z",
+  "parsedRequirements": {
+    "department": "FRST",
+    "code": "413",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 200"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 201"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BIOL 209"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 210"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FRST 200"
+            },
+            {
+              "type": "course",
+              "course": "FRST 210"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

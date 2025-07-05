@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 204",
+  "originalPrerequisite": "MATH 152 and one of PHYS 108, PHYS 118, PHYS 158.",
+  "originalCorequisite": "One of MATH 256, MATH 255.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:07.310Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "204",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 152"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 108"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 118"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 158"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 256"
+        },
+        {
+          "type": "course",
+          "course": "MATH 255"
+        }
+      ]
+    }
+  }
+}

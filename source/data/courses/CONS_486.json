@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CONS 486",
+  "originalPrerequisite": "FRST 386.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:54.426Z",
+  "parsedRequirements": {
+    "department": "CONS",
+    "code": "486",
+    "prerequisites": {
+      "type": "course",
+      "course": "FRST 386"
+    }
+  }
+}

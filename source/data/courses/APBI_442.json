@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 442",
+  "originalPrerequisite": "All of BIOL 112, BIOL 121 and one of BIOL 200, BIOL 201, APBI 210, BIOL 210.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:21:13.212Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "442",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 112"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 121"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 200"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 201"
+            },
+            {
+              "type": "course",
+              "course": "APBI 210"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 210"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

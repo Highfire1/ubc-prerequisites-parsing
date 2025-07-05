@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 258",
+  "originalPrerequisite": "MATH 101 and one of MATH 152, MATH 221, MATH 223.",
+  "originalCorequisite": "All of MECH 221, MECH 224.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:31.590Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "258",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 101"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 152"
+            },
+            {
+              "type": "course",
+              "course": "MATH 221"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 221"
+        },
+        {
+          "type": "course",
+          "course": "MECH 224"
+        }
+      ]
+    }
+  }
+}

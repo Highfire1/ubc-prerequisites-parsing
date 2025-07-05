@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 464",
+  "originalPrerequisite": "All of WOOD 282, WOOD 305, WOOD 373.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:40.531Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "464",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "WOOD 282"
+        },
+        {
+          "type": "course",
+          "course": "WOOD 305"
+        },
+        {
+          "type": "course",
+          "course": "WOOD 373"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SOCI 473",
+  "originalPrerequisite": "One of SOCI 100, SOCI 101, SOCI 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:16.927Z",
+  "parsedRequirements": {
+    "department": "SOCI",
+    "code": "473",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SOCI 100"
+        },
+        {
+          "type": "course",
+          "course": "SOCI 101"
+        },
+        {
+          "type": "course",
+          "course": "SOCI 102"
+        }
+      ]
+    }
+  }
+}

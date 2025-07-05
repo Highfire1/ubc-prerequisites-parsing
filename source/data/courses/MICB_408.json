@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 408",
+  "originalPrerequisite": "MICB 308.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:27.383Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "408",
+    "prerequisites": {
+      "type": "course",
+      "course": "MICB 308"
+    }
+  }
+}

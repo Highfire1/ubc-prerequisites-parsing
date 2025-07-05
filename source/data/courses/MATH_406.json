@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 406",
+  "originalPrerequisite": "One of MATH 307, CPSC 302 and either (a) a score of 80% or higher in one of MATH 256, MATH 257, MATH 316, MATH 358, MECH 358, PHYS 312 or (b) MATH 400.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:40.553Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "406",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MATH 307"
+                },
+                {
+                  "type": "course",
+                  "course": "CPSC 302"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "MATH 256",
+                      "minGrade": 80
+                    },
+                    {
+                      "type": "course",
+                      "course": "MATH 257",
+                      "minGrade": 80
+                    },
+                    {
+                      "type": "course",
+                      "course": "MATH 316",
+                      "minGrade": 80
+                    },
+                    {
+                      "type": "course",
+                      "course": "MATH 358",
+                      "minGrade": 80
+                    },
+                    {
+                      "type": "course",
+                      "course": "MECH 358",
+                      "minGrade": 80
+                    },
+                    {
+                      "type": "course",
+                      "course": "PHYS 312",
+                      "minGrade": 80
+                    }
+                  ]
+                },
+                {
+                  "type": "course",
+                  "course": "MATH 400"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

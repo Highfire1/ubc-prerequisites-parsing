@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SANS 450",
+  "originalPrerequisite": "One of SANS 200, SANS 202, SANS 400, SANS 402.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:54.655Z",
+  "parsedRequirements": {
+    "department": "SANS",
+    "code": "450",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SANS 200"
+        },
+        {
+          "type": "course",
+          "course": "SANS 202"
+        },
+        {
+          "type": "course",
+          "course": "SANS 400"
+        },
+        {
+          "type": "course",
+          "course": "SANS 402"
+        }
+      ]
+    }
+  }
+}

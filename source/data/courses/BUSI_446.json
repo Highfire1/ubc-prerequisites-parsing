@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 446",
+  "originalPrerequisite": "BUSI 445.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:42.981Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "446",
+    "prerequisites": {
+      "type": "course",
+      "course": "BUSI 445"
+    }
+  }
+}

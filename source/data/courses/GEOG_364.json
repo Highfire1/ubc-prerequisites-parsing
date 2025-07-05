@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 364",
+  "originalPrerequisite": "One of GEOG 121, GEOG 122.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:39.152Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "364",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOG 121"
+        },
+        {
+          "type": "course",
+          "course": "GEOG 122"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 409",
+  "originalPrerequisite": "Art education as a major or minor and completion of a practicum in Art Education.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:24.560Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "409",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "program",
+          "program": "Art education major or minor"
+        },
+        {
+          "type": "other",
+          "note": "completion of a practicum in Art Education"
+        }
+      ]
+    }
+  }
+}

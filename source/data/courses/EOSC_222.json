@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 222",
+  "originalPrerequisite": "Second-year standing in Science. One of EOSC 1**, EOSC 210, GEOB 103 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:26.684Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "222",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "2nd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "recommended": true,
+          "children": [
+            {
+              "type": "course",
+              "course": "EOSC 111"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 112"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 113"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 114"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 115"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 116"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 117"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 118"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 210"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 103"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

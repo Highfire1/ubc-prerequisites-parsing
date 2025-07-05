@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 466",
+  "originalPrerequisite": "Either (a) all of MECH 220, MECH 221, MECH 463 or (b) all of MATH 255, MECH 463 and one of ELEC 201, ELEC 202, ELEC 204, EECE 251, EECE 253; or (c) all of ELEC 204, ELEC 221, ENPH 270, MATH 255.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:52.133Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "466",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MECH 220"
+            },
+            {
+              "type": "course",
+              "course": "MECH 221"
+            },
+            {
+              "type": "course",
+              "course": "MECH 463"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 255"
+            },
+            {
+              "type": "course",
+              "course": "MECH 463"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "ELEC 201"
+                },
+                {
+                  "type": "course",
+                  "course": "ELEC 202"
+                },
+                {
+                  "type": "course",
+                  "course": "ELEC 204"
+                },
+                {
+                  "type": "course",
+                  "course": "EECE 251"
+                },
+                {
+                  "type": "course",
+                  "course": "EECE 253"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ELEC 204"
+            },
+            {
+              "type": "course",
+              "course": "ELEC 221"
+            },
+            {
+              "type": "course",
+              "course": "ENPH 270"
+            },
+            {
+              "type": "course",
+              "course": "MATH 255"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

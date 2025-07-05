@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 474",
+  "originalPrerequisite": "All of FNH 350, FNH 351.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:23.566Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "474",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNH 350"
+        },
+        {
+          "type": "course",
+          "course": "FNH 351"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 345",
+  "originalPrerequisite": "A score of 68% or higher in one of MATH 215, MATH 255, MATH 256, MATH 258.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:20.916Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "345",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 215",
+          "minGrade": 68
+        },
+        {
+          "type": "course",
+          "course": "MATH 255",
+          "minGrade": 68
+        },
+        {
+          "type": "course",
+          "course": "MATH 256",
+          "minGrade": 68
+        },
+        {
+          "type": "course",
+          "course": "MATH 258",
+          "minGrade": 68
+        }
+      ]
+    }
+  }
+}

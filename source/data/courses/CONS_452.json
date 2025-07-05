@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CONS 452",
+  "originalPrerequisite": "One of CONS 340, GEOB 270 and fourth year standing in the Global Perspectives Major.",
+  "originalCorequisite": "FRST 443.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:50.258Z",
+  "parsedRequirements": {
+    "department": "CONS",
+    "code": "452",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CONS 340"
+                },
+                {
+                  "type": "course",
+                  "course": "GEOB 270"
+                }
+              ]
+            },
+            {
+              "type": "standing",
+              "standing": "4th"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "FRST 443"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 361",
+  "originalPrerequisite": "GEOG 122.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:36.417Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "361",
+    "prerequisites": {
+      "type": "course",
+      "course": "GEOG 122"
+    }
+  }
+}

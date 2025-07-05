@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 495",
+  "originalPrerequisite": "All of CHBE 362, CHBE 365.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:04.801Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "495",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 362"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 365"
+        }
+      ]
+    }
+  }
+}

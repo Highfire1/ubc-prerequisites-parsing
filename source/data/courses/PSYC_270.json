@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 270",
+  "originalPrerequisite": "Either (a) SCIE 001 and BIOL 140; or (b) one of CHEM 111, CHEM 121, CHEM 123 and all of BIOL 121, BIOL 140. And second-year standing in a Behavioural Neuroscience specialization.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:48.118Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "270",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "SCIE 001"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 140"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "CHEM 111"
+                    },
+                    {
+                      "type": "course",
+                      "course": "CHEM 121"
+                    },
+                    {
+                      "type": "course",
+                      "course": "CHEM 123"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "logic": "ALL_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "BIOL 121"
+                    },
+                    {
+                      "type": "course",
+                      "course": "BIOL 140"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "2nd"
+        },
+        {
+          "type": "program",
+          "program": "Behavioural Neuroscience specialization"
+        }
+      ]
+    }
+  }
+}

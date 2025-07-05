@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 123",
+  "originalPrerequisite": "One of CHEM 111, CHEM 121.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:36:17.344Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "123",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHEM 111"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 121"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SOCI 480",
+  "originalPrerequisite": "One of SOCI 100, SOCI 101, SOCI 102. Or permission of the instructor(s)",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:19.994Z",
+  "parsedRequirements": {
+    "department": "SOCI",
+    "code": "480",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "SOCI 100"
+            },
+            {
+              "type": "course",
+              "course": "SOCI 101"
+            },
+            {
+              "type": "course",
+              "course": "SOCI 102"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "permission of the instructor(s)"
+        }
+      ]
+    }
+  }
+}

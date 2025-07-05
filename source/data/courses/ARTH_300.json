@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ARTH 300",
+  "originalPrerequisite": "3 credits of ARTH coursework at any level.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:24:07.641Z",
+  "parsedRequirements": {
+    "department": "ARTH",
+    "code": "300",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 3,
+      "department": "ARTH",
+      "level": [
+        "100",
+        "200",
+        "300",
+        "400"
+      ]
+    }
+  }
+}

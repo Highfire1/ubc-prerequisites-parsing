@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 406",
+  "originalPrerequisite": "One of CHEM 213, CHEM 260 and one of CHEM 205, CHEM 304, CHBE 220.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:38.147Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "406",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 213"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 260"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 205"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 304"
+            },
+            {
+              "type": "course",
+              "course": "CHBE 220"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

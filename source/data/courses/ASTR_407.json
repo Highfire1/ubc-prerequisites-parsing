@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASTR 407",
+  "originalPrerequisite": "One of PHYS 210, EOSC 211 and one of MATH 217, MATH 227, MATH 317 and one of MATH 316, PHYS 312 and one of ASTR 200, EOSC 212.",
+  "originalCorequisite": "One of PHYS 206, PHYS 216, PHYS 306, EOSC 352.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:35.630Z",
+  "parsedRequirements": {
+    "department": "ASTR",
+    "code": "407",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 210"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 211"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 217"
+            },
+            {
+              "type": "course",
+              "course": "MATH 227"
+            },
+            {
+              "type": "course",
+              "course": "MATH 317"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 316"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 312"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ASTR 200"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 212"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 206"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 216"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 306"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 352"
+        }
+      ]
+    }
+  }
+}

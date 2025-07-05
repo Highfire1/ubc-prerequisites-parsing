@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHEM 410",
+  "originalPrerequisite": "One of CHEM 304, PHYS 203 and one of CHEM 312, PHYS 304.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:37:43.954Z",
+  "parsedRequirements": {
+    "department": "CHEM",
+    "code": "410",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 304"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 203"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 312"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 304"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

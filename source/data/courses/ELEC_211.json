@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 211",
+  "originalPrerequisite": "One of MATH 263, MATH 253 and one of PHYS 108, PHYS 118, PHYS 158.",
+  "originalCorequisite": "MATH 264.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:11.009Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "211",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 263"
+            },
+            {
+              "type": "course",
+              "course": "MATH 253"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 108"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 118"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 158"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "MATH 264"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHIL 414",
+  "originalPrerequisite": "One of PHIL 314, PHIL 315, PHIL 316.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:41.697Z",
+  "parsedRequirements": {
+    "department": "PHIL",
+    "code": "414",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHIL 314"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 315"
+        },
+        {
+          "type": "course",
+          "course": "PHIL 316"
+        }
+      ]
+    }
+  }
+}

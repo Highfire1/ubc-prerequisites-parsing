@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 374",
+  "originalPrerequisite": "BMEG 250.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:07.204Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "374",
+    "prerequisites": {
+      "type": "course",
+      "course": "BMEG 250"
+    }
+  }
+}

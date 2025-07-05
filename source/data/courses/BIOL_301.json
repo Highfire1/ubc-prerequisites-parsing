@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 301",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of BIOL 300, STAT 200.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:47.107Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "301",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 300"
+        },
+        {
+          "type": "course",
+          "course": "STAT 200"
+        }
+      ]
+    }
+  }
+}

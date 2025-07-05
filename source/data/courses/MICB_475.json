@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 475",
+  "originalPrerequisite": "MICB 322 and one of MICB 325, BIOL 335.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:43.326Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "475",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MICB 322"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MICB 325"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 335"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENPH 259",
+  "originalPrerequisite": "One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121, WRDS 150 and either (a) all of PHYS 108, PHYS 109 or (b) one of PHYS 102, PHYS 153 or (c) SCIE 001 or (d) all of PHYS 157, PHYS 158, PHYS 159 or (e) all of PHYS 118, PHYS 119 or (f) all of PHYS 108, PHYS 119.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:24.894Z",
+  "parsedRequirements": {
+    "department": "ENPH",
+    "code": "259",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 176"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 110"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 111"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 112"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 120"
+            },
+            {
+              "type": "course",
+              "course": "ENGL 121"
+            },
+            {
+              "type": "course",
+              "course": "WRDS 150"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 108"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 109"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 102"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 153"
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 157"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 158"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 159"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 118"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 119"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "PHYS 108"
+                },
+                {
+                  "type": "course",
+                  "course": "PHYS 119"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

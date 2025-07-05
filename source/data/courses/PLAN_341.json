@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PLAN 341",
+  "originalPrerequisite": "Third-year standing or above in any program. Second year students may be admitted with permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:55.077Z",
+  "parsedRequirements": {
+    "department": "PLAN",
+    "code": "341",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "2nd"
+            },
+            {
+              "type": "permission",
+              "note": "Permission of instructor"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

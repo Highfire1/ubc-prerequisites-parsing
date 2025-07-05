@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ANTH 431",
+  "originalPrerequisite": "ANTH 341.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:18:57.808Z",
+  "parsedRequirements": {
+    "department": "ANTH",
+    "code": "431",
+    "prerequisites": {
+      "type": "course",
+      "course": "ANTH 341"
+    }
+  }
+}

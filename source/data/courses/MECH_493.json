@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 493",
+  "originalPrerequisite": "Fourth-year standing and at least 80% average in third-year courses and permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:59:00.711Z",
+  "errorMessage": "Invalid prerequisites: Invalid child at index 1: Credit count requirement must have a positive credits field",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "493",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "credit_count",
+          "credits": 9,
+          "level": "300",
+          "minGrade": 80
+        },
+        {
+          "type": "permission",
+          "note": "permission of instructor"
+        }
+      ]
+    }
+  }
+}

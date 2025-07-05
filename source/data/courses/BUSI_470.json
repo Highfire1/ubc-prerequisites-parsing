@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BUSI 470",
+  "originalPrerequisite": "One of BUSI 370, COMM 473.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:33:54.910Z",
+  "parsedRequirements": {
+    "department": "BUSI",
+    "code": "470",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BUSI 370"
+        },
+        {
+          "type": "course",
+          "course": "COMM 473"
+        }
+      ]
+    }
+  }
+}

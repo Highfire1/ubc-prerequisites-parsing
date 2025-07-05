@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "AMNE 316",
+  "originalPrerequisite": "One of CLST 231, AMNE 215.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:17:51.674Z",
+  "parsedRequirements": {
+    "department": "AMNE",
+    "code": "316",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CLST 231"
+        },
+        {
+          "type": "course",
+          "course": "AMNE 215"
+        }
+      ]
+    }
+  }
+}

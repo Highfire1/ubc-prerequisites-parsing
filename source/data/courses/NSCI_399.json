@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NSCI 399",
+  "originalPrerequisite": "NSCI 398.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:59:20.068Z",
+  "parsedRequirements": {
+    "department": "NSCI",
+    "code": "399",
+    "prerequisites": {
+      "type": "course",
+      "course": "NSCI 398"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PCTH 404",
+  "originalPrerequisite": "All of PCTH 300, BIOL 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:49.751Z",
+  "parsedRequirements": {
+    "department": "PCTH",
+    "code": "404",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PCTH 300"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 300"
+        }
+      ]
+    }
+  }
+}

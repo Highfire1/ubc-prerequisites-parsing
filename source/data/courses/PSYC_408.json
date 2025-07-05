@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 408",
+  "originalPrerequisite": "One of PSYC 217, PSYC 277, PSYC 366 and one of PSYC 305, PSYC 307, PSYC 308, PSYC 358.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:30.294Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "408",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 217"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 277"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 366"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PSYC 305"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 307"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 308"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 358"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

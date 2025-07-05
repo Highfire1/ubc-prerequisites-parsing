@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 260",
+  "originalPrerequisite": "Recommended for prospective students of POLI 360-373.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:05:01.296Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "260",
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "POLI 360"
+        },
+        {
+          "type": "course",
+          "course": "POLI 361"
+        },
+        {
+          "type": "course",
+          "course": "POLI 362"
+        },
+        {
+          "type": "course",
+          "course": "POLI 363"
+        },
+        {
+          "type": "course",
+          "course": "POLI 364"
+        },
+        {
+          "type": "course",
+          "course": "POLI 365"
+        },
+        {
+          "type": "course",
+          "course": "POLI 366"
+        },
+        {
+          "type": "course",
+          "course": "POLI 367"
+        },
+        {
+          "type": "course",
+          "course": "POLI 368"
+        },
+        {
+          "type": "course",
+          "course": "POLI 369"
+        },
+        {
+          "type": "course",
+          "course": "POLI 370"
+        },
+        {
+          "type": "course",
+          "course": "POLI 371"
+        },
+        {
+          "type": "course",
+          "course": "POLI 372"
+        },
+        {
+          "type": "course",
+          "course": "POLI 373"
+        }
+      ]
+    }
+  }
+}

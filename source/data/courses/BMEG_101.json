@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 101",
+  "originalPrerequisite": "APSC 100.",
+  "originalCorequisite": "BMEG 102.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:35.555Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "101",
+    "prerequisites": {
+      "type": "course",
+      "course": "APSC 100"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "BMEG 102"
+    }
+  }
+}

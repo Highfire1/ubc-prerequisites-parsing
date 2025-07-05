@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "INFO 456",
+  "originalPrerequisite": "INFO 250.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:30.931Z",
+  "parsedRequirements": {
+    "department": "INFO",
+    "code": "456",
+    "prerequisites": {
+      "type": "course",
+      "course": "INFO 250"
+    }
+  }
+}

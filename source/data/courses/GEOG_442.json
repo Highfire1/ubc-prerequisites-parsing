@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 442",
+  "originalPrerequisite": "Third-year standing in human geography.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:50.363Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "442",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

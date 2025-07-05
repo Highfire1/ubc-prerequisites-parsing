@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MTRL 381",
+  "originalPrerequisite": null,
+  "originalCorequisite": "All of MTRL 365, MTRL 378.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:48.003Z",
+  "parsedRequirements": {
+    "department": "MTRL",
+    "code": "381",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MTRL 365"
+        },
+        {
+          "type": "course",
+          "course": "MTRL 378"
+        }
+      ]
+    }
+  }
+}

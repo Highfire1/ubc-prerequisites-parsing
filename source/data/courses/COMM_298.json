@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 298",
+  "originalPrerequisite": null,
+  "originalCorequisite": "COMM 293 and one of COMM 190, COMM 290 and one of COMM 295, ECON 301.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:42:18.802Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "298",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 293",
+          "mustBeTakenConcurrently": true
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 190"
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "COMM 290"
+                },
+                {
+                  "type": "group",
+                  "logic": "ONE_OF",
+                  "children": [
+                    {
+                      "type": "course",
+                      "course": "COMM 295"
+                    },
+                    {
+                      "type": "course",
+                      "course": "ECON 301"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

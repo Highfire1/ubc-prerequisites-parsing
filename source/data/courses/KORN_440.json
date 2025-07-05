@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KORN 440",
+  "originalPrerequisite": "KORN 410 or placement exam.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:06.831Z",
+  "parsedRequirements": {
+    "department": "KORN",
+    "code": "440",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "KORN 410"
+        },
+        {
+          "type": "other",
+          "note": "placement exam"
+        }
+      ]
+    }
+  }
+}

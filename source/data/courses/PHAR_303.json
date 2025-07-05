@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHAR 303",
+  "originalPrerequisite": "PHAR 202.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:06.583Z",
+  "parsedRequirements": {
+    "department": "PHAR",
+    "code": "303",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHAR 202"
+    }
+  }
+}

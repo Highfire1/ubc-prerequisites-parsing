@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 306",
+  "originalPrerequisite": "One of PHYS 216, ENPH 270 and one of MATH 215, MATH 255, MATH 256, MATH 258.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:51.157Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "306",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 216"
+            },
+            {
+              "type": "course",
+              "course": "ENPH 270"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 215"
+            },
+            {
+              "type": "course",
+              "course": "MATH 255"
+            },
+            {
+              "type": "course",
+              "course": "MATH 256"
+            },
+            {
+              "type": "course",
+              "course": "MATH 258"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

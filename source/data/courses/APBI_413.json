@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 413",
+  "originalPrerequisite": "Third-year standing or higher. APBI 315 and courses in animal physiology and animal behavior recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:20:34.235Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "413",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "recommended": "true",
+          "children": [
+            {
+              "type": "course",
+              "course": "APBI 315"
+            },
+            {
+              "type": "other",
+              "note": "Courses in animal physiology and animal behavior"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APSC 377",
+  "originalPrerequisite": "Third-year standing in B.A. or B.Sc. programs, or second-year standing in B.A.Sc. program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:22:37.454Z",
+  "parsedRequirements": {
+    "department": "APSC",
+    "code": "377",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "standing",
+              "standing": "2nd"
+            },
+            {
+              "type": "program",
+              "program": "B.A.Sc."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

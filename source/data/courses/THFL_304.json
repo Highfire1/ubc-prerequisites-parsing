@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THFL 304",
+  "originalPrerequisite": "Pre or",
+  "originalCorequisite": "one of THTR 205, THTR 305, FIPR 333",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:03.222Z",
+  "parsedRequirements": {
+    "department": "THFL",
+    "code": "304",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "THTR 205"
+        },
+        {
+          "type": "course",
+          "course": "THTR 305"
+        },
+        {
+          "type": "course",
+          "course": "FIPR 333"
+        }
+      ]
+    }
+  }
+}

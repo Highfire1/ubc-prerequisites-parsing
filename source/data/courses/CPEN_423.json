@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 423",
+  "originalPrerequisite": "One of CPEN 221, CPEN 321, CPSC 310.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:28.817Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "423",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPEN 221"
+        },
+        {
+          "type": "course",
+          "course": "CPEN 321"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 310"
+        }
+      ]
+    }
+  }
+}

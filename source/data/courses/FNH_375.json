@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 375",
+  "originalPrerequisite": "All of FNH 350, FNH 370 and one of BIOL 153, BIOL 155.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:50.317Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "375",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNH 350"
+        },
+        {
+          "type": "course",
+          "course": "FNH 370"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 153"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 155"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

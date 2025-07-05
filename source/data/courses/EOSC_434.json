@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 434",
+  "originalPrerequisite": "All of EOSC 329, EOSC 330, CIVL 210.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:45.343Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "434",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EOSC 329"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 330"
+        },
+        {
+          "type": "course",
+          "course": "CIVL 210"
+        }
+      ]
+    }
+  }
+}

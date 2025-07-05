@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPSC 121",
+  "originalPrerequisite": "Principles of Mathematics 12 or Pre-calculus 12.",
+  "originalCorequisite": "One of CPSC 107, CPSC 110.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:42.557Z",
+  "parsedRequirements": {
+    "department": "CPSC",
+    "code": "121",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "Principles of Mathematics 12"
+        },
+        {
+          "type": "course",
+          "course": "Pre-calculus 12"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CPSC 107"
+        },
+        {
+          "type": "course",
+          "course": "CPSC 110"
+        }
+      ]
+    }
+  }
+}

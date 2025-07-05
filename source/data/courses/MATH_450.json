@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 450",
+  "originalPrerequisite": "MATH 400.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:12.708Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "450",
+    "prerequisites": {
+      "type": "course",
+      "course": "MATH 400"
+    }
+  }
+}

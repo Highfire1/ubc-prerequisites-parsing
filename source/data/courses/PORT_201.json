@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PORT 201",
+  "originalPrerequisite": "One of PORT 102, PORT 110.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:30.910Z",
+  "parsedRequirements": {
+    "department": "PORT",
+    "code": "201",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PORT 102"
+        },
+        {
+          "type": "course",
+          "course": "PORT 110"
+        }
+      ]
+    }
+  }
+}

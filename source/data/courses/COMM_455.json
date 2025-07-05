@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 455",
+  "originalPrerequisite": "COMM 353.",
+  "originalCorequisite": "COMM 450.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:43:25.910Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "455",
+    "prerequisites": {
+      "type": "course",
+      "course": "COMM 353"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "COMM 450"
+    }
+  }
+}

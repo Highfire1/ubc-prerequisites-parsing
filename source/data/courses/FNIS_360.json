@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNIS 360",
+  "originalPrerequisite": "One of FNSP 200, FNIS 210, FNSP 210, FNIS 220, FNSP 220. And Permission of the Instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:46.188Z",
+  "parsedRequirements": {
+    "department": "FNIS",
+    "code": "360",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNSP 200"
+        },
+        {
+          "type": "course",
+          "course": "FNIS 210"
+        },
+        {
+          "type": "course",
+          "course": "FNSP 210"
+        },
+        {
+          "type": "course",
+          "course": "FNIS 220"
+        },
+        {
+          "type": "course",
+          "course": "FNSP 220"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "permission",
+      "note": "Permission of the Instructor"
+    }
+  }
+}

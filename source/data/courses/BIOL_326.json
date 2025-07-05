@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 326",
+  "originalPrerequisite": "BIOL 205.",
+  "originalCorequisite": "Either (a) STAT 200 or (b) BIOL 300.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:59.077Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "326",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOL 205"
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "STAT 200"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 300"
+        }
+      ]
+    }
+  }
+}

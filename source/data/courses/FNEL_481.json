@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNEL 481",
+  "originalPrerequisite": "One of FNEL 180, FNEL 281, FNEL 282 or permission of the instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:04:59.727Z",
+  "parsedRequirements": {
+    "department": "FNEL",
+    "code": "481",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNEL 180"
+        },
+        {
+          "type": "course",
+          "course": "FNEL 281"
+        },
+        {
+          "type": "course",
+          "course": "FNEL 282"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the instructor"
+        }
+      ]
+    }
+  }
+}

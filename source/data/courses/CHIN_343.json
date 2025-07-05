@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHIN 343",
+  "originalPrerequisite": "One of CHIN 211, CHIN 341.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:38:33.244Z",
+  "parsedRequirements": {
+    "department": "CHIN",
+    "code": "343",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHIN 211"
+        },
+        {
+          "type": "course",
+          "course": "CHIN 341"
+        }
+      ]
+    }
+  }
+}

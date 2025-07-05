@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 410",
+  "originalPrerequisite": "One of STAT 200, BIOL 300 and one of MATH 200, EOSC 250 and EOSC 211 and one of EOSC 212, ENVR 300 and one of CPSC 203, CPSC 210. And third-year standing in Geophysics, Environmental Science, Earth and Ocean Science, Atmospheric Science, Geology, Oceanography or Geological Engineering;",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:25.692Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "410",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "STAT 200"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 300"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 200"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 250"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 211"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "EOSC 212"
+            },
+            {
+              "type": "course",
+              "course": "ENVR 300"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 203"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 210"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

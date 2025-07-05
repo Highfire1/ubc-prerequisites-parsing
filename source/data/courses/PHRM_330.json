@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHRM 330",
+  "originalPrerequisite": "Third-year standing and a combined grade average of 70% in PHRM 211 and PHRM 212.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:12.932Z",
+  "parsedRequirements": {
+    "department": "PHRM",
+    "code": "330",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHRM 211",
+              "minGrade": 70
+            },
+            {
+              "type": "course",
+              "course": "PHRM 212",
+              "minGrade": 70
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

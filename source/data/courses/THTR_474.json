@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 474",
+  "originalPrerequisite": null,
+  "originalCorequisite": "THTR 471, THTR 472, THTR 473",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:41.440Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "474",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "THTR 471"
+        },
+        {
+          "type": "course",
+          "course": "THTR 472"
+        },
+        {
+          "type": "course",
+          "course": "THTR 473"
+        }
+      ]
+    }
+  }
+}

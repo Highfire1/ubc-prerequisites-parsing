@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 401",
+  "originalPrerequisite": "One of GEOB 204, GEOS 204, GEOB 300, GEOS 300, AGRO 244, APBI 244.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:36.900Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOB 204"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 204"
+        },
+        {
+          "type": "course",
+          "course": "GEOB 300"
+        },
+        {
+          "type": "course",
+          "course": "GEOS 300"
+        },
+        {
+          "type": "course",
+          "course": "AGRO 244"
+        },
+        {
+          "type": "course",
+          "course": "APBI 244"
+        }
+      ]
+    }
+  }
+}

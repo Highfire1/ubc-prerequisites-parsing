@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "AFST 352",
+  "originalPrerequisite": null,
+  "originalCorequisite": "AFST 250.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:17:39.349Z",
+  "parsedRequirements": {
+    "department": "AFST",
+    "code": "352",
+    "prerequisites": null,
+    "corequisites": {
+      "type": "course",
+      "course": "AFST 250"
+    }
+  }
+}

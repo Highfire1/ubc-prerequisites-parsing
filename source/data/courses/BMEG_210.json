@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BMEG 210",
+  "originalPrerequisite": "PHYS 157. CHEM 123 is recommended",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:32:41.847Z",
+  "parsedRequirements": {
+    "department": "BMEG",
+    "code": "210",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHYS 157"
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "CHEM 123"
+    }
+  }
+}

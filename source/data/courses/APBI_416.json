@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 416",
+  "originalPrerequisite": "Third-year standing or higher. APBI 315 and BIOL 416 or CONS 330 recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:20:41.977Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "416",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "APBI 315"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 416"
+                }
+              ],
+              "recommended": true
+            },
+            {
+              "type": "course",
+              "course": "CONS 330",
+              "recommended": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 323",
+  "originalPrerequisite": "All of EOSC 221, EOSC 223 and one of EOSC 210, EOSC 222.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:47.263Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "323",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EOSC 221"
+        },
+        {
+          "type": "course",
+          "course": "EOSC 223"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "EOSC 210"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 222"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ILS 300",
+  "originalPrerequisite": "All of ILS 100, ILS 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:11.355Z",
+  "parsedRequirements": {
+    "department": "ILS",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ILS 100"
+        },
+        {
+          "type": "course",
+          "course": "ILS 200"
+        }
+      ]
+    }
+  }
+}

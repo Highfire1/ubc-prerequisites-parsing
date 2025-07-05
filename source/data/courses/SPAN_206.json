@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPAN 206",
+  "originalPrerequisite": "One of SPAN 12, SPAN 202.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:33.835Z",
+  "parsedRequirements": {
+    "department": "SPAN",
+    "code": "206",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "SPAN 12"
+        },
+        {
+          "type": "course",
+          "course": "SPAN 202"
+        }
+      ]
+    }
+  }
+}

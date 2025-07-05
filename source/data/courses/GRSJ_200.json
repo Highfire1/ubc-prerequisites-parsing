@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GRSJ 200",
+  "originalPrerequisite": "GRSJ 101.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:12:23.198Z",
+  "parsedRequirements": {
+    "department": "GRSJ",
+    "code": "200",
+    "prerequisites": {
+      "type": "course",
+      "course": "GRSJ 101"
+    }
+  }
+}

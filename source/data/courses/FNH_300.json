@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 300",
+  "originalPrerequisite": "One of PHYS 101, PHYS 106, PHYS 107, PHYS 117, PHYS 131, PHYS 157, PHYS 158, PHYS 170.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:20.090Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 101"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 106"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 107"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 117"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 131"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 157"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 158"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 170"
+        }
+      ]
+    }
+  }
+}

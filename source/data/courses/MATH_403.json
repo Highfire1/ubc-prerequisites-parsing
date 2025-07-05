@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 403",
+  "originalPrerequisite": "A score of 68% or higher in one of MATH 301, MATH 320. MATH 402 is recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:49:34.118Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "403",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 301",
+          "minGrade": 68
+        },
+        {
+          "type": "course",
+          "course": "MATH 320",
+          "minGrade": 68
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "MATH 402"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FIPR 435",
+  "originalPrerequisite": null,
+  "originalCorequisite": "All of FIPR 233, FIPR 234, FIPR 337, FIPR 339.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:28.597Z",
+  "parsedRequirements": {
+    "department": "FIPR",
+    "code": "435",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FIPR 233"
+        },
+        {
+          "type": "course",
+          "course": "FIPR 234"
+        },
+        {
+          "type": "course",
+          "course": "FIPR 337"
+        },
+        {
+          "type": "course",
+          "course": "FIPR 339"
+        }
+      ]
+    }
+  }
+}

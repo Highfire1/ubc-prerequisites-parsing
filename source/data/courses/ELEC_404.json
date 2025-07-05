@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 404",
+  "originalPrerequisite": "ELEC 221.",
+  "originalCorequisite": "ELEC 401.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:48.977Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "404",
+    "prerequisites": {
+      "type": "course",
+      "course": "ELEC 221"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "ELEC 401"
+    }
+  }
+}

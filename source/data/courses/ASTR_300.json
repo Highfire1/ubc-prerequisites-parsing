@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASTR 300",
+  "originalPrerequisite": "ASTR 205 and one of PHYS 210, EOSC 211, CPSC 302, CPSC 303.",
+  "originalCorequisite": "One of MATH 217, MATH 227, MATH 317.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:19.874Z",
+  "parsedRequirements": {
+    "department": "ASTR",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ASTR 205"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 210"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 211"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 302"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 303"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 217"
+        },
+        {
+          "type": "course",
+          "course": "MATH 227"
+        },
+        {
+          "type": "course",
+          "course": "MATH 317"
+        }
+      ]
+    }
+  }
+}

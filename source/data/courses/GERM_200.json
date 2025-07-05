@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GERM 200",
+  "originalPrerequisite": "Either (a) GERM 110 or (b) GERM 12.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:59.751Z",
+  "parsedRequirements": {
+    "department": "GERM",
+    "code": "200",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GERM 110"
+        },
+        {
+          "type": "course",
+          "course": "GERM 12"
+        }
+      ]
+    }
+  }
+}

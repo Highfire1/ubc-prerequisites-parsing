@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 491",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of MECH 392, MANU 380.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:52:05.349Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "491",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 392"
+        },
+        {
+          "type": "course",
+          "course": "MANU 380"
+        }
+      ]
+    }
+  }
+}

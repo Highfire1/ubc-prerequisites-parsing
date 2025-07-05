@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "NURS 323",
+  "originalPrerequisite": "All of NURS 300, NURS 310, NURS 321, NURS 330, NURS 352, NURS 360.",
+  "originalCorequisite": "Either (a) all of NURS 345, NURS 365 or (b) all of NURS 346, NURS 366 or (c) all of NURS 303, NURS 363 or (d) all of NURS 301, NURS 362.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:59:42.591Z",
+  "parsedRequirements": {
+    "department": "NURS",
+    "code": "323",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "NURS 300"
+        },
+        {
+          "type": "course",
+          "course": "NURS 310"
+        },
+        {
+          "type": "course",
+          "course": "NURS 321"
+        },
+        {
+          "type": "course",
+          "course": "NURS 330"
+        },
+        {
+          "type": "course",
+          "course": "NURS 352"
+        },
+        {
+          "type": "course",
+          "course": "NURS 360"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "NURS 345"
+            },
+            {
+              "type": "course",
+              "course": "NURS 365"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "NURS 346"
+            },
+            {
+              "type": "course",
+              "course": "NURS 366"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "NURS 303"
+            },
+            {
+              "type": "course",
+              "course": "NURS 363"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "NURS 301"
+            },
+            {
+              "type": "course",
+              "course": "NURS 362"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

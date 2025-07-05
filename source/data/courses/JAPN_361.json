@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "JAPN 361",
+  "originalPrerequisite": "One of JAPN 211, JAPN 250, JAPN 321, JAPN 360.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:15:21.256Z",
+  "parsedRequirements": {
+    "department": "JAPN",
+    "code": "361",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "JAPN 211"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 250"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 321"
+        },
+        {
+          "type": "course",
+          "course": "JAPN 360"
+        }
+      ]
+    }
+  }
+}

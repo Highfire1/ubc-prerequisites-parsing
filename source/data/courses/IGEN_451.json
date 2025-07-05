@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "IGEN 451",
+  "originalPrerequisite": "Either (a) MECH 221 or (b) APSC 278 and one of CIVL 215, MTRL 263 and one of CIVL 230, MECH 260.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:04.094Z",
+  "parsedRequirements": {
+    "department": "IGEN",
+    "code": "451",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MECH 221"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "APSC 278"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CIVL 215"
+                },
+                {
+                  "type": "course",
+                  "course": "MTRL 263"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CIVL 230"
+                },
+                {
+                  "type": "course",
+                  "course": "MECH 260"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

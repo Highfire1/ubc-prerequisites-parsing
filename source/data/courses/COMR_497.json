@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMR 497",
+  "originalPrerequisite": "One of COMM 280, COMR 280.",
+  "originalCorequisite": "One of COMM 382, COMR 382 and one of COMM 387, COMR 387.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:35.461Z",
+  "parsedRequirements": {
+    "department": "COMR",
+    "code": "497",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 280"
+        },
+        {
+          "type": "course",
+          "course": "COMR 280"
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 382"
+            },
+            {
+              "type": "course",
+              "course": "COMR 382"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "COMM 387"
+            },
+            {
+              "type": "course",
+              "course": "COMR 387"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

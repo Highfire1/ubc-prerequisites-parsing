@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPAN 308",
+  "originalPrerequisite": "One of SPAN 207, SPAN 302. Or successful completion of a language placement exam or an assessment interview.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:42.863Z",
+  "parsedRequirements": {
+    "department": "SPAN",
+    "code": "308",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "SPAN 207"
+            },
+            {
+              "type": "course",
+              "course": "SPAN 302"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "Successful completion of a language placement exam or an assessment interview"
+        }
+      ]
+    }
+  }
+}

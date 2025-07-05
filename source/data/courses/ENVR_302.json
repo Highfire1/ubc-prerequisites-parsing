@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVR 302",
+  "originalPrerequisite": "3rd year standing and approval from the Climate Studies and Action Certificate Program Administrator.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:56.740Z",
+  "parsedRequirements": {
+    "department": "ENVR",
+    "code": "302",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "permission",
+          "note": "approval from the Climate Studies and Action Certificate Program Administrator"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ATSC 498",
+  "originalPrerequisite": "ATSC 399 and one of ATSC 303, GEOB 304, GEOS 304.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:08.962Z",
+  "parsedRequirements": {
+    "department": "ATSC",
+    "code": "498",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ATSC 399"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "ATSC 303"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 304"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 304"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

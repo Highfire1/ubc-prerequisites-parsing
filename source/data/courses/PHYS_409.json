@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 409",
+  "originalPrerequisite": "One of PHYS 309, PHYS 319.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:30.690Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "409",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PHYS 309"
+        },
+        {
+          "type": "course",
+          "course": "PHYS 319"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 426",
+  "originalPrerequisite": "GEOG 327 and GEOG 328 are recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:45.977Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "426",
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GEOG 327"
+        },
+        {
+          "type": "course",
+          "course": "GEOG 328"
+        }
+      ]
+    }
+  }
+}

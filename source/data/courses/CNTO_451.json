@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CNTO 451",
+  "originalPrerequisite": "CNTO 401. Prior to registration, a minimum of 9 credits of 300-level ASIA coursework is strongly recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:41:17.982Z",
+  "parsedRequirements": {
+    "department": "CNTO",
+    "code": "451",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CNTO 401"
+        },
+        {
+          "type": "credit_count",
+          "credits": 9,
+          "department": "ASIA",
+          "level": "300",
+          "recommended": true
+        }
+      ]
+    }
+  }
+}

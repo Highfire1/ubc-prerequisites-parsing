@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "COMM 191",
+  "originalPrerequisite": "One of COMM 190, COMM 290.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:42:05.777Z",
+  "parsedRequirements": {
+    "department": "COMM",
+    "code": "191",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "COMM 190"
+        },
+        {
+          "type": "course",
+          "course": "COMM 290"
+        }
+      ]
+    }
+  }
+}

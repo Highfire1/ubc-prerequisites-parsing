@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 340",
+  "originalPrerequisite": "FNH 200 and either (a) all of CHEM 111, CHEM 113 or (b) all of CHEM 121, CHEM 123.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:39.129Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "340",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNH 200"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 111"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 113"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ALL_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 121"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 123"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LATN 201",
+  "originalPrerequisite": "LATN 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:11.265Z",
+  "parsedRequirements": {
+    "department": "LATN",
+    "code": "201",
+    "prerequisites": {
+      "type": "course",
+      "course": "LATN 102"
+    }
+  }
+}

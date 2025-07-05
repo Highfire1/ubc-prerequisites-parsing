@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PERS 401",
+  "originalPrerequisite": "PERS 300. Or native or proficient heritage speaker of Persian, with permission of the instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:01.904Z",
+  "parsedRequirements": {
+    "department": "PERS",
+    "code": "401",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PERS 300"
+        },
+        {
+          "type": "other",
+          "note": "Native or proficient heritage speaker of Persian, with permission of the instructor"
+        }
+      ]
+    }
+  }
+}

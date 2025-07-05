@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRST 318",
+  "originalPrerequisite": "ECON 101.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:34.007Z",
+  "parsedRequirements": {
+    "department": "FRST",
+    "code": "318",
+    "prerequisites": {
+      "type": "course",
+      "course": "ECON 101"
+    }
+  }
+}

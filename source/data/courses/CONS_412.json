@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CONS 412",
+  "originalPrerequisite": "Fourth year standing in the Faculty of Forestry or a Bachelor of Science Program awarded by any Faculty. Permission is required for registration.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:44:44.435Z",
+  "parsedRequirements": {
+    "department": "CONS",
+    "code": "412",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "4th"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "Faculty of Forestry"
+            },
+            {
+              "type": "program",
+              "program": "Bachelor of Science Program"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "Permission is required for registration"
+        }
+      ]
+    }
+  }
+}

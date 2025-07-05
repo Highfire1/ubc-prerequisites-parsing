@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 368",
+  "originalPrerequisite": "PSYC 367.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:10.998Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "368",
+    "prerequisites": {
+      "type": "course",
+      "course": "PSYC 367"
+    }
+  }
+}

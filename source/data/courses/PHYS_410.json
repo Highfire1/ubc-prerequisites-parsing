@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 410",
+  "originalPrerequisite": "One of PHYS 312, MATH 257, MATH 316 and one of PHYS 210, EOSC 211, CPSC 110, CPSC 103, APSC 160.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:04:33.189Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "410",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 312"
+            },
+            {
+              "type": "course",
+              "course": "MATH 257"
+            },
+            {
+              "type": "course",
+              "course": "MATH 316"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 210"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 211"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 110"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 103"
+            },
+            {
+              "type": "course",
+              "course": "APSC 160"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

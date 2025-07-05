@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LAW 380",
+  "originalPrerequisite": null,
+  "originalCorequisite": "LAW 379.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:44:20.656Z",
+  "parsedRequirements": {
+    "department": "LAW",
+    "code": "380",
+    "corequisites": {
+      "type": "course",
+      "course": "LAW 379"
+    }
+  }
+}

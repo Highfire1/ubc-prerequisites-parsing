@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 446",
+  "originalPrerequisite": "Any 6 credits from POLI 240, 340-349.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:06:39.754Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "446",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "department": "POLI",
+      "level": "200"
+    }
+  }
+}

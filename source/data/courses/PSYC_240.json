@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 240",
+  "originalPrerequisite": "All of PSYC 101, PSYC 102.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:20:42.723Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "240",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 101"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 102"
+        }
+      ]
+    }
+  }
+}

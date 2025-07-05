@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MTRL 251",
+  "originalPrerequisite": "MTRL 250.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:41.367Z",
+  "parsedRequirements": {
+    "department": "MTRL",
+    "code": "251",
+    "prerequisites": {
+      "type": "course",
+      "course": "MTRL 250"
+    }
+  }
+}

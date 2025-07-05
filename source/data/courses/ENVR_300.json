@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENVR 300",
+  "originalPrerequisite": "Open to all students with third-year, or higher, standing in the Faculty of Science.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:54.129Z",
+  "parsedRequirements": {
+    "department": "ENVR",
+    "code": "300",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "3rd"
+    }
+  }
+}

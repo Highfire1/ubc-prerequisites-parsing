@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FREN 330",
+  "originalPrerequisite": "One of FREN 220, FREN 221, FREN 311 and one of FREN 224, FREN 401.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:07:22.302Z",
+  "parsedRequirements": {
+    "department": "FREN",
+    "code": "330",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FREN 220"
+            },
+            {
+              "type": "course",
+              "course": "FREN 221"
+            },
+            {
+              "type": "course",
+              "course": "FREN 311"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FREN 224"
+            },
+            {
+              "type": "course",
+              "course": "FREN 401"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

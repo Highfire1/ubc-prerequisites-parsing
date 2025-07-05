@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPAN 303",
+  "originalPrerequisite": "One of SPAN 207, SPAN 302. Or placement test for heritage speakers.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:31:40.971Z",
+  "parsedRequirements": {
+    "department": "SPAN",
+    "code": "303",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "SPAN 207"
+            },
+            {
+              "type": "course",
+              "course": "SPAN 302"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "placement test for heritage speakers"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MDIA 350",
+  "originalPrerequisite": "MDIA 290. Restricted to BMS students with 3rd year standing or higher.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:50:18.523Z",
+  "parsedRequirements": {
+    "department": "MDIA",
+    "code": "350",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MDIA 290"
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "program",
+          "program": "BMS"
+        }
+      ]
+    }
+  }
+}

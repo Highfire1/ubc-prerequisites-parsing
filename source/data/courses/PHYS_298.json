@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHYS 298",
+  "originalPrerequisite": "PHYS 200.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:03:39.406Z",
+  "parsedRequirements": {
+    "department": "PHYS",
+    "code": "298",
+    "prerequisites": {
+      "type": "course",
+      "course": "PHYS 200"
+    }
+  }
+}

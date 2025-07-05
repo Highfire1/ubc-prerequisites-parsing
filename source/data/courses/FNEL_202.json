@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNEL 202",
+  "originalPrerequisite": "FNEL 201 in the same language.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:04:36.886Z",
+  "parsedRequirements": {
+    "department": "FNEL",
+    "code": "202",
+    "prerequisites": {
+      "type": "course",
+      "course": "FNEL 201"
+    }
+  }
+}

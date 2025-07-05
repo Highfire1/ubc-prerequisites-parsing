@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 305",
+  "originalPrerequisite": "One of GEOB 200, GEOS 200, GEOB 204, GEOS 204, APBI 244, ATSC 201. And one of PHYS 100-level or CHEM 123.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:16.781Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "305",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOB 200"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 200"
+            },
+            {
+              "type": "course",
+              "course": "GEOB 204"
+            },
+            {
+              "type": "course",
+              "course": "GEOS 204"
+            },
+            {
+              "type": "course",
+              "course": "APBI 244"
+            },
+            {
+              "type": "course",
+              "course": "ATSC 201"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "credit_count",
+              "credits": 1,
+              "department": "PHYS",
+              "level": "100"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 123"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

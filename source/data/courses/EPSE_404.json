@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EPSE 404",
+  "originalPrerequisite": "One of EPSE 312, EPSE 317. Or permission of instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:03:12.338Z",
+  "parsedRequirements": {
+    "department": "EPSE",
+    "code": "404",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "EPSE 312"
+            },
+            {
+              "type": "course",
+              "course": "EPSE 317"
+            }
+          ]
+        },
+        {
+          "type": "permission",
+          "note": "permission of instructor"
+        }
+      ]
+    }
+  }
+}

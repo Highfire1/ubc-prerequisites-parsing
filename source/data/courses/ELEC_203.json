@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ELEC 203",
+  "originalPrerequisite": null,
+  "originalCorequisite": "One of MATH 255, MATH 256.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:53:04.635Z",
+  "parsedRequirements": {
+    "department": "ELEC",
+    "code": "203",
+    "corequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "MATH 255"
+        },
+        {
+          "type": "course",
+          "course": "MATH 256"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 400",
+  "originalPrerequisite": "Fourth-year standing in B.A.Sc.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:19.896Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "400",
+    "prerequisites": {
+      "type": "standing",
+      "standing": "4th"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ANTH 416",
+  "originalPrerequisite": "One of ANTH 215, ANTH 315.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:18:47.600Z",
+  "parsedRequirements": {
+    "department": "ANTH",
+    "code": "416",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ANTH 215"
+        },
+        {
+          "type": "course",
+          "course": "ANTH 315"
+        }
+      ]
+    }
+  }
+}

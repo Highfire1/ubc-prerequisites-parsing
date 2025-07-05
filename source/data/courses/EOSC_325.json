@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 325",
+  "originalPrerequisite": "3rd year standing in Science, Land and Food Systems or Forestry; and",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:01:49.199Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "325",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "Science"
+            },
+            {
+              "type": "program",
+              "program": "Land and Food Systems"
+            },
+            {
+              "type": "program",
+              "program": "Forestry"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

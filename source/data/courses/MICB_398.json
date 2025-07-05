@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MICB 398",
+  "originalPrerequisite": "Either (a) one of MICB 211, MICB 201 and one of MICB 212, MICB 202; or (b) BIOT 380.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:54:17.117Z",
+  "parsedRequirements": {
+    "department": "MICB",
+    "code": "398",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MICB 211"
+                },
+                {
+                  "type": "course",
+                  "course": "MICB 201"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "MICB 212"
+                },
+                {
+                  "type": "course",
+                  "course": "MICB 202"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "BIOT 380"
+        }
+      ]
+    }
+  }
+}

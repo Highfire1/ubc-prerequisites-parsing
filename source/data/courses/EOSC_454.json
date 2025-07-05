@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EOSC 454",
+  "originalPrerequisite": "All of EOSC 352, EOSC 353, EOSC 450 and one of PHYS 301, PHYS 354.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:02:56.149Z",
+  "parsedRequirements": {
+    "department": "EOSC",
+    "code": "454",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "EOSC 352"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 353"
+            },
+            {
+              "type": "course",
+              "course": "EOSC 450"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 301"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 354"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

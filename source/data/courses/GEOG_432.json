@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOG 432",
+  "originalPrerequisite": "Restricted to students with 3rd year standing or higher. GEOG 121, or equivalent, is strongly recommended for students with 3rd year standing.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:10:49.346Z",
+  "parsedRequirements": {
+    "department": "GEOG",
+    "code": "432",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "GEOG 121"
+            },
+            {
+              "type": "other",
+              "note": "equivalent"
+            }
+          ],
+          "recommended": "true"
+        }
+      ]
+    }
+  }
+}

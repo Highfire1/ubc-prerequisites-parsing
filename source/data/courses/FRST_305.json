@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FRST 305",
+  "originalPrerequisite": "FRST 201 and one of FRST 350, FRST 351, UFOR 400.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:09:30.297Z",
+  "parsedRequirements": {
+    "department": "FRST",
+    "code": "305",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FRST 201"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "FRST 350"
+            },
+            {
+              "type": "course",
+              "course": "FRST 351"
+            },
+            {
+              "type": "course",
+              "course": "UFOR 400"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

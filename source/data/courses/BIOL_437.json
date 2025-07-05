@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 437",
+  "originalPrerequisite": "All of BIOL 331, BIOL 335 and one of BIOL 201, BIOC 202, BIOC 203.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:25.275Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "437",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 331"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 335"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 201"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 202"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 203"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

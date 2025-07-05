@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ENPH 253",
+  "originalPrerequisite": "ENPH 259.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:00:14.649Z",
+  "parsedRequirements": {
+    "department": "ENPH",
+    "code": "253",
+    "prerequisites": {
+      "type": "course",
+      "course": "ENPH 259"
+    }
+  }
+}

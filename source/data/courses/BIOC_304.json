@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 304",
+  "originalPrerequisite": "CHEM 213.",
+  "originalCorequisite": "BIOC 303.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:39.276Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "304",
+    "prerequisites": {
+      "type": "course",
+      "course": "CHEM 213"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "BIOC 303"
+    }
+  }
+}

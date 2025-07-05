@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PERS 400",
+  "originalPrerequisite": "One of PERS 104, PERS 300. Or Persian heritage speakers with strong reading/writing skills (High School). NOT eligible to students who have studied at the post-secondary level in Iran.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:01:00.365Z",
+  "parsedRequirements": {
+    "department": "PERS",
+    "code": "400",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PERS 104"
+            },
+            {
+              "type": "course",
+              "course": "PERS 300"
+            }
+          ]
+        },
+        {
+          "type": "other",
+          "note": "Persian heritage speakers with strong reading/writing skills (High School)"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "other",
+      "note": "NOT eligible to students who have studied at the post-secondary level in Iran"
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASTR 333",
+  "originalPrerequisite": "One of PHYS 101, PHYS 102, PHYS 106, PHYS 107, PHYS 108, PHYS 117, PHYS 118, PHYS 131, PHYS 153, PHYS 157, PHYS 158, SCIE 001 and one of MATH 200, MATH 217, MATH 253, STAT 200, STAT 203, STAT 241, BIOL 300, COMM 291, ECON 325, EPSE 482, EPSE 483, FRST 231, GEOG 374, KIN 371, POLI 380, PSYC 217, PSYC 218, PSYC 277, PSYC 278, PSYC 366, SOCI 328.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:25.538Z",
+  "parsedRequirements": {
+    "department": "ASTR",
+    "code": "333",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "PHYS 101"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 102"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 106"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 107"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 108"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 117"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 118"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 131"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 153"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 157"
+            },
+            {
+              "type": "course",
+              "course": "PHYS 158"
+            },
+            {
+              "type": "course",
+              "course": "SCIE 001"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 200"
+            },
+            {
+              "type": "course",
+              "course": "MATH 217"
+            },
+            {
+              "type": "course",
+              "course": "MATH 253"
+            },
+            {
+              "type": "course",
+              "course": "STAT 200"
+            },
+            {
+              "type": "course",
+              "course": "STAT 203"
+            },
+            {
+              "type": "course",
+              "course": "STAT 241"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 300"
+            },
+            {
+              "type": "course",
+              "course": "COMM 291"
+            },
+            {
+              "type": "course",
+              "course": "ECON 325"
+            },
+            {
+              "type": "course",
+              "course": "EPSE 482"
+            },
+            {
+              "type": "course",
+              "course": "EPSE 483"
+            },
+            {
+              "type": "course",
+              "course": "FRST 231"
+            },
+            {
+              "type": "course",
+              "course": "GEOG 374"
+            },
+            {
+              "type": "course",
+              "course": "KIN 371"
+            },
+            {
+              "type": "course",
+              "course": "POLI 380"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 217"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 218"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 277"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 278"
+            },
+            {
+              "type": "course",
+              "course": "PSYC 366"
+            },
+            {
+              "type": "course",
+              "course": "SOCI 328"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

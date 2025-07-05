@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DES 212",
+  "originalPrerequisite": "DES 211.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:15.300Z",
+  "parsedRequirements": {
+    "department": "DES",
+    "code": "212",
+    "prerequisites": {
+      "type": "course",
+      "course": "DES 211"
+    }
+  }
+}

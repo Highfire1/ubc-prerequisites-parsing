@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GERM 434",
+  "originalPrerequisite": "GERM 433 or no more than one year of beginner's German.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:12:14.275Z",
+  "parsedRequirements": {
+    "department": "GERM",
+    "code": "434",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "GERM 433"
+        },
+        {
+          "type": "other",
+          "note": "no more than one year of beginner's German"
+        }
+      ]
+    }
+  }
+}

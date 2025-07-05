@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MRNE 440",
+  "originalPrerequisite": "Completion of a course in vertebrate zoology or permission of the instructor.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:55:36.471Z",
+  "parsedRequirements": {
+    "department": "MRNE",
+    "code": "440",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "other",
+          "note": "Completion of a course in vertebrate zoology"
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the instructor"
+        }
+      ]
+    }
+  }
+}

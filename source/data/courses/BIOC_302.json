@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOC 302",
+  "originalPrerequisite": "One of BIOL 201, BIOC 202, BIOC 203 and one of CHEM 203, CHEM 223, CHEM 233.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:26:35.565Z",
+  "parsedRequirements": {
+    "department": "BIOC",
+    "code": "302",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 201"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 202"
+            },
+            {
+              "type": "course",
+              "course": "BIOC 203"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 203"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 223"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 233"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

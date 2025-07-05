@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "DES 403",
+  "originalPrerequisite": "A score of 80% or higher in DES 401.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:48:26.736Z",
+  "parsedRequirements": {
+    "department": "DES",
+    "code": "403",
+    "prerequisites": {
+      "type": "course",
+      "course": "DES 401",
+      "minGrade": 80
+    }
+  }
+}

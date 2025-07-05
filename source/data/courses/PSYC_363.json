@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 363",
+  "originalPrerequisite": "One of BIOL 260, BIOL 361, BIOL 455, BIOL 458, CAPS 301, NSCI 201, PSYC 260, PSYC 263, PSYC 270, PSYC 304.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:04.296Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "363",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 260"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 361"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 455"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 458"
+        },
+        {
+          "type": "course",
+          "course": "CAPS 301"
+        },
+        {
+          "type": "course",
+          "course": "NSCI 201"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 260"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 263"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 270"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 304"
+        }
+      ]
+    }
+  }
+}

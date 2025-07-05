@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "GEOS 400",
+  "originalPrerequisite": "Either (a) BIOL 121 and one of CHEM 111, CHEM 110; or (b) BIOL 121 and one of CHEM 121, CHEM 120; or (c) SCIE 001. Fourth year standing is also required.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:11:35.221Z",
+  "parsedRequirements": {
+    "department": "GEOS",
+    "code": "400",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 111"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 110"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 121"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 121"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 120"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "standing",
+      "standing": "4th"
+    }
+  }
+}

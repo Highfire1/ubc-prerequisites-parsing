@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PATH 375",
+  "originalPrerequisite": "6 credits each first year BIOL and CHEM",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:30.522Z",
+  "parsedRequirements": {
+    "department": "PATH",
+    "code": "375",
+    "prerequisites": {
+      "type": "credit_count",
+      "credits": 6,
+      "department": [
+        "BIOL",
+        "CHEM"
+      ],
+      "level": "100"
+    }
+  }
+}

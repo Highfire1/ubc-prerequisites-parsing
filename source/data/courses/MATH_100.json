@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 100",
+  "originalPrerequisite": "High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
+  "originalCorequisite": null,
+  "status": "blacklisted",
+  "lastUpdated": "2025-07-04T22:47:32.590Z",
+  "blacklistReason": "The prerequisite 'High-school calculus' cannot be represented unambiguously using the provided type system.  There is no way to represent 'High-school calculus' using the available Requirement types (RequirementGroup, RequirementCourse, RequirementCreditCount, RequirementCourseCount, RequirementStanding, RequirementProgram, RequirementPermission, RequirementOther).  It requires an external definition or a more flexible 'RequirementOther' type with more metadata to specify the high school course."
+}

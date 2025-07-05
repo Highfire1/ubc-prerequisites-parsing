@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "RMST 468",
+  "originalPrerequisite": "Two years study of each of two Romance languages or two years of one Romance language and one year of Latin.",
+  "originalCorequisite": null,
+  "status": "blacklisted",
+  "lastUpdated": "2025-07-04T23:29:32.168Z",
+  "blacklistReason": "The prerequisite 'Two years study of each of two Romance languages or two years of one Romance language and one year of Latin' cannot be unambiguously represented using the provided type system.  The type system does not directly support the 'years of study' concept, nor the flexible combination of 'two of this' or 'one of this and one of that'.  While individual course requirements could be represented, the overall logic and conditional nature of the requirement makes a direct translation impossible without significant extensions to the type system."
+}

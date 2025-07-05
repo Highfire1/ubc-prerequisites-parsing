@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ILS 106",
+  "originalPrerequisite": "All of ILS 100, ILS 101.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:14:06.097Z",
+  "parsedRequirements": {
+    "department": "ILS",
+    "code": "106",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ILS 100"
+        },
+        {
+          "type": "course",
+          "course": "ILS 101"
+        }
+      ]
+    }
+  }
+}

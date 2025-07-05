@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 104",
+  "originalPrerequisite": "High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12.",
+  "originalCorequisite": null,
+  "status": "error",
+  "lastUpdated": "2025-07-04T22:47:38.817Z",
+  "blacklistReason": "The prerequisite 'High-school calculus' cannot be represented unambiguously using the provided type system.  There is no way to specify 'High-school calculus' as a specific course or credit within the defined types.  The type system lacks the ability to handle prerequisites outside of UBC courses or credit requirements."
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 401",
+  "originalPrerequisite": "PSYC 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:18.716Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "401",
+    "prerequisites": {
+      "type": "course",
+      "course": "PSYC 300"
+    }
+  }
+}

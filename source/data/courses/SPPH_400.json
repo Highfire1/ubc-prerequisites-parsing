@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "SPPH 400",
+  "originalPrerequisite": "Ability to use high school Algebra and simple graphs.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:32:20.473Z",
+  "parsedRequirements": {
+    "department": "SPPH",
+    "code": "400",
+    "prerequisites": {
+      "type": "other",
+      "note": "Ability to use high school Algebra and simple graphs"
+    }
+  }
+}

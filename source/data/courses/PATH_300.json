@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PATH 300",
+  "originalPrerequisite": "All of BIOL 112, BIOL 200, BIOL 201, CHEM 123, CHEM 205, CHEM 233, CHEM 235, MICB 202.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:29.495Z",
+  "parsedRequirements": {
+    "department": "PATH",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 112"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 200"
+        },
+        {
+          "type": "course",
+          "course": "BIOL 201"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 123"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 205"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 233"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 235"
+        },
+        {
+          "type": "course",
+          "course": "MICB 202"
+        }
+      ]
+    }
+  }
+}

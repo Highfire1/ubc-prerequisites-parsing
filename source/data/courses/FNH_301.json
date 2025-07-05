@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 301",
+  "originalPrerequisite": "Either (a) CHEM 201 or (b) CHEM 205; and either (a) CHEM 203 or (b) CHEM 233.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:05:22.267Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "301",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 201"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 205"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CHEM 203"
+            },
+            {
+              "type": "course",
+              "course": "CHEM 233"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

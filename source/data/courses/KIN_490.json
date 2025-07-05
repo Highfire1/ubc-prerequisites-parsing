@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "KIN 490",
+  "originalPrerequisite": "Third-year standing and permission of the Associate Director, Undergraduate Program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:43:49.656Z",
+  "parsedRequirements": {
+    "department": "KIN",
+    "code": "490",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "standing",
+          "standing": "3rd"
+        },
+        {
+          "type": "permission",
+          "note": "permission of the Associate Director, Undergraduate Program"
+        }
+      ]
+    }
+  }
+}

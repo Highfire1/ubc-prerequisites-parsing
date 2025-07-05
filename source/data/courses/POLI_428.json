@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 428",
+  "originalPrerequisite": "Restricted to Major/Honour POLI or Combined Major with POLI.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:06:25.506Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "428",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "program",
+          "program": "Major/Honour POLI"
+        },
+        {
+          "type": "program",
+          "program": "Combined Major with POLI"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 200",
+  "originalPrerequisite": "Either (a) BIOL 112 and one of CHEM 123, CHEM 130; or (b) SCIE 001 or (c) 8 transfer credits of first-year BIOL and 6 credits of first-year CHEM or (d) one of BIOL 112 or BIOL 121 and a corequisite of one of CHEM 203 or CHEM 223.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:27:17.930Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "200",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 112"
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 123"
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 130"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "course": "SCIE 001"
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "credit_count",
+              "credits": 8,
+              "department": "BIOL",
+              "level": "100"
+            },
+            {
+              "type": "credit_count",
+              "credits": 6,
+              "department": "CHEM",
+              "level": "100"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "BIOL 112"
+                },
+                {
+                  "type": "course",
+                  "course": "BIOL 121"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "logic": "ONE_OF",
+              "children": [
+                {
+                  "type": "course",
+                  "course": "CHEM 203",
+                  "mustBeTakenConcurrently": true
+                },
+                {
+                  "type": "course",
+                  "course": "CHEM 223",
+                  "mustBeTakenConcurrently": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

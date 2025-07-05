@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "RUSS 409",
+  "originalPrerequisite": "RUSS 300.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:29:48.790Z",
+  "parsedRequirements": {
+    "department": "RUSS",
+    "code": "409",
+    "prerequisites": {
+      "type": "course",
+      "course": "RUSS 300"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "EDCP 441",
+  "originalPrerequisite": "One of EDCP 340, EDCP 342.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:52:39.125Z",
+  "parsedRequirements": {
+    "department": "EDCP",
+    "code": "441",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "EDCP 340"
+        },
+        {
+          "type": "course",
+          "course": "EDCP 342"
+        }
+      ]
+    }
+  }
+}

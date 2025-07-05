@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "WOOD 356",
+  "originalPrerequisite": "WOOD 276.",
+  "originalCorequisite": "WOOD 386.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:35:30.367Z",
+  "parsedRequirements": {
+    "department": "WOOD",
+    "code": "356",
+    "prerequisites": {
+      "type": "course",
+      "course": "WOOD 276"
+    },
+    "corequisites": {
+      "type": "course",
+      "course": "WOOD 386"
+    }
+  }
+}

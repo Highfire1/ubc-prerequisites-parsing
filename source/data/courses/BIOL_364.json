@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 364",
+  "originalPrerequisite": "BIOL 204 and one of BIOL 260, BIOL 361.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:28:31.879Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "364",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 204"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "BIOL 260"
+            },
+            {
+              "type": "course",
+              "course": "BIOL 361"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

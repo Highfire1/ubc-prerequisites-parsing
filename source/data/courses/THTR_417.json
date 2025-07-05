@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "THTR 417",
+  "originalPrerequisite": "THTR 317. Permission of the instructor is required for admission to this course.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:33:29.025Z",
+  "parsedRequirements": {
+    "department": "THTR",
+    "code": "417",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "THTR 317"
+        },
+        {
+          "type": "permission",
+          "note": "Permission of the instructor is required for admission to this course"
+        }
+      ]
+    }
+  }
+}

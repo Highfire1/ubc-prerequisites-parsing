@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PHRM 499",
+  "originalPrerequisite": "Successful completion of all other coursework.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:02:33.833Z",
+  "parsedRequirements": {
+    "department": "PHRM",
+    "code": "499",
+    "prerequisites": {
+      "type": "other",
+      "note": "Successful completion of all other coursework"
+    }
+  }
+}

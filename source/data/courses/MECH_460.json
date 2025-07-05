@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MECH 460",
+  "originalPrerequisite": "MECH 360.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:51:44.477Z",
+  "parsedRequirements": {
+    "department": "MECH",
+    "code": "460",
+    "prerequisites": {
+      "type": "course",
+      "course": "MECH 360"
+    }
+  }
+}

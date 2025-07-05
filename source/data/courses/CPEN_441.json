@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CPEN 441",
+  "originalPrerequisite": "One of CPSC 260, CPSC 221 and one of CPEN 221, CPSC 210, CPEN 333.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:45:35.902Z",
+  "parsedRequirements": {
+    "department": "CPEN",
+    "code": "441",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 260"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 221"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPEN 221"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 210"
+            },
+            {
+              "type": "course",
+              "course": "CPEN 333"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

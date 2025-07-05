@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "LING 242",
+  "originalPrerequisite": "One of LING 100, LING 101, LING 140, LING 170, LING 200, LING 201, ENGL 330, ENGL 331. Recommended: LING 201 and CPSC 103 or CPSC 110 (or other programming experience).",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:46:20.056Z",
+  "parsedRequirements": {
+    "department": "LING",
+    "code": "242",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LING 100"
+        },
+        {
+          "type": "course",
+          "course": "LING 101"
+        },
+        {
+          "type": "course",
+          "course": "LING 140"
+        },
+        {
+          "type": "course",
+          "course": "LING 170"
+        },
+        {
+          "type": "course",
+          "course": "LING 200"
+        },
+        {
+          "type": "course",
+          "course": "LING 201"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 330"
+        },
+        {
+          "type": "course",
+          "course": "ENGL 331"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "LING 201"
+        },
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "CPSC 103"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 110"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "HINU 450",
+  "originalPrerequisite": "HINU 200. Or fluency in Hindi.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:13:53.716Z",
+  "parsedRequirements": {
+    "department": "HINU",
+    "code": "450",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "HINU 200"
+        },
+        {
+          "type": "other",
+          "note": "Fluency in Hindi"
+        }
+      ]
+    }
+  }
+}

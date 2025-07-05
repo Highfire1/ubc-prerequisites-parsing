@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 262",
+  "originalPrerequisite": null,
+  "originalCorequisite": "All of CHBE 201, CHBE 241, CHBE 251, CHEM 250, CHEM 251, CHEM 260.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:34:45.035Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "262",
+    "corequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 201"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 241"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 251"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 250"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 251"
+        },
+        {
+          "type": "course",
+          "course": "CHEM 260"
+        }
+      ]
+    }
+  }
+}

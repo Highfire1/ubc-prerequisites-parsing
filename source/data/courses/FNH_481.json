@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "FNH 481",
+  "originalPrerequisite": "All of FNH 380, FNH 381, FNH 480.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T13:06:29.092Z",
+  "parsedRequirements": {
+    "department": "FNH",
+    "code": "481",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "FNH 380"
+        },
+        {
+          "type": "course",
+          "course": "FNH 381"
+        },
+        {
+          "type": "course",
+          "course": "FNH 480"
+        }
+      ]
+    }
+  }
+}

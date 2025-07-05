@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ARCL 411",
+  "originalPrerequisite": "One of ARCL 305, ARCL 321.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:23:35.604Z",
+  "parsedRequirements": {
+    "department": "ARCL",
+    "code": "411",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "ARCL 305"
+        },
+        {
+          "type": "course",
+          "course": "ARCL 321"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "BIOL 444",
+  "originalPrerequisite": "BIOL 335.",
+  "originalCorequisite": "BIOL 433 is recommended.",
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:29:32.196Z",
+  "parsedRequirements": {
+    "department": "BIOL",
+    "code": "444",
+    "prerequisites": {
+      "type": "course",
+      "course": "BIOL 335"
+    },
+    "recommendedCorequisites": {
+      "type": "course",
+      "course": "BIOL 433"
+    }
+  }
+}

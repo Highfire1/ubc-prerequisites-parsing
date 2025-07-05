@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "APBI 462",
+  "originalPrerequisite": "One of BIOL 300, GEOG 374, FRST 231, LFS 252. APBI 260 recommended",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:21:30.029Z",
+  "parsedRequirements": {
+    "department": "APBI",
+    "code": "462",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 300"
+        },
+        {
+          "type": "course",
+          "course": "GEOG 374"
+        },
+        {
+          "type": "course",
+          "course": "FRST 231"
+        },
+        {
+          "type": "course",
+          "course": "LFS 252"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "course",
+      "course": "APBI 260"
+    }
+  }
+}

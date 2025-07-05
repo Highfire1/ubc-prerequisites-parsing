@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "POLI 371",
+  "originalPrerequisite": "Restricted to students with a Major, Combined Major, Honours, Honours with, or Minor specialization in Political Science or International Relations, or at least 3rd year standing in any BASc program.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:05:12.504Z",
+  "parsedRequirements": {
+    "department": "POLI",
+    "code": "371",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "Political Science"
+            },
+            {
+              "type": "standing",
+              "standing": "3rd"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "logic": "ALL_OF",
+          "children": [
+            {
+              "type": "program",
+              "program": "International Relations"
+            },
+            {
+              "type": "standing",
+              "standing": "3rd"
+            }
+          ]
+        },
+        {
+          "type": "standing",
+          "standing": "3rd"
+        }
+      ]
+    }
+  }
+}

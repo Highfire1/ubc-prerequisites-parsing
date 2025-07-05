@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "MATH 312",
+  "originalPrerequisite": "One of MATH 220, MATH 223, MATH 226, CPSC 121 and 9 additional credits of mathematics courses.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T22:48:55.906Z",
+  "parsedRequirements": {
+    "department": "MATH",
+    "code": "312",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "group",
+          "logic": "ONE_OF",
+          "children": [
+            {
+              "type": "course",
+              "course": "MATH 220"
+            },
+            {
+              "type": "course",
+              "course": "MATH 223"
+            },
+            {
+              "type": "course",
+              "course": "MATH 226"
+            },
+            {
+              "type": "course",
+              "course": "CPSC 121"
+            }
+          ]
+        },
+        {
+          "type": "credit_count",
+          "credits": 9,
+          "department": "MATH"
+        }
+      ]
+    }
+  }
+}

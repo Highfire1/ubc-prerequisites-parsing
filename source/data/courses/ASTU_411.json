@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "ASTU 411",
+  "originalPrerequisite": "ASTU 410.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:25:44.452Z",
+  "parsedRequirements": {
+    "department": "ASTU",
+    "code": "411",
+    "prerequisites": {
+      "type": "course",
+      "course": "ASTU 410"
+    }
+  }
+}

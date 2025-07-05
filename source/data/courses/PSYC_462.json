@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PSYC 462",
+  "originalPrerequisite": "One of PSYC 304, PSYC 360, PSYC 371. BIOL 205 and/or PCTH 325 recommended.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:28:59.945Z",
+  "parsedRequirements": {
+    "department": "PSYC",
+    "code": "462",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PSYC 304"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 360"
+        },
+        {
+          "type": "course",
+          "course": "PSYC 371"
+        }
+      ]
+    },
+    "recommendedPrerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "BIOL 205"
+        },
+        {
+          "type": "course",
+          "course": "PCTH 325"
+        }
+      ],
+      "recommended": "true"
+    }
+  }
+}

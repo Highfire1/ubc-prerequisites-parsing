@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "PERS 300",
+  "originalPrerequisite": "PERS 201. Or Persian heritage speakers with basic reading/writing skills (no more than Grade 6 formal education in Iran).",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T23:00:57.040Z",
+  "parsedRequirements": {
+    "department": "PERS",
+    "code": "300",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ONE_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "PERS 201"
+        },
+        {
+          "type": "other",
+          "note": "Persian heritage speakers with basic reading/writing skills (no more than Grade 6 formal education in Iran)"
+        }
+      ]
+    }
+  }
+}

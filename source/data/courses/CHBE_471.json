@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "UBCv0.1",
+  "course": "CHBE 471",
+  "originalPrerequisite": "All of CHBE 345, CHBE 352, CHBE 355, CHBE 376.",
+  "originalCorequisite": null,
+  "status": "parsed",
+  "lastUpdated": "2025-07-04T12:35:32.434Z",
+  "parsedRequirements": {
+    "department": "CHBE",
+    "code": "471",
+    "prerequisites": {
+      "type": "group",
+      "logic": "ALL_OF",
+      "children": [
+        {
+          "type": "course",
+          "course": "CHBE 345"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 352"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 355"
+        },
+        {
+          "type": "course",
+          "course": "CHBE 376"
+        }
+      ]
+    }
+  }
+}
